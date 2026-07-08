@@ -80,9 +80,9 @@ def get_block_html(title: str, authors: str, rate: str, arxiv_id: str, abstract:
         </td>
     </tr>
     <tr>
-    <td style="font-size: 14px; color: #333; padding: 8px 0;">
-        <strong>Keyword hits:</strong> {keyword_hits}
-    </td>
+        <td style="font-size: 14px; color: #333; padding: 8px 0;">
+            <strong>Keyword hits:</strong> {keyword_hits}
+        </td>
     </tr>
     <tr>
         <td style="font-size: 14px; color: #333; padding: 8px 0;">
@@ -94,7 +94,6 @@ def get_block_html(title: str, authors: str, rate: str, arxiv_id: str, abstract:
             <strong>TLDR:</strong> {abstract}
         </td>
     </tr>
-
     <tr>
         <td style="padding: 8px 0;">
             <a href="{pdf_url}" style="display: inline-block; text-decoration: none; font-size: 14px; font-weight: bold; color: #fff; background-color: #d9534f; padding: 8px 16px; border-radius: 4px;">PDF</a>
@@ -103,18 +102,18 @@ def get_block_html(title: str, authors: str, rate: str, arxiv_id: str, abstract:
     </tr>
 </table>
 """
-return block_template.format(
-    title=title,
-    authors=authors,
-    rate=rate,
-    arxiv_id=arxiv_id,
-    abstract=abstract,
-    pdf_url=pdf_url,
-    code=code,
-    affiliations=affiliations,
-    keyword_hits=keyword_hits,
-)
-
+    return block_template.format(
+        title=title,
+        authors=authors,
+        rate=rate,
+        arxiv_id=arxiv_id,
+        abstract=abstract,
+        pdf_url=pdf_url,
+        code=code,
+        affiliations=affiliations,
+        keyword_hits=keyword_hits,
+    )
+  
 def get_stars(score:float):
     full_star = '<span class="full-star">⭐</span>'
     half_star = '<span class="half-star">⭐</span>'
@@ -132,17 +131,18 @@ def get_stars(score:float):
         return '<div class="star-wrapper">'+full_star * full_star_num + half_star * half_star_num + '</div>'
 
 
-def render_email(papers:list[ArxivPaper]):
+def render_email(papers: list[ArxivPaper]):
     parts = []
-    if len(papers) == 0 :
+    if len(papers) == 0:
         return framework.replace('__CONTENT__', get_empty_html())
-    
-    for p in tqdm(papers,desc='Rendering Email'):
+
+    for p in tqdm(papers, desc='Rendering Email'):
         rate = get_stars(p.score)
         authors = [a.name for a in p.authors[:5]]
         authors = ', '.join(authors)
         if len(p.authors) > 5:
             authors += ', ...'
+
         if p.affiliations is not None:
             affiliations = p.affiliations[:5]
             affiliations = ', '.join(affiliations)
@@ -150,23 +150,25 @@ def render_email(papers:list[ArxivPaper]):
                 affiliations += ', ...'
         else:
             affiliations = 'Unknown Affiliation'
-        keyword_hits = ", ".join(getattr(p, "keyword_hits", [])[:8])
-if not keyword_hits:
-    keyword_hits = "None"
 
-parts.append(
-    get_block_html(
-        p.title,
-        authors,
-        rate,
-        p.arxiv_id,
-        p.tldr,
-        p.pdf_url,
-        p.code_url,
-        affiliations,
-        keyword_hits,
-    )
-)
+        keyword_hits = ", ".join(getattr(p, "keyword_hits", [])[:8])
+        if not keyword_hits:
+            keyword_hits = "None"
+
+        parts.append(
+            get_block_html(
+                p.title,
+                authors,
+                rate,
+                p.arxiv_id,
+                p.tldr,
+                p.pdf_url,
+                p.code_url,
+                affiliations,
+                keyword_hits,
+            )
+        )
+
     content = '<br>' + '</br><br>'.join(parts) + '</br>'
     return framework.replace('__CONTENT__', content)
 
