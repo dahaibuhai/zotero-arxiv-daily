@@ -58,7 +58,7 @@ def get_empty_html():
   """
   return block_template
 
-def get_block_html(title:str, authors:str, rate:str,arxiv_id:str, abstract:str, pdf_url:str, code_url:str=None, affiliations:str=None):
+def get_block_html(title: str, authors: str, rate: str, arxiv_id: str, abstract: str, pdf_url: str, code_url: str = None, affiliations: str = None, keyword_hits: str = "None"):
     code = f'<a href="{code_url}" style="display: inline-block; text-decoration: none; font-size: 14px; font-weight: bold; color: #fff; background-color: #5bc0de; padding: 8px 16px; border-radius: 4px; margin-left: 8px;">Code</a>' if code_url else ''
     block_template = """
     <table border="0" cellpadding="0" cellspacing="0" width="100%" style="font-family: Arial, sans-serif; border: 1px solid #ddd; border-radius: 8px; padding: 16px; background-color: #f9f9f9;">
@@ -80,6 +80,11 @@ def get_block_html(title:str, authors:str, rate:str,arxiv_id:str, abstract:str, 
         </td>
     </tr>
     <tr>
+    <td style="font-size: 14px; color: #333; padding: 8px 0;">
+        <strong>Keyword hits:</strong> {keyword_hits}
+    </td>
+    </tr>
+    <tr>
         <td style="font-size: 14px; color: #333; padding: 8px 0;">
             <strong>arXiv ID:</strong> {arxiv_id}
         </td>
@@ -98,7 +103,17 @@ def get_block_html(title:str, authors:str, rate:str,arxiv_id:str, abstract:str, 
     </tr>
 </table>
 """
-    return block_template.format(title=title, authors=authors,rate=rate,arxiv_id=arxiv_id, abstract=abstract, pdf_url=pdf_url, code=code, affiliations=affiliations)
+return block_template.format(
+    title=title,
+    authors=authors,
+    rate=rate,
+    arxiv_id=arxiv_id,
+    abstract=abstract,
+    pdf_url=pdf_url,
+    code=code,
+    affiliations=affiliations,
+    keyword_hits=keyword_hits,
+)
 
 def get_stars(score:float):
     full_star = '<span class="full-star">⭐</span>'
@@ -135,8 +150,23 @@ def render_email(papers:list[ArxivPaper]):
                 affiliations += ', ...'
         else:
             affiliations = 'Unknown Affiliation'
-        parts.append(get_block_html(p.title, authors,rate,p.arxiv_id ,p.tldr, p.pdf_url, p.code_url, affiliations))
+        keyword_hits = ", ".join(getattr(p, "keyword_hits", [])[:8])
+if not keyword_hits:
+    keyword_hits = "None"
 
+parts.append(
+    get_block_html(
+        p.title,
+        authors,
+        rate,
+        p.arxiv_id,
+        p.tldr,
+        p.pdf_url,
+        p.code_url,
+        affiliations,
+        keyword_hits,
+    )
+)
     content = '<br>' + '</br><br>'.join(parts) + '</br>'
     return framework.replace('__CONTENT__', content)
 
