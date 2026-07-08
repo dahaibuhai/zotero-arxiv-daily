@@ -37,5 +37,10 @@ jobs:
           OPENAI_API_BASE: ${{ secrets.OPENAI_API_BASE }}
           MODEL_NAME: ${{ secrets.MODEL_NAME }}
           LANGUAGE: ${{ vars.LANGUAGE }}
+          KEYWORD_FILTER_MODE: ${{ vars.KEYWORD_FILTER_MODE }}
+          KEYWORDS_BOOST: ${{ vars.KEYWORDS_BOOST }}
+          KEYWORDS_REQUIRE: ${{ vars.KEYWORDS_REQUIRE }}
+          KEYWORDS_EXCLUDE: ${{ vars.KEYWORDS_EXCLUDE }}
+          KEYWORD_BOOST_WEIGHT: ${{ vars.KEYWORD_BOOST_WEIGHT }}
         run: |
           uv run main.py
