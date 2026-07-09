@@ -185,8 +185,7 @@ if __name__ == "__main__":
     logger.info(f"Retrieved {len(corpus)} papers from Zotero.")
 
     if args.zotero_ignore:
-        logger.info(f"Ignoring papers in:
- {args.zotero_ignore}...")
+        logger.info(f"Ignoring papers in:\n {args.zotero_ignore}...")
         corpus = filter_corpus(corpus, args.zotero_ignore)
         logger.info(f"Remaining {len(corpus)} papers after filtering.")
 
