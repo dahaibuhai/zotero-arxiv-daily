@@ -17,6 +17,8 @@ from tempfile import mkstemp
 from paper import ArxivPaper
 from llm import set_global_llm
 from keyword_ranker import apply_keyword_rules
+from providers.semantic_scholar import fetch_semantic_scholar_papers
+from dedupe import dedupe_papers
 import feedparser
 
 
@@ -129,6 +131,11 @@ if __name__ == "__main__":
     add_argument("--keywords_require", type=str, default="")
     add_argument("--keywords_exclude", type=str, default="")
     add_argument("--keyword_boost_weight", type=float, default=1.5)
+    add_argument("--enable_semantic_scholar", type=bool, default=False)
+    add_argument("--semantic_scholar_api_key", type=str, default=None)
+    add_argument("--semantic_scholar_queries", type=str, default="")
+    add_argument("--semantic_scholar_days", type=int, default=14)
+    add_argument("--semantic_scholar_max_results_per_query", type=int, default=20)
 
     add_argument(
         "--use_llm_api",
@@ -178,13 +185,28 @@ if __name__ == "__main__":
     logger.info(f"Retrieved {len(corpus)} papers from Zotero.")
 
     if args.zotero_ignore:
-        logger.info(f"Ignoring papers in:\n {args.zotero_ignore}...")
+        logger.info(f"Ignoring papers in:
+ {args.zotero_ignore}...")
         corpus = filter_corpus(corpus, args.zotero_ignore)
         logger.info(f"Remaining {len(corpus)} papers after filtering.")
 
     logger.info("Retrieving Arxiv papers...")
     papers = get_arxiv_paper(args.arxiv_query, args.debug)
     logger.info(f"Retrieved {len(papers)} papers from Arxiv.")
+
+    if args.enable_semantic_scholar:
+        logger.info("Retrieving Semantic Scholar papers...")
+        semantic_papers = fetch_semantic_scholar_papers(
+            queries_raw=args.semantic_scholar_queries,
+            api_key=args.semantic_scholar_api_key,
+            days=args.semantic_scholar_days,
+            max_results_per_query=args.semantic_scholar_max_results_per_query,
+        )
+        logger.info(f"Retrieved {len(semantic_papers)} papers from Semantic Scholar.")
+        papers.extend(semantic_papers)
+
+    papers = dedupe_papers(papers)
+    logger.info(f"Remaining {len(papers)} papers after deduplication.")
 
     logger.info("Applying keyword rules...")
     papers = apply_keyword_rules(
