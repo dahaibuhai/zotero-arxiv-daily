@@ -42,12 +42,8 @@ class ExternalPaper:
         llm = get_llm()
         prompt = (
             f"Given the title and abstract of a scientific paper, "
-            f"generate a one-sentence TLDR summary in {llm.lang}.
-
-"
-            f"Title: {self.title}
-
-"
+            f"generate a one-sentence TLDR summary in {llm.lang}.\n\n"
+            f"Title: {self.title}\n\n"
             f"Abstract: {self.summary}"
         )
         return llm.generate(
