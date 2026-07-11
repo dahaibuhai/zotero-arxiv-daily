@@ -19,6 +19,11 @@ from llm import set_global_llm
 from keyword_ranker import apply_keyword_rules
 from providers.semantic_scholar import fetch_semantic_scholar_papers
 from dedupe import dedupe_papers
+from sent_history import (
+    filter_previously_sent_papers,
+    load_sent_history,
+    record_sent_papers,
+)
 import feedparser
 
 
@@ -136,6 +141,8 @@ if __name__ == "__main__":
     add_argument("--semantic_scholar_queries", type=str, default="")
     add_argument("--semantic_scholar_days", type=int, default=14)
     add_argument("--semantic_scholar_max_results_per_query", type=int, default=20)
+    add_argument("--sent_history_path", type=str, default="data/sent_history.json")
+    add_argument("--sent_history_days", type=int, default=90)
 
     add_argument(
         "--use_llm_api",
@@ -207,6 +214,12 @@ if __name__ == "__main__":
     papers = dedupe_papers(papers)
     logger.info(f"Remaining {len(papers)} papers after deduplication.")
 
+    sent_history = load_sent_history(args.sent_history_path, args.sent_history_days)
+    papers, skipped_sent_count = filter_previously_sent_papers(papers, sent_history)
+    logger.info(
+        f"Remaining {len(papers)} papers after excluding {skipped_sent_count} previously sent papers."
+    )
+
     logger.info("Applying keyword rules...")
     papers = apply_keyword_rules(
         papers,
@@ -257,3 +270,10 @@ if __name__ == "__main__":
         "Email sent successfully! If you don't receive the email, "
         "please check the configuration and the junk box."
     )
+    if papers:
+        record_sent_papers(
+            papers,
+            sent_history,
+            args.sent_history_path,
+            args.sent_history_days,
+        )
