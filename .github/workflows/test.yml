@@ -35,15 +35,46 @@ jobs:
           OPENAI_API_BASE: ${{ secrets.OPENAI_API_BASE }}
           MODEL_NAME: ${{ secrets.MODEL_NAME }}
           LANGUAGE: ${{ vars.LANGUAGE }}
-          KEYWORD_FILTER_MODE: ${{ vars.KEYWORD_FILTER_MODE }}
-          KEYWORDS_BOOST: ${{ vars.KEYWORDS_BOOST }}
-          KEYWORDS_REQUIRE: ${{ vars.KEYWORDS_REQUIRE }}
-          KEYWORDS_EXCLUDE: ${{ vars.KEYWORDS_EXCLUDE }}
-          KEYWORD_BOOST_WEIGHT: ${{ vars.KEYWORD_BOOST_WEIGHT }}
-          ENABLE_SEMANTIC_SCHOLAR: ${{ vars.ENABLE_SEMANTIC_SCHOLAR }}
+          KEYWORD_FILTER_MODE: boost
+          KEYWORDS_BOOST: |
+            magnetron sputtering:6
+            magnetron-sputtered:4
+            magnetron sputtered:4
+            high power impulse magnetron sputtering:6
+            HiPIMS:6
+            sputtering yield:6
+            molecular dynamics:6
+            collision cascade:5
+            ion bombardment:4
+            molybdenum:5
+            Mo target:6
+            molybdenum target:6
+            high-temperature target:6
+            hot target:5
+            physical vapor deposition:3
+            PVD:3
+            thin film:2
+          KEYWORDS_REQUIRE: ""
+          KEYWORDS_EXCLUDE: |
+            water electrolysis
+            electrocatalyst
+            biological performance
+            biomedical
+            temperature-sensing
+            flexible sensor
+            magnesium alloy
+          KEYWORD_BOOST_WEIGHT: "1.5"
+          ENABLE_SEMANTIC_SCHOLAR: "true"
           SEMANTIC_SCHOLAR_API_KEY: ${{ secrets.SEMANTIC_SCHOLAR_API_KEY }}
-          SEMANTIC_SCHOLAR_QUERIES: ${{ vars.SEMANTIC_SCHOLAR_QUERIES }}
-          SEMANTIC_SCHOLAR_DAYS: ${{ vars.SEMANTIC_SCHOLAR_DAYS }}
-          SEMANTIC_SCHOLAR_MAX_RESULTS_PER_QUERY: ${{ vars.SEMANTIC_SCHOLAR_MAX_RESULTS_PER_QUERY }}
+          SEMANTIC_SCHOLAR_QUERIES: |
+            "magnetron sputtering" "thin film"
+            "high power impulse magnetron sputtering"
+            "sputtering yield" "molecular dynamics"
+            "molybdenum" "magnetron sputtering"
+            "high-temperature target" sputtering
+          SEMANTIC_SCHOLAR_DAYS: "7"
+          SEMANTIC_SCHOLAR_MAX_RESULTS_PER_QUERY: "5"
+          SENT_HISTORY_PATH: .tmp/sent_history_test.json
+          SENT_HISTORY_DAYS: "90"
         run: |
           uv run main.py --debug
