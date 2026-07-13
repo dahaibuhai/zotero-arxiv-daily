@@ -1,0 +1,105 @@
+{
+  "papers": {
+    "doi:10.1016/j.cej.2026.178682": {
+      "sent_at": "2026-07-13T07:44:44+00:00",
+      "source": "Semantic Scholar",
+      "title": "In situ synthesis of porous S-doped In2O3 gas-sensing thin films via magnetron sputtering for ultrasensitive NO2 detection with ultra-low LOD"
+    },
+    "doi:10.1016/j.jmmm.2026.174370": {
+      "sent_at": "2026-07-13T07:44:44+00:00",
+      "source": "Semantic Scholar",
+      "title": "Production-compatible fabrication of hard-magnetic CeCo₅ thin films by magnetron sputtering and rapid thermal annealing"
+    },
+    "doi:10.1016/j.matdes.2026.116454": {
+      "sent_at": "2026-07-13T07:44:44+00:00",
+      "source": "Semantic Scholar",
+      "title": "Tailoring phase formation and mechanical properties of low-temperature-grown Al-rich CrAlWN films by selective metal-ion bombardment during high-power impulse magnetron sputtering"
+    },
+    "doi:10.1063/5.0338090": {
+      "sent_at": "2026-07-13T07:44:44+00:00",
+      "source": "Semantic Scholar",
+      "title": "Thermodynamic-kinetic competitive growth and interface physics of β-Ga2O3 thin films on fused quartz for deep ultraviolet detection"
+    },
+    "doi:10.1088/1361-6463/ae8866": {
+      "sent_at": "2026-07-13T07:44:44+00:00",
+      "source": "Semantic Scholar",
+      "title": "Study on the microstructure and properties of WC-DLC coatings under different bias voltages"
+    },
+    "doi:10.1103/vkgw-nfbs": {
+      "sent_at": "2026-07-13T07:44:44+00:00",
+      "source": "Semantic Scholar",
+      "title": "Structural and magnetic properties of epitaxial\n                    <mml:math xmlns:mml=\"http://www.w3.org/1998/Math/MathML\">\n                      <mml:mrow>\n                        <mml:mi mathvariant=\"normal\">M</mml:mi>\n                        <mml:msub>\n                          <mml:mi mathvari"
+    },
+    "doi:10.3390/ma19142943": {
+      "sent_at": "2026-07-13T07:44:44+00:00",
+      "source": "Semantic Scholar",
+      "title": "An Overview of Chromic Transition Metal Oxide Thin Films"
+    },
+    "id:2607.07428": {
+      "sent_at": "2026-07-13T07:44:44+00:00",
+      "source": "Semantic Scholar",
+      "title": "Growth of (111)-textured SrTiO3 thin films on Pt(111)/Al2O3(1-102) substrates by rf magnetron sputter deposition"
+    },
+    "id:2607.08868": {
+      "sent_at": "2026-07-13T07:44:44+00:00",
+      "source": "arXiv",
+      "title": "Grain-boundary-mediated kinetic arrest in graphite-to-diamond transformation"
+    },
+    "id:2607.08881": {
+      "sent_at": "2026-07-13T07:44:44+00:00",
+      "source": "arXiv",
+      "title": "High density two-component glasses of organic semiconductors prepared by physical vapor deposition"
+    },
+    "id:2607.08929": {
+      "sent_at": "2026-07-13T07:44:44+00:00",
+      "source": "arXiv",
+      "title": "Fast Homoepitaxy on (100) \\b{eta}-Ga2O3 Substrates with Large Grown-In Offcut"
+    },
+    "id:2607.09046": {
+      "sent_at": "2026-07-13T07:44:44+00:00",
+      "source": "arXiv",
+      "title": "Implicit discretization schemes for full-kinetic ion and drift-kinetic electron simulations"
+    },
+    "id:2607.09219": {
+      "sent_at": "2026-07-13T07:44:44+00:00",
+      "source": "arXiv",
+      "title": "Comparison of DBS measurements of turbulence spectra by vertical-displacement and poloidal-angle scans using the Scotty synthetic diagnostic"
+    },
+    "id:2607.09229": {
+      "sent_at": "2026-07-13T07:44:44+00:00",
+      "source": "arXiv",
+      "title": "Tens of MeV, collimated, bright fluxes of protons from ordered nano-structured targets in ultra-relativistic laser-matter interaction"
+    },
+    "id:2607.09292": {
+      "sent_at": "2026-07-13T07:44:44+00:00",
+      "source": "arXiv",
+      "title": "Kinetic Cellular Model of Corrosion"
+    },
+    "id:2607.09321": {
+      "sent_at": "2026-07-13T07:44:44+00:00",
+      "source": "arXiv",
+      "title": "Semi-Empirical Kinetic Model for Phase Selection in Rapidly Solidified Multicomponent Concentrated Alloys"
+    },
+    "id:2607.09346": {
+      "sent_at": "2026-07-13T07:44:44+00:00",
+      "source": "arXiv",
+      "title": "The fixed boundary plasma equilibrium basis for a one Gigawatt electric stellarator power plant"
+    },
+    "id:2607.09425": {
+      "sent_at": "2026-07-13T07:44:44+00:00",
+      "source": "arXiv",
+      "title": "Electronic manipulation of polar order in electron crystal"
+    },
+    "id:2607.09466": {
+      "sent_at": "2026-07-13T07:44:44+00:00",
+      "source": "arXiv",
+      "title": "Unraveling atomic-resolution valence electron energy-loss spectroscopic imaging in a single-crystal CaNb2O6"
+    },
+    "id:2607.09509": {
+      "sent_at": "2026-07-13T07:44:44+00:00",
+      "source": "arXiv",
+      "title": "3D Plasma plume characterization of an electrodeless thruster cluster in magnetic arch configuration"
+    }
+  },
+  "version": 1
+}
