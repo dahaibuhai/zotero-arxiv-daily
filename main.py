@@ -17,6 +17,7 @@ from tempfile import mkstemp
 from paper import ArxivPaper
 from llm import set_global_llm
 from keyword_ranker import apply_keyword_rules
+from providers.crossref import fetch_crossref_papers
 from providers.semantic_scholar import fetch_semantic_scholar_papers
 from dedupe import dedupe_papers
 from sent_history import (
@@ -141,6 +142,11 @@ if __name__ == "__main__":
     add_argument("--semantic_scholar_queries", type=str, default="")
     add_argument("--semantic_scholar_days", type=int, default=14)
     add_argument("--semantic_scholar_max_results_per_query", type=int, default=20)
+    add_argument("--enable_crossref", type=bool, default=False)
+    add_argument("--crossref_journals", type=str, default="")
+    add_argument("--crossref_days", type=int, default=7)
+    add_argument("--crossref_rows_per_journal", type=int, default=5)
+    add_argument("--crossref_mailto", type=str, default="")
     add_argument("--sent_history_path", type=str, default="data/sent_history.json")
     add_argument("--sent_history_days", type=int, default=90)
 
@@ -211,6 +217,17 @@ if __name__ == "__main__":
         logger.info(f"Retrieved {len(semantic_papers)} papers from Semantic Scholar.")
         papers.extend(semantic_papers)
 
+    if args.enable_crossref:
+        logger.info("Retrieving Crossref journal papers...")
+        crossref_papers = fetch_crossref_papers(
+            journals_raw=args.crossref_journals,
+            days=args.crossref_days,
+            rows=args.crossref_rows_per_journal,
+            mailto=args.crossref_mailto,
+        )
+        logger.info(f"Retrieved {len(crossref_papers)} papers from Crossref.")
+        papers.extend(crossref_papers)
+
     papers = dedupe_papers(papers)
     logger.info(f"Remaining {len(papers)} papers after deduplication.")
 
@@ -230,6 +247,25 @@ if __name__ == "__main__":
     )
     logger.info(f"Remaining {len(papers)} papers after keyword filtering.")
 
+    crossref_before = sum(
+        getattr(paper, "source", "") == "Crossref" for paper in papers
+    )
+    papers = [
+        paper
+        for paper in papers
+        if getattr(paper, "source", "") != "Crossref"
+        or bool(getattr(paper, "keyword_hits", []))
+    ]
+    crossref_after = sum(
+        getattr(paper, "source", "") == "Crossref" for paper in papers
+    )
+    if crossref_before:
+        logger.info(
+            "Remaining {} Crossref papers after title keyword gating (dropped {}).",
+            crossref_after,
+            crossref_before - crossref_after,
+        )
+
     if len(papers) == 0:
         logger.info(
             "No new papers found after keyword filtering. "
@@ -244,7 +280,7 @@ if __name__ == "__main__":
         for paper in papers:
             paper.score = getattr(paper, "score", 0.0) + (
                 getattr(paper, "keyword_score", 0.0) * args.keyword_boost_weight
-            )
+            ) + getattr(paper, "journal_weight", 0.0)
 
         papers = sorted(papers, key=lambda paper: paper.score, reverse=True)
 

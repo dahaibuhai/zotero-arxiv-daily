@@ -61,6 +61,16 @@ jobs:
             physical vapor deposition:3
             PVD:3
             thin film:2
+            thin film stress:6
+            residual stress:5
+            stress control:5
+            stress evolution:4
+            molybdenum thin film:6
+            Mo thin film:6
+            Mo film:5
+            liquid target:6
+            molten target:6
+            liquid metal target:6
           KEYWORDS_REQUIRE: ""
           KEYWORDS_EXCLUDE: |
             water electrolysis
@@ -79,8 +89,18 @@ jobs:
             "sputtering yield" "molecular dynamics"
             "molybdenum" "magnetron sputtering"
             "high-temperature target" sputtering
+            "thin film stress" sputtering
+            "residual stress" "magnetron sputtering"
+            "molybdenum thin film" sputtering
+            "liquid metal target" sputtering
+            "molten target" sputtering
           SEMANTIC_SCHOLAR_DAYS: "7"
           SEMANTIC_SCHOLAR_MAX_RESULTS_PER_QUERY: "5"
+          ENABLE_CROSSREF: ${{ vars.ENABLE_CROSSREF }}
+          CROSSREF_JOURNALS: ${{ vars.CROSSREF_JOURNALS }}
+          CROSSREF_DAYS: ${{ vars.CROSSREF_DAYS }}
+          CROSSREF_ROWS_PER_JOURNAL: ${{ vars.CROSSREF_ROWS_PER_JOURNAL }}
+          CROSSREF_MAILTO: ${{ vars.CROSSREF_MAILTO }}
           SENT_HISTORY_PATH: data/sent_history.json
           SENT_HISTORY_DAYS: "90"
         run: |

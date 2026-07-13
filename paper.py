@@ -17,6 +17,9 @@ class ArxivPaper:
     def __init__(self,paper:arxiv.Result):
         self._paper = paper
         self.score = None
+        self.source = "arXiv"
+        self.venue = "arXiv"
+        self.link_label = "PDF"
     
     @property
     def title(self) -> str:

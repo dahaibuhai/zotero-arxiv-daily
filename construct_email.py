@@ -4,6 +4,7 @@ from tqdm import tqdm
 from email.header import Header
 from email.mime.text import MIMEText
 from email.utils import parseaddr, formataddr
+from html import escape
 import smtplib
 import datetime
 from loguru import logger
@@ -58,7 +59,18 @@ def get_empty_html():
   """
   return block_template
 
-def get_block_html(title: str, authors: str, rate: str, paper_id: str, abstract: str, pdf_url: str, code_url: str = None, affiliations: str = None, keyword_hits: str = "None"):
+def get_block_html(title: str, authors: str, rate: str, paper_id: str, abstract: str, pdf_url: str, code_url: str = None, affiliations: str = None, keyword_hits: str = "None", source: str = "", venue: str = "", link_label: str = "PDF"):
+    title = escape(title or "")
+    authors = escape(authors or "")
+    paper_id = escape(paper_id or "")
+    abstract = escape(abstract or "")
+    affiliations = escape(affiliations or "Unknown Affiliation")
+    keyword_hits = escape(keyword_hits or "None")
+    source = escape(source or "Unknown source")
+    venue = escape(venue or "Unknown venue")
+    pdf_url = escape(pdf_url or "", quote=True)
+    link_label = escape(link_label or "Paper link")
+    code_url = escape(code_url or "", quote=True)
     code = f'<a href="{code_url}" style="display: inline-block; text-decoration: none; font-size: 14px; font-weight: bold; color: #fff; background-color: #5bc0de; padding: 8px 16px; border-radius: 4px; margin-left: 8px;">Code</a>' if code_url else ''
     block_template = """
     <table border="0" cellpadding="0" cellspacing="0" width="100%" style="font-family: Arial, sans-serif; border: 1px solid #ddd; border-radius: 8px; padding: 16px; background-color: #f9f9f9;">
@@ -91,12 +103,18 @@ def get_block_html(title: str, authors: str, rate: str, paper_id: str, abstract:
     </tr>
     <tr>
         <td style="font-size: 14px; color: #333; padding: 8px 0;">
+            <strong>Source:</strong> {source}<br>
+            <strong>Venue:</strong> {venue}
+        </td>
+    </tr>
+    <tr>
+        <td style="font-size: 14px; color: #333; padding: 8px 0;">
             <strong>TLDR:</strong> {abstract}
         </td>
     </tr>
     <tr>
         <td style="padding: 8px 0;">
-            <a href="{pdf_url}" style="display: inline-block; text-decoration: none; font-size: 14px; font-weight: bold; color: #fff; background-color: #d9534f; padding: 8px 16px; border-radius: 4px;">PDF</a>
+            <a href="{pdf_url}" style="display: inline-block; text-decoration: none; font-size: 14px; font-weight: bold; color: #fff; background-color: #d9534f; padding: 8px 16px; border-radius: 4px;">{link_label}</a>
             {code}
         </td>
     </tr>
@@ -112,6 +130,9 @@ def get_block_html(title: str, authors: str, rate: str, paper_id: str, abstract:
         code=code,
         affiliations=affiliations,
         keyword_hits=keyword_hits,
+        source=source,
+        venue=venue,
+        link_label=link_label,
     )
   
 def get_stars(score:float):
@@ -166,6 +187,9 @@ def render_email(papers: list[ArxivPaper]):
                 p.code_url,
                 affiliations,
                 keyword_hits,
+                getattr(p, "source", ""),
+                getattr(p, "venue", ""),
+                getattr(p, "link_label", "PDF"),
             )
         )
 

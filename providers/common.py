@@ -21,6 +21,8 @@ class ExternalPaper:
         publication_date="",
         doi="",
         keyword_score=0.0,
+        journal_weight=0.0,
+        link_label="PDF",
     ):
         self.title = title or ""
         self.summary = summary or ""
@@ -33,6 +35,8 @@ class ExternalPaper:
         self.doi = doi or ""
         self.score = 0.0
         self.keyword_score = keyword_score
+        self.journal_weight = journal_weight
+        self.link_label = link_label or "Paper link"
         self.keyword_hits = []
         self.code_url = None
         self.affiliations = None
