@@ -1,6 +1,7 @@
 from typing import Optional
 from functools import cached_property
 from tempfile import TemporaryDirectory
+from urllib.error import HTTPError, URLError
 import arxiv
 import tarfile
 import re
@@ -66,10 +67,17 @@ class ArxivPaper:
         return repo_list['results'][0]['url']
     
     @cached_property
-    def tex(self) -> dict[str,str]:
+    def tex(self) -> Optional[dict[str,str]]:
         with ExitStack() as stack:
             tmpdirname = stack.enter_context(TemporaryDirectory())
-            file = self._paper.download_source(dirpath=tmpdirname)
+            try:
+                file = self._paper.download_source(dirpath=tmpdirname)
+            except (HTTPError, URLError, TimeoutError, OSError) as exc:
+                logger.warning(
+                    f"Failed to download source for {self.arxiv_id}; "
+                    f"continuing without TeX metadata: {exc}"
+                )
+                return None
             try:
                 tar = stack.enter_context(tarfile.open(file))
             except tarfile.ReadError:
