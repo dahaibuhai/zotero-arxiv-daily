@@ -30,6 +30,16 @@
       "source": "Semantic Scholar",
       "title": "Structural and magnetic properties of epitaxial\n                    <mml:math xmlns:mml=\"http://www.w3.org/1998/Math/MathML\">\n                      <mml:mrow>\n                        <mml:mi mathvariant=\"normal\">M</mml:mi>\n                        <mml:msub>\n                          <mml:mi mathvari"
     },
+    "doi:10.3390/app16146991": {
+      "sent_at": "2026-07-16T05:09:07+00:00",
+      "source": "Semantic Scholar",
+      "title": "Engineering the Baseline Resistance of Al-Doped ZnO Thin Films for Chemiresistive Gas Sensor Platforms"
+    },
+    "doi:10.3390/coatings16070828": {
+      "sent_at": "2026-07-16T05:09:07+00:00",
+      "source": "Semantic Scholar",
+      "title": "Comprehensive Investigation of the Effect of Annealing on Electrochromic Properties of WO3 Films"
+    },
     "doi:10.3390/ma19142943": {
       "sent_at": "2026-07-13T07:44:44+00:00",
       "source": "Semantic Scholar",
@@ -299,6 +309,96 @@
       "sent_at": "2026-07-15T09:12:23+00:00",
       "source": "arXiv",
       "title": "Non-intrusive MEMS microphone sensing of acoustic field state in resonant acoustic levitators"
+    },
+    "id:2607.13107": {
+      "sent_at": "2026-07-16T05:09:07+00:00",
+      "source": "arXiv",
+      "title": "DeepCormack: Fermi surface tomography using model-based data-driven algorithms"
+    },
+    "id:2607.13180": {
+      "sent_at": "2026-07-16T05:09:07+00:00",
+      "source": "arXiv",
+      "title": "Synthesis of the Elusive Bulk Iodide Double-Perovskite Semiconductor, Cs2AgBiI6: Microcrystals and Photoconductive Films"
+    },
+    "id:2607.13211": {
+      "sent_at": "2026-07-16T05:09:07+00:00",
+      "source": "arXiv",
+      "title": "Multiwavelength Raman investigation of mono- and few-layer MoS2 grown by Pulsed Laser Deposition on SiO2"
+    },
+    "id:2607.13306": {
+      "sent_at": "2026-07-16T05:09:07+00:00",
+      "source": "arXiv",
+      "title": "Structural Requirements for Ion-Acoustic Double Layers: A Parametric Perturbation Analysis of the Maxwellian Limit"
+    },
+    "id:2607.13364": {
+      "sent_at": "2026-07-16T05:09:07+00:00",
+      "source": "arXiv",
+      "title": "Direct Imaging of Temperature Evolution of Polar Nanoregions and Chemically Ordered Regions in PMN Relaxor: Evidence for Polar Phase Percolation"
+    },
+    "id:2607.13390": {
+      "sent_at": "2026-07-16T05:09:07+00:00",
+      "source": "arXiv",
+      "title": "Boronization-enabled I-mode on EAST tokamak with an expanded density window and favorable-configuration access"
+    },
+    "id:2607.13419": {
+      "sent_at": "2026-07-16T05:09:07+00:00",
+      "source": "arXiv",
+      "title": "Resistivity in Dilute Cu-3d Alloys Governed by Disorder-Induced Band Broadening"
+    },
+    "id:2607.13426": {
+      "sent_at": "2026-07-16T05:09:07+00:00",
+      "source": "arXiv",
+      "title": "Chiral Landau levels induced by two in-plane pseudomagnetic fields in underwater acoustic metamaterials"
+    },
+    "id:2607.13467": {
+      "sent_at": "2026-07-16T05:09:07+00:00",
+      "source": "arXiv",
+      "title": "Physics-Informed Residual Deep Learning for Constitutive Modeling of Hot Deformation and Dynamic Recrystallization in a Mo-Rich $α+β$ Titanium Alloy"
+    },
+    "id:2607.13632": {
+      "sent_at": "2026-07-16T05:09:07+00:00",
+      "source": "arXiv",
+      "title": "Research progress in high-pressure tuning of layered magnetic materials"
+    },
+    "id:2607.13779": {
+      "sent_at": "2026-07-16T05:09:07+00:00",
+      "source": "arXiv",
+      "title": "Mapping recrystallization trajectories in GaAs using latent space diffraction analysis"
+    },
+    "id:2607.13846": {
+      "sent_at": "2026-07-16T05:09:07+00:00",
+      "source": "arXiv",
+      "title": "First-principles Study of Structural and Electronic Properties of Mn-doped Cu2NiXY4 (X=Sn, Ge, Si; Y=S, Se) Chalcogenide Semiconductors"
+    },
+    "id:2607.13851": {
+      "sent_at": "2026-07-16T05:09:07+00:00",
+      "source": "arXiv",
+      "title": "Electron Beam Radiolysis-Assisted Growth of Rutile TiO2 Thin Films"
+    },
+    "id:2607.13893": {
+      "sent_at": "2026-07-16T05:09:07+00:00",
+      "source": "arXiv",
+      "title": "Revealing the MoS2 Growth Mechanism in Chemical Vapor Deposition: Real-Time Imaging and Statistical Analysis"
+    },
+    "id:2607.13896": {
+      "sent_at": "2026-07-16T05:09:07+00:00",
+      "source": "arXiv",
+      "title": "Chemical short-range order controls deformation pathways in a complex concentrated alloy"
+    },
+    "id:2607.13979": {
+      "sent_at": "2026-07-16T05:09:07+00:00",
+      "source": "arXiv",
+      "title": "Using superpixels for interpretable feature reduction in large 2D diffraction datasets"
+    },
+    "id:2607.14025": {
+      "sent_at": "2026-07-16T05:09:07+00:00",
+      "source": "arXiv",
+      "title": "The WEST code for large-scale excited-state materials simulations"
+    },
+    "id:2607.14069": {
+      "sent_at": "2026-07-16T05:09:07+00:00",
+      "source": "arXiv",
+      "title": "Orbital Hybridization Induces Giant Cubic Rashba Effect at Cu/WO$_{3}$ Interface"
     }
   },
   "version": 1
