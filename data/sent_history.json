@@ -45,6 +45,11 @@
       "source": "Semantic Scholar",
       "title": "An Overview of Chromic Transition Metal Oxide Thin Films"
     },
+    "doi:10.7498/aps.75.20251348": {
+      "sent_at": "2026-07-17T05:11:55+00:00",
+      "source": "Semantic Scholar",
+      "title": "Application of a-WO3 Simulated Memristors with Oxygen Vacancy Concentration Gradients in Neuromorphic Computing"
+    },
     "id:2607.07428": {
       "sent_at": "2026-07-13T07:44:44+00:00",
       "source": "Semantic Scholar",
@@ -399,6 +404,101 @@
       "sent_at": "2026-07-16T05:09:07+00:00",
       "source": "arXiv",
       "title": "Orbital Hybridization Induces Giant Cubic Rashba Effect at Cu/WO$_{3}$ Interface"
+    },
+    "id:2607.14142": {
+      "sent_at": "2026-07-17T05:11:55+00:00",
+      "source": "arXiv",
+      "title": "Automated Outlier-Robust Bayesian Profile Fitting for Magnetically Confined Plasmas with Modified Tanh Profiles and Good-and-Bad Gaussian Mixture Likelihoods"
+    },
+    "id:2607.14146": {
+      "sent_at": "2026-07-17T05:11:55+00:00",
+      "source": "arXiv",
+      "title": "Optimized finite-$β$ tokamak-stellarator hybrid configurations achieved by planar dipole-field coils"
+    },
+    "id:2607.14459": {
+      "sent_at": "2026-07-17T05:11:55+00:00",
+      "source": "arXiv",
+      "title": "Interlayer sliding direction as a symmetry selector in altermagnetic bilayer Fe2WS4: Switchable anomalous Hall and anomalous valley Hall effects"
+    },
+    "id:2607.14471": {
+      "sent_at": "2026-07-17T05:11:55+00:00",
+      "source": "arXiv",
+      "title": "Boosting Perovskite Light-Emitting Diodes Performance by Introducing High Work-function Metal Transition Layer"
+    },
+    "id:2607.14495": {
+      "sent_at": "2026-07-17T05:11:55+00:00",
+      "source": "arXiv",
+      "title": "Microwave Resonant Discharges for Spatiotemporally Selective Plasma Breakdown Near Surfaces"
+    },
+    "id:2607.14590": {
+      "sent_at": "2026-07-17T05:11:55+00:00",
+      "source": "arXiv",
+      "title": "Second-Order Optical Nonlinearity of AlScN Films Grown By Molecular Beam Epitaxy"
+    },
+    "id:2607.14712": {
+      "sent_at": "2026-07-17T05:11:55+00:00",
+      "source": "arXiv",
+      "title": "Direct observation of anisotropic exciton dispersion in the 2D semiconductor CrSBr"
+    },
+    "id:2607.14764": {
+      "sent_at": "2026-07-17T05:11:55+00:00",
+      "source": "arXiv",
+      "title": "Boson peak and medium-range elastic heterogeneity in calcium silicate hydrate probed by terahertz spectroscopy and low-temperature calorimetry"
+    },
+    "id:2607.14795": {
+      "sent_at": "2026-07-17T05:11:55+00:00",
+      "source": "arXiv",
+      "title": "Computing binary alloy phase diagrams with explicit configurational and vibrational entropy"
+    },
+    "id:2607.14827": {
+      "sent_at": "2026-07-17T05:11:55+00:00",
+      "source": "arXiv",
+      "title": "SevenNet-Polar for MultiTask Prediction of Energy, Forces, Stress, and Born Effective Charges: Development and Application to ZrO$_2$, Li$_3$PO$_4$, and Perovskites"
+    },
+    "id:2607.14849": {
+      "sent_at": "2026-07-17T05:11:55+00:00",
+      "source": "arXiv",
+      "title": "Are we facing a reproducibility crises in materials synthesis? A systematic review of Turkevich AuNP synthesis and CVD MoS2 growth"
+    },
+    "id:2607.14922": {
+      "sent_at": "2026-07-17T05:11:55+00:00",
+      "source": "arXiv",
+      "title": "Spot Profile Analysis Low Energy Electron Diffraction of Plasma-Enhanced Chemical Vapor Deposition Grown Epitaxial Few-Layer Graphene on Sapphire"
+    },
+    "id:2607.14951": {
+      "sent_at": "2026-07-17T05:11:55+00:00",
+      "source": "arXiv",
+      "title": "Self-organized defect clustering and concentration-dependent vacancy diffusion in MoS$_2$"
+    },
+    "id:2607.14978": {
+      "sent_at": "2026-07-17T05:11:55+00:00",
+      "source": "arXiv",
+      "title": "Scalable Fabrication of Diamond-on-Silica Heterostructures via High-Selectivity Deep ICP-RIE and Room-Temperature Bonding"
+    },
+    "id:2607.15009": {
+      "sent_at": "2026-07-17T05:11:55+00:00",
+      "source": "arXiv",
+      "title": "Ridge-Spin-Layer Coupling and Emergent Ridgetronics in 2D Altermagnets"
+    },
+    "id:2607.15032": {
+      "sent_at": "2026-07-17T05:11:55+00:00",
+      "source": "arXiv",
+      "title": "Recent progress on liquid transport growth of quantum materials"
+    },
+    "id:2607.15072": {
+      "sent_at": "2026-07-17T05:11:55+00:00",
+      "source": "arXiv",
+      "title": "Mitigation of Initial Transients in Total-f Gyrokinetic Turbulence Simulations Using Neoclassically Relaxed Distribution Function"
+    },
+    "id:2607.15110": {
+      "sent_at": "2026-07-17T05:11:55+00:00",
+      "source": "arXiv",
+      "title": "Local magnetic correlations and light-sensitive centers in the Cr2AlC MAX phase"
+    },
+    "id:2607.15120": {
+      "sent_at": "2026-07-17T05:11:55+00:00",
+      "source": "arXiv",
+      "title": "Growth-controlled suppression of electrically active defects in CrSBr"
     }
   },
   "version": 1
