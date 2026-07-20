@@ -30,10 +30,25 @@
       "source": "Semantic Scholar",
       "title": "Structural and magnetic properties of epitaxial\n                    <mml:math xmlns:mml=\"http://www.w3.org/1998/Math/MathML\">\n                      <mml:mrow>\n                        <mml:mi mathvariant=\"normal\">M</mml:mi>\n                        <mml:msub>\n                          <mml:mi mathvari"
     },
+    "doi:10.1149/1945-7111/ae8bde": {
+      "sent_at": "2026-07-20T05:31:22+00:00",
+      "source": "Semantic Scholar",
+      "title": "Electropolymerized Polyaniline on Sputtered TiO₂ Thin Films: Visible-NIR Optical Extension and Interfacial Electrochemical Activation of Compact Hybrid Electrodes"
+    },
+    "doi:10.20935/acadnano8426": {
+      "sent_at": "2026-07-20T05:31:22+00:00",
+      "source": "Semantic Scholar",
+      "title": "Tuning of UV-absorbing performance in high-transmittance ZnO nanostructured thin films: a study of thickness-dependent optical properties"
+    },
     "doi:10.3390/app16146991": {
       "sent_at": "2026-07-16T05:09:07+00:00",
       "source": "Semantic Scholar",
       "title": "Engineering the Baseline Resistance of Al-Doped ZnO Thin Films for Chemiresistive Gas Sensor Platforms"
+    },
+    "doi:10.3390/app16147165": {
+      "sent_at": "2026-07-20T05:31:22+00:00",
+      "source": "Semantic Scholar",
+      "title": "Annealing and Thickness-Dependent Structural, Magneto-Optical, and Ferromagnetic Resonance Properties of RF-Sputtered YIG/GGG Thin Films"
     },
     "doi:10.3390/coatings16070828": {
       "sent_at": "2026-07-16T05:09:07+00:00",
@@ -499,6 +514,91 @@
       "sent_at": "2026-07-17T05:11:55+00:00",
       "source": "arXiv",
       "title": "Growth-controlled suppression of electrically active defects in CrSBr"
+    },
+    "id:2607.15332": {
+      "sent_at": "2026-07-20T05:31:22+00:00",
+      "source": "arXiv",
+      "title": "Spontaneous Nanopatterning and Strain Relaxation in SiGe Layers Grown by Oxidative Solid Phase Epitaxy"
+    },
+    "id:2607.15387": {
+      "sent_at": "2026-07-20T05:31:22+00:00",
+      "source": "arXiv",
+      "title": "Phase-Field Simulation of Dendrite Evolution in All-Solid-State Sodium Batteries during Cycling"
+    },
+    "id:2607.15411": {
+      "sent_at": "2026-07-20T05:31:22+00:00",
+      "source": "arXiv",
+      "title": "Ab initio time-dependent GW approach for nonequilibrium exciton-phonon coupled dynamics across momentum space"
+    },
+    "id:2607.15476": {
+      "sent_at": "2026-07-20T05:31:22+00:00",
+      "source": "arXiv",
+      "title": "exa-PD: A scalable high-performance workflow for multi-element phase diagram construction"
+    },
+    "id:2607.15484": {
+      "sent_at": "2026-07-20T05:31:22+00:00",
+      "source": "arXiv",
+      "title": "Dependence of Momentum Transport on the Dominant Turbulence Regime in the DIII-D Tokamak"
+    },
+    "id:2607.15514": {
+      "sent_at": "2026-07-20T05:31:22+00:00",
+      "source": "arXiv",
+      "title": "Exploring the Potential of BY3 (Y = P, As) Monolayers as High-Capacity and Rapid-Diffusion Anodes for Sodium-Ion Batteries"
+    },
+    "id:2607.15538": {
+      "sent_at": "2026-07-20T05:31:22+00:00",
+      "source": "arXiv",
+      "title": "Terahertz Time-Domain Spectroscopy as a Universal Defect Fingerprinting Tool for Organic Halide Perovskite Solar Cells"
+    },
+    "id:2607.15581": {
+      "sent_at": "2026-07-20T05:31:22+00:00",
+      "source": "arXiv",
+      "title": "General and scalable vapor etching and transformation platform for two-dimensional materials"
+    },
+    "id:2607.15728": {
+      "sent_at": "2026-07-20T05:31:22+00:00",
+      "source": "arXiv",
+      "title": "Interface-Engineered Giant Multistate Resistance Switching in Altermagnetic CrSb Multiferroic Tunnel Junctions"
+    },
+    "id:2607.15748": {
+      "sent_at": "2026-07-20T05:31:22+00:00",
+      "source": "arXiv",
+      "title": "Two-step growth of (In,Ga)N pseudo-substrates on GaN templates by plasma-assisted molecular beam epitaxy"
+    },
+    "id:2607.15967": {
+      "sent_at": "2026-07-20T05:31:22+00:00",
+      "source": "arXiv",
+      "title": "Nonuniform pressure helps structural superlubricity"
+    },
+    "id:2607.16054": {
+      "sent_at": "2026-07-20T05:31:22+00:00",
+      "source": "arXiv",
+      "title": "Structural Relaxation Enables Millisecond Infrared Photodetection in Selenium Iodine Semiconductors"
+    },
+    "id:2607.16075": {
+      "sent_at": "2026-07-20T05:31:22+00:00",
+      "source": "arXiv",
+      "title": "Non-invasive monitoring of process-relevant plasma parameters by Fiber PROES in capacitively coupled Ar/CF$_4$ plasmas"
+    },
+    "id:2607.16093": {
+      "sent_at": "2026-07-20T05:31:22+00:00",
+      "source": "arXiv",
+      "title": "Emergent Interfacial Magnetism in Epitaxial RuO$_2$"
+    },
+    "id:2607.16108": {
+      "sent_at": "2026-07-20T05:31:22+00:00",
+      "source": "arXiv",
+      "title": "Subgrain-resolved Analysis of Degradation in Cu Metallization via Scanning 3DXRD and Thermomechanical Modeling"
+    },
+    "id:2607.16167": {
+      "sent_at": "2026-07-20T05:31:22+00:00",
+      "source": "arXiv",
+      "title": "Atomistic mechanism of corrosion-induced grain boundary migration in NiCr alloys in molten FLiNaK"
+    },
+    "id:2607.16180": {
+      "sent_at": "2026-07-20T05:31:22+00:00",
+      "source": "arXiv",
+      "title": "A Dynamical Phase-Field Model for the Optical Properties of Ferroelectrics"
     }
   },
   "version": 1
