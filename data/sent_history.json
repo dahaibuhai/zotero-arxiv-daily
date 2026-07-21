@@ -5,6 +5,11 @@
       "source": "Semantic Scholar",
       "title": "In situ synthesis of porous S-doped In2O3 gas-sensing thin films via magnetron sputtering for ultrasensitive NO2 detection with ultra-low LOD"
     },
+    "doi:10.1016/j.jallcom.2026.189894": {
+      "sent_at": "2026-07-21T05:17:43+00:00",
+      "source": "Semantic Scholar",
+      "title": "RF magnetron sputtering of Ti-Zr-Hf-Co-Ni-Cu high-entropy metallic glass thin films: Tailoring surface roughness, hardness, and strain rate sensitivity through substrate bias and temperature"
+    },
     "doi:10.1016/j.jmmm.2026.174370": {
       "sent_at": "2026-07-13T07:44:44+00:00",
       "source": "Semantic Scholar",
@@ -565,6 +570,11 @@
       "source": "arXiv",
       "title": "Two-step growth of (In,Ga)N pseudo-substrates on GaN templates by plasma-assisted molecular beam epitaxy"
     },
+    "id:2607.15757": {
+      "sent_at": "2026-07-21T05:17:43+00:00",
+      "source": "Semantic Scholar",
+      "title": "Contactless terahertz mapping of wafer-scale superconducting NbTiN thin films"
+    },
     "id:2607.15967": {
       "sent_at": "2026-07-20T05:31:22+00:00",
       "source": "arXiv",
@@ -599,6 +609,96 @@
       "sent_at": "2026-07-20T05:31:22+00:00",
       "source": "arXiv",
       "title": "A Dynamical Phase-Field Model for the Optical Properties of Ferroelectrics"
+    },
+    "id:2607.16495": {
+      "sent_at": "2026-07-21T05:17:43+00:00",
+      "source": "arXiv",
+      "title": "Phase nucleation and evolution pathways of a nanostructured Inconel 725 alloy during heat treatment"
+    },
+    "id:2607.16497": {
+      "sent_at": "2026-07-21T05:17:43+00:00",
+      "source": "arXiv",
+      "title": "Study of GeSn Selective Area Growth with Demonstration of SWIR Light Detection"
+    },
+    "id:2607.16509": {
+      "sent_at": "2026-07-21T05:17:43+00:00",
+      "source": "arXiv",
+      "title": "Assessment of 0-D L-H Power Threshold Scaling and Regression Stability in DIII-D with Applied 3D Magnetic Fields"
+    },
+    "id:2607.16589": {
+      "sent_at": "2026-07-21T05:17:43+00:00",
+      "source": "arXiv",
+      "title": "Beyond Janus Atomic Ordering: High-Throughput First-Principles Search for Hidden MoSO Monolayer Structures"
+    },
+    "id:2607.16616": {
+      "sent_at": "2026-07-21T05:17:43+00:00",
+      "source": "arXiv",
+      "title": "High-entropy perovskites, architectured by s0/d0/d10 cations, as novel electrolytes for solid oxide fuel cells"
+    },
+    "id:2607.16699": {
+      "sent_at": "2026-07-21T05:17:43+00:00",
+      "source": "arXiv",
+      "title": "Period-dependent suppression of Fourier peaks for topography images: Analysis of periodicity of triple-step arrays on vicinal Si(h h m) surfaces"
+    },
+    "id:2607.16783": {
+      "sent_at": "2026-07-21T05:17:43+00:00",
+      "source": "arXiv",
+      "title": "Lattice initialisation and finite-size effects of non-equilibrium molecular dynamics simulations for heat transfer across graphene-copper interfaces"
+    },
+    "id:2607.17330": {
+      "sent_at": "2026-07-21T05:17:43+00:00",
+      "source": "arXiv",
+      "title": "Interfacial thermal transport in Si/SiC and SiC/diamond heterostructures: effects of amorphous interlayers and SiC polytypes"
+    },
+    "id:2607.17372": {
+      "sent_at": "2026-07-21T05:17:43+00:00",
+      "source": "arXiv",
+      "title": "Reconfigurable Graphene-Metasurface Analysis via an Eigenmode-Free Method-of-Lines Formulation"
+    },
+    "id:2607.17413": {
+      "sent_at": "2026-07-21T05:17:43+00:00",
+      "source": "arXiv",
+      "title": "Computationally-tractable synthesis of an MXene metamaterial absorber with a 3D-printable spatially variable substrate by a local approach"
+    },
+    "id:2607.17594": {
+      "sent_at": "2026-07-21T05:17:43+00:00",
+      "source": "arXiv",
+      "title": "CuCrZr heat-sink irradiation performance reveals new challenges for thermonuclear fusion reactors"
+    },
+    "id:2607.17905": {
+      "sent_at": "2026-07-21T05:17:43+00:00",
+      "source": "arXiv",
+      "title": "Localized crystallization of Ce:YIG thin films on Si using CO2 laser annealing for integrated nonreciprocal photonic device applications"
+    },
+    "id:2607.18059": {
+      "sent_at": "2026-07-21T05:17:43+00:00",
+      "source": "arXiv",
+      "title": "Foundry CMOS platform for multimodal quantum materials characterization"
+    },
+    "id:2607.18085": {
+      "sent_at": "2026-07-21T05:17:43+00:00",
+      "source": "arXiv",
+      "title": "First-principles electronic transport properties of Ti and Ti-6Al-4V for modeling ultrashort-pulse laser ablation"
+    },
+    "id:2607.18099": {
+      "sent_at": "2026-07-21T05:17:43+00:00",
+      "source": "arXiv",
+      "title": "Study of ordering in (MoCrTi)$_{100-x}$Al$_x$ refractory high-entropy alloys using machine learning interatomic potential"
+    },
+    "id:2607.18129": {
+      "sent_at": "2026-07-21T05:17:43+00:00",
+      "source": "arXiv",
+      "title": "Defect configuration, not nitrogen content, governs the mechanical integrity of nitrogen-doped graphene: a molecular dynamics study"
+    },
+    "id:2607.18172": {
+      "sent_at": "2026-07-21T05:17:43+00:00",
+      "source": "arXiv",
+      "title": "Phase-field modeling of TiO2 nanocarving via reaction with hydrogen-bearing gas"
+    },
+    "id:2607.18182": {
+      "sent_at": "2026-07-21T05:17:43+00:00",
+      "source": "arXiv",
+      "title": "Machine Learning Potential-Driven Molecular Dynamics Simulations of Dehydrogenation in Pristine and Doped MgH$_2$"
     }
   },
   "version": 1
