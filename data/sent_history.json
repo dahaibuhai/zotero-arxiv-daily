@@ -699,6 +699,106 @@
       "sent_at": "2026-07-21T05:17:43+00:00",
       "source": "arXiv",
       "title": "Machine Learning Potential-Driven Molecular Dynamics Simulations of Dehydrogenation in Pristine and Doped MgH$_2$"
+    },
+    "id:2607.18420": {
+      "sent_at": "2026-07-22T05:17:30+00:00",
+      "source": "arXiv",
+      "title": "Electron escape probability in high-efficiency photocathodes measured by reverse-injection photovoltage"
+    },
+    "id:2607.18423": {
+      "sent_at": "2026-07-22T05:17:30+00:00",
+      "source": "arXiv",
+      "title": "Long Non-Exponential PL Decay from Localized Defect States in Monolayer WSe$_2$ at Low Temperature"
+    },
+    "id:2607.18472": {
+      "sent_at": "2026-07-22T05:17:30+00:00",
+      "source": "arXiv",
+      "title": "Vacancy Diffusion Across FeCrAl Alloy Composition Space for Accident-Tolerant Fuel Cladding"
+    },
+    "id:2607.18474": {
+      "sent_at": "2026-07-22T05:17:30+00:00",
+      "source": "arXiv",
+      "title": "Sky-blue Solution-processed TADF and Hyperfluorescent OLEDs via a High-Work-Function PEDOT:PSS:PFI Hole Injection Layer"
+    },
+    "id:2607.18524": {
+      "sent_at": "2026-07-22T05:17:30+00:00",
+      "source": "arXiv",
+      "title": "Data-Efficient Training of Linear ACE Potentials through Leverage-Guided Subset Selection of ASSYST Structure Pools"
+    },
+    "id:2607.18558": {
+      "sent_at": "2026-07-22T05:17:30+00:00",
+      "source": "arXiv",
+      "title": "The power exhaust constrained SPARC separatrix operational space"
+    },
+    "id:2607.18590": {
+      "sent_at": "2026-07-22T05:17:30+00:00",
+      "source": "arXiv",
+      "title": "Battery Material Comparisons Should Refocus on Diffusivity with Best Practices"
+    },
+    "id:2607.18591": {
+      "sent_at": "2026-07-22T05:17:30+00:00",
+      "source": "arXiv",
+      "title": "GQD-AdsNet: Graph Neural Networks Unlock Rapid Exploration of Transition Metal Adsorption on Graphene Quantum Dots"
+    },
+    "id:2607.18750": {
+      "sent_at": "2026-07-22T05:17:30+00:00",
+      "source": "arXiv",
+      "title": "Alchemical thermodynamic integration for ab initio free-energy calculations in solutions"
+    },
+    "id:2607.18838": {
+      "sent_at": "2026-07-22T05:17:30+00:00",
+      "source": "arXiv",
+      "title": "Quantitative schlieren imaging coupled with inverse Abel transformation for flow field studies in a cylindrical surface DBD"
+    },
+    "id:2607.18900": {
+      "sent_at": "2026-07-22T05:17:30+00:00",
+      "source": "arXiv",
+      "title": "Switchable selective backscatter modulation via the Kerker effect"
+    },
+    "id:2607.18963": {
+      "sent_at": "2026-07-22T05:17:30+00:00",
+      "source": "arXiv",
+      "title": "Stereochemical Vacuum Gap Explains Out-of-Plane Thermal Insulation in MXenes"
+    },
+    "id:2607.18982": {
+      "sent_at": "2026-07-22T05:17:30+00:00",
+      "source": "arXiv",
+      "title": "Ambient Pressure-Driven Actuators and Shape-Morphing Metamaterials"
+    },
+    "id:2607.19003": {
+      "sent_at": "2026-07-22T05:17:30+00:00",
+      "source": "arXiv",
+      "title": "Deciphering Mechanoluminescence: How the Nature of Mechanical Stress and Structural Dimensionality Shape Mechanisms and Responses"
+    },
+    "id:2607.19095": {
+      "sent_at": "2026-07-22T05:17:30+00:00",
+      "source": "arXiv",
+      "title": "Doping tunable charge density waves in misfit layer compounds"
+    },
+    "id:2607.19121": {
+      "sent_at": "2026-07-22T05:17:30+00:00",
+      "source": "arXiv",
+      "title": "Combined tools for Particle-In-Cell simulations performed with transversely asymmetric chirped lasers"
+    },
+    "id:2607.19123": {
+      "sent_at": "2026-07-22T05:17:30+00:00",
+      "source": "arXiv",
+      "title": "Thermal and electrical conductivity of a refractory high-entropy alloy after high-pressure torsion: Electron versus phonon contributions"
+    },
+    "id:2607.19180": {
+      "sent_at": "2026-07-22T05:17:30+00:00",
+      "source": "arXiv",
+      "title": "Exploring Self-Organization of Charged Dust Dimers in Plasma"
+    },
+    "id:2607.19198": {
+      "sent_at": "2026-07-22T05:17:30+00:00",
+      "source": "arXiv",
+      "title": "ATLAS: A Foundation Neural Sampler for Amorphous Materials"
+    },
+    "id:2607.19239": {
+      "sent_at": "2026-07-22T05:17:30+00:00",
+      "source": "arXiv",
+      "title": "Spatially resolved in-situ characterisation of competing martensitic transformation pathways during nanoscratch in 316H Stainless Steel"
     }
   },
   "version": 1
