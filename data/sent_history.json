@@ -20,6 +20,11 @@
       "source": "Semantic Scholar",
       "title": "Tailoring phase formation and mechanical properties of low-temperature-grown Al-rich CrAlWN films by selective metal-ion bombardment during high-power impulse magnetron sputtering"
     },
+    "doi:10.1063/5.0325421": {
+      "sent_at": "2026-07-23T05:18:44+00:00",
+      "source": "Semantic Scholar",
+      "title": "Growth and optical properties of polar-, nonpolar, and semi-polar wurtzite ScGaN films"
+    },
     "doi:10.1063/5.0338090": {
       "sent_at": "2026-07-13T07:44:44+00:00",
       "source": "Semantic Scholar",
@@ -59,6 +64,11 @@
       "sent_at": "2026-07-16T05:09:07+00:00",
       "source": "Semantic Scholar",
       "title": "Comprehensive Investigation of the Effect of Annealing on Electrochromic Properties of WO3 Films"
+    },
+    "doi:10.3390/coatings16070855": {
+      "sent_at": "2026-07-23T05:18:44+00:00",
+      "source": "Semantic Scholar",
+      "title": "Research on the Performance of ZnO Piezoelectric Film Ultrasonic Transducers and Its Application in the Detection of Preload of Hydroelectric Bolts"
     },
     "doi:10.3390/ma19142943": {
       "sent_at": "2026-07-13T07:44:44+00:00",
@@ -799,6 +809,96 @@
       "sent_at": "2026-07-22T05:17:30+00:00",
       "source": "arXiv",
       "title": "Spatially resolved in-situ characterisation of competing martensitic transformation pathways during nanoscratch in 316H Stainless Steel"
+    },
+    "id:2607.19488": {
+      "sent_at": "2026-07-23T05:18:44+00:00",
+      "source": "arXiv",
+      "title": "Electron-Induced Formation of C$_{2}$ on Si(100) from Acetylene and Ethylene"
+    },
+    "id:2607.19551": {
+      "sent_at": "2026-07-23T05:18:44+00:00",
+      "source": "arXiv",
+      "title": "Photoemission from Semi-Infinite Crystals: An \\emph{Ab Initio} Scattering-State Approach"
+    },
+    "id:2607.19569": {
+      "sent_at": "2026-07-23T05:18:44+00:00",
+      "source": "arXiv",
+      "title": "Assessing the Influence of d-Orbital Radius on the Formation of Localized Photogenerated States in Corundum Metal Oxides"
+    },
+    "id:2607.19656": {
+      "sent_at": "2026-07-23T05:18:44+00:00",
+      "source": "arXiv",
+      "title": "Nitrospinics as a platform from orbital-torque memory to artificial intelligence"
+    },
+    "id:2607.19664": {
+      "sent_at": "2026-07-23T05:18:44+00:00",
+      "source": "arXiv",
+      "title": "Synergistic Interface Stability and High Room-Temperature Ionic Conductivity for Wide-Temperature All-Solid-State Batteries Based on Li6+xSixSb1-xS5I Electrolytes"
+    },
+    "id:2607.19698": {
+      "sent_at": "2026-07-23T05:18:44+00:00",
+      "source": "arXiv",
+      "title": "Analytical Retrieval of Material Parameters in Monolayer Transition-Metal Dichalcogenides Based on a Solvable Exciton Model"
+    },
+    "id:2607.19732": {
+      "sent_at": "2026-07-23T05:18:44+00:00",
+      "source": "arXiv",
+      "title": "A Thermodynamic Pinning Criterion for Two-Dimensional Structural Superlubricity"
+    },
+    "id:2607.19789": {
+      "sent_at": "2026-07-23T05:18:44+00:00",
+      "source": "arXiv",
+      "title": "Numerical exploration on unveiling the photovoltaic potential of MgXS3(X = Ti, Zr, Hf) chalcogenide perovskites"
+    },
+    "id:2607.19885": {
+      "sent_at": "2026-07-23T05:18:44+00:00",
+      "source": "arXiv",
+      "title": "The origin of ferroelectricity, polarization and high resistivity in Aurivillius CaBi2B2O9 (B = Ta, Nb)"
+    },
+    "id:2607.19930": {
+      "sent_at": "2026-07-23T05:18:44+00:00",
+      "source": "arXiv",
+      "title": "Reduced-order non-self-consistent Monte Carlo simulation of a planar magnetron discharge: electron heating, recapture and racetrack formation"
+    },
+    "id:2607.19979": {
+      "sent_at": "2026-07-23T05:18:44+00:00",
+      "source": "arXiv",
+      "title": "Interface-resolved structural properties of epitaxial Y$_3$Fe$_5$O$_{12}$/ Gd$_3$Fe$_5$O$_{12}$ bilayers grown on GGG(111) by pulsed laser deposition"
+    },
+    "id:2607.20032": {
+      "sent_at": "2026-07-23T05:18:44+00:00",
+      "source": "arXiv",
+      "title": "Huge hole injection in tungsten dichalcogenide heterostructures without electric gating: a DFT study"
+    },
+    "id:2607.20054": {
+      "sent_at": "2026-07-23T05:18:44+00:00",
+      "source": "arXiv",
+      "title": "Thickness-dependent crack suppression and wrinkle formation in freestanding BaTiO3 membranes"
+    },
+    "id:2607.20066": {
+      "sent_at": "2026-07-23T05:18:44+00:00",
+      "source": "arXiv",
+      "title": "Kinetically-Arrested Phase Separation leads to Tunable Domain Structures in Vapor-Deposited Glasses"
+    },
+    "id:2607.20077": {
+      "sent_at": "2026-07-23T05:18:44+00:00",
+      "source": "arXiv",
+      "title": "From MLIPs to Microstructure: A High-Throughput Computational Framework to Design Spinodal Alloys in High-Dimensional Composition Spaces via Analytic Derivatives of CALPHAD Model Predictions"
+    },
+    "id:2607.20278": {
+      "sent_at": "2026-07-23T05:18:44+00:00",
+      "source": "arXiv",
+      "title": "A low-temperature plasma collisional framework for quadrature-based moment methods"
+    },
+    "id:2607.20281": {
+      "sent_at": "2026-07-23T05:18:44+00:00",
+      "source": "arXiv",
+      "title": "Parametric Decay of Broadband Lower Hybrid Waves"
+    },
+    "id:2607.20298": {
+      "sent_at": "2026-07-23T05:18:44+00:00",
+      "source": "arXiv",
+      "title": "Competing ferromagnetic and antiferromagnetic interactions in non-altermagnetic Ru$_{1-x}$Cr$_{x}$O$_{2}$"
     }
   },
   "version": 1
