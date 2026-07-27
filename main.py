@@ -203,17 +203,35 @@ if __name__ == "__main__":
         logger.info(f"Remaining {len(corpus)} papers after filtering.")
 
     logger.info("Retrieving Arxiv papers...")
-    papers = get_arxiv_paper(args.arxiv_query, args.debug)
+    try:
+        papers = get_arxiv_paper(args.arxiv_query, args.debug)
+    except Exception as exc:
+        # arXiv is a discovery source, not a prerequisite for sending a
+        # daily digest.  Preserve delivery when arXiv is temporarily rate
+        # limited or unavailable; Semantic Scholar/Crossref can still supply
+        # relevant papers in the same run.
+        logger.warning(
+            "Arxiv retrieval failed; continuing with other sources: {}",
+            exc,
+        )
+        papers = []
     logger.info(f"Retrieved {len(papers)} papers from Arxiv.")
 
     if args.enable_semantic_scholar:
         logger.info("Retrieving Semantic Scholar papers...")
-        semantic_papers = fetch_semantic_scholar_papers(
-            queries_raw=args.semantic_scholar_queries,
-            api_key=args.semantic_scholar_api_key,
-            days=args.semantic_scholar_days,
-            max_results_per_query=args.semantic_scholar_max_results_per_query,
-        )
+        try:
+            semantic_papers = fetch_semantic_scholar_papers(
+                queries_raw=args.semantic_scholar_queries,
+                api_key=args.semantic_scholar_api_key,
+                days=args.semantic_scholar_days,
+                max_results_per_query=args.semantic_scholar_max_results_per_query,
+            )
+        except Exception as exc:
+            logger.warning(
+                "Semantic Scholar retrieval failed; continuing with other sources: {}",
+                exc,
+            )
+            semantic_papers = []
         logger.info(f"Retrieved {len(semantic_papers)} papers from Semantic Scholar.")
         papers.extend(semantic_papers)
 

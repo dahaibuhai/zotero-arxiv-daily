@@ -121,8 +121,26 @@ def fetch_semantic_scholar_papers(
             "year": f"{start_date.year}-",
             "sort": "publicationDate:desc",
         }
-        response = request_with_retry(params=params, headers=headers)
-        data = response.json().get("data", [])
+        try:
+            response = request_with_retry(params=params, headers=headers)
+            data = response.json().get("data", [])
+        except requests.RequestException as exc:
+            # Semantic Scholar is an optional discovery source.  A persistent
+            # rate limit or transient network error for one query must not
+            # prevent arXiv/Crossref results from being sent.
+            logger.warning(
+                "Skipping Semantic Scholar query after retries: {!r} ({})",
+                query,
+                exc,
+            )
+            continue
+        except ValueError as exc:
+            logger.warning(
+                "Skipping Semantic Scholar query with an invalid response: {!r} ({})",
+                query,
+                exc,
+            )
+            continue
 
         kept = 0
         for item in data:
