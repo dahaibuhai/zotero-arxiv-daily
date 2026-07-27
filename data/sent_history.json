@@ -1,5 +1,10 @@
 {
   "papers": {
+    "doi:10.1002/smtd.70881": {
+      "sent_at": "2026-07-27T05:44:10+00:00",
+      "source": "Semantic Scholar",
+      "title": "Direct-Write Editing Niobium Superconducting Josephson Junctions and Devices via XeF2 Gas Assisted Focused Electron Beam Induced Etching."
+    },
     "doi:10.1016/j.cej.2026.178682": {
       "sent_at": "2026-07-13T07:44:44+00:00",
       "source": "Semantic Scholar",
@@ -44,6 +49,11 @@
       "sent_at": "2026-07-20T05:31:22+00:00",
       "source": "Semantic Scholar",
       "title": "Electropolymerized Polyaniline on Sputtered TiO₂ Thin Films: Visible-NIR Optical Extension and Interfacial Electrochemical Activation of Compact Hybrid Electrodes"
+    },
+    "doi:10.12982/cmjs.2026.076": {
+      "sent_at": "2026-07-27T05:44:10+00:00",
+      "source": "Semantic Scholar",
+      "title": "Evidence of Crystallization from Amorphous VOx to VO2 (M1) Thin Film Investigated by in-situ LEEM and NEXAFS Techniques"
     },
     "doi:10.20935/acadnano8426": {
       "sent_at": "2026-07-20T05:31:22+00:00",
@@ -899,6 +909,96 @@
       "sent_at": "2026-07-23T05:18:44+00:00",
       "source": "arXiv",
       "title": "Competing ferromagnetic and antiferromagnetic interactions in non-altermagnetic Ru$_{1-x}$Cr$_{x}$O$_{2}$"
+    },
+    "id:2607.21660": {
+      "sent_at": "2026-07-27T05:44:10+00:00",
+      "source": "arXiv",
+      "title": "Generative and multimodal AI for materials prediction and design: Progress, challenges, and perspectives"
+    },
+    "id:2607.21723": {
+      "sent_at": "2026-07-27T05:44:10+00:00",
+      "source": "arXiv",
+      "title": "A Multi-Species Reactive-Boltzmann Formulation for Self-Consistent Kinetic Simulation of Burning Fusion Plasmas"
+    },
+    "id:2607.21726": {
+      "sent_at": "2026-07-27T05:44:10+00:00",
+      "source": "arXiv",
+      "title": "Ionic Diffusion Properties of Rare-Earth High-Entropy Oxides from a Machine-Learned Interatomic Potential"
+    },
+    "id:2607.21849": {
+      "sent_at": "2026-07-27T05:44:10+00:00",
+      "source": "arXiv",
+      "title": "Property-Guided Diffusion for Inverse Design of Crystalline Materials"
+    },
+    "id:2607.21870": {
+      "sent_at": "2026-07-27T05:44:10+00:00",
+      "source": "arXiv",
+      "title": "Effect of Al-Zn alloy wafer grain boundary diffusion on the magnetism and microstructure of sintered NdFeB magnets"
+    },
+    "id:2607.21891": {
+      "sent_at": "2026-07-27T05:44:10+00:00",
+      "source": "arXiv",
+      "title": "Enhanced Curie temperature and room-temperature 50-nm skyrmions achieved in hexagonal ferromagnet Mn5Ge3+x synthesized via a high-pressure method"
+    },
+    "id:2607.22089": {
+      "sent_at": "2026-07-27T05:44:10+00:00",
+      "source": "arXiv",
+      "title": "Quantitative Analysis of Composition and Contamination of Atomically Thin Materials by Recoil-Projectile Coincidence in Ion Transmission"
+    },
+    "id:2607.22090": {
+      "sent_at": "2026-07-27T05:44:10+00:00",
+      "source": "arXiv",
+      "title": "Accelerating grain boundary modelling and simulation by automated pre-evaluation of the irreducible macroscopic representation"
+    },
+    "id:2607.22167": {
+      "sent_at": "2026-07-27T05:44:10+00:00",
+      "source": "arXiv",
+      "title": "Mechanical mapping of thin elastic films and living cells with spherical tip atomic force microscopy probes at large indentations"
+    },
+    "id:2607.22185": {
+      "sent_at": "2026-07-27T05:44:10+00:00",
+      "source": "arXiv",
+      "title": "From Amorphous to Amorphous-Crystalline Mixed-Phase Boron Nitride: Evolution of the Thermal and Elastic Properties"
+    },
+    "id:2607.22190": {
+      "sent_at": "2026-07-27T05:44:10+00:00",
+      "source": "arXiv",
+      "title": "Universal scaling of electrochemical information transfer at solid-liquid interfaces"
+    },
+    "id:2607.22253": {
+      "sent_at": "2026-07-27T05:44:10+00:00",
+      "source": "arXiv",
+      "title": "Full 3D Maxwell solver for Inertial Electrostatic Confinement devices"
+    },
+    "id:2607.22294": {
+      "sent_at": "2026-07-27T05:44:10+00:00",
+      "source": "arXiv",
+      "title": "Substrate-metal interface engineering enhances TaN/Ta thin film superconducting resonator performance"
+    },
+    "id:2607.22316": {
+      "sent_at": "2026-07-27T05:44:10+00:00",
+      "source": "arXiv",
+      "title": "Charge-Density-Wave Phase Transitions in Monolayer 1T-TaS2 from Universal Machine Learning Molecular Dynamics"
+    },
+    "id:2607.22344": {
+      "sent_at": "2026-07-27T05:44:10+00:00",
+      "source": "arXiv",
+      "title": "First Observation of Fishbone-Driven Zonal Flows with Fine Reversed Structure in Tokamak Plasmas"
+    },
+    "id:2607.22360": {
+      "sent_at": "2026-07-27T05:44:10+00:00",
+      "source": "arXiv",
+      "title": "Magnetic proximity-induced non-relativistic valley polarization"
+    },
+    "id:2607.22364": {
+      "sent_at": "2026-07-27T05:44:10+00:00",
+      "source": "arXiv",
+      "title": "Mechanisms of Microstructural Evolution and Degradation in Aluminum under High-Damage Irradiation"
+    },
+    "id:2607.22476": {
+      "sent_at": "2026-07-27T05:44:10+00:00",
+      "source": "arXiv",
+      "title": "Reversible photo-switching optical functionality in two-dimensional mixed-halide hybrid perovskites"
     }
   },
   "version": 1
