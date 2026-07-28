@@ -85,6 +85,11 @@
       "source": "Semantic Scholar",
       "title": "An Overview of Chromic Transition Metal Oxide Thin Films"
     },
+    "doi:10.3390/ma19153167": {
+      "sent_at": "2026-07-28T05:17:37+00:00",
+      "source": "Semantic Scholar",
+      "title": "Investigation of the Substrate Rotation Speed Effect on the Morphology and Tribo-Mechanical Behavior of CrAlN Thin Films Using DC Magnetron Sputtering"
+    },
     "doi:10.7498/aps.75.20251348": {
       "sent_at": "2026-07-17T05:11:55+00:00",
       "source": "Semantic Scholar",
@@ -999,6 +1004,101 @@
       "sent_at": "2026-07-27T05:44:10+00:00",
       "source": "arXiv",
       "title": "Reversible photo-switching optical functionality in two-dimensional mixed-halide hybrid perovskites"
+    },
+    "id:2607.23053": {
+      "sent_at": "2026-07-28T05:17:37+00:00",
+      "source": "arXiv",
+      "title": "Hydrogen-Induced Sign Reversal in Magnetic Hysteresis Evolution of CoPd Alloys and Co/Pd Multilayers"
+    },
+    "id:2607.23073": {
+      "sent_at": "2026-07-28T05:17:37+00:00",
+      "source": "arXiv",
+      "title": "Imaging of van der Waals Materials via Standing-Wave Photoemission Microscopy: Depth-Resolved Electronic Structure of WS2"
+    },
+    "id:2607.23203": {
+      "sent_at": "2026-07-28T05:17:37+00:00",
+      "source": "arXiv",
+      "title": "A DFT and Machine Learning-Assisted Study on the Lattice Thermal Conductivity of LiCdSb for Thermoelectric Applications"
+    },
+    "id:2607.23383": {
+      "sent_at": "2026-07-28T05:17:37+00:00",
+      "source": "arXiv",
+      "title": "Fermi-level mediated acceleration of flash sintering of oxide ceramics"
+    },
+    "id:2607.23400": {
+      "sent_at": "2026-07-28T05:17:37+00:00",
+      "source": "arXiv",
+      "title": "Comparative qualification of advanced plasma-facing materials for fusion pilot plants through public- and private-sector experiments in DIII-D"
+    },
+    "id:2607.23456": {
+      "sent_at": "2026-07-28T05:17:37+00:00",
+      "source": "arXiv",
+      "title": "Fe-doping-induced band structure modification and cryogenic phase stability in Cs2AgBiBr6 single crystals"
+    },
+    "id:2607.23461": {
+      "sent_at": "2026-07-28T05:17:37+00:00",
+      "source": "arXiv",
+      "title": "Molecular dynamics with a first-principles-validated universal machine-learning potential reveals dynamic elementary processes of growth-related adspecies on GaN(0001)"
+    },
+    "id:2607.23484": {
+      "sent_at": "2026-07-28T05:17:37+00:00",
+      "source": "arXiv",
+      "title": "Universal temperature-dependent electrical resistivity in actinides"
+    },
+    "id:2607.23528": {
+      "sent_at": "2026-07-28T05:17:37+00:00",
+      "source": "arXiv",
+      "title": "Implementation and first application of EMC3-EIRENE on DTT for assessing the heat load on the ICRH antenna"
+    },
+    "id:2607.23685": {
+      "sent_at": "2026-07-28T05:17:37+00:00",
+      "source": "arXiv",
+      "title": "Variable Emissivity Modeling for Sustainable Lunar Surface Habitats"
+    },
+    "id:2607.23709": {
+      "sent_at": "2026-07-28T05:17:37+00:00",
+      "source": "arXiv",
+      "title": "Elemental Germanium Phase-Change Memory"
+    },
+    "id:2607.23886": {
+      "sent_at": "2026-07-28T05:17:37+00:00",
+      "source": "arXiv",
+      "title": "Harnessing X-ray Absorption Spectroscopy Data through Multimodal Mining of Battery Literature"
+    },
+    "id:2607.23895": {
+      "sent_at": "2026-07-28T05:17:37+00:00",
+      "source": "arXiv",
+      "title": "Spacecraft heat shield study in the DIII-D tokamak"
+    },
+    "id:2607.24044": {
+      "sent_at": "2026-07-28T05:17:37+00:00",
+      "source": "arXiv",
+      "title": "Gravitational Sedimentation and Rebound of Strongly Coupled Dusty Plasma Crystals: A Molecular Dynamics Study"
+    },
+    "id:2607.24085": {
+      "sent_at": "2026-07-28T05:17:37+00:00",
+      "source": "arXiv",
+      "title": "Recrystallisation phenomena in an ultrafine-grained Al-Mg-Si alloy revealed by correlative in situ EBSD and TEM heating"
+    },
+    "id:2607.24467": {
+      "sent_at": "2026-07-28T05:17:37+00:00",
+      "source": "arXiv",
+      "title": "Neural RHEED alignment with limited training data during CdTe MBE growth"
+    },
+    "id:2607.24505": {
+      "sent_at": "2026-07-28T05:17:37+00:00",
+      "source": "arXiv",
+      "title": "Impact of ion-electron collisions on nonlocal ion heat conduction, viscous stress, and diffusion"
+    },
+    "id:2607.24590": {
+      "sent_at": "2026-07-28T05:17:37+00:00",
+      "source": "arXiv",
+      "title": "Solution to an unsolved problem in diodes: Limiting current for small emission area and low emission energy"
+    },
+    "id:2607.24685": {
+      "sent_at": "2026-07-28T05:17:37+00:00",
+      "source": "arXiv",
+      "title": "Growth and characterization of planar hexagonal Ge on CdS"
     }
   },
   "version": 1
