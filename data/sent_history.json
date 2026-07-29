@@ -25,6 +25,11 @@
       "source": "Semantic Scholar",
       "title": "Tailoring phase formation and mechanical properties of low-temperature-grown Al-rich CrAlWN films by selective metal-ion bombardment during high-power impulse magnetron sputtering"
     },
+    "doi:10.1021/acsami.6c04528": {
+      "sent_at": "2026-07-29T05:14:39+00:00",
+      "source": "Semantic Scholar",
+      "title": "Orientation-Controlled Bi26-x-yCoxFeyO40/MgO/Si Thin Films: Enhanced Magneto-Optical Performance."
+    },
     "doi:10.1063/5.0325421": {
       "sent_at": "2026-07-23T05:18:44+00:00",
       "source": "Semantic Scholar",
@@ -1099,6 +1104,101 @@
       "sent_at": "2026-07-28T05:17:37+00:00",
       "source": "arXiv",
       "title": "Growth and characterization of planar hexagonal Ge on CdS"
+    },
+    "id:2607.24871": {
+      "sent_at": "2026-07-29T05:14:39+00:00",
+      "source": "arXiv",
+      "title": "A flexible kinetic Monte Carlo framework for GaN molecular beam epitaxy with adaptive on-the-fly barrier evaluation"
+    },
+    "id:2607.25022": {
+      "sent_at": "2026-07-29T05:14:39+00:00",
+      "source": "arXiv",
+      "title": "Machine-Learning Potentials for sodium-potassium chloride mixtures: Predicting thermophysical properties and phase behavior of multicomponent salts"
+    },
+    "id:2607.25039": {
+      "sent_at": "2026-07-29T05:14:39+00:00",
+      "source": "arXiv",
+      "title": "Citrine Informatics: Chemical & Materials Development Platform"
+    },
+    "id:2607.25102": {
+      "sent_at": "2026-07-29T05:14:39+00:00",
+      "source": "arXiv",
+      "title": "Identifying Contact Barrier Types in Few-Layer MoS2 Devices Using Correlative IV, LBIC, and Bias-Dependent KPFM"
+    },
+    "id:2607.25158": {
+      "sent_at": "2026-07-29T05:14:39+00:00",
+      "source": "arXiv",
+      "title": "Statistical structure of canonical kinetic equilibrium with sheared flow"
+    },
+    "id:2607.25172": {
+      "sent_at": "2026-07-29T05:14:39+00:00",
+      "source": "arXiv",
+      "title": "A Catalogue of Topological Moiré Bands in Twisted Semiconductors"
+    },
+    "id:2607.25409": {
+      "sent_at": "2026-07-29T05:14:39+00:00",
+      "source": "arXiv",
+      "title": "Polaris: a flexible stellarator demonstration experiment with simple modular coils"
+    },
+    "id:2607.25477": {
+      "sent_at": "2026-07-29T05:14:39+00:00",
+      "source": "arXiv",
+      "title": "Stretch-free, shape-induced 3D Island-Bridge Networks for flexible TFTs on Silicon Planar Technology verified through Bending and Scalability to 9x9 Matrix"
+    },
+    "id:2607.25481": {
+      "sent_at": "2026-07-29T05:14:39+00:00",
+      "source": "arXiv",
+      "title": "Reconciling chemical models of X-ray Thomson Scattering with the Bethe $f$-sum rule"
+    },
+    "id:2607.25556": {
+      "sent_at": "2026-07-29T05:14:39+00:00",
+      "source": "arXiv",
+      "title": "HIR: A collisional-radiative model for hydrogen ionization in plasma with anisotropic fast ions"
+    },
+    "id:2607.25652": {
+      "sent_at": "2026-07-29T05:14:39+00:00",
+      "source": "arXiv",
+      "title": "Transformer Atomic Cluster Expansion: TRACE"
+    },
+    "id:2607.25713": {
+      "sent_at": "2026-07-29T05:14:39+00:00",
+      "source": "arXiv",
+      "title": "Laser induced optical reconfiguration in Ge_Sb_Te Films with composition dependent response"
+    },
+    "id:2607.25768": {
+      "sent_at": "2026-07-29T05:14:39+00:00",
+      "source": "arXiv",
+      "title": "Synergistic Role of Electron and Photon Dose in Stepwise Laser-Induced Complete Deoxygenation of Graphene Oxide Revealed by In-situ TEM"
+    },
+    "id:2607.25803": {
+      "sent_at": "2026-07-29T05:14:39+00:00",
+      "source": "arXiv",
+      "title": "Integrating moment tensor potentials with finite-element modeling for heat transfer prediction in FLiBe-based molten salt systems"
+    },
+    "id:2607.25843": {
+      "sent_at": "2026-07-29T05:14:39+00:00",
+      "source": "arXiv",
+      "title": "Laser power transmission in space: Plasma-based power cell"
+    },
+    "id:2607.25908": {
+      "sent_at": "2026-07-29T05:14:39+00:00",
+      "source": "arXiv",
+      "title": "Variational approach to Yukawa fluids. I. Thermodynamics"
+    },
+    "id:2607.25963": {
+      "sent_at": "2026-07-29T05:14:39+00:00",
+      "source": "arXiv",
+      "title": "Stacking Polarity-Controlled Interlayer Photocarrier Dynamics in MoSe2/MoS2 Heterostructures"
+    },
+    "id:2607.25999": {
+      "sent_at": "2026-07-29T05:14:39+00:00",
+      "source": "arXiv",
+      "title": "Facet-Dependent Electronic Properties and Interfacial Point Defect Interactions in WS$_2$/ZnO Heterostructures"
+    },
+    "id:2607.26018": {
+      "sent_at": "2026-07-29T05:14:39+00:00",
+      "source": "arXiv",
+      "title": "Extracting Atomic Environments for Machine Learning Interatomic Potentials"
     }
   },
   "version": 1
