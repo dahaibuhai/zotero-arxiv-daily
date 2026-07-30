@@ -1199,6 +1199,106 @@
       "sent_at": "2026-07-29T05:14:39+00:00",
       "source": "arXiv",
       "title": "Extracting Atomic Environments for Machine Learning Interatomic Potentials"
+    },
+    "id:2607.26081": {
+      "sent_at": "2026-07-30T05:06:54+00:00",
+      "source": "arXiv",
+      "title": "Coupling model of metallic target ablation-plasma evolution-radiation under nanosecond laser irradiation"
+    },
+    "id:2607.26252": {
+      "sent_at": "2026-07-30T05:06:54+00:00",
+      "source": "arXiv",
+      "title": "Quasi-static transverse electric field driven electron acceleration in relativistic laser matter interaction"
+    },
+    "id:2607.26263": {
+      "sent_at": "2026-07-30T05:06:54+00:00",
+      "source": "arXiv",
+      "title": "Influence of BaTiO_3 nanoparticles on the anisotropy of the dielectric properties of nematic liquid crystal 5CB"
+    },
+    "id:2607.26312": {
+      "sent_at": "2026-07-30T05:06:54+00:00",
+      "source": "arXiv",
+      "title": "Superconducting Nanowire Based Surface Acoustic Wave Transduction"
+    },
+    "id:2607.26479": {
+      "sent_at": "2026-07-30T05:06:54+00:00",
+      "source": "arXiv",
+      "title": "Kinetic Optimization of Magnetic Mirror Confinement: Beyond Classical Loss-Cone Theory"
+    },
+    "id:2607.26494": {
+      "sent_at": "2026-07-30T05:06:54+00:00",
+      "source": "arXiv",
+      "title": "Revisiting Electron Heating in Capacitively Coupled Plasma (CCP) Discharges: A Nonlinear Dynamics Perspective"
+    },
+    "id:2607.26586": {
+      "sent_at": "2026-07-30T05:06:54+00:00",
+      "source": "arXiv",
+      "title": "Percolating Multifractal Domains at a Polymorphic Phase Boundary"
+    },
+    "id:2607.26597": {
+      "sent_at": "2026-07-30T05:06:54+00:00",
+      "source": "arXiv",
+      "title": "Transient Detour and Cooperative Oxygen Exchange in the Polarization Switching of Ferroelectric Hf0.5Zr0.5O2"
+    },
+    "id:2607.26667": {
+      "sent_at": "2026-07-30T05:06:54+00:00",
+      "source": "arXiv",
+      "title": "Computational Study of Water Adsorption and Dissociative Mechanisms Impacting g-C3N4's Optical and Electronic Properties"
+    },
+    "id:2607.26815": {
+      "sent_at": "2026-07-30T05:06:54+00:00",
+      "source": "arXiv",
+      "title": "End-to-End Modeling of a Volatile TiO2 Memristor for Neuromorphic Circuit Simulation"
+    },
+    "id:2607.26833": {
+      "sent_at": "2026-07-30T05:06:54+00:00",
+      "source": "arXiv",
+      "title": "Inferring Magnetic Material Parameters from Statistical Measures in Strongly Fluctuating Magnetization Dynamics"
+    },
+    "id:2607.26881": {
+      "sent_at": "2026-07-30T05:06:54+00:00",
+      "source": "arXiv",
+      "title": "Crystal forming ability of amorphous refractory metals under nanoindentation: a molecular dynamics study"
+    },
+    "id:2607.26965": {
+      "sent_at": "2026-07-30T05:06:54+00:00",
+      "source": "arXiv",
+      "title": "Measurement of multiple mechanical properties from multi-dimensional signals in nanosecond laser ablation via PINN"
+    },
+    "id:2607.26971": {
+      "sent_at": "2026-07-30T05:06:54+00:00",
+      "source": "arXiv",
+      "title": "Ferroelectric switchable altermagnetic-like compensated ferrimagnets with charge ordering"
+    },
+    "id:2607.26986": {
+      "sent_at": "2026-07-30T05:06:54+00:00",
+      "source": "arXiv",
+      "title": "Theory of phonon-magnon hybridization and angular momentum in CrI$_3$ and CrBr$_3$"
+    },
+    "id:2607.26992": {
+      "sent_at": "2026-07-30T05:06:54+00:00",
+      "source": "arXiv",
+      "title": "Generation of representative powder particle packing in 2D/3D: which tool for which application?"
+    },
+    "id:2607.27024": {
+      "sent_at": "2026-07-30T05:06:54+00:00",
+      "source": "arXiv",
+      "title": "Rotating mirror with all-directional pinch compressions - The beauty and simplicity in controlled nuclear fusion"
+    },
+    "id:2607.27095": {
+      "sent_at": "2026-07-30T05:06:54+00:00",
+      "source": "arXiv",
+      "title": "No band gap, no problem: Defects in InAs using a band-avoiding occupation-constrained density functional theory"
+    },
+    "id:2607.27108": {
+      "sent_at": "2026-07-30T05:06:54+00:00",
+      "source": "arXiv",
+      "title": "Formation of $\\mathrm{L}1_2$-ordered $γ'$-$\\mathrm{Ni}_3\\mathrm{Al}$ precipitates in ternary Cu-Ni-Al alloys modelled using an ab initio concentration wave theory and atomistic simulations"
+    },
+    "id:2607.27127": {
+      "sent_at": "2026-07-30T05:06:54+00:00",
+      "source": "arXiv",
+      "title": "Divertor topology and vacuum vessel design for stellarators"
     }
   },
   "version": 1
