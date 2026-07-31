@@ -50,6 +50,11 @@
       "source": "Semantic Scholar",
       "title": "Structural and magnetic properties of epitaxial\n                    <mml:math xmlns:mml=\"http://www.w3.org/1998/Math/MathML\">\n                      <mml:mrow>\n                        <mml:mi mathvariant=\"normal\">M</mml:mi>\n                        <mml:msub>\n                          <mml:mi mathvari"
     },
+    "doi:10.1109/tmag.2026.3707577": {
+      "sent_at": "2026-07-31T05:37:32+00:00",
+      "source": "Semantic Scholar",
+      "title": "Non-Ohmic Behavior in [Ni80Fe20/HfO2]n Discontinuous Multilayers"
+    },
     "doi:10.1149/1945-7111/ae8bde": {
       "sent_at": "2026-07-20T05:31:22+00:00",
       "source": "Semantic Scholar",
@@ -1299,6 +1304,101 @@
       "sent_at": "2026-07-30T05:06:54+00:00",
       "source": "arXiv",
       "title": "Divertor topology and vacuum vessel design for stellarators"
+    },
+    "id:2607.27234": {
+      "sent_at": "2026-07-31T05:37:32+00:00",
+      "source": "arXiv",
+      "title": "LoKI-GM: a global model framework for plasma chemistry studies"
+    },
+    "id:2607.27375": {
+      "sent_at": "2026-07-31T05:37:32+00:00",
+      "source": "arXiv",
+      "title": "Evolution of the Irradiation Induced Defect Landscape through Dislocation Vacancy Loop Interactions in Tungsten"
+    },
+    "id:2607.27399": {
+      "sent_at": "2026-07-31T05:37:32+00:00",
+      "source": "arXiv",
+      "title": "PEDOT:PSS-Coated Magnetoelastic Sensors for Highly Sensitive Wireless Humidity Sensing"
+    },
+    "id:2607.27419": {
+      "sent_at": "2026-07-31T05:37:32+00:00",
+      "source": "arXiv",
+      "title": "Optimization of Epitaxial Mn4N Thin Films Grown by Sputtering for Spintronic Applications"
+    },
+    "id:2607.27424": {
+      "sent_at": "2026-07-31T05:37:32+00:00",
+      "source": "arXiv",
+      "title": "Structure and thermodynamic stability of $β$-Ga$_2$O$_3$ surfaces"
+    },
+    "id:2607.27486": {
+      "sent_at": "2026-07-31T05:37:32+00:00",
+      "source": "arXiv",
+      "title": "Dynamics of Null and Electrostatic Blind Spots for Quantitative PFM"
+    },
+    "id:2607.27517": {
+      "sent_at": "2026-07-31T05:37:32+00:00",
+      "source": "arXiv",
+      "title": "Temperature-doping phase diagram and endurance in Ce-doped HfO2"
+    },
+    "id:2607.27554": {
+      "sent_at": "2026-07-31T05:37:32+00:00",
+      "source": "arXiv",
+      "title": "Beyond Hexagonal Boron Nitride: First-Principles Study of Pentaoctite-BN and Pop-BN Monolayers"
+    },
+    "id:2607.27608": {
+      "sent_at": "2026-07-31T05:37:32+00:00",
+      "source": "arXiv",
+      "title": "Anisotropic Tensile Strength and Fracture Mechanism of $θ$-TaN: A Machine-Learning Potential Molecular Dynamics Study"
+    },
+    "id:2607.27625": {
+      "sent_at": "2026-07-31T05:37:32+00:00",
+      "source": "arXiv",
+      "title": "Physics to Circuit Analysis of GaN RF Integrated Circuits versus GaAs and Silicon"
+    },
+    "id:2607.27752": {
+      "sent_at": "2026-07-31T05:37:32+00:00",
+      "source": "arXiv",
+      "title": "Tilt-driven ferrielectricity in PbZrO$_3$"
+    },
+    "id:2607.27803": {
+      "sent_at": "2026-07-31T05:37:32+00:00",
+      "source": "arXiv",
+      "title": "Finite-temperature bulk moduli from an EOS-based Grüneisen function"
+    },
+    "id:2607.27820": {
+      "sent_at": "2026-07-31T05:37:32+00:00",
+      "source": "arXiv",
+      "title": "Deep Learning for Accelerated Long-Horizon Forecasting of Multicomponent Multiphase Microstructure Evolution in High-Entropy Alloys"
+    },
+    "id:2607.27939": {
+      "sent_at": "2026-07-31T05:37:32+00:00",
+      "source": "arXiv",
+      "title": "STM study of single phosphorus incorporation into silicon by heating PBr3 on Si(100)"
+    },
+    "id:2607.27980": {
+      "sent_at": "2026-07-31T05:37:32+00:00",
+      "source": "arXiv",
+      "title": "Tunable Conformal Graphene Growth on Oxide Nanotube scaffolds: Towards Superwettable Hierarchical 2D-3D Architectures"
+    },
+    "id:2607.28000": {
+      "sent_at": "2026-07-31T05:37:32+00:00",
+      "source": "arXiv",
+      "title": "PASS: Perturbation augmented space group structure sampling for transferable Fe-O machine learning interatomic potential"
+    },
+    "id:2607.28244": {
+      "sent_at": "2026-07-31T05:37:32+00:00",
+      "source": "arXiv",
+      "title": "Negative Thermal Expansion in Cubic Ice: A Collective Quantum Effect of the hydrogen-bond network"
+    },
+    "id:2607.28258": {
+      "sent_at": "2026-07-31T05:37:32+00:00",
+      "source": "arXiv",
+      "title": "\"Anomalous Solid Solution\" in Ultra-High Melting Point Oxides: A New Strategy for Developing Ultra-High Temperature Thermal Protection Coatings"
+    },
+    "id:2607.28441": {
+      "sent_at": "2026-07-31T05:37:32+00:00",
+      "source": "arXiv",
+      "title": "Transport Evidence of Magnetic Polarization in the Altermagnetic Candidate MnTe"
     }
   },
   "version": 1
