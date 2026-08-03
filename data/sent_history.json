@@ -5,6 +5,11 @@
       "source": "Semantic Scholar",
       "title": "Direct-Write Editing Niobium Superconducting Josephson Junctions and Devices via XeF2 Gas Assisted Focused Electron Beam Induced Etching."
     },
+    "doi:10.1007/s10854-026-18099-7": {
+      "sent_at": "2026-08-03T05:32:39+00:00",
+      "source": "Semantic Scholar",
+      "title": "Enhanced hydrogen sensing performance by modulating energy band of Pd/SnO2/WO3 triple-layer thin film sensor"
+    },
     "doi:10.1016/j.cej.2026.178682": {
       "sent_at": "2026-07-13T07:44:44+00:00",
       "source": "Semantic Scholar",
@@ -1399,6 +1404,101 @@
       "sent_at": "2026-07-31T05:37:32+00:00",
       "source": "arXiv",
       "title": "Transport Evidence of Magnetic Polarization in the Altermagnetic Candidate MnTe"
+    },
+    "id:2607.28745": {
+      "sent_at": "2026-08-03T05:32:39+00:00",
+      "source": "arXiv",
+      "title": "Symmetry Rules for Cavity Materials Engineering with Linearly Polarized Vacuum Fields"
+    },
+    "id:2607.28752": {
+      "sent_at": "2026-08-03T05:32:39+00:00",
+      "source": "arXiv",
+      "title": "Local B-site chemistry controls oxygen-vacancy energetics in Ca-Ce-Ti-Mn perovskites for thermochemical hydrogen production"
+    },
+    "id:2607.28787": {
+      "sent_at": "2026-08-03T05:32:39+00:00",
+      "source": "arXiv",
+      "title": "Electrical Control over Volatile Mott Switching through Non-Volatile Memory Effects"
+    },
+    "id:2607.28828": {
+      "sent_at": "2026-08-03T05:32:39+00:00",
+      "source": "arXiv",
+      "title": "Giant Exfoliation Induced Magnetic Coercivity in Fe$_3$GaTe$_2$"
+    },
+    "id:2607.28838": {
+      "sent_at": "2026-08-03T05:32:39+00:00",
+      "source": "arXiv",
+      "title": "Ultrafast Nonthermal Lattice Destabilization and Suppression of Polar Optical Scattering in Electronically Excited $α$-SiO$_2$ from First-Principles and Deep Neural Network Potential Modeling"
+    },
+    "id:2607.28843": {
+      "sent_at": "2026-08-03T05:32:39+00:00",
+      "source": "arXiv",
+      "title": "An End-to-End Differentiable Forward Model for High-Energy Diffraction Microscopy"
+    },
+    "id:2607.28859": {
+      "sent_at": "2026-08-03T05:32:39+00:00",
+      "source": "arXiv",
+      "title": "Automating the analysis of micron-scale synchrotron diffraction data on inhomogeneous polycrystalline samples: a solid oxide electrolysis cell case study"
+    },
+    "id:2607.28888": {
+      "sent_at": "2026-08-03T05:32:39+00:00",
+      "source": "arXiv",
+      "title": "SH-SAW Acousto-Electric Amplifier in Epitaxial InGaAs on Lithium Niobate on Insulator"
+    },
+    "id:2607.28905": {
+      "sent_at": "2026-08-03T05:32:39+00:00",
+      "source": "arXiv",
+      "title": "Knudsen-Controlled Switching of Thermal Conductivity Response by Targeted Phonon Excitation"
+    },
+    "id:2607.28909": {
+      "sent_at": "2026-08-03T05:32:39+00:00",
+      "source": "arXiv",
+      "title": "Molecular beam epitaxy synthesis of ternary nitride PrTaN$_2$ and its crystal structure determination"
+    },
+    "id:2607.28976": {
+      "sent_at": "2026-08-03T05:32:39+00:00",
+      "source": "arXiv",
+      "title": "Pulse Shaping Increases Efficiency in Pulsed Plasma Accelerators"
+    },
+    "id:2607.29022": {
+      "sent_at": "2026-08-03T05:32:39+00:00",
+      "source": "arXiv",
+      "title": "One-Step Epitaxial Access to Rhombohedral Graphene Flat-Band States on Step-Bunched SiC"
+    },
+    "id:2607.29152": {
+      "sent_at": "2026-08-03T05:32:39+00:00",
+      "source": "arXiv",
+      "title": "Domain-Selective Enhancement of Second Harmonic Generation in Monolayer MoS$_2$ via Ferroelectricity-Controlled Photodoping"
+    },
+    "id:2607.29214": {
+      "sent_at": "2026-08-03T05:32:39+00:00",
+      "source": "arXiv",
+      "title": "Quadratic piezoelectricity from stacking-engineered interference in multilayer sliding ferroelectrics"
+    },
+    "id:2607.29239": {
+      "sent_at": "2026-08-03T05:32:39+00:00",
+      "source": "arXiv",
+      "title": "Proof of operation of a micro-hollow cathode discharge driven by a true ns-pulsed high voltage: emission properties and atomic nitrogen production"
+    },
+    "id:2607.29328": {
+      "sent_at": "2026-08-03T05:32:39+00:00",
+      "source": "arXiv",
+      "title": "Savi-Bhransha: Graph-Theoretic Dislocation-Loop Characterization in Crystals"
+    },
+    "id:2607.29348": {
+      "sent_at": "2026-08-03T05:32:39+00:00",
+      "source": "arXiv",
+      "title": "Mode-dependent photothermal responsivity mapping of tensile-stressed nanomechanical resonators"
+    },
+    "id:2607.29362": {
+      "sent_at": "2026-08-03T05:32:39+00:00",
+      "source": "arXiv",
+      "title": "Nonlinear polarization effects on plasma screening for thermonuclear reactions"
+    },
+    "id:2607.29411": {
+      "sent_at": "2026-08-03T05:32:39+00:00",
+      "source": "arXiv",
+      "title": "A versatile generalized digital twin for Electron Microscopy"
     }
   },
   "version": 1
