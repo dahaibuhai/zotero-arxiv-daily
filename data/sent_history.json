@@ -1499,6 +1499,106 @@
       "sent_at": "2026-08-03T05:32:39+00:00",
       "source": "arXiv",
       "title": "A versatile generalized digital twin for Electron Microscopy"
+    },
+    "id:2608.00112": {
+      "sent_at": "2026-08-04T05:23:01+00:00",
+      "source": "arXiv",
+      "title": "Centimeter-scale fully suspended metal and metal oxide thin films by one-step transfer-free liquid metal capillary forming"
+    },
+    "id:2608.00131": {
+      "sent_at": "2026-08-04T05:23:01+00:00",
+      "source": "arXiv",
+      "title": "Wrinkling of Randomly Heterogeneous Film-Substrate Systems"
+    },
+    "id:2608.00269": {
+      "sent_at": "2026-08-04T05:23:01+00:00",
+      "source": "arXiv",
+      "title": "Resonant Raman spectroscopies beyond density-functional theory"
+    },
+    "id:2608.00319": {
+      "sent_at": "2026-08-04T05:23:01+00:00",
+      "source": "arXiv",
+      "title": "Transient Liquid Phase Bonding of NiTi Using Cu- and Nb-base Interlayers"
+    },
+    "id:2608.00362": {
+      "sent_at": "2026-08-04T05:23:01+00:00",
+      "source": "arXiv",
+      "title": "An essay on $d_0$ in neutron-based strain measurement techniques: equilibrium-based methods for non-destructive $d_0$ estimation"
+    },
+    "id:2608.00425": {
+      "sent_at": "2026-08-04T05:23:01+00:00",
+      "source": "arXiv",
+      "title": "The AFLOW Library of Crystallographic Prototypes: Part 5"
+    },
+    "id:2608.00593": {
+      "sent_at": "2026-08-04T05:23:01+00:00",
+      "source": "arXiv",
+      "title": "Uncertainty-guided active learning for surrogate prediction of stream-finishing wear fields"
+    },
+    "id:2608.00699": {
+      "sent_at": "2026-08-04T05:23:01+00:00",
+      "source": "arXiv",
+      "title": "Ultrahigh Intrinsic Hole Mobilities in $M$N$_2$ ($M$= Mo and W) at Room Temperature"
+    },
+    "id:2608.00704": {
+      "sent_at": "2026-08-04T05:23:01+00:00",
+      "source": "arXiv",
+      "title": "Atomic-scale reactivity of the CeO$_2$~(100) surface reconstructions by scanning probe microscopy"
+    },
+    "id:2608.00797": {
+      "sent_at": "2026-08-04T05:23:01+00:00",
+      "source": "arXiv",
+      "title": "Ion stopping from bound and free electrons in plasmas: A channel-mixed RPA approach with average-atom orbitals"
+    },
+    "id:2608.01030": {
+      "sent_at": "2026-08-04T05:23:01+00:00",
+      "source": "arXiv",
+      "title": "Investigation of high pressure capacitively coupled plasmas produced by electrons energized in DC sheath at powered electrode"
+    },
+    "id:2608.01210": {
+      "sent_at": "2026-08-04T05:23:01+00:00",
+      "source": "arXiv",
+      "title": "EBSD and Subtle Crystallographic Differences - A Study of Resolving Interlayer Spacings in Nb-Ni and Nb-Co mu-phases"
+    },
+    "id:2608.01257": {
+      "sent_at": "2026-08-04T05:23:01+00:00",
+      "source": "arXiv",
+      "title": "Active Passivation Tunes Hotspot Locations in GaN Transistors with In Situ Thermal Mechanical Visualization"
+    },
+    "id:2608.01779": {
+      "sent_at": "2026-08-04T05:23:01+00:00",
+      "source": "arXiv",
+      "title": "Machine-Learning-Accelerated Metallene Stabilization from High-Throughput Sandwich Modeling"
+    },
+    "id:2608.01903": {
+      "sent_at": "2026-08-04T05:23:01+00:00",
+      "source": "arXiv",
+      "title": "Machine Learning Assisted Design of Complex and High Entropy Alloys by Hybrid HiPIMS/Pulsed-DC PVD Process for Low Carbon Energy Applications in Extreme Environments"
+    },
+    "id:2608.02226": {
+      "sent_at": "2026-08-04T05:23:01+00:00",
+      "source": "arXiv",
+      "title": "Mass Spectrometry Studies of Hydrogen Ions Energy Distributions in an ECR- based Large Volume Plasma Source"
+    },
+    "id:2608.02263": {
+      "sent_at": "2026-08-04T05:23:01+00:00",
+      "source": "arXiv",
+      "title": "Second-Harmonic Imaging of Magnetic Domains in Thin Film Hematite"
+    },
+    "id:2608.02400": {
+      "sent_at": "2026-08-04T05:23:01+00:00",
+      "source": "arXiv",
+      "title": "GRADAR: orientation-map-driven detection and ranking of grains for targeted two-beam electron channeling contrast imaging"
+    },
+    "id:2608.02456": {
+      "sent_at": "2026-08-04T05:23:01+00:00",
+      "source": "arXiv",
+      "title": "Real-time dynamics of the two-step charge-density-wave transition in bulk 1T-TaS$_2$"
+    },
+    "id:2608.02516": {
+      "sent_at": "2026-08-04T05:23:01+00:00",
+      "source": "arXiv",
+      "title": "Reduced Dark Current in Cd0.9Zn0.1Te Detector Arrays by Aluminium Oxide Passivation"
     }
   },
   "version": 1
