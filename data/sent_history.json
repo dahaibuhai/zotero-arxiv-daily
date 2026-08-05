@@ -1,5 +1,10 @@
 {
   "papers": {
+    "doi:10.1002/smll.74932": {
+      "sent_at": "2026-08-05T05:12:45+00:00",
+      "source": "Semantic Scholar",
+      "title": "Electronic Structure Engineering of CuNi Alloys: Enabling Dual-Path Synergy and Enhanced Performance in Furfural Electrohydrogenation."
+    },
     "doi:10.1002/smtd.70881": {
       "sent_at": "2026-07-27T05:44:10+00:00",
       "source": "Semantic Scholar",
@@ -1599,6 +1604,101 @@
       "sent_at": "2026-08-04T05:23:01+00:00",
       "source": "arXiv",
       "title": "Reduced Dark Current in Cd0.9Zn0.1Te Detector Arrays by Aluminium Oxide Passivation"
+    },
+    "id:2608.02710": {
+      "sent_at": "2026-08-05T05:12:45+00:00",
+      "source": "arXiv",
+      "title": "Investigation of GeSn aspect ratio trapping growth up to 8% Sn"
+    },
+    "id:2608.02763": {
+      "sent_at": "2026-08-05T05:12:45+00:00",
+      "source": "arXiv",
+      "title": "Radial transport of electric current by electromagnetic microturbulence in tokamaks"
+    },
+    "id:2608.02858": {
+      "sent_at": "2026-08-05T05:12:45+00:00",
+      "source": "arXiv",
+      "title": "Physics-Informed and Knowledge-Driven Generative AI for Autonomous Discovery of Porous Oxide Energy Materials: Opportunities and Challenges"
+    },
+    "id:2608.02925": {
+      "sent_at": "2026-08-05T05:12:45+00:00",
+      "source": "arXiv",
+      "title": "Symmetry-Guided Computational Screening of Two-Dimensional Altermagnets with ab initio Hubbard Corrections"
+    },
+    "id:2608.02968": {
+      "sent_at": "2026-08-05T05:12:45+00:00",
+      "source": "arXiv",
+      "title": "Optical properties of Ag, Au, and Cu from first principles"
+    },
+    "id:2608.02981": {
+      "sent_at": "2026-08-05T05:12:45+00:00",
+      "source": "arXiv",
+      "title": "Electrostatic Superlattices beyond 1:1 Stoichiometry"
+    },
+    "id:2608.03122": {
+      "sent_at": "2026-08-05T05:12:45+00:00",
+      "source": "arXiv",
+      "title": "Quasi-single-stage optimization for advanced stellarators"
+    },
+    "id:2608.03344": {
+      "sent_at": "2026-08-05T05:12:45+00:00",
+      "source": "arXiv",
+      "title": "Picometre-scale real-time drift correction in TEM and STEM by dynamic control of the specimen stage for atomic-resolution imaging"
+    },
+    "id:2608.03347": {
+      "sent_at": "2026-08-05T05:12:45+00:00",
+      "source": "arXiv",
+      "title": "Alloy engineering of excitonic properties in TMD monolayers"
+    },
+    "id:2608.03478": {
+      "sent_at": "2026-08-05T05:12:45+00:00",
+      "source": "arXiv",
+      "title": "Anisotropic Phonon Heat Flow and Thermoelectric Response in Tetragonal GeS$_2$ and GeSe$_2$"
+    },
+    "id:2608.03492": {
+      "sent_at": "2026-08-05T05:12:45+00:00",
+      "source": "arXiv",
+      "title": "Spin-Chirality-Driven Bulk Photovoltaic Effect in van der Waals Magnet CrSBr"
+    },
+    "id:2608.03568": {
+      "sent_at": "2026-08-05T05:12:45+00:00",
+      "source": "arXiv",
+      "title": "Strain Tuning of Orbital-Driven Giant Magnetoresistance in van der Waals ferrimagnet Mn$_3$Si$_2$Te$_6$"
+    },
+    "id:2608.03602": {
+      "sent_at": "2026-08-05T05:12:45+00:00",
+      "source": "arXiv",
+      "title": "Toward two dimensional MoS2 electrets"
+    },
+    "id:2608.03638": {
+      "sent_at": "2026-08-05T05:12:45+00:00",
+      "source": "arXiv",
+      "title": "Epitaxial SiGeSn alloys for CMOS-compatible thermoelectric devices"
+    },
+    "id:2608.03798": {
+      "sent_at": "2026-08-05T05:12:45+00:00",
+      "source": "arXiv",
+      "title": "From phase transformation to amorphization: damage accumulation in Yb-implanted \\b{eta}-Ga2O3"
+    },
+    "id:2608.03805": {
+      "sent_at": "2026-08-05T05:12:45+00:00",
+      "source": "arXiv",
+      "title": "Physics-Informed Machine Learning for Refractory Alloy Design"
+    },
+    "id:2608.03901": {
+      "sent_at": "2026-08-05T05:12:45+00:00",
+      "source": "arXiv",
+      "title": "Optical centers in cubic boron nitride and diamond: remarkable similarities"
+    },
+    "id:2608.03932": {
+      "sent_at": "2026-08-05T05:12:45+00:00",
+      "source": "arXiv",
+      "title": "Understanding and Designing Phase Change Materials: Insights from Atom Probe Tomography"
+    },
+    "id:2608.03969": {
+      "sent_at": "2026-08-05T05:12:45+00:00",
+      "source": "arXiv",
+      "title": "Development of Thomson parabola spectrometer for diagnostics of ions driven by ultrahigh intensity laser: Simulations and numerical analysis"
     }
   },
   "version": 1
