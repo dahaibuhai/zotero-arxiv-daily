@@ -10,6 +10,11 @@
       "source": "Semantic Scholar",
       "title": "Direct-Write Editing Niobium Superconducting Josephson Junctions and Devices via XeF2 Gas Assisted Focused Electron Beam Induced Etching."
     },
+    "doi:10.1007/s10751-026-02708-2": {
+      "sent_at": "2026-08-07T04:49:19+00:00",
+      "source": "Semantic Scholar",
+      "title": "Nanostructured Co-based thin film coatings deposited by DC magnetron sputtering for stability analysis using machine learning and deep learning"
+    },
     "doi:10.1007/s10854-026-18099-7": {
       "sent_at": "2026-08-03T05:32:39+00:00",
       "source": "Semantic Scholar",
@@ -1699,6 +1704,101 @@
       "sent_at": "2026-08-05T05:12:45+00:00",
       "source": "arXiv",
       "title": "Development of Thomson parabola spectrometer for diagnostics of ions driven by ultrahigh intensity laser: Simulations and numerical analysis"
+    },
+    "id:2608.05252": {
+      "sent_at": "2026-08-07T04:49:19+00:00",
+      "source": "arXiv",
+      "title": "Reduction of intrinsic losses in nanomechanical silicon nitride resonators through thermal treatment in ultrahigh vacuum"
+    },
+    "id:2608.05305": {
+      "sent_at": "2026-08-07T04:49:19+00:00",
+      "source": "arXiv",
+      "title": "Cooperative adsorption and diffusion trapping induced by AlF3 intercalation in graphite"
+    },
+    "id:2608.05320": {
+      "sent_at": "2026-08-07T04:49:19+00:00",
+      "source": "arXiv",
+      "title": "Nitrogen Vacancy Centers in Hexagonal Diamond Exhibit Long Coherence Times"
+    },
+    "id:2608.05387": {
+      "sent_at": "2026-08-07T04:49:19+00:00",
+      "source": "arXiv",
+      "title": "Fine-Tuning Small Language Models for Reliable VASP INCAR Generation"
+    },
+    "id:2608.05452": {
+      "sent_at": "2026-08-07T04:49:19+00:00",
+      "source": "arXiv",
+      "title": "Low-resistivity nitrogen-doped p-type Cu2O thin films enabled by millisecond flash lamp annealing"
+    },
+    "id:2608.05469": {
+      "sent_at": "2026-08-07T04:49:19+00:00",
+      "source": "arXiv",
+      "title": "Antiferromagnetic Phases in Zr-Fe-Ge Kagome Systems"
+    },
+    "id:2608.05528": {
+      "sent_at": "2026-08-07T04:49:19+00:00",
+      "source": "arXiv",
+      "title": "Intra-unit-cell resolved intertwining of multi-$Q$ charge and spin textures in an itinerant skyrmion magnet"
+    },
+    "id:2608.05529": {
+      "sent_at": "2026-08-07T04:49:19+00:00",
+      "source": "arXiv",
+      "title": "Emergent Surface Altermagnetism"
+    },
+    "id:2608.05555": {
+      "sent_at": "2026-08-07T04:49:19+00:00",
+      "source": "arXiv",
+      "title": "Millisecond-Scale Neural Operator Surrogates for Double-Null Free-Boundary Grad-Shafranov Equilibria"
+    },
+    "id:2608.05603": {
+      "sent_at": "2026-08-07T04:49:19+00:00",
+      "source": "arXiv",
+      "title": "Interface Engineering of Helium Confinement in Argon-Preplated MCM-41 Nanopores"
+    },
+    "id:2608.05620": {
+      "sent_at": "2026-08-07T04:49:19+00:00",
+      "source": "arXiv",
+      "title": "Magnetic susceptibility of diluted magnetic semiconductors at low carrier densities"
+    },
+    "id:2608.05667": {
+      "sent_at": "2026-08-07T04:49:19+00:00",
+      "source": "arXiv",
+      "title": "BORAY-3D: A ray tracing code for three-dimensional magnetized plasma configurations"
+    },
+    "id:2608.05669": {
+      "sent_at": "2026-08-07T04:49:19+00:00",
+      "source": "arXiv",
+      "title": "SafeDivertor: Faithful Divertor Heat Flux Reconstruction from Macroscopic Plasma State Signals via Time-Frequency Prior Exploitation"
+    },
+    "id:2608.05788": {
+      "sent_at": "2026-08-07T04:49:19+00:00",
+      "source": "arXiv",
+      "title": "Anatomy of Spin--Orbit Torques in Monolayer Fe$_3$GeTe$_2$ and Fe$_3$GaTe$_2$: Insights from atomistic and momentum-space decompositions"
+    },
+    "id:2608.05890": {
+      "sent_at": "2026-08-07T04:49:19+00:00",
+      "source": "arXiv",
+      "title": "Tuning the Optoelectronics of Mixed-Semiconductors through the interplay of Quantum confinement and Stoichiometry Engineering"
+    },
+    "id:2608.05937": {
+      "sent_at": "2026-08-07T04:49:19+00:00",
+      "source": "arXiv",
+      "title": "Polarization-Conditioned Fourier-enhanced DeepONet for Electric Field Reconstruction from EFISH Measurements"
+    },
+    "id:2608.05957": {
+      "sent_at": "2026-08-07T04:49:19+00:00",
+      "source": "arXiv",
+      "title": "ASE2SPRKKR: a unified Python framework integrating the Spin-Polarized Relativistic Korringa-Kohn-Rostoker method into the Atomic Simulation Environment"
+    },
+    "id:2608.06118": {
+      "sent_at": "2026-08-07T04:49:19+00:00",
+      "source": "arXiv",
+      "title": "Calculations of the Krypton Phase Diagram and Novel Plasticity"
+    },
+    "id:2608.06309": {
+      "sent_at": "2026-08-07T04:49:19+00:00",
+      "source": "arXiv",
+      "title": "Metal-Coordination Effects on the Stability and ORR/OER Activity of Layered Organometallic Single-Atom Catalysts: A Theoretical Study"
     }
   },
   "version": 1
