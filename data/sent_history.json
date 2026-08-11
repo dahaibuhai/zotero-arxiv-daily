@@ -1,5 +1,10 @@
 {
   "papers": {
+    "doi:10.1002/adom.71596": {
+      "sent_at": "2026-08-11T03:51:11+00:00",
+      "source": "Semantic Scholar",
+      "title": "Broadband Photodetectors and Imaging Arrays Based on PtSe\n 2\n /Si Heterojunctions"
+    },
     "doi:10.1002/smll.74932": {
       "sent_at": "2026-08-05T05:12:45+00:00",
       "source": "Semantic Scholar",
@@ -1809,6 +1814,101 @@
       "sent_at": "2026-08-07T04:49:19+00:00",
       "source": "arXiv",
       "title": "Metal-Coordination Effects on the Stability and ORR/OER Activity of Layered Organometallic Single-Atom Catalysts: A Theoretical Study"
+    },
+    "id:2608.06456": {
+      "sent_at": "2026-08-11T03:51:11+00:00",
+      "source": "arXiv",
+      "title": "Sublattice-resolved coherent phonon dynamics in charge density waves"
+    },
+    "id:2608.06541": {
+      "sent_at": "2026-08-11T03:51:11+00:00",
+      "source": "arXiv",
+      "title": "A 28-GHz Varactor-Based RIS With Continuous Phase Control: From Unit-Cell Modeling to Programmable Wavefront Control and Synthesis"
+    },
+    "id:2608.06568": {
+      "sent_at": "2026-08-11T03:51:11+00:00",
+      "source": "arXiv",
+      "title": "Nonreciprocity reversal of magnetoacoustic attenuation in NiFe alloy thin films"
+    },
+    "id:2608.06643": {
+      "sent_at": "2026-08-11T03:51:11+00:00",
+      "source": "arXiv",
+      "title": "Extracting the full conductivity tensor in a rectangular sample"
+    },
+    "id:2608.06662": {
+      "sent_at": "2026-08-11T03:51:11+00:00",
+      "source": "arXiv",
+      "title": "Cross-Geometry Transferability Assessment of Universal Machine Learning Interatomic Potentials: From Bulk Materials to Atomic Nanowires"
+    },
+    "id:2608.06700": {
+      "sent_at": "2026-08-11T03:51:11+00:00",
+      "source": "arXiv",
+      "title": "Universal Magnetoresistance Scaling in Layered Pd-based Multiband Metals Beyond Compensated Semimetal Regime"
+    },
+    "id:2608.06759": {
+      "sent_at": "2026-08-11T03:51:11+00:00",
+      "source": "arXiv",
+      "title": "Optical Anisotropy and Phase Matching in Non-Centrosymmetric Perovskite Oxides from DFT+U and DFT+U+V Functionals"
+    },
+    "id:2608.06764": {
+      "sent_at": "2026-08-11T03:51:11+00:00",
+      "source": "arXiv",
+      "title": "Linear and nonlinear benchmark of gyrokinetic simulation of energetic particle driven toroidal Alfven eigenmodes in ITPA TAE benchmark case"
+    },
+    "id:2608.06877": {
+      "sent_at": "2026-08-11T03:51:11+00:00",
+      "source": "arXiv",
+      "title": "Autonomous Optimization of Complex Oxides for Thermochemical Fuel Production"
+    },
+    "id:2608.06895": {
+      "sent_at": "2026-08-11T03:51:11+00:00",
+      "source": "arXiv",
+      "title": "Local Structure Dictates Ionic Transport and Mechanical Properties in Glassy Solid Electrolytes for Lithium Batteries"
+    },
+    "id:2608.07049": {
+      "sent_at": "2026-08-11T03:51:11+00:00",
+      "source": "arXiv",
+      "title": "Roadmap on UV-C photodetectors: materials, applications and industry perspectives"
+    },
+    "id:2608.07081": {
+      "sent_at": "2026-08-11T03:51:11+00:00",
+      "source": "arXiv",
+      "title": "Local lattice dynamics of hcp zinc from EXAFS and machine-learning interatomic potentials"
+    },
+    "id:2608.07097": {
+      "sent_at": "2026-08-11T03:51:11+00:00",
+      "source": "arXiv",
+      "title": "Net and Hidden Spin-Valley Locking Enable Ultrahigh Hole Mobility in Covalent Bulk WN$_2$"
+    },
+    "id:2608.07130": {
+      "sent_at": "2026-08-11T03:51:11+00:00",
+      "source": "arXiv",
+      "title": "Morphology Engineering of Mixed Ionic Electronic Conductors through Aqueous Phase Separation"
+    },
+    "id:2608.07165": {
+      "sent_at": "2026-08-11T03:51:11+00:00",
+      "source": "arXiv",
+      "title": "Electron-Scale-Driven Turbulence by Negative-Density-Gradient in NSTX"
+    },
+    "id:2608.07266": {
+      "sent_at": "2026-08-11T03:51:11+00:00",
+      "source": "arXiv",
+      "title": "Homojunction-induced thermopower enhancement in polymer films"
+    },
+    "id:2608.07305": {
+      "sent_at": "2026-08-11T03:51:11+00:00",
+      "source": "arXiv",
+      "title": "Fractional Spin Ferroelectric and Sliding Spin Current in Magnetic Sliding Ferroelectrics"
+    },
+    "id:2608.07320": {
+      "sent_at": "2026-08-11T03:51:11+00:00",
+      "source": "arXiv",
+      "title": "Surface Equilibration Mechanism Controls the Stability of a Model Co-deposited Glass Mixture of Organic Semiconductors"
+    },
+    "id:2608.07445": {
+      "sent_at": "2026-08-11T03:51:11+00:00",
+      "source": "arXiv",
+      "title": "Permutation invariant neural network prediction of vacancy formation under deformation and varying chemical environment in FCC high entropy alloys"
     }
   },
   "version": 1
