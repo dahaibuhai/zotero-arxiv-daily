@@ -1909,6 +1909,106 @@
       "sent_at": "2026-08-11T03:51:11+00:00",
       "source": "arXiv",
       "title": "Permutation invariant neural network prediction of vacancy formation under deformation and varying chemical environment in FCC high entropy alloys"
+    },
+    "id:2608.07721": {
+      "sent_at": "2026-08-12T04:02:13+00:00",
+      "source": "arXiv",
+      "title": "PASCHEN-1D: A one-dimensional fluid plasma solver with multi-mechanism surface emission and flexible external circuit coupling"
+    },
+    "id:2608.07823": {
+      "sent_at": "2026-08-12T04:02:13+00:00",
+      "source": "arXiv",
+      "title": "Sn-Doping in LPCVD-Grown (010) $β$-Ga$_2$O$_3$ Films"
+    },
+    "id:2608.07884": {
+      "sent_at": "2026-08-12T04:02:13+00:00",
+      "source": "arXiv",
+      "title": "Metastability limit of pristine 2D noble metals with high-energy facet: dominance of the Bell-Evans-Polanyi principle"
+    },
+    "id:2608.07900": {
+      "sent_at": "2026-08-12T04:02:13+00:00",
+      "source": "arXiv",
+      "title": "Gate-tunable electronic properties of epitaxial Bi (111) films using a printable hexagonal boron nitride ionogel"
+    },
+    "id:2608.08000": {
+      "sent_at": "2026-08-12T04:02:13+00:00",
+      "source": "arXiv",
+      "title": "Local coordination and migration-network topology shape Li-ion transport and delithiation in the low-energy $\\varepsilon$-LiMnO$_2$ polymorph"
+    },
+    "id:2608.08031": {
+      "sent_at": "2026-08-12T04:02:13+00:00",
+      "source": "arXiv",
+      "title": "Beam experiments for reactive ion etching of silicon (Si)-based materials by silicon halide ions"
+    },
+    "id:2608.08415": {
+      "sent_at": "2026-08-12T04:02:13+00:00",
+      "source": "arXiv",
+      "title": "Thermo-mechanical Characterization of 2D hexagonal Boron Phosphide (h-BP)"
+    },
+    "id:2608.08474": {
+      "sent_at": "2026-08-12T04:02:13+00:00",
+      "source": "arXiv",
+      "title": "Unified open-boundary electrostatics in real-space density functional theory"
+    },
+    "id:2608.08534": {
+      "sent_at": "2026-08-12T04:02:13+00:00",
+      "source": "arXiv",
+      "title": "High Thermal Conductivity of Back-End-of-Line Compatible Diamond Films"
+    },
+    "id:2608.08647": {
+      "sent_at": "2026-08-12T04:02:13+00:00",
+      "source": "arXiv",
+      "title": "An Automated Magnetron Sputtering Chamber for Ferroelectric Thin Film Deposition"
+    },
+    "id:2608.08741": {
+      "sent_at": "2026-08-12T04:02:13+00:00",
+      "source": "arXiv",
+      "title": "Microscopic Origin of Spin Splitting in Altermagnetic CrSb Thin Films"
+    },
+    "id:2608.08767": {
+      "sent_at": "2026-08-12T04:02:13+00:00",
+      "source": "arXiv",
+      "title": "Distribution of Relaxation Times analysis of evolution of Oxygen Reduction Pathways for ionic conductor infiltration on MIEC cathode"
+    },
+    "id:2608.09003": {
+      "sent_at": "2026-08-12T04:02:13+00:00",
+      "source": "Semantic Scholar",
+      "title": "Wafer-scale monolithic integration of Ce:YIG films and magneto-optical isolators on silicon"
+    },
+    "id:2608.09039": {
+      "sent_at": "2026-08-12T04:02:13+00:00",
+      "source": "arXiv",
+      "title": "Anharmonic dephasing in the electron-phonon interaction"
+    },
+    "id:2608.09041": {
+      "sent_at": "2026-08-12T04:02:13+00:00",
+      "source": "arXiv",
+      "title": "Wrinkling in Selected Polymer Thin Films Induced by Combined Ion Beam and Humidity Exposure"
+    },
+    "id:2608.09431": {
+      "sent_at": "2026-08-12T04:02:13+00:00",
+      "source": "arXiv",
+      "title": "Time-resolved study of carbonization and growth of ultrathin 3C-SiC on Si(111) under ultra-high vacuum"
+    },
+    "id:2608.09508": {
+      "sent_at": "2026-08-12T04:02:13+00:00",
+      "source": "arXiv",
+      "title": "200 mm Wafer-Scale Monolithic 3D Integration of Atomic Layer-Deposited Oxide Semiconductors"
+    },
+    "id:2608.09841": {
+      "sent_at": "2026-08-12T04:02:13+00:00",
+      "source": "arXiv",
+      "title": "Spatially resolved elastic strain and lattice rotation at threading dislocations in HgCdTe/CdZnTe epilayers by dark-field X-ray microscopy"
+    },
+    "id:2608.09909": {
+      "sent_at": "2026-08-12T04:02:13+00:00",
+      "source": "arXiv",
+      "title": "Substrate-dependent thermally driven morphological evolution of Pt$_{0.9}$Ni$_{0.1}$ thin films on sapphire and langasite"
+    },
+    "id:2608.09916": {
+      "sent_at": "2026-08-12T04:02:13+00:00",
+      "source": "arXiv",
+      "title": "AES-Debye: an Accurate, Efficient, and Scalable Engine for Debye Scattering Calculations"
     }
   },
   "version": 1
