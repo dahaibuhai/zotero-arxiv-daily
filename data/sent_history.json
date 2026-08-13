@@ -2009,6 +2009,106 @@
       "sent_at": "2026-08-12T04:02:13+00:00",
       "source": "arXiv",
       "title": "AES-Debye: an Accurate, Efficient, and Scalable Engine for Debye Scattering Calculations"
+    },
+    "id:2608.09960": {
+      "sent_at": "2026-08-13T04:11:30+00:00",
+      "source": "arXiv",
+      "title": "Physics-informed genetic algorithms (PIGAs) facilitating LIBS spectral normalization with shockwave characteristics"
+    },
+    "id:2608.09969": {
+      "sent_at": "2026-08-13T04:11:30+00:00",
+      "source": "arXiv",
+      "title": "Numerical modeling and simulation on nanosecond laser-target interactions"
+    },
+    "id:2608.10048": {
+      "sent_at": "2026-08-13T04:11:30+00:00",
+      "source": "arXiv",
+      "title": "Numerical modeling of microstructure evolution in nanocrystalline alloys - grain boundary segregation, solute drag and mechanics"
+    },
+    "id:2608.10099": {
+      "sent_at": "2026-08-13T04:11:30+00:00",
+      "source": "arXiv",
+      "title": "Solver-Agnostic Implementation of Atom-Informed Thermal Conductivity Fields in Continuum Heat-Flow Simulations"
+    },
+    "id:2608.10124": {
+      "sent_at": "2026-08-13T04:11:30+00:00",
+      "source": "arXiv",
+      "title": "Steady state, core, operational optimization of an ARC-like tokamak via plasma composition and shape"
+    },
+    "id:2608.10226": {
+      "sent_at": "2026-08-13T04:11:30+00:00",
+      "source": "arXiv",
+      "title": "Revealing the Atomic Structure of NiO/Ga$_{2}$O$_{3}$ Interfaces"
+    },
+    "id:2608.10243": {
+      "sent_at": "2026-08-13T04:11:30+00:00",
+      "source": "arXiv",
+      "title": "Balanced electron and phonon heat transport in metallic $\\varepsilon$-TaN"
+    },
+    "id:2608.10353": {
+      "sent_at": "2026-08-13T04:11:30+00:00",
+      "source": "arXiv",
+      "title": "Metallic Bonding-Driven Elastic Softness and Optical Response in the Mg-Rich Laves-Phase LaMg2"
+    },
+    "id:2608.10432": {
+      "sent_at": "2026-08-13T04:11:30+00:00",
+      "source": "arXiv",
+      "title": "Universal Density Control of Surface Reconstruction in Two-Dimensional Metals"
+    },
+    "id:2608.10527": {
+      "sent_at": "2026-08-13T04:11:30+00:00",
+      "source": "arXiv",
+      "title": "Construction of 3D-Ferroelectric Polarization Microstructure and Detection of Polarization Invariants under Induced Flexoelectric Strains"
+    },
+    "id:2608.10548": {
+      "sent_at": "2026-08-13T04:11:30+00:00",
+      "source": "arXiv",
+      "title": "Development and Characterization of a Microwave Atmospheric Pressure Plasma Jet"
+    },
+    "id:2608.10565": {
+      "sent_at": "2026-08-13T04:11:30+00:00",
+      "source": "arXiv",
+      "title": "Potential of Atmospheric Pressure Thermal Plasma Technology towards Waste Processing: A Comprehensive Review"
+    },
+    "id:2608.10575": {
+      "sent_at": "2026-08-13T04:11:30+00:00",
+      "source": "arXiv",
+      "title": "Gas Flow Rate Influence on Gas Temperature Regulation in a Reinforced Radio-Frequency Cross-Field Atmospheric Plasma Jet"
+    },
+    "id:2608.10580": {
+      "sent_at": "2026-08-13T04:11:30+00:00",
+      "source": "arXiv",
+      "title": "Enhanced Screening in Epitaxial Graphene via Nearly Free-Electron Metal Intercalation"
+    },
+    "id:2608.10734": {
+      "sent_at": "2026-08-13T04:11:30+00:00",
+      "source": "arXiv",
+      "title": "Multi-scale modeling of high strain rate deformation and spall fracture in poly-crystalline metals"
+    },
+    "id:2608.10768": {
+      "sent_at": "2026-08-13T04:11:30+00:00",
+      "source": "arXiv",
+      "title": "High-pressure electride superconductor Li5N for multifunctional applications: A theoretical insight into the physical properties"
+    },
+    "id:2608.10910": {
+      "sent_at": "2026-08-13T04:11:30+00:00",
+      "source": "arXiv",
+      "title": "Oxygen K-edge X-ray Absorption Spectroscopy Database for NMC811 Layered Cathode Materials"
+    },
+    "id:2608.11062": {
+      "sent_at": "2026-08-13T04:11:30+00:00",
+      "source": "arXiv",
+      "title": "Accelerated Discovery of Materials with Extreme Work Functions through Uncertainty-Aware Multi-Fidelity Screening"
+    },
+    "id:2608.11102": {
+      "sent_at": "2026-08-13T04:11:30+00:00",
+      "source": "arXiv",
+      "title": "Stable Glasses of Organic Semiconductor Resist Crystallization"
+    },
+    "id:2608.11165": {
+      "sent_at": "2026-08-13T04:11:30+00:00",
+      "source": "arXiv",
+      "title": "Structural, Optical and Magnetic Properties of Superparamagnetic Fe3O4@TiO2 and Fe3O4@SiO2@TiO2 CoreShell Nanostructures"
     }
   },
   "version": 1
