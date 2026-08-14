@@ -50,6 +50,16 @@
       "source": "Semantic Scholar",
       "title": "Tailoring phase formation and mechanical properties of low-temperature-grown Al-rich CrAlWN films by selective metal-ion bombardment during high-power impulse magnetron sputtering"
     },
+    "doi:10.1016/j.matdes.2026.116760": {
+      "sent_at": "2026-08-14T04:07:08+00:00",
+      "source": "Semantic Scholar",
+      "title": "Mechanical and electrical behaviour of reactive magnetron sputtered low-Al content epitaxial single-crystalline Ti1-xAlxNy thin films"
+    },
+    "doi:10.1021/acs.chemmater.6c00320": {
+      "sent_at": "2026-08-14T04:07:08+00:00",
+      "source": "Semantic Scholar",
+      "title": "Defect Landscape\nand Stability of High-Entropy Carbides"
+    },
     "doi:10.1021/acsami.6c04528": {
       "sent_at": "2026-07-29T05:14:39+00:00",
       "source": "Semantic Scholar",
@@ -79,6 +89,11 @@
       "sent_at": "2026-07-31T05:37:32+00:00",
       "source": "Semantic Scholar",
       "title": "Non-Ohmic Behavior in [Ni80Fe20/HfO2]n Discontinuous Multilayers"
+    },
+    "doi:10.1116/6.0005636": {
+      "sent_at": "2026-08-14T04:07:08+00:00",
+      "source": "Semantic Scholar",
+      "title": "Process optimization and characterization of dielectric, piezoelectric, and ferroelectric properties of 30% ScAlN thin films"
     },
     "doi:10.1142/s0217979226502401": {
       "sent_at": "2026-08-10T03:33:29+00:00",
@@ -2109,6 +2124,91 @@
       "sent_at": "2026-08-13T04:11:30+00:00",
       "source": "arXiv",
       "title": "Structural, Optical and Magnetic Properties of Superparamagnetic Fe3O4@TiO2 and Fe3O4@SiO2@TiO2 CoreShell Nanostructures"
+    },
+    "id:2608.11261": {
+      "sent_at": "2026-08-14T04:07:08+00:00",
+      "source": "arXiv",
+      "title": "Temperature-Driven Sequential Modeling for the Prediction of Annual Power Conversion Efficiency Profiles of Organic Photovoltaic Materials: Douala Case Study"
+    },
+    "id:2608.11466": {
+      "sent_at": "2026-08-14T04:07:08+00:00",
+      "source": "arXiv",
+      "title": "Accurate Evaluation of Nanoscale Spatiotemporal Dynamics with Electron Correlation Microscopy"
+    },
+    "id:2608.11485": {
+      "sent_at": "2026-08-14T04:07:08+00:00",
+      "source": "arXiv",
+      "title": "Advances and opportunities for automated robotic preparation of 2D materials and fabrication of 2D heterostructures"
+    },
+    "id:2608.11628": {
+      "sent_at": "2026-08-14T04:07:08+00:00",
+      "source": "arXiv",
+      "title": "Reconstructive AI Spectroscopy of Charged Particle Beams"
+    },
+    "id:2608.11664": {
+      "sent_at": "2026-08-14T04:07:08+00:00",
+      "source": "arXiv",
+      "title": "Measurements of Laser-Driven Plasma Expansion into Hohlraum-Relevant Background Gas"
+    },
+    "id:2608.11725": {
+      "sent_at": "2026-08-14T04:07:08+00:00",
+      "source": "arXiv",
+      "title": "Deep-Learning-Accelerated Dopant Selection for High-k HfO2 Dielectrics: A Disorder-Resolved Study of Y, Si and Al"
+    },
+    "id:2608.11773": {
+      "sent_at": "2026-08-14T04:07:08+00:00",
+      "source": "arXiv",
+      "title": "Advancing in situ hydrogen embrittlement studies through an integrated charging cell for SEM micromechanical testing"
+    },
+    "id:2608.11809": {
+      "sent_at": "2026-08-14T04:07:08+00:00",
+      "source": "arXiv",
+      "title": "Lithography-free patterning of SrTiO$_3$-based two-dimensional electron gases using direct atomic layer processing"
+    },
+    "id:2608.11832": {
+      "sent_at": "2026-08-14T04:07:08+00:00",
+      "source": "arXiv",
+      "title": "Optically Tunable Threshold Switching and Thermally Activated Transport in Planar Ag/MAPbI$_3$ Thin Single-Crystal Devices"
+    },
+    "id:2608.11910": {
+      "sent_at": "2026-08-14T04:07:08+00:00",
+      "source": "arXiv",
+      "title": "Magneto-optical magnetoelectric voltage sensor"
+    },
+    "id:2608.11952": {
+      "sent_at": "2026-08-14T04:07:08+00:00",
+      "source": "arXiv",
+      "title": "Electronic structure, band offset, and interface electron population of the LaInO$_3$/BaSnO$_3$ system"
+    },
+    "id:2608.12017": {
+      "sent_at": "2026-08-14T04:07:08+00:00",
+      "source": "arXiv",
+      "title": "Energy-Dependent Dechanneling in Cu: Insights from Monte Carlo Channeling Simulations"
+    },
+    "id:2608.12092": {
+      "sent_at": "2026-08-14T04:07:08+00:00",
+      "source": "arXiv",
+      "title": "Thermoelastic Harvesting Outperforming Thermoelectric Generators Below 100 °C"
+    },
+    "id:2608.12105": {
+      "sent_at": "2026-08-14T04:07:08+00:00",
+      "source": "arXiv",
+      "title": "Beam Routing through Excitons in Transition Metal Dichalcogenide Monolayers"
+    },
+    "id:2608.12152": {
+      "sent_at": "2026-08-14T04:07:08+00:00",
+      "source": "arXiv",
+      "title": "The electrical transport of intrinsic two-dimensional ferroelectric metal PtBi2"
+    },
+    "id:2608.12205": {
+      "sent_at": "2026-08-14T04:07:08+00:00",
+      "source": "arXiv",
+      "title": "Derivation and application of sheath boundary conditions for drift-kinetic simulations in a linear plasma device based on a gyromoment approach"
+    },
+    "id:2608.12277": {
+      "sent_at": "2026-08-14T04:07:08+00:00",
+      "source": "arXiv",
+      "title": "PACE-SIMS: Checkpoint-Gated Autonomous SIMS Characterization with AI-Agent Quality Control"
     }
   },
   "version": 1
