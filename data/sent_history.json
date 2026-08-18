@@ -2214,6 +2214,101 @@
       "sent_at": "2026-08-14T04:07:08+00:00",
       "source": "arXiv",
       "title": "PACE-SIMS: Checkpoint-Gated Autonomous SIMS Characterization with AI-Agent Quality Control"
+    },
+    "id:2608.13688": {
+      "sent_at": "2026-08-18T03:10:06+00:00",
+      "source": "arXiv",
+      "title": "Thickness-dependent secondary-electron emission from suspended MoS$_2$ membranes in the helium ion microscope"
+    },
+    "id:2608.13703": {
+      "sent_at": "2026-08-18T03:10:06+00:00",
+      "source": "arXiv",
+      "title": "Stochastic twinning in confined volumes of Mg: Insights from in-situ micromechanical testing and atomistic simulations"
+    },
+    "id:2608.13802": {
+      "sent_at": "2026-08-18T03:10:06+00:00",
+      "source": "arXiv",
+      "title": "Multiscale Correlation of Morphological, Chemical, and Optical Properties in p-Type Porous Silicon"
+    },
+    "id:2608.13813": {
+      "sent_at": "2026-08-18T03:10:06+00:00",
+      "source": "arXiv",
+      "title": "From Photothermal Transients to Effective Transport Operators: An Operator-Based Interpretation of TTG Dynamics"
+    },
+    "id:2608.13826": {
+      "sent_at": "2026-08-18T03:10:06+00:00",
+      "source": "arXiv",
+      "title": "SPEAR: Structure Property Explainability with Attention Regularization"
+    },
+    "id:2608.13830": {
+      "sent_at": "2026-08-18T03:10:06+00:00",
+      "source": "arXiv",
+      "title": "Realizing record-high transverse thermoelectric figure of merit at room temperature in artificially tilted multilayers based on high power factor NiFe alloy"
+    },
+    "id:2608.13838": {
+      "sent_at": "2026-08-18T03:10:06+00:00",
+      "source": "arXiv",
+      "title": "Autferroics-based true random number generators with enhanced performance"
+    },
+    "id:2608.14137": {
+      "sent_at": "2026-08-18T03:10:06+00:00",
+      "source": "arXiv",
+      "title": "Enhancement of axial magnetic field generation during relativistic self-channeling of laser radiation propagating along thin films"
+    },
+    "id:2608.14147": {
+      "sent_at": "2026-08-18T03:10:06+00:00",
+      "source": "arXiv",
+      "title": "Accurate and efficient calculation of atomic forces in solids with non-self-consistent hybrid functionals"
+    },
+    "id:2608.14151": {
+      "sent_at": "2026-08-18T03:10:06+00:00",
+      "source": "arXiv",
+      "title": "Physics of Circular Polarized Ion-Scale Waves in Hybrid Simulations of Alfvénic Fluctuations"
+    },
+    "id:2608.14153": {
+      "sent_at": "2026-08-18T03:10:06+00:00",
+      "source": "arXiv",
+      "title": "Electrostatic Phenomenology Benchmarks for Machine-Learned Interatomic Potentials in Electrochemistry: Beyond the Energy-Force Metric"
+    },
+    "id:2608.14189": {
+      "sent_at": "2026-08-18T03:10:06+00:00",
+      "source": "arXiv",
+      "title": "Probing intrinsic magnetic phases in low-dimensional nearly twin-free NiPS$_3$ single crystals"
+    },
+    "id:2608.14222": {
+      "sent_at": "2026-08-18T03:10:06+00:00",
+      "source": "arXiv",
+      "title": "Microscopic investigation of spin dynamics in the single-chain magnet Sr4Mn2CoO9"
+    },
+    "id:2608.14234": {
+      "sent_at": "2026-08-18T03:10:06+00:00",
+      "source": "arXiv",
+      "title": "Dispersive-phonon-driven room-temperature Ni1+-Ni2+ polaron hopping in spin-charge coupled rutile niobate"
+    },
+    "id:2608.14292": {
+      "sent_at": "2026-08-18T03:10:06+00:00",
+      "source": "arXiv",
+      "title": "Efficient simulation of second-order phase transitions in quantum anharmonic materials"
+    },
+    "id:2608.14302": {
+      "sent_at": "2026-08-18T03:10:06+00:00",
+      "source": "arXiv",
+      "title": "Pressure-driven structural phase transition unlocks multifunctionality in KMgX (X = P, As, Sb, and Bi) compounds: A first-principles study"
+    },
+    "id:2608.14353": {
+      "sent_at": "2026-08-18T03:10:06+00:00",
+      "source": "arXiv",
+      "title": "Orbital Hall Effect in Weyl Semimetals from quantum geometric band interference"
+    },
+    "id:2608.14368": {
+      "sent_at": "2026-08-18T03:10:06+00:00",
+      "source": "arXiv",
+      "title": "Unraveling the Roles of Shallow, Deep and Auger Trapping in Charge Carrier Recombination in Triple-Cation Perovskites"
+    },
+    "id:2608.14502": {
+      "sent_at": "2026-08-18T03:10:06+00:00",
+      "source": "arXiv",
+      "title": "Universal Thermodynamic Interatomic Potentials for Crystalline Materials"
     }
   },
   "version": 1
