@@ -2309,6 +2309,106 @@
       "sent_at": "2026-08-18T03:10:06+00:00",
       "source": "arXiv",
       "title": "Universal Thermodynamic Interatomic Potentials for Crystalline Materials"
+    },
+    "id:2608.14880": {
+      "sent_at": "2026-08-19T03:03:44+00:00",
+      "source": "arXiv",
+      "title": "Coherent Phonon Blocking in Superlattices"
+    },
+    "id:2608.14899": {
+      "sent_at": "2026-08-19T03:03:44+00:00",
+      "source": "arXiv",
+      "title": "Data-Efficient Construction of Material-Specific Machine-Learning Interatomic Potentials from Ab Initio Molecular Dynamics Trajectories"
+    },
+    "id:2608.15011": {
+      "sent_at": "2026-08-19T03:03:44+00:00",
+      "source": "arXiv",
+      "title": "Network Topology of Hafnia-Based Amorphous Optical Coatings by Grazing-Incidence X-ray Total Scattering and Atomic Modeling"
+    },
+    "id:2608.15331": {
+      "sent_at": "2026-08-19T03:03:44+00:00",
+      "source": "arXiv",
+      "title": "Barium Hexaferrite Thin Films as a Scalable Magnetic-Insulator Platform for Proximity-Engineered Spintronics"
+    },
+    "id:2608.15386": {
+      "sent_at": "2026-08-19T03:03:44+00:00",
+      "source": "arXiv",
+      "title": "Intrinsic Defects in Amorphous Optical Coatings of TiO$_2$-doped GeO$_2$ for Gravitational-wave Detectors"
+    },
+    "id:2608.15543": {
+      "sent_at": "2026-08-19T03:03:44+00:00",
+      "source": "arXiv",
+      "title": "Hydrogen (deuterium) dynamics and thermal stability in ion-irradiated platinum-hydride thin films synthesized at low temperature"
+    },
+    "id:2608.15566": {
+      "sent_at": "2026-08-19T03:03:44+00:00",
+      "source": "arXiv",
+      "title": "A Passive Daytime Colored Radiative Cooler with DBR-Engineered Color Selectivity"
+    },
+    "id:2608.15609": {
+      "sent_at": "2026-08-19T03:03:44+00:00",
+      "source": "arXiv",
+      "title": "Graph neural network prediction of temperature-dependent hydrogen diffusion and thermal conductivity tensors of tungsten containing helium bubbles and grain boundaries"
+    },
+    "id:2608.15675": {
+      "sent_at": "2026-08-19T03:03:44+00:00",
+      "source": "arXiv",
+      "title": "Uncovering the deformation mechanism of glasses during indentation through high-resolution X-ray scattering"
+    },
+    "id:2608.15821": {
+      "sent_at": "2026-08-19T03:03:44+00:00",
+      "source": "arXiv",
+      "title": "On-chip nanoplasma for adaptive electromagnetic protection"
+    },
+    "id:2608.15928": {
+      "sent_at": "2026-08-19T03:03:44+00:00",
+      "source": "arXiv",
+      "title": "Synthesizing like a chemist: an iterative, feedback-driven loop for materials discovery"
+    },
+    "id:2608.16124": {
+      "sent_at": "2026-08-19T03:03:44+00:00",
+      "source": "arXiv",
+      "title": "Spin-pump-induced spin transport demonstration in a photoconductive PTCDA molecular thin film with a transparent spin current detector"
+    },
+    "id:2608.16232": {
+      "sent_at": "2026-08-19T03:03:44+00:00",
+      "source": "arXiv",
+      "title": "Toward the Ultimate Limit: Elemental Metals in One Dimension"
+    },
+    "id:2608.16258": {
+      "sent_at": "2026-08-19T03:03:44+00:00",
+      "source": "arXiv",
+      "title": "Topological Skyrmion-type microparticle manipulation based on surface acoustic wave phase modulations"
+    },
+    "id:2608.16389": {
+      "sent_at": "2026-08-19T03:03:44+00:00",
+      "source": "arXiv",
+      "title": "Assessing the Projector Augmented-Wave Method for Stopping Power Calculations"
+    },
+    "id:2608.16413": {
+      "sent_at": "2026-08-19T03:03:44+00:00",
+      "source": "arXiv",
+      "title": "Tuning electronic properties and Schottky contact in graphene-based van der Waals heterostructures by electric gating and interlayer coupling"
+    },
+    "id:2608.16450": {
+      "sent_at": "2026-08-19T03:03:44+00:00",
+      "source": "arXiv",
+      "title": "Insights into the Structural and Orientational Ordering of 2D Metal Halide Perovskites"
+    },
+    "id:2608.16511": {
+      "sent_at": "2026-08-19T03:03:44+00:00",
+      "source": "arXiv",
+      "title": "Mechanical-microstructural correlation on SPS-fabricated NiTi alloy"
+    },
+    "id:2608.16629": {
+      "sent_at": "2026-08-19T03:03:44+00:00",
+      "source": "arXiv",
+      "title": "Strain control of mid-IR spectroscopic nonlinear photocurrents in PtSe$_2$"
+    },
+    "id:2608.16652": {
+      "sent_at": "2026-08-19T03:03:44+00:00",
+      "source": "arXiv",
+      "title": "A nuclear-quantum-corrected machine-learning potential reveals quantum-enhanced hydrogen segregation at general grain boundaries in alpha-iron"
     }
   },
   "version": 1
