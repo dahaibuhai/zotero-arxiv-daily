@@ -125,6 +125,11 @@
       "source": "Semantic Scholar",
       "title": "Annealing and Thickness-Dependent Structural, Magneto-Optical, and Ferromagnetic Resonance Properties of RF-Sputtered YIG/GGG Thin Films"
     },
+    "doi:10.3390/app16168188": {
+      "sent_at": "2026-08-20T03:12:53+00:00",
+      "source": "Semantic Scholar",
+      "title": "Thin-Film Coating Technologies for Energy-Efficient Glazing: Materials, Deposition Systems, Methods of Analysis, and Functional Performance"
+    },
     "doi:10.3390/coatings16070828": {
       "sent_at": "2026-07-16T05:09:07+00:00",
       "source": "Semantic Scholar",
@@ -2409,6 +2414,101 @@
       "sent_at": "2026-08-19T03:03:44+00:00",
       "source": "arXiv",
       "title": "A nuclear-quantum-corrected machine-learning potential reveals quantum-enhanced hydrogen segregation at general grain boundaries in alpha-iron"
+    },
+    "id:2608.16938": {
+      "sent_at": "2026-08-20T03:12:53+00:00",
+      "source": "arXiv",
+      "title": "Data-Driven Generation of Compact Quasi-Isodynamic Stellarators"
+    },
+    "id:2608.17009": {
+      "sent_at": "2026-08-20T03:12:53+00:00",
+      "source": "arXiv",
+      "title": "PowderLine: a programmatic powder diffraction analysis application"
+    },
+    "id:2608.17089": {
+      "sent_at": "2026-08-20T03:12:53+00:00",
+      "source": "arXiv",
+      "title": "Over what length scale does an inorganic substrate perturb the structure of a glassy organic semiconductor?"
+    },
+    "id:2608.17149": {
+      "sent_at": "2026-08-20T03:12:53+00:00",
+      "source": "arXiv",
+      "title": "Temperature-Induced Reorganization of Supported Zn$_3$ Clusters on Cu(111): From Minimum-Energy Structures to Finite-Temperature Ensembles"
+    },
+    "id:2608.17408": {
+      "sent_at": "2026-08-20T03:12:53+00:00",
+      "source": "arXiv",
+      "title": "Giant Bandgap Pulsation Driven by Hotspot Breathing Phonons in a Flat-Band Solid"
+    },
+    "id:2608.17418": {
+      "sent_at": "2026-08-20T03:12:53+00:00",
+      "source": "arXiv",
+      "title": "Sub-Second Collisionless Gyrokinetic Eigenvalue Solutions via Orbit-Invariant Decomposition"
+    },
+    "id:2608.17513": {
+      "sent_at": "2026-08-20T03:12:53+00:00",
+      "source": "arXiv",
+      "title": "Growth of Altermagnetic α-MnTe Films: Substrate Variation and Surface Modification"
+    },
+    "id:2608.17555": {
+      "sent_at": "2026-08-20T03:12:53+00:00",
+      "source": "arXiv",
+      "title": "Bright dual-pulse betatron X-ray generation from a laser wakefield accelerator"
+    },
+    "id:2608.17608": {
+      "sent_at": "2026-08-20T03:12:53+00:00",
+      "source": "arXiv",
+      "title": "Chiral Spinterfaces as an Overlooked Component of the Chiral-Induced Spin Selectivity Effect"
+    },
+    "id:2608.17701": {
+      "sent_at": "2026-08-20T03:12:53+00:00",
+      "source": "arXiv",
+      "title": "Influence of the ectonic emission mechanism on the collisionless expansion of a multicomponent cathode plasma"
+    },
+    "id:2608.17716": {
+      "sent_at": "2026-08-20T03:12:53+00:00",
+      "source": "arXiv",
+      "title": "Atomistic Structure Generation and Neural-Network Screening of Hard Carbons to Identify High-Capacity Sodium Storage"
+    },
+    "id:2608.17720": {
+      "sent_at": "2026-08-20T03:12:53+00:00",
+      "source": "arXiv",
+      "title": "Vacancy-Driven Electronic Reconstruction in Monolayer PtSe$_2$: Formation Thermodynamics and Charge States"
+    },
+    "id:2608.17742": {
+      "sent_at": "2026-08-20T03:12:53+00:00",
+      "source": "arXiv",
+      "title": "Active learning molecular beam epitaxy of complex quantum materials"
+    },
+    "id:2608.17772": {
+      "sent_at": "2026-08-20T03:12:53+00:00",
+      "source": "arXiv",
+      "title": "Tunable high-charge relativistic electron beams via direct laser acceleration in hohlraum-preheated foam targets"
+    },
+    "id:2608.17786": {
+      "sent_at": "2026-08-20T03:12:53+00:00",
+      "source": "arXiv",
+      "title": "Polarization-Dependent Raman Selection Rules in Sb$_2$S$_3$ from First Principles and Experiment"
+    },
+    "id:2608.17814": {
+      "sent_at": "2026-08-20T03:12:53+00:00",
+      "source": "arXiv",
+      "title": "Electron transport in amorphous materials: from localization to predictive transport modeling"
+    },
+    "id:2608.17867": {
+      "sent_at": "2026-08-20T03:12:53+00:00",
+      "source": "arXiv",
+      "title": "Optical decoherence in Er$^{3+}$-doped CeO$_2$ spin qubit platforms"
+    },
+    "id:2608.18013": {
+      "sent_at": "2026-08-20T03:12:53+00:00",
+      "source": "arXiv",
+      "title": "Energy-efficient, Reconfigurable Optoelectronic Artificial Synapses Based on MoWS$_2$ Alloy for Pattern Recognition and Color Image Filtering Applications"
+    },
+    "id:2608.18059": {
+      "sent_at": "2026-08-20T03:12:53+00:00",
+      "source": "arXiv",
+      "title": "Achieving Long Retention in Area-Dependent Resistive Memory with Phase-Separated Amorphous Tantalum Oxide"
     }
   },
   "version": 1
