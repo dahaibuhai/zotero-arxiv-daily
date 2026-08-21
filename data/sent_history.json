@@ -30,6 +30,11 @@
       "source": "Semantic Scholar",
       "title": "In situ synthesis of porous S-doped In2O3 gas-sensing thin films via magnetron sputtering for ultrasensitive NO2 detection with ultra-low LOD"
     },
+    "doi:10.1016/j.jacomc.2026.100244": {
+      "sent_at": "2026-08-21T03:13:02+00:00",
+      "source": "Semantic Scholar",
+      "title": "Temperature-driven nanostructure evolution in magnetron-sputtered Zr-Ti oxide thin films enabling tunable optical, electrical and hydrophobic functionalities"
+    },
     "doi:10.1016/j.jallcom.2026.189894": {
       "sent_at": "2026-07-21T05:17:43+00:00",
       "source": "Semantic Scholar",
@@ -54,6 +59,11 @@
       "sent_at": "2026-08-14T04:07:08+00:00",
       "source": "Semantic Scholar",
       "title": "Mechanical and electrical behaviour of reactive magnetron sputtered low-Al content epitaxial single-crystalline Ti1-xAlxNy thin films"
+    },
+    "doi:10.1016/j.surfcoat.2026.133845": {
+      "sent_at": "2026-08-21T03:13:02+00:00",
+      "source": "Semantic Scholar",
+      "title": "Influence of pulsed substrate biasing on strain and mechanical properties of low-temperature-grown TiZrNbTaNx films by high-power impulse magnetron sputtering"
     },
     "doi:10.1021/acs.chemmater.6c00320": {
       "sent_at": "2026-08-14T04:07:08+00:00",
@@ -2509,6 +2519,96 @@
       "sent_at": "2026-08-20T03:12:53+00:00",
       "source": "arXiv",
       "title": "Achieving Long Retention in Area-Dependent Resistive Memory with Phase-Separated Amorphous Tantalum Oxide"
+    },
+    "id:2608.18161": {
+      "sent_at": "2026-08-21T03:13:02+00:00",
+      "source": "arXiv",
+      "title": "Bifurcation and Hysteresis in Vacuum Diodes"
+    },
+    "id:2608.18189": {
+      "sent_at": "2026-08-21T03:13:02+00:00",
+      "source": "arXiv",
+      "title": "Breaking the mutual exclusivity between metallicity and ferroelectricity in a non-polar covalent semiconductor via orbital selective doping"
+    },
+    "id:2608.18278": {
+      "sent_at": "2026-08-21T03:13:02+00:00",
+      "source": "arXiv",
+      "title": "Writing and erasing skyrmions by single ultrafast laser pulses in monolayer Janus 2D magnets"
+    },
+    "id:2608.18325": {
+      "sent_at": "2026-08-21T03:13:02+00:00",
+      "source": "arXiv",
+      "title": "Neural network predictions of plasma confinement loss in Wendelstein 7-X pellet-fueled discharges"
+    },
+    "id:2608.18418": {
+      "sent_at": "2026-08-21T03:13:02+00:00",
+      "source": "arXiv",
+      "title": "Solidification-cell confinement of domain-wall pinning in additively manufactured ferromagnets"
+    },
+    "id:2608.18444": {
+      "sent_at": "2026-08-21T03:13:02+00:00",
+      "source": "arXiv",
+      "title": "Beam-Tracing-Based Quantitative Reconstruction of Density Fluctuations in QUEST Using Doppler Backscattering"
+    },
+    "id:2608.18462": {
+      "sent_at": "2026-08-21T03:13:02+00:00",
+      "source": "arXiv",
+      "title": "Room-Temperature Polarity Control of the Anomalous Nernst Effect in a High-Magnetic-Anisotropy Topological Nodal-Line MnAlGe"
+    },
+    "id:2608.18513": {
+      "sent_at": "2026-08-21T03:13:02+00:00",
+      "source": "arXiv",
+      "title": "Operando Raman probing of mode selective electron phonon coupling in two dimensional halide perovskites"
+    },
+    "id:2608.18541": {
+      "sent_at": "2026-08-21T03:13:02+00:00",
+      "source": "arXiv",
+      "title": "Three-temperature atomistic spin-lattice dynamics in LAMMPS: a moment-consistent, fluctuation-dissipation-correct extension and its validation on ultrafast demagnetization and all-optical switching of GdFeCo"
+    },
+    "id:2608.18629": {
+      "sent_at": "2026-08-21T03:13:02+00:00",
+      "source": "arXiv",
+      "title": "Thickness-dependent degradation and optical access in epitaxial 2H-MoTe2 protected by metallic capping layers"
+    },
+    "id:2608.18729": {
+      "sent_at": "2026-08-21T03:13:02+00:00",
+      "source": "arXiv",
+      "title": "Revisiting the topological properties of XMg2Bi2 (X = Ca, Sr, Ba, Yb and Eu)"
+    },
+    "id:2608.18763": {
+      "sent_at": "2026-08-21T03:13:02+00:00",
+      "source": "arXiv",
+      "title": "On the temperature dependence of the optical band gap in the material system of lithium niobate and lithium tantalate"
+    },
+    "id:2608.18909": {
+      "sent_at": "2026-08-21T03:13:02+00:00",
+      "source": "arXiv",
+      "title": "Detecting Magnetic Phase Transitions in Ion-Irradiated CrSBr Through Resonant Raman Scattering"
+    },
+    "id:2608.18925": {
+      "sent_at": "2026-08-21T03:13:02+00:00",
+      "source": "arXiv",
+      "title": "Ultrafast order-selective electron imaging and spectroscopy"
+    },
+    "id:2608.18939": {
+      "sent_at": "2026-08-21T03:13:02+00:00",
+      "source": "arXiv",
+      "title": "High-power TCV scenario for conventional and alternative divertor studies"
+    },
+    "id:2608.19106": {
+      "sent_at": "2026-08-21T03:13:02+00:00",
+      "source": "arXiv",
+      "title": "Local Structure and Dynamics of Three-Dimensional Covalent Organic Frameworks"
+    },
+    "id:2608.19116": {
+      "sent_at": "2026-08-21T03:13:02+00:00",
+      "source": "arXiv",
+      "title": "JANUS: A Multi-modal Foundation Neural Sampler for Disordered Materials"
+    },
+    "id:2608.19126": {
+      "sent_at": "2026-08-21T03:13:02+00:00",
+      "source": "arXiv",
+      "title": "Avalanche-like Plasticity in Complex Concentrated Alloys: A Review Across Scales"
     }
   },
   "version": 1
