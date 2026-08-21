@@ -43,7 +43,7 @@
 - This fork additionally supports keyword-weighted filtering, Semantic Scholar discovery, optional Crossref journal discovery, and sent-paper history deduplication.
 
 > [!NOTE]
-> This repository contains a materials/PVD-oriented customization. For its configuration, verification, and tuning workflow, read the Chinese [custom materials literature-push guide](docs/材料文献推送操作手册.md).
+> This repository contains a general multi-source workflow for configuring literature delivery in any research field. Read the Chinese [multi-source literature-push guide](docs/多源文献推送操作手册.md) for configuration and verification, and the [upstream-versus-customization ledger](docs/上游与自定义改造清单.md) for an auditable feature history.
 
 ## 📷 Screenshot
 ![screenshot](./assets/screenshot.png)
