@@ -40,6 +40,10 @@
 - Fast deployment via fork this repo and set environment variables in the Github Action Page.
 - Support LLM API for generating TL;DR of papers.
 - Ignore unwanted Zotero papers using gitignore-style pattern.
+- This fork additionally supports keyword-weighted filtering, Semantic Scholar discovery, optional Crossref journal discovery, and sent-paper history deduplication.
+
+> [!NOTE]
+> This repository contains a materials/PVD-oriented customization. For its configuration, verification, and tuning workflow, read the Chinese [custom materials literature-push guide](docs/材料文献推送操作手册.md).
 
 ## 📷 Screenshot
 ![screenshot](./assets/screenshot.png)
