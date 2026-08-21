@@ -23,6 +23,7 @@ jobs:
           ZOTERO_KEY: ${{ secrets.ZOTERO_KEY }}
           ZOTERO_IGNORE: ${{ vars.ZOTERO_IGNORE }}
           ARXIV_QUERY: ${{ vars.ARXIV_QUERY }}
+          ENABLE_ARXIV: ${{ vars.ENABLE_ARXIV || 'true' }}
           SEND_EMPTY: ${{ vars.SEND_EMPTY }}
           SMTP_SERVER: ${{ secrets.SMTP_SERVER }}
           SMTP_PORT: ${{ secrets.SMTP_PORT }}
@@ -35,60 +36,16 @@ jobs:
           OPENAI_API_BASE: ${{ secrets.OPENAI_API_BASE }}
           MODEL_NAME: ${{ secrets.MODEL_NAME }}
           LANGUAGE: ${{ vars.LANGUAGE }}
-          KEYWORD_FILTER_MODE: boost
-          KEYWORDS_BOOST: |
-            magnetron sputtering:6
-            magnetron-sputtered:4
-            magnetron sputtered:4
-            high power impulse magnetron sputtering:6
-            HiPIMS:6
-            sputtering yield:6
-            molecular dynamics:6
-            collision cascade:5
-            ion bombardment:4
-            molybdenum:5
-            Mo target:6
-            molybdenum target:6
-            high-temperature target:6
-            hot target:5
-            physical vapor deposition:3
-            PVD:3
-            thin film:2
-            thin film stress:6
-            residual stress:5
-            stress control:5
-            stress evolution:4
-            molybdenum thin film:6
-            Mo thin film:6
-            Mo film:5
-            liquid target:6
-            molten target:6
-            liquid metal target:6
-          KEYWORDS_REQUIRE: ""
-          KEYWORDS_EXCLUDE: |
-            water electrolysis
-            electrocatalyst
-            biological performance
-            biomedical
-            temperature-sensing
-            flexible sensor
-            magnesium alloy
-          KEYWORD_BOOST_WEIGHT: "1.5"
-          ENABLE_SEMANTIC_SCHOLAR: "true"
+          KEYWORD_FILTER_MODE: ${{ vars.KEYWORD_FILTER_MODE || 'boost' }}
+          KEYWORDS_BOOST: ${{ vars.KEYWORDS_BOOST }}
+          KEYWORDS_REQUIRE: ${{ vars.KEYWORDS_REQUIRE }}
+          KEYWORDS_EXCLUDE: ${{ vars.KEYWORDS_EXCLUDE }}
+          KEYWORD_BOOST_WEIGHT: ${{ vars.KEYWORD_BOOST_WEIGHT || '1.5' }}
+          ENABLE_SEMANTIC_SCHOLAR: ${{ vars.ENABLE_SEMANTIC_SCHOLAR || 'true' }}
           SEMANTIC_SCHOLAR_API_KEY: ${{ secrets.SEMANTIC_SCHOLAR_API_KEY }}
-          SEMANTIC_SCHOLAR_QUERIES: |
-            "magnetron sputtering" "thin film"
-            "high power impulse magnetron sputtering"
-            "sputtering yield" "molecular dynamics"
-            "molybdenum" "magnetron sputtering"
-            "high-temperature target" sputtering
-            "thin film stress" sputtering
-            "residual stress" "magnetron sputtering"
-            "molybdenum thin film" sputtering
-            "liquid metal target" sputtering
-            "molten target" sputtering
-          SEMANTIC_SCHOLAR_DAYS: "7"
-          SEMANTIC_SCHOLAR_MAX_RESULTS_PER_QUERY: "5"
+          SEMANTIC_SCHOLAR_QUERIES: ${{ vars.SEMANTIC_SCHOLAR_QUERIES }}
+          SEMANTIC_SCHOLAR_DAYS: ${{ vars.SEMANTIC_SCHOLAR_DAYS || '7' }}
+          SEMANTIC_SCHOLAR_MAX_RESULTS_PER_QUERY: ${{ vars.SEMANTIC_SCHOLAR_MAX_RESULTS_PER_QUERY || '5' }}
           ENABLE_CROSSREF: ${{ vars.ENABLE_CROSSREF }}
           CROSSREF_JOURNALS: ${{ vars.CROSSREF_JOURNALS }}
           CROSSREF_DAYS: ${{ vars.CROSSREF_DAYS }}

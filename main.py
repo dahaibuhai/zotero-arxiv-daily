@@ -61,7 +61,19 @@ def filter_corpus(corpus: list[dict], pattern: str) -> list[dict]:
     return new_corpus
 
 
+def build_arxiv_debug_search_query(query: str) -> str:
+    """Convert an RSS category list into an arxiv package search query."""
+    categories = [category.strip() for category in (query or "").split("+") if category.strip()]
+    if not categories:
+        raise ValueError("ARXIV_QUERY must contain at least one arXiv category when arXiv is enabled.")
+    return " OR ".join(f"cat:{category}" for category in categories)
+
+
 def get_arxiv_paper(query: str, debug: bool = False) -> list[ArxivPaper]:
+    query = (query or "").strip()
+    if not query:
+        raise ValueError("ARXIV_QUERY must be set when arXiv is enabled.")
+
     client = arxiv.Client(num_retries=10, delay_seconds=10)
     feed = feedparser.parse(f"https://rss.arxiv.org/atom/{query}")
     if "Feed error for query" in feed.feed.title:
@@ -82,8 +94,11 @@ def get_arxiv_paper(query: str, debug: bool = False) -> list[ArxivPaper]:
             papers.extend(batch)
         bar.close()
     else:
-        logger.debug("Retrieve 5 arxiv papers regardless of the date.")
-        search = arxiv.Search(query="cat:cs.AI", sort_by=arxiv.SortCriterion.SubmittedDate)
+        logger.debug("Retrieve 5 recent arXiv papers for the configured categories regardless of the date.")
+        search = arxiv.Search(
+            query=build_arxiv_debug_search_query(query),
+            sort_by=arxiv.SortCriterion.SubmittedDate,
+        )
         papers = []
         for i in client.results(search):
             papers.append(ArxivPaper(i))
@@ -125,6 +140,7 @@ if __name__ == "__main__":
     )
     add_argument("--send_empty", type=bool, help="If get no arxiv paper, send empty email", default=False)
     add_argument("--max_paper_num", type=int, help="Maximum number of papers to recommend", default=100)
+    add_argument("--enable_arxiv", type=bool, default=True)
     add_argument("--arxiv_query", type=str, help="Arxiv search query")
     add_argument("--smtp_server", type=str, help="SMTP server")
     add_argument("--smtp_port", type=int, help="SMTP port")
@@ -202,20 +218,23 @@ if __name__ == "__main__":
         corpus = filter_corpus(corpus, args.zotero_ignore)
         logger.info(f"Remaining {len(corpus)} papers after filtering.")
 
-    logger.info("Retrieving Arxiv papers...")
-    try:
-        papers = get_arxiv_paper(args.arxiv_query, args.debug)
-    except Exception as exc:
-        # arXiv is a discovery source, not a prerequisite for sending a
-        # daily digest.  Preserve delivery when arXiv is temporarily rate
-        # limited or unavailable; Semantic Scholar/Crossref can still supply
-        # relevant papers in the same run.
-        logger.warning(
-            "Arxiv retrieval failed; continuing with other sources: {}",
-            exc,
-        )
-        papers = []
-    logger.info(f"Retrieved {len(papers)} papers from Arxiv.")
+    papers = []
+    if args.enable_arxiv:
+        logger.info("Retrieving Arxiv papers...")
+        try:
+            papers = get_arxiv_paper(args.arxiv_query, args.debug)
+        except Exception as exc:
+            # arXiv is a discovery source, not a prerequisite for sending a
+            # daily digest.  Preserve delivery when arXiv is temporarily rate
+            # limited or unavailable; Semantic Scholar/Crossref can still supply
+            # relevant papers in the same run.
+            logger.warning(
+                "Arxiv retrieval failed; continuing with other sources: {}",
+                exc,
+            )
+        logger.info(f"Retrieved {len(papers)} papers from Arxiv.")
+    else:
+        logger.info("Arxiv source disabled by ENABLE_ARXIV.")
 
     if args.enable_semantic_scholar:
         logger.info("Retrieving Semantic Scholar papers...")
