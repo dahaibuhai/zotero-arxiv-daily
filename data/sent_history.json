@@ -2654,6 +2654,106 @@
       "sent_at": "2026-08-21T03:13:02+00:00",
       "source": "arXiv",
       "title": "Avalanche-like Plasticity in Complex Concentrated Alloys: A Review Across Scales"
+    },
+    "id:2608.20386": {
+      "sent_at": "2026-08-25T03:06:23+00:00",
+      "source": "arXiv",
+      "title": "Non-reciprocal heat transfer advances flexible thermoelectric devices"
+    },
+    "id:2608.20491": {
+      "sent_at": "2026-08-25T03:06:23+00:00",
+      "source": "arXiv",
+      "title": "Carrier Capture at Defects from Finite-Temperature Lattice Dynamics"
+    },
+    "id:2608.20506": {
+      "sent_at": "2026-08-25T03:06:23+00:00",
+      "source": "arXiv",
+      "title": "Electrostatic Influence of Diamond Heat-Spreaders on GaN FET Performance"
+    },
+    "id:2608.20514": {
+      "sent_at": "2026-08-25T03:06:23+00:00",
+      "source": "arXiv",
+      "title": "Revealing the Role of Confined Molecular H$_2$ in the Passivation of Defective Silicon Using First-Principles Simulations"
+    },
+    "id:2608.20571": {
+      "sent_at": "2026-08-25T03:06:23+00:00",
+      "source": "arXiv",
+      "title": "AutoMOOSE: Use Case and Logical Views of Agentic Phase-Field Simulation Software"
+    },
+    "id:2608.20596": {
+      "sent_at": "2026-08-25T03:06:23+00:00",
+      "source": "arXiv",
+      "title": "Machine Learning Guided Discovery of Corundum High Entropy Oxides"
+    },
+    "id:2608.20652": {
+      "sent_at": "2026-08-25T03:06:23+00:00",
+      "source": "arXiv",
+      "title": "Zero-dimensional multi-physics-constrained parameter design and optimization for advanced quasi-isodynamic stellarators"
+    },
+    "id:2608.20695": {
+      "sent_at": "2026-08-25T03:06:23+00:00",
+      "source": "arXiv",
+      "title": "Orbital-Selective Spin Splitting in the Altermagnetic Ti$_2$XX' Monolayers"
+    },
+    "id:2608.20902": {
+      "sent_at": "2026-08-25T03:06:23+00:00",
+      "source": "arXiv",
+      "title": "Systematic and accurate anharmonic formation free energies of metastable defects via a constrained Bayesian Adaptive Biasing Force framework"
+    },
+    "id:2608.20973": {
+      "sent_at": "2026-08-25T03:06:23+00:00",
+      "source": "arXiv",
+      "title": "Scalable Cyclic Olefin Copolymer Encapsulation for High Optical Quality of TMD Monolayers"
+    },
+    "id:2608.20978": {
+      "sent_at": "2026-08-25T03:06:23+00:00",
+      "source": "arXiv",
+      "title": "Quasi-one-dimensional topological band structure and van Hove singularities in monolayer TaIrTe$_4$ from laser $μ$-ARPES"
+    },
+    "id:2608.20994": {
+      "sent_at": "2026-08-25T03:06:23+00:00",
+      "source": "arXiv",
+      "title": "Scalable photoexcitation-induced molecular dynamics with machine-learned Hamiltonians"
+    },
+    "id:2608.21007": {
+      "sent_at": "2026-08-25T03:06:23+00:00",
+      "source": "arXiv",
+      "title": "On Transmission Function Amplitude and Phase Recovery in Multislice Electron Ptychography"
+    },
+    "id:2608.21025": {
+      "sent_at": "2026-08-25T03:06:23+00:00",
+      "source": "arXiv",
+      "title": "Soft and chiral phonons in chiral phase of K3NiO2"
+    },
+    "id:2608.21037": {
+      "sent_at": "2026-08-25T03:06:23+00:00",
+      "source": "arXiv",
+      "title": "Sulfur-rich Spirofluorene-Bridged N Heterotriangulene Redox-Active Polymers"
+    },
+    "id:2608.21149": {
+      "sent_at": "2026-08-25T03:06:23+00:00",
+      "source": "arXiv",
+      "title": "Symmetry-engineering ferroelectricity in silicon dioxides"
+    },
+    "id:2608.21179": {
+      "sent_at": "2026-08-25T03:06:23+00:00",
+      "source": "arXiv",
+      "title": "First step toward multi machine ELM energy scalings and extrapolations to SPARC and ITER"
+    },
+    "id:2608.21190": {
+      "sent_at": "2026-08-25T03:06:23+00:00",
+      "source": "arXiv",
+      "title": "Shaping liquids into space structures - microgravity-assisted design and manufacturing of minimal surfaces"
+    },
+    "id:2608.21295": {
+      "sent_at": "2026-08-25T03:06:23+00:00",
+      "source": "arXiv",
+      "title": "Chemical Control of Electronic Structure and Topology in Tellurium-Encapsulated Silicene"
+    },
+    "id:2608.21333": {
+      "sent_at": "2026-08-25T03:06:23+00:00",
+      "source": "arXiv",
+      "title": "Dirac Surface States and Nonlocal Quantum Tunneling in Topological Semiconductor Mo$_2$SeTe$_3$ for High-Performance Tunnel FETs"
     }
   },
   "version": 1
