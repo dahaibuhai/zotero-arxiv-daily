@@ -2754,6 +2754,106 @@
       "sent_at": "2026-08-25T03:06:23+00:00",
       "source": "arXiv",
       "title": "Dirac Surface States and Nonlocal Quantum Tunneling in Topological Semiconductor Mo$_2$SeTe$_3$ for High-Performance Tunnel FETs"
+    },
+    "id:2608.21604": {
+      "sent_at": "2026-08-26T03:18:22+00:00",
+      "source": "arXiv",
+      "title": "Investigating Sulfur Vacancy Passivation in Monolayer MoS2 FETs via Optically Coupled Low-Frequency Electrical Noise Spectroscopy"
+    },
+    "id:2608.21611": {
+      "sent_at": "2026-08-26T03:18:22+00:00",
+      "source": "arXiv",
+      "title": "AXUV synthetic diagnostic for ASDEX Upgrade and its application for SPI simulations"
+    },
+    "id:2608.21695": {
+      "sent_at": "2026-08-26T03:18:22+00:00",
+      "source": "arXiv",
+      "title": "Comparative Assessment of Thermal Transport Theories: Dual-Channel Mechanism Dictates Heat Transport in Ultralow-$κ$ Materials"
+    },
+    "id:2608.21742": {
+      "sent_at": "2026-08-26T03:18:22+00:00",
+      "source": "arXiv",
+      "title": "Thermodynamic and Kinetic Tests for Low-Pressure Metal-Flux Growth of Diamond, with an Extension to Cubic Boron Nitride"
+    },
+    "id:2608.22009": {
+      "sent_at": "2026-08-26T03:18:22+00:00",
+      "source": "arXiv",
+      "title": "Impact of interstitial carbon on local lattice distortions in CoCrFeMnNi high-entropy alloys"
+    },
+    "id:2608.22074": {
+      "sent_at": "2026-08-26T03:18:22+00:00",
+      "source": "arXiv",
+      "title": "Cross-Temperature Defect Identification in Atomistic Simulations via Multi-Level Domain Alignment"
+    },
+    "id:2608.22091": {
+      "sent_at": "2026-08-26T03:18:22+00:00",
+      "source": "arXiv",
+      "title": "Insight into the molecular dynamics of barocaloric molecular crystals using quasi-elastic neutron scattering"
+    },
+    "id:2608.22239": {
+      "sent_at": "2026-08-26T03:18:22+00:00",
+      "source": "arXiv",
+      "title": "Oxygen stoichiometry directs rutile-anatase phase selection through kinetic control of nucleation"
+    },
+    "id:2608.22282": {
+      "sent_at": "2026-08-26T03:18:22+00:00",
+      "source": "arXiv",
+      "title": "Machine-learning-guided molecular dynamics simulations of point defect evolution in beta-Ga2O3 during ion implantation and annealing"
+    },
+    "id:2608.22400": {
+      "sent_at": "2026-08-26T03:18:22+00:00",
+      "source": "arXiv",
+      "title": "Diagnosing and narrowing the simulation-to-real gap in powder X-ray diffraction with a wet-dry agentic loop"
+    },
+    "id:2608.22441": {
+      "sent_at": "2026-08-26T03:18:22+00:00",
+      "source": "arXiv",
+      "title": "Flexo-Strain Engineering of Phonons and Ferrons in Thin Films of Van der Waals Ferrielectrics"
+    },
+    "id:2608.22720": {
+      "sent_at": "2026-08-26T03:18:22+00:00",
+      "source": "arXiv",
+      "title": "Areal-time disruption prediction and mitigation system for the EXL-50U spherical torus"
+    },
+    "id:2608.22792": {
+      "sent_at": "2026-08-26T03:18:22+00:00",
+      "source": "arXiv",
+      "title": "Extreme mixing enables broadband high-temperature electromagnetic absorption in high-entropy perovskites"
+    },
+    "id:2608.22931": {
+      "sent_at": "2026-08-26T03:18:22+00:00",
+      "source": "arXiv",
+      "title": "Composition- and Ordering-Dependent Evolution of Simulated Kikuchi Patterns of Au-Ni Alloys"
+    },
+    "id:2608.22989": {
+      "sent_at": "2026-08-26T03:18:22+00:00",
+      "source": "arXiv",
+      "title": "Discovery of New Zintl Films and Nanowires Grown by Topotaxy Conversion of III-V Semiconductors"
+    },
+    "id:2608.23112": {
+      "sent_at": "2026-08-26T03:18:22+00:00",
+      "source": "arXiv",
+      "title": "Z1 oscillations and charge state in electronic stopping power from first principles"
+    },
+    "id:2608.23116": {
+      "sent_at": "2026-08-26T03:18:22+00:00",
+      "source": "arXiv",
+      "title": "Probing the transport properties of Cantor-Wu alloys by means of femtosecond and nanosecond laser ablation"
+    },
+    "id:2608.23151": {
+      "sent_at": "2026-08-26T03:18:22+00:00",
+      "source": "arXiv",
+      "title": "Impact of Carbon Contamination on the Low-Temperature Electric Conduction of the Spark-Plasma Sintered Barium Titanate Ceramics"
+    },
+    "id:2608.23212": {
+      "sent_at": "2026-08-26T03:18:22+00:00",
+      "source": "arXiv",
+      "title": "Predicted High $n$-Type $zT$ and Ultralow Lattice Thermal Conductivity in A$_2$AgIrCl$_6$ (A = Cs, Rb)"
+    },
+    "id:2608.23305": {
+      "sent_at": "2026-08-26T03:18:22+00:00",
+      "source": "arXiv",
+      "title": "Absence of lateral domain wall mobility in Zn1-xMgxO thin films"
     }
   },
   "version": 1
