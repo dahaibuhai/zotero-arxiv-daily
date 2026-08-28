@@ -2954,6 +2954,106 @@
       "sent_at": "2026-08-27T12:25:09+00:00",
       "source": "arXiv",
       "title": "Experimental Characterization of Additively Manufactured Metallic Alloys for Electric Propulsion Applications"
+    },
+    "id:2608.26231": {
+      "sent_at": "2026-08-28T13:45:39+00:00",
+      "source": "arXiv",
+      "title": "When chemical potential continuity fails: kinetic interface models for hydrogen isotope transport"
+    },
+    "id:2608.26312": {
+      "sent_at": "2026-08-28T13:45:39+00:00",
+      "source": "arXiv",
+      "title": "Milled to order: toward predictive mechanochemistry of halide perovskites"
+    },
+    "id:2608.26356": {
+      "sent_at": "2026-08-28T13:45:39+00:00",
+      "source": "arXiv",
+      "title": "Apokamp-type Gas Discharge Phenomenon: Experimental and Theoretical Backgrounds"
+    },
+    "id:2608.26494": {
+      "sent_at": "2026-08-28T13:45:39+00:00",
+      "source": "arXiv",
+      "title": "Beyond Allen-Heine-Cardona: non-perturbative electron-phonon interactions in the linewidths and lineshifts of diamond"
+    },
+    "id:2608.26577": {
+      "sent_at": "2026-08-28T13:45:39+00:00",
+      "source": "arXiv",
+      "title": "Atomic investigations on the mechanical properties of CoCrNi medium-entropy alloy nanowires"
+    },
+    "id:2608.26678": {
+      "sent_at": "2026-08-28T13:45:39+00:00",
+      "source": "arXiv",
+      "title": "A solid-solution approach for room-temperature bulk plasticity in KTa1-xNbxO3"
+    },
+    "id:2608.26811": {
+      "sent_at": "2026-08-28T13:45:39+00:00",
+      "source": "arXiv",
+      "title": "A review of simulation, measurement techniques, and development in chip thermal design"
+    },
+    "id:2608.26815": {
+      "sent_at": "2026-08-28T13:45:39+00:00",
+      "source": "arXiv",
+      "title": "Split Coaxial Cable Medium for Tunable Artificial Dielectrics and Plasmas"
+    },
+    "id:2608.26892": {
+      "sent_at": "2026-08-28T13:45:39+00:00",
+      "source": "arXiv",
+      "title": "Repeated Growth and Hot Delamination of Single-Crystal Graphene: A Two-Kilometer Process-Design Assessment with hBN as a Separate Case"
+    },
+    "id:2608.26898": {
+      "sent_at": "2026-08-28T13:45:39+00:00",
+      "source": "arXiv",
+      "title": "The Effect of Geometry on Thermodynamic Response"
+    },
+    "id:2608.26968": {
+      "sent_at": "2026-08-28T13:45:39+00:00",
+      "source": "arXiv",
+      "title": "Scalable conformal electronics based on roll-to-roll exfoliated van der Waals semiconductors"
+    },
+    "id:2608.27013": {
+      "sent_at": "2026-08-28T13:45:39+00:00",
+      "source": "arXiv",
+      "title": "Atomic-scale composition of the ternary III-V semiconductor (Al,Ga)Sb visualized by cross-sectional scanning tunneling microscopy"
+    },
+    "id:2608.27025": {
+      "sent_at": "2026-08-28T13:45:39+00:00",
+      "source": "arXiv",
+      "title": "Intrinsic anomalous Hall response in the bilayer kagome ferromagnet Co$_3$Sn"
+    },
+    "id:2608.27160": {
+      "sent_at": "2026-08-28T13:45:39+00:00",
+      "source": "arXiv",
+      "title": "Diamond quantum-sensing platform with integrated boron-doped diamond microwave antenna and thermometer"
+    },
+    "id:2608.27162": {
+      "sent_at": "2026-08-28T13:45:39+00:00",
+      "source": "arXiv",
+      "title": "Data-efficient crack quantification in lithium-ion cathodes using foundation model transfer"
+    },
+    "id:2608.27273": {
+      "sent_at": "2026-08-28T13:45:39+00:00",
+      "source": "arXiv",
+      "title": "Grain-Boundary Premelting in High-Entropy Transition Metal Carbides"
+    },
+    "id:2608.27277": {
+      "sent_at": "2026-08-28T13:45:39+00:00",
+      "source": "arXiv",
+      "title": "Benchmarking of Fast and Interpretable UF Machine Learning Potentials"
+    },
+    "id:2608.27304": {
+      "sent_at": "2026-08-28T13:45:39+00:00",
+      "source": "arXiv",
+      "title": "3D Cloud Component Analysis of Atomic Structures"
+    },
+    "id:2608.27314": {
+      "sent_at": "2026-08-28T13:45:39+00:00",
+      "source": "arXiv",
+      "title": "Grain Boundary Phase Transitions Enable Diffusionless Climb of Disconnections"
+    },
+    "id:2608.27361": {
+      "sent_at": "2026-08-28T13:45:39+00:00",
+      "source": "arXiv",
+      "title": "Temperature dependence of the charge density from first principles: application to the (222) forbidden reflection in silicon"
     }
   },
   "version": 1
