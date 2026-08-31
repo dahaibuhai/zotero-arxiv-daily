@@ -60,6 +60,11 @@
       "source": "Semantic Scholar",
       "title": "Tunable optical and magnetotransport properties of vanadium-doped zinc nitride thin films grown by magnetron sputtering"
     },
+    "doi:10.1016/j.jcrysgro.2026.128814": {
+      "sent_at": "2026-08-31T07:56:25+00:00",
+      "source": "Semantic Scholar",
+      "title": "Enhanced crystalline quality of reactive sputtered AlN thin films through sapphire nitridation and nitrogen-rich plasma engineering"
+    },
     "doi:10.1016/j.jmmm.2026.174370": {
       "sent_at": "2026-07-13T07:44:44+00:00",
       "source": "Semantic Scholar",
@@ -124,6 +129,11 @@
       "sent_at": "2026-07-13T07:44:44+00:00",
       "source": "Semantic Scholar",
       "title": "Study on the microstructure and properties of WC-DLC coatings under different bias voltages"
+    },
+    "doi:10.1088/1361-6463/ae9d8c": {
+      "sent_at": "2026-08-31T07:56:25+00:00",
+      "source": "Semantic Scholar",
+      "title": "Self-powered transparent UV photodetector based on NiO/WO3 heterojunction with tunable oxygen content"
     },
     "doi:10.1103/vkgw-nfbs": {
       "sent_at": "2026-07-13T07:44:44+00:00",
@@ -3054,6 +3064,96 @@
       "sent_at": "2026-08-28T13:45:39+00:00",
       "source": "arXiv",
       "title": "Temperature dependence of the charge density from first principles: application to the (222) forbidden reflection in silicon"
+    },
+    "id:2608.27490": {
+      "sent_at": "2026-08-31T07:56:25+00:00",
+      "source": "arXiv",
+      "title": "Anisotropic Maxwell neural operator for rapid parametric full-wave modelling of ion cyclotron resonance heating"
+    },
+    "id:2608.27519": {
+      "sent_at": "2026-08-31T07:56:25+00:00",
+      "source": "arXiv",
+      "title": "Exact branch-transfer criterion for common-mode Thomson heat cancellation in thermoelectric couples"
+    },
+    "id:2608.27528": {
+      "sent_at": "2026-08-31T07:56:25+00:00",
+      "source": "arXiv",
+      "title": "Compact Modeling of Oxide-Semiconductor, 2D Material, Carbon Nanotube, and Cryogenic Transistors with Experiment Verification"
+    },
+    "id:2608.27533": {
+      "sent_at": "2026-08-31T07:56:25+00:00",
+      "source": "arXiv",
+      "title": "Ab initio Modeling of MoS2/Oxide Device Interfaces with Machine Learned Electronic Structures"
+    },
+    "id:2608.27589": {
+      "sent_at": "2026-08-31T07:56:25+00:00",
+      "source": "arXiv",
+      "title": "Atomistic Indicators of the Ductile-to-Brittle Transition in Polycrystalline Tungsten: Temperature and Rhenium Effects on Crack-Tip Plasticity"
+    },
+    "id:2608.27643": {
+      "sent_at": "2026-08-31T07:56:25+00:00",
+      "source": "arXiv",
+      "title": "LDA-1/2 for Molecular Systems: A Real-Space Finite-Element Benchmark on the GW100 Set"
+    },
+    "id:2608.27680": {
+      "sent_at": "2026-08-31T07:56:25+00:00",
+      "source": "arXiv",
+      "title": "Efficient perturbations for basin hopping in amorphous glasses"
+    },
+    "id:2608.27722": {
+      "sent_at": "2026-08-31T07:56:25+00:00",
+      "source": "arXiv",
+      "title": "Dilute-Limit Defect Displacements Enabled by Brillouin-Zone Sampling"
+    },
+    "id:2608.27812": {
+      "sent_at": "2026-08-31T07:56:25+00:00",
+      "source": "arXiv",
+      "title": "Compositionally Complex Ceramics"
+    },
+    "id:2608.27853": {
+      "sent_at": "2026-08-31T07:56:25+00:00",
+      "source": "arXiv",
+      "title": "Counter-rotating density and current structures in a partially magnetized $\\mathbf{E}\\times\\mathbf{B}$ plasma"
+    },
+    "id:2608.27858": {
+      "sent_at": "2026-08-31T07:56:25+00:00",
+      "source": "arXiv",
+      "title": "Extending the operating window of scanning electron microscopy through an integrated electron-optical architecture for high-temperature and near-ambient-pressure environments"
+    },
+    "id:2608.27890": {
+      "sent_at": "2026-08-31T07:56:25+00:00",
+      "source": "arXiv",
+      "title": "Ionization Energies, Electron Affinities, Bandgaps, Exciton Binding Energies, and Polarization Energies of Orientation-Controlled Picene, [6]-Phenacene, and [7]-Phenacene Thin Films"
+    },
+    "id:2608.28107": {
+      "sent_at": "2026-08-31T07:56:25+00:00",
+      "source": "arXiv",
+      "title": "Charge transfer and competing symmetry breaking drive orbital reconstruction and emergent ferromagnetism in insulating oxide superlattices"
+    },
+    "id:2608.28239": {
+      "sent_at": "2026-08-31T07:56:25+00:00",
+      "source": "arXiv",
+      "title": "QUBO-Compatible Active Learning for Inverse Design of High-Entropy Alloys"
+    },
+    "id:2608.28268": {
+      "sent_at": "2026-08-31T07:56:25+00:00",
+      "source": "arXiv",
+      "title": "Nanolamellar Hybrid High-Entropy Alloys with Superior Micromechanical Properties"
+    },
+    "id:2608.28269": {
+      "sent_at": "2026-08-31T07:56:25+00:00",
+      "source": "arXiv",
+      "title": "Phenomenological Growth Regimes in Liquid-Precursor CVD of MoS$_2$ on Functional Substrates"
+    },
+    "id:2608.28521": {
+      "sent_at": "2026-08-31T07:56:25+00:00",
+      "source": "arXiv",
+      "title": "Modifying van der Waals Materials via Cavity Vacuum Fluctuations"
+    },
+    "id:2608.28583": {
+      "sent_at": "2026-08-31T07:56:25+00:00",
+      "source": "arXiv",
+      "title": "Layer-Controlled Intermolecular Coupling and Many-Body Effects in C$_{60}$ Films"
     }
   },
   "version": 1
