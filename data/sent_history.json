@@ -3254,6 +3254,106 @@
       "sent_at": "2026-09-01T07:08:11+00:00",
       "source": "arXiv",
       "title": "Role of self-coherence in single-electron phase contrast imaging"
+    },
+    "id:2609.00083": {
+      "sent_at": "2026-09-02T06:49:25+00:00",
+      "source": "arXiv",
+      "title": "Fermi-Level Metal-d Character of Group-6 Bis-Hexahapto Bilayer Graphene"
+    },
+    "id:2609.00212": {
+      "sent_at": "2026-09-02T06:49:25+00:00",
+      "source": "arXiv",
+      "title": "Cryogenic Enhancement of Electron Spin Polarization from a Strained GaAs/GaAsP Superlattice Photocathode"
+    },
+    "id:2609.00271": {
+      "sent_at": "2026-09-02T06:49:25+00:00",
+      "source": "arXiv",
+      "title": "A fully coupled electromagnetic-thermal-mechanical model for metal-insulated HTS high field magnets"
+    },
+    "id:2609.00511": {
+      "sent_at": "2026-09-02T06:49:25+00:00",
+      "source": "arXiv",
+      "title": "XUV Transmission Spectroscopy Using a Tabletop High-Harmonic Source"
+    },
+    "id:2609.00512": {
+      "sent_at": "2026-09-02T06:49:25+00:00",
+      "source": "arXiv",
+      "title": "Optical-Phonon-Enabled Large Lattice Thermal Conductivity Anisotropy in Hexagonal Perovskites Cs$BX_3$ ($B$ = Mg, Cd; $X$ = Cl, Br, I)"
+    },
+    "id:2609.00580": {
+      "sent_at": "2026-09-02T06:49:25+00:00",
+      "source": "arXiv",
+      "title": "Lead-free piezoelectric perovskites for arterial-pulse e-skin: from configurational complexity to equivariant machine-learning potentials"
+    },
+    "id:2609.00623": {
+      "sent_at": "2026-09-02T06:49:25+00:00",
+      "source": "arXiv",
+      "title": "Overcoming the Efficiency-Stability Trade-off in Spin-Orbit Torque Devices with Thermally Robust BCC NiW Alloys"
+    },
+    "id:2609.00724": {
+      "sent_at": "2026-09-02T06:49:25+00:00",
+      "source": "arXiv",
+      "title": "Phase Switchable Photocatalytic Water Splitting via a Paraelectric-Ferroelectric Transition in Zr2Ge2S6 Monolayer: A Comprehensive Theoretical Insights"
+    },
+    "id:2609.00835": {
+      "sent_at": "2026-09-02T06:49:25+00:00",
+      "source": "arXiv",
+      "title": "Metastable defects in III-Nitrides"
+    },
+    "id:2609.00864": {
+      "sent_at": "2026-09-02T06:49:25+00:00",
+      "source": "arXiv",
+      "title": "Independent Tuning of Surface Acoustic-Waves and Spin-Waves via Buffer-Layer Engineering in Co2FeGe Heusler Thin Films"
+    },
+    "id:2609.01002": {
+      "sent_at": "2026-09-02T06:49:25+00:00",
+      "source": "arXiv",
+      "title": "Numerical study of the grain-growth-induced non-parabolic kinetics of a solid-state reaction"
+    },
+    "id:2609.01076": {
+      "sent_at": "2026-09-02T06:49:25+00:00",
+      "source": "arXiv",
+      "title": "Text-guided flow matching enables sample-efficient crystal structure generation"
+    },
+    "id:2609.01080": {
+      "sent_at": "2026-09-02T06:49:25+00:00",
+      "source": "arXiv",
+      "title": "Trap Dynamics and Conductivity Changes in AlGaN/GaN Heterostructures Under Ultrasonic Loading"
+    },
+    "id:2609.01088": {
+      "sent_at": "2026-09-02T06:49:25+00:00",
+      "source": "arXiv",
+      "title": "Pressure-regulated mechanochemistry at lithium metal-sulfide electrolyte interfaces"
+    },
+    "id:2609.01223": {
+      "sent_at": "2026-09-02T06:49:25+00:00",
+      "source": "arXiv",
+      "title": "Geometry-Controlled Magnetic and Electronic Landscapes in Anisotropic van der Waals Materials"
+    },
+    "id:2609.01302": {
+      "sent_at": "2026-09-02T06:49:25+00:00",
+      "source": "arXiv",
+      "title": "Thickness-Dependent Orbital-to-Spin Torque Signatures in Cr/Gd/Co Thin Films"
+    },
+    "id:2609.01378": {
+      "sent_at": "2026-09-02T06:49:25+00:00",
+      "source": "arXiv",
+      "title": "Simulating Continuous-Rotation 3D Electron Diffraction: A Multislice and Bloch Wave Framework"
+    },
+    "id:2609.01492": {
+      "sent_at": "2026-09-02T06:49:25+00:00",
+      "source": "arXiv",
+      "title": "Accelerating dynamic simulations of photoexcited materials and their evolution by electron-informed machine learning"
+    },
+    "id:2609.01500": {
+      "sent_at": "2026-09-02T06:49:25+00:00",
+      "source": "arXiv",
+      "title": "A relational fabrication-to-modeling database for memristor devices"
+    },
+    "id:2609.01512": {
+      "sent_at": "2026-09-02T06:49:25+00:00",
+      "source": "arXiv",
+      "title": "First-principles optical response of shock-compressed LiF: Quasiparticle, excitonic, and ionic-temperature effects"
     }
   },
   "version": 1
