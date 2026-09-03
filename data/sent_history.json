@@ -3354,6 +3354,106 @@
       "sent_at": "2026-09-02T06:49:25+00:00",
       "source": "arXiv",
       "title": "First-principles optical response of shock-compressed LiF: Quasiparticle, excitonic, and ionic-temperature effects"
+    },
+    "id:2609.01793": {
+      "sent_at": "2026-09-03T06:53:10+00:00",
+      "source": "arXiv",
+      "title": "Revisiting the MRX Electron Current Sheet Width with Semi-Collisional Kinetic Simulations at Hydrogen Mass Ratio"
+    },
+    "id:2609.01879": {
+      "sent_at": "2026-09-03T06:53:10+00:00",
+      "source": "arXiv",
+      "title": "Morphology and Dynamics of Self-interstitial Clusters in Irradiated Nickel"
+    },
+    "id:2609.01923": {
+      "sent_at": "2026-09-03T06:53:10+00:00",
+      "source": "arXiv",
+      "title": "Machine Learning Local Potentials for Accelerated Electron-Phonon Interactions Calculations within the Projector Augmented-Wave Framework"
+    },
+    "id:2609.02008": {
+      "sent_at": "2026-09-03T06:53:10+00:00",
+      "source": "arXiv",
+      "title": "Symmetry-enforced third-order nonlinear thermal Hall effects in altermagnets"
+    },
+    "id:2609.02114": {
+      "sent_at": "2026-09-03T06:53:10+00:00",
+      "source": "arXiv",
+      "title": "EuIn2Sb2: epitaxially stabilized axion insulator candidate with strong spin-orbit coupling"
+    },
+    "id:2609.02182": {
+      "sent_at": "2026-09-03T06:53:10+00:00",
+      "source": "arXiv",
+      "title": "A Hybrid Simulation Code for Hall Thrusters and its Sensitivity to Numerical Parameters"
+    },
+    "id:2609.02206": {
+      "sent_at": "2026-09-03T06:53:10+00:00",
+      "source": "arXiv",
+      "title": "Decoding Oxygen K-edge Fingerprints of NCM-811 Degradation via Ab Initio Many-Body Theory and High-Throughput Screening of Crystal Proxies"
+    },
+    "id:2609.02321": {
+      "sent_at": "2026-09-03T06:53:10+00:00",
+      "source": "arXiv",
+      "title": "Ferroelastic domain switching by ultrafast photoinduced strain"
+    },
+    "id:2609.02326": {
+      "sent_at": "2026-09-03T06:53:10+00:00",
+      "source": "arXiv",
+      "title": "Chirped-Pulse Forward Raman Amplification in Nonuniform Plasmas"
+    },
+    "id:2609.02368": {
+      "sent_at": "2026-09-03T06:53:10+00:00",
+      "source": "arXiv",
+      "title": "Magneto-Structural Coupling Enables Cryogenic Cation Redistribution in a Spinel Oxide"
+    },
+    "id:2609.02397": {
+      "sent_at": "2026-09-03T06:53:10+00:00",
+      "source": "arXiv",
+      "title": "Molecular-dynamics-based modal analysis of heat transport in quasi-one-dimensional systems from a symmetry-adapted perspective"
+    },
+    "id:2609.02435": {
+      "sent_at": "2026-09-03T06:53:10+00:00",
+      "source": "arXiv",
+      "title": "Chemical pressure and vacancies in crystals under nonhydrostatic stress"
+    },
+    "id:2609.02484": {
+      "sent_at": "2026-09-03T06:53:10+00:00",
+      "source": "arXiv",
+      "title": "Spin wave freezing in Re/Co/Pt multilayers"
+    },
+    "id:2609.02492": {
+      "sent_at": "2026-09-03T06:53:10+00:00",
+      "source": "arXiv",
+      "title": "'pySNOW': a Python Suite for the NanO-World"
+    },
+    "id:2609.02530": {
+      "sent_at": "2026-09-03T06:53:10+00:00",
+      "source": "arXiv",
+      "title": "All-dry processing of 3C-SiC nanomechanical string resonators for extreme aspect ratios and high intrinsic quality factor"
+    },
+    "id:2609.02629": {
+      "sent_at": "2026-09-03T06:53:10+00:00",
+      "source": "arXiv",
+      "title": "Colossal reversible conductivity switching by room-temperature oxygen-vacancy ordering in Aurivillius oxide films"
+    },
+    "id:2609.02709": {
+      "sent_at": "2026-09-03T06:53:10+00:00",
+      "source": "arXiv",
+      "title": "From Goldene to Noblene: exhaustive enumeration of the ordered Au-Ag-Cu monolayer alloys"
+    },
+    "id:2609.02744": {
+      "sent_at": "2026-09-03T06:53:10+00:00",
+      "source": "arXiv",
+      "title": "Understanding Graphene-Perovskite Interactions: From Flake Chemistry to Crystallisation and Solar Cell Performance"
+    },
+    "id:2609.02800": {
+      "sent_at": "2026-09-03T06:53:10+00:00",
+      "source": "arXiv",
+      "title": "First Principle Analysis of the Magnetism and Electronic Structure of Fe2XSi (X=Ti, V)"
+    },
+    "id:2609.02883": {
+      "sent_at": "2026-09-03T06:53:10+00:00",
+      "source": "arXiv",
+      "title": "Repairing PBE-Spurious Metallicity for HSE06-Level Screening of 2D Photocatalysts for Green Hydrogen Production"
     }
   },
   "version": 1
