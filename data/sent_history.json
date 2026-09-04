@@ -3454,6 +3454,106 @@
       "sent_at": "2026-09-03T06:53:10+00:00",
       "source": "arXiv",
       "title": "Repairing PBE-Spurious Metallicity for HSE06-Level Screening of 2D Photocatalysts for Green Hydrogen Production"
+    },
+    "id:2609.02948": {
+      "sent_at": "2026-09-04T06:57:03+00:00",
+      "source": "arXiv",
+      "title": "FrOGS: Discrete Neural Sampler for Independent Alloy Configurations Across Chemical Conditions"
+    },
+    "id:2609.02968": {
+      "sent_at": "2026-09-04T06:57:03+00:00",
+      "source": "arXiv",
+      "title": "Battery open-circuit voltage is not purely chemical"
+    },
+    "id:2609.03108": {
+      "sent_at": "2026-09-04T06:57:03+00:00",
+      "source": "arXiv",
+      "title": "A Langmuir-Like Adsorption Model for MoS2 Gas Sensors: Bridging Theory and Experiment"
+    },
+    "id:2609.03176": {
+      "sent_at": "2026-09-04T06:57:03+00:00",
+      "source": "arXiv",
+      "title": "An Ultrathin Laterally Conductive Mesh Interphase Enables Spatially Extended Zinc Deposition for Aqueous Zinc Batteries"
+    },
+    "id:2609.03211": {
+      "sent_at": "2026-09-04T06:57:03+00:00",
+      "source": "arXiv",
+      "title": "Thermal history controls the optoelectronic response of lead halide perovskites through structure and dynamics"
+    },
+    "id:2609.03307": {
+      "sent_at": "2026-09-04T06:57:03+00:00",
+      "source": "arXiv",
+      "title": "Grain boundary evolution in nanoparticles"
+    },
+    "id:2609.03336": {
+      "sent_at": "2026-09-04T06:57:03+00:00",
+      "source": "arXiv",
+      "title": "Polaron Self-Trapping Rates from First Principles"
+    },
+    "id:2609.03354": {
+      "sent_at": "2026-09-04T06:57:03+00:00",
+      "source": "arXiv",
+      "title": "Minute-Scale High-Fidelity Gyrokinetic Simulations with Portability from Laptop to Supercomputer"
+    },
+    "id:2609.03510": {
+      "sent_at": "2026-09-04T06:57:03+00:00",
+      "source": "arXiv",
+      "title": "Interplay of B-Site Off-Centering and Molecular Orientations in the Mixed Hybrid Perovskite MAGe1xSnxI3"
+    },
+    "id:2609.03517": {
+      "sent_at": "2026-09-04T06:57:03+00:00",
+      "source": "arXiv",
+      "title": "Electron-phonon coupled hydrodynamics in semimetal TaAs_2"
+    },
+    "id:2609.03518": {
+      "sent_at": "2026-09-04T06:57:03+00:00",
+      "source": "arXiv",
+      "title": "Orbital-Free DFT-Assisted Machine-Learned Molecular Dynamics for Electric-Field-Driven Ionic Transport"
+    },
+    "id:2609.03578": {
+      "sent_at": "2026-09-04T06:57:03+00:00",
+      "source": "arXiv",
+      "title": "High-Throughput Computational Discovery of Inverted Resistive Switching in Two-Dimensional Materials"
+    },
+    "id:2609.03717": {
+      "sent_at": "2026-09-04T06:57:03+00:00",
+      "source": "arXiv",
+      "title": "Gd-4f Exchange Splitting and Mo-4d Crystal-Field Redistribution in Gd/W Co-doped La2Mo2O9: A DFT+U Study"
+    },
+    "id:2609.03725": {
+      "sent_at": "2026-09-04T06:57:03+00:00",
+      "source": "arXiv",
+      "title": "Multimodal and Multiscale Interrogation of a Mechanically Tough Glass Forming Copper-Based Metal-Organic Framework"
+    },
+    "id:2609.03757": {
+      "sent_at": "2026-09-04T06:57:03+00:00",
+      "source": "arXiv",
+      "title": "Ion-Engineered Insulator-to-Semiconductor Transition in Natural 2D Biotite"
+    },
+    "id:2609.03795": {
+      "sent_at": "2026-09-04T06:57:03+00:00",
+      "source": "arXiv",
+      "title": "Exciton multipolarity controls coherent and squeezed phonons in van der Waals heterostructures"
+    },
+    "id:2609.03876": {
+      "sent_at": "2026-09-04T06:57:03+00:00",
+      "source": "arXiv",
+      "title": "Performance of Nanoring-based Transparent Conductors: a Computational Investigation"
+    },
+    "id:2609.03888": {
+      "sent_at": "2026-09-04T06:57:03+00:00",
+      "source": "arXiv",
+      "title": "Experimentally constrained modeling of the Pockels response of KNbO3 and KTaNbO3"
+    },
+    "id:2609.04074": {
+      "sent_at": "2026-09-04T06:57:03+00:00",
+      "source": "arXiv",
+      "title": "Synthesis and Characterization of Compositionally Complex (Gd/Ho/Er/Dy)2Zr2O7 Thin Film Combinatorial Library"
+    },
+    "id:2609.04109": {
+      "sent_at": "2026-09-04T06:57:03+00:00",
+      "source": "arXiv",
+      "title": "Strengthened Silicate Glasses by Residual Stress: Depth of Compression and Surface Flaws Stability Conditions"
     }
   },
   "version": 1
