@@ -115,6 +115,11 @@
       "source": "Semantic Scholar",
       "title": "Orientation-Controlled Bi26-x-yCoxFeyO40/MgO/Si Thin Films: Enhanced Magneto-Optical Performance."
     },
+    "doi:10.1039/d6nr02365g": {
+      "sent_at": "2026-09-07T06:59:27+00:00",
+      "source": "Semantic Scholar",
+      "title": "Scale-bridging characterization of iron oxide thin films obtained by reactive magnetron sputtering."
+    },
     "doi:10.1063/5.0325421": {
       "sent_at": "2026-07-23T05:18:44+00:00",
       "source": "Semantic Scholar",
@@ -3554,6 +3559,101 @@
       "sent_at": "2026-09-04T06:57:03+00:00",
       "source": "arXiv",
       "title": "Strengthened Silicate Glasses by Residual Stress: Depth of Compression and Surface Flaws Stability Conditions"
+    },
+    "id:2609.04291": {
+      "sent_at": "2026-09-07T06:59:27+00:00",
+      "source": "arXiv",
+      "title": "Reproducible capillary fluctuation analysis of solid-liquid interfaces for stiffness and anisotropy calculations"
+    },
+    "id:2609.04397": {
+      "sent_at": "2026-09-07T06:59:27+00:00",
+      "source": "arXiv",
+      "title": "Accelerating Atom Simulations with Variable-Block Sparse Matrix Library"
+    },
+    "id:2609.04514": {
+      "sent_at": "2026-09-07T06:59:27+00:00",
+      "source": "arXiv",
+      "title": "Triboelectrification of a dense metal-organic framework for resilient mechanical energy harvesters"
+    },
+    "id:2609.04517": {
+      "sent_at": "2026-09-07T06:59:27+00:00",
+      "source": "arXiv",
+      "title": "Calculation of DFT Spin-Orbit Spillage with Quantum ESPRESSO"
+    },
+    "id:2609.04546": {
+      "sent_at": "2026-09-07T06:59:27+00:00",
+      "source": "arXiv",
+      "title": "Assessing the effect of error field penetration during plasma current ramp-up in the DIII-D tokamak"
+    },
+    "id:2609.04600": {
+      "sent_at": "2026-09-07T06:59:27+00:00",
+      "source": "arXiv",
+      "title": "Demonstration of room-temperature, magnetic-field-free, and ultralow-power spin-orbit torque logic device based on composition-uniform van der Waals magnet Fe3GaTe2"
+    },
+    "id:2609.04605": {
+      "sent_at": "2026-09-07T06:59:27+00:00",
+      "source": "arXiv",
+      "title": "Light alkali metal functionalized two-dimensional C5N monolayers for enhanced hydrogen storage"
+    },
+    "id:2609.04655": {
+      "sent_at": "2026-09-07T06:59:27+00:00",
+      "source": "arXiv",
+      "title": "4 MV/cm (010) $β$-Ga$_2$O$_3$ Heterojunction Diodes Realized by Low-Damage e-Beam NiO$_x$ Interlayers"
+    },
+    "id:2609.04845": {
+      "sent_at": "2026-09-07T06:59:27+00:00",
+      "source": "arXiv",
+      "title": "Multi-task deep-learning optimization of trade-off properties for superior-performance Fe-based soft magnetic alloys"
+    },
+    "id:2609.04955": {
+      "sent_at": "2026-09-07T06:59:27+00:00",
+      "source": "arXiv",
+      "title": "Nuclear quantum effects in the thermal conductivity of solid hydrogen"
+    },
+    "id:2609.04987": {
+      "sent_at": "2026-09-07T06:59:27+00:00",
+      "source": "arXiv",
+      "title": "Impact of ion-beam stopping power on proton-boron fusion yield in the pitcher-catcher scheme driven by ultra-intense laser"
+    },
+    "id:2609.05000": {
+      "sent_at": "2026-09-07T06:59:27+00:00",
+      "source": "arXiv",
+      "title": "Local coordination, structural softening, and polarization-switching energetics in Sc-alloyed GaN"
+    },
+    "id:2609.05056": {
+      "sent_at": "2026-09-07T06:59:27+00:00",
+      "source": "arXiv",
+      "title": "Influence of dislocation density on the tribological response in oxides: case study on SrTiO3"
+    },
+    "id:2609.05064": {
+      "sent_at": "2026-09-07T06:59:27+00:00",
+      "source": "arXiv",
+      "title": "Generalized Helicity-Dependent Magnetization Switching via Substrate Phonons"
+    },
+    "id:2609.05147": {
+      "sent_at": "2026-09-07T06:59:27+00:00",
+      "source": "arXiv",
+      "title": "Interfacial Accommodation as a Candidate Ductility Pathway in Intermetallic-Rich Alloys"
+    },
+    "id:2609.05163": {
+      "sent_at": "2026-09-07T06:59:27+00:00",
+      "source": "arXiv",
+      "title": "Neural-field design of broadband Rayleigh-wave carpet cloaks under microstructure realisability constraints"
+    },
+    "id:2609.05273": {
+      "sent_at": "2026-09-07T06:59:27+00:00",
+      "source": "arXiv",
+      "title": "Thermoelectric properties of metal-semiconductor percolation composites"
+    },
+    "id:2609.05365": {
+      "sent_at": "2026-09-07T06:59:27+00:00",
+      "source": "arXiv",
+      "title": "Remote epitaxy beyond polarity"
+    },
+    "id:2609.05383": {
+      "sent_at": "2026-09-07T06:59:27+00:00",
+      "source": "arXiv",
+      "title": "Customized spin spirals in ferromagnetic thin films"
     }
   },
   "version": 1
