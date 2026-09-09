@@ -3654,6 +3654,106 @@
       "sent_at": "2026-09-07T06:59:27+00:00",
       "source": "arXiv",
       "title": "Customized spin spirals in ferromagnetic thin films"
+    },
+    "id:2609.05687": {
+      "sent_at": "2026-09-09T07:02:45+00:00",
+      "source": "arXiv",
+      "title": "A Minimal Self-Consistent Model for the Nonlinear Dynamics of Asymmetric Capacitively Coupled Radio-Frequency Plasmas"
+    },
+    "id:2609.05717": {
+      "sent_at": "2026-09-09T07:02:45+00:00",
+      "source": "arXiv",
+      "title": "Plasmon drag and photoinduced magnetic effects in plasmonic and magnetic metals"
+    },
+    "id:2609.06019": {
+      "sent_at": "2026-09-09T07:02:45+00:00",
+      "source": "arXiv",
+      "title": "Oxidation of Tantalum Nano-Film by Microwave Exposure"
+    },
+    "id:2609.06028": {
+      "sent_at": "2026-09-09T07:02:45+00:00",
+      "source": "arXiv",
+      "title": "Elucidating Guest-Host Mechanisms in ZIF-L for Tuneable Highly Luminescent 2D Materials"
+    },
+    "id:2609.06170": {
+      "sent_at": "2026-09-09T07:02:45+00:00",
+      "source": "arXiv",
+      "title": "A Transport Framework for Evaluating Nanoscale Interconnect Materials"
+    },
+    "id:2609.06325": {
+      "sent_at": "2026-09-09T07:02:45+00:00",
+      "source": "arXiv",
+      "title": "Separation of bi-dispersed microspheres in dusty plasma ratchet experiments"
+    },
+    "id:2609.06334": {
+      "sent_at": "2026-09-09T07:02:45+00:00",
+      "source": "arXiv",
+      "title": "Chemical and interface confinement effects in promoting plastic co-deformation in high-strength nano-scale eutectics"
+    },
+    "id:2609.06417": {
+      "sent_at": "2026-09-09T07:02:45+00:00",
+      "source": "arXiv",
+      "title": "Machine learning for the design and prediction of soft-magnetic electromagnetic shielding FeCo-based alloys in laser cladding"
+    },
+    "id:2609.07292": {
+      "sent_at": "2026-09-09T07:02:45+00:00",
+      "source": "arXiv",
+      "title": "An integrated viscoelastic modeling framework combining analytical and FEM approaches: Application to WSe2 coatings"
+    },
+    "id:2609.07321": {
+      "sent_at": "2026-09-09T07:02:45+00:00",
+      "source": "arXiv",
+      "title": "Modular and Cost-effective Scanning Photocurrent Microscopy System for Sub-micron characterization of 2D optoelectronic devices"
+    },
+    "id:2609.07773": {
+      "sent_at": "2026-09-09T07:02:45+00:00",
+      "source": "arXiv",
+      "title": "High-Field Electron Transport in AlGaN alloys: A Full-Band Monte Carlo Study Based on Ab Initio Supercell Calculations"
+    },
+    "id:2609.07796": {
+      "sent_at": "2026-09-09T07:02:45+00:00",
+      "source": "arXiv",
+      "title": "Temperature-Dependent nonlinear optics from first-principles: Second-Harmonic Generation in few-layers MoS$_2$"
+    },
+    "id:2609.08114": {
+      "sent_at": "2026-09-09T07:02:45+00:00",
+      "source": "arXiv",
+      "title": "Atomistic modeling of molecular beam epitaxy growth of SrTiO3 and Sr2TiO4 thin films"
+    },
+    "id:2609.08334": {
+      "sent_at": "2026-09-09T07:02:45+00:00",
+      "source": "arXiv",
+      "title": "EBSDmagus: Managing Multi-Stage Dynamical Electron Backscatter Diffraction Simulations"
+    },
+    "id:2609.08363": {
+      "sent_at": "2026-09-09T07:02:45+00:00",
+      "source": "arXiv",
+      "title": "A thermally grown SiO2 diffusion barrier enabling high-temperature investigation of Ag-Au-Pd-Pt thin films"
+    },
+    "id:2609.08469": {
+      "sent_at": "2026-09-09T07:02:45+00:00",
+      "source": "arXiv",
+      "title": "Laser Shock Peening in Hydrogen Environments: Coupled Stress Transport Trapping Mechanisms and Application Gaps"
+    },
+    "id:2609.08473": {
+      "sent_at": "2026-09-09T07:02:45+00:00",
+      "source": "arXiv",
+      "title": "Thermal response of an in-situ STEM MEMS chip under rapid pulse heating"
+    },
+    "id:2609.08601": {
+      "sent_at": "2026-09-09T07:02:45+00:00",
+      "source": "arXiv",
+      "title": "Polymorph Engineering of the Layered Rare-Earth Magnet GdAlGe"
+    },
+    "id:2609.08734": {
+      "sent_at": "2026-09-09T07:02:45+00:00",
+      "source": "arXiv",
+      "title": "Study on Thickness and Temperature Dependence of Thermoelectric Properties in SnS Nanofilms"
+    },
+    "id:2609.08878": {
+      "sent_at": "2026-09-09T07:02:45+00:00",
+      "source": "arXiv",
+      "title": "Controlling Hydrogen Isotope Retention at Helium Cavities through Radiation-Induced Segregation in Fusion Steels"
     }
   },
   "version": 1
