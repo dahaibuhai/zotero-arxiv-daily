@@ -53,6 +53,12 @@ jobs:
           SEMANTIC_SCHOLAR_QUERIES: ${{ vars.SEMANTIC_SCHOLAR_QUERIES }}
           SEMANTIC_SCHOLAR_DAYS: ${{ vars.SEMANTIC_SCHOLAR_DAYS || '7' }}
           SEMANTIC_SCHOLAR_MAX_RESULTS_PER_QUERY: ${{ vars.SEMANTIC_SCHOLAR_MAX_RESULTS_PER_QUERY || '5' }}
+          ENABLE_CLASSIC_FALLBACK: ${{ vars.ENABLE_CLASSIC_FALLBACK || 'true' }}
+          CLASSIC_FALLBACK_NUM: ${{ vars.CLASSIC_FALLBACK_NUM || '3' }}
+          CLASSIC_FALLBACK_CANDIDATES_PER_QUERY: ${{ vars.CLASSIC_FALLBACK_CANDIDATES_PER_QUERY || '20' }}
+          CLASSIC_FALLBACK_MIN_CITATIONS: ${{ vars.CLASSIC_FALLBACK_MIN_CITATIONS || '20' }}
+          CLASSIC_FALLBACK_RELEVANCE_THRESHOLD: ${{ vars.CLASSIC_FALLBACK_RELEVANCE_THRESHOLD || '0.65' }}
+          CLASSIC_FALLBACK_IMPACT_TOP_FRACTION: ${{ vars.CLASSIC_FALLBACK_IMPACT_TOP_FRACTION || '0.25' }}
           ENABLE_CROSSREF: ${{ vars.ENABLE_CROSSREF }}
           CROSSREF_JOURNALS: ${{ vars.CROSSREF_JOURNALS }}
           CROSSREF_DAYS: ${{ vars.CROSSREF_DAYS }}
@@ -60,18 +66,19 @@ jobs:
           CROSSREF_MAILTO: ${{ vars.CROSSREF_MAILTO }}
           SENT_HISTORY_PATH: data/sent_history.json
           SENT_HISTORY_DAYS: "90"
+          CLASSIC_SENT_HISTORY_PATH: data/classic_sent_history.json
         run: |
           uv run main.py
 
       - name: Persist sent history
         if: success()
         run: |
-          if [ -z "$(git status --porcelain -- data/sent_history.json)" ]; then
+          if [ -z "$(git status --porcelain -- data/sent_history.json data/classic_sent_history.json)" ]; then
             echo "Sent history is unchanged."
             exit 0
           fi
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data/sent_history.json
-          git commit -m "chore: update sent history"
+          git add data/sent_history.json data/classic_sent_history.json
+          git commit -m "chore: update paper histories"
           git push

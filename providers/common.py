@@ -23,6 +23,9 @@ class ExternalPaper:
         keyword_score=0.0,
         journal_weight=0.0,
         link_label="PDF",
+        citation_count=0,
+        influential_citation_count=0,
+        is_classic_fallback=False,
     ):
         self.title = title or ""
         self.summary = summary or ""
@@ -37,6 +40,9 @@ class ExternalPaper:
         self.keyword_score = keyword_score
         self.journal_weight = journal_weight
         self.link_label = link_label or "Paper link"
+        self.citation_count = int(citation_count or 0)
+        self.influential_citation_count = int(influential_citation_count or 0)
+        self.is_classic_fallback = bool(is_classic_fallback)
         self.keyword_hits = []
         self.code_url = None
         self.affiliations = None

@@ -23,7 +23,7 @@ def _parse_sent_at(value: str) -> datetime | None:
     return timestamp.astimezone(timezone.utc)
 
 
-def load_sent_history(path: str, retention_days: int) -> dict[str, dict]:
+def load_sent_history(path: str, retention_days: int | None) -> dict[str, dict]:
     history_path = Path(path)
     if not history_path.exists():
         logger.info("No sent-history file found; all papers are eligible for delivery.")
@@ -40,18 +40,25 @@ def load_sent_history(path: str, retention_days: int) -> dict[str, dict]:
         logger.warning(f"Invalid sent-history format in {history_path}; ignoring it.")
         return {}
 
-    cutoff = datetime.now(timezone.utc) - timedelta(days=max(retention_days, 0))
+    cutoff = (
+        datetime.now(timezone.utc) - timedelta(days=max(retention_days, 0))
+        if retention_days is not None
+        else None
+    )
     recent_records = {}
     for key, record in records.items():
         if not isinstance(record, dict):
             continue
         sent_at = _parse_sent_at(record.get("sent_at"))
-        if sent_at is not None and sent_at >= cutoff:
+        if sent_at is not None and (cutoff is None or sent_at >= cutoff):
             recent_records[key] = record
 
-    logger.info(
-        f"Loaded {len(recent_records)} sent paper records from the last {retention_days} days."
-    )
+    if retention_days is None:
+        logger.info(f"Loaded {len(recent_records)} sent paper records with no expiration.")
+    else:
+        logger.info(
+            f"Loaded {len(recent_records)} sent paper records from the last {retention_days} days."
+        )
     return recent_records
 
 
@@ -72,7 +79,7 @@ def record_sent_papers(
     papers: list,
     sent_history: dict[str, dict],
     path: str,
-    retention_days: int,
+    retention_days: int | None,
 ) -> None:
     sent_at = datetime.now(timezone.utc).replace(microsecond=0).isoformat()
     records = dict(sent_history)

@@ -59,7 +59,7 @@ def get_empty_html():
   """
   return block_template
 
-def get_block_html(title: str, authors: str, rate: str, paper_id: str, abstract: str, pdf_url: str, code_url: str = None, affiliations: str = None, keyword_hits: str = "None", source: str = "", venue: str = "", link_label: str = "PDF"):
+def get_block_html(title: str, authors: str, rate: str, paper_id: str, abstract: str, pdf_url: str, code_url: str = None, affiliations: str = None, keyword_hits: str = "None", source: str = "", venue: str = "", link_label: str = "PDF", score_details: str = "", score_label: str = "Relevance"):
     title = escape(title or "")
     authors = escape(authors or "")
     paper_id = escape(paper_id or "")
@@ -71,6 +71,8 @@ def get_block_html(title: str, authors: str, rate: str, paper_id: str, abstract:
     pdf_url = escape(pdf_url or "", quote=True)
     link_label = escape(link_label or "Paper link")
     code_url = escape(code_url or "", quote=True)
+    score_details = score_details or ""
+    score_label = escape(score_label or "Relevance")
     code = f'<a href="{code_url}" style="display: inline-block; text-decoration: none; font-size: 14px; font-weight: bold; color: #fff; background-color: #5bc0de; padding: 8px 16px; border-radius: 4px; margin-left: 8px;">Code</a>' if code_url else ''
     block_template = """
     <table border="0" cellpadding="0" cellspacing="0" width="100%" style="font-family: Arial, sans-serif; border: 1px solid #ddd; border-radius: 8px; padding: 16px; background-color: #f9f9f9;">
@@ -88,7 +90,8 @@ def get_block_html(title: str, authors: str, rate: str, paper_id: str, abstract:
     </tr>
     <tr>
         <td style="font-size: 14px; color: #333; padding: 8px 0;">
-            <strong>Relevance:</strong> {rate}
+            <strong>{score_label}:</strong> {rate}
+            {score_details}
         </td>
     </tr>
     <tr>
@@ -133,6 +136,8 @@ def get_block_html(title: str, authors: str, rate: str, paper_id: str, abstract:
         source=source,
         venue=venue,
         link_label=link_label,
+        score_details=score_details,
+        score_label=score_label,
     )
   
 def get_stars(score:float):
@@ -152,48 +157,118 @@ def get_stars(score:float):
         return '<div class="star-wrapper">'+full_star * full_star_num + half_star * half_star_num + '</div>'
 
 
+def get_section_header(title: str, description: str = "") -> str:
+    title = escape(title or "")
+    description = escape(description or "")
+    description_html = (
+        f'<div style="font-size: 14px; color: #666; margin-top: 6px;">{description}</div>'
+        if description
+        else ""
+    )
+    return (
+        '<div style="font-family: Arial, sans-serif; margin: 22px 0 10px 0; '
+        'padding-bottom: 8px; border-bottom: 2px solid #466b8a;">'
+        f'<div style="font-size: 22px; font-weight: bold; color: #24445f;">{title}</div>'
+        f'{description_html}</div>'
+    )
+
+
+def render_paper_block(p):
+    rate = get_stars(p.score)
+    authors = [a.name for a in p.authors[:5]]
+    authors = ', '.join(authors)
+    if len(p.authors) > 5:
+        authors += ', ...'
+
+    if p.affiliations is not None:
+        affiliations = p.affiliations[:5]
+        affiliations = ', '.join(affiliations)
+        if len(p.affiliations) > 5:
+            affiliations += ', ...'
+    else:
+        affiliations = 'Unknown Affiliation'
+
+    keyword_hits = ", ".join(getattr(p, "keyword_hits", [])[:8])
+    if not keyword_hits:
+        keyword_hits = "None"
+
+    score_details = ""
+    if getattr(p, "is_classic_fallback", False):
+        publication_date = escape(getattr(p, "publication_date", "") or "Unknown")
+        score_details = (
+            '<br><strong>Overall recommendation:</strong> '
+            f'{getattr(p, "classic_score", 0.0):.0f}/100'
+            '<br><strong>Research relevance:</strong> '
+            f'{getattr(p, "relevance_percent", 0.0):.0f}/100'
+            '<br><strong>Citation impact:</strong> '
+            f'{getattr(p, "impact_percent", 0.0):.0f}/100'
+            '<br><strong>Citations:</strong> '
+            f'{int(getattr(p, "citation_count", 0) or 0)}'
+            '<br><strong>Influential citations:</strong> '
+            f'{int(getattr(p, "influential_citation_count", 0) or 0)}'
+            '<br><strong>Published:</strong> '
+            f'{publication_date}'
+        )
+
+    source = getattr(p, "source", "")
+    if getattr(p, "is_classic_fallback", False):
+        source = f"{source} · Classic fallback"
+
+    return get_block_html(
+        p.title,
+        authors,
+        rate,
+        p.arxiv_id,
+        p.tldr,
+        p.pdf_url,
+        p.code_url,
+        affiliations,
+        keyword_hits,
+        source,
+        getattr(p, "venue", ""),
+        getattr(p, "link_label", "PDF"),
+        score_details,
+        "Overall recommendation" if getattr(p, "is_classic_fallback", False) else "Relevance",
+    )
+
+
 def render_email(papers: list[ArxivPaper]):
-    parts = []
     if len(papers) == 0:
         return framework.replace('__CONTENT__', get_empty_html())
 
-    for p in tqdm(papers, desc='Rendering Email'):
-        rate = get_stars(p.score)
-        authors = [a.name for a in p.authors[:5]]
-        authors = ', '.join(authors)
-        if len(p.authors) > 5:
-            authors += ', ...'
-
-        if p.affiliations is not None:
-            affiliations = p.affiliations[:5]
-            affiliations = ', '.join(affiliations)
-            if len(p.affiliations) > 5:
-                affiliations += ', ...'
-        else:
-            affiliations = 'Unknown Affiliation'
-
-        keyword_hits = ", ".join(getattr(p, "keyword_hits", [])[:8])
-        if not keyword_hits:
-            keyword_hits = "None"
-
-        parts.append(
-            get_block_html(
-                p.title,
-                authors,
-                rate,
-                p.arxiv_id,
-                p.tldr,
-                p.pdf_url,
-                p.code_url,
-                affiliations,
-                keyword_hits,
-                getattr(p, "source", ""),
-                getattr(p, "venue", ""),
-                getattr(p, "link_label", "PDF"),
+    regular_papers = [
+        paper for paper in papers if not getattr(paper, "is_classic_fallback", False)
+    ]
+    classic_papers = [
+        paper for paper in papers if getattr(paper, "is_classic_fallback", False)
+    ]
+    sections = []
+    with tqdm(total=len(papers), desc='Rendering Email') as progress:
+        if regular_papers:
+            regular_parts = []
+            for paper in regular_papers:
+                regular_parts.append(render_paper_block(paper))
+                progress.update(1)
+            sections.append(
+                get_section_header("Today's new papers")
+                + '<br>'.join(regular_parts)
             )
-        )
 
-    content = '<br>' + '</br><br>'.join(parts) + '</br>'
+        if classic_papers:
+            classic_parts = []
+            for paper in classic_papers:
+                classic_parts.append(render_paper_block(paper))
+                progress.update(1)
+            sections.append(
+                get_section_header(
+                    "Classic high-impact papers",
+                    "No eligible new Semantic Scholar paper was found today. "
+                    "These older papers passed the relevance and citation-impact gates.",
+                )
+                + '<br>'.join(classic_parts)
+            )
+
+    content = '<br>' + '<br>'.join(sections) + '</br>'
     return framework.replace('__CONTENT__', content)
 
 def send_email(sender:str, receiver:str, password:str,smtp_server:str,smtp_port:int, html:str,):

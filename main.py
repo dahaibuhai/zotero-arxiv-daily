@@ -9,6 +9,7 @@ os.environ["TOKENIZERS_PARALLELISM"] = "false"
 
 from pyzotero import zotero
 from recommender import rerank_paper
+from classic_ranker import rank_classic_papers
 from construct_email import render_email, send_email
 from tqdm import tqdm
 from loguru import logger
@@ -18,7 +19,10 @@ from paper import ArxivPaper
 from llm import set_global_llm
 from keyword_ranker import apply_keyword_rules
 from providers.crossref import fetch_crossref_papers
-from providers.semantic_scholar import fetch_semantic_scholar_papers
+from providers.semantic_scholar import (
+    fetch_classic_semantic_scholar_papers,
+    fetch_semantic_scholar_papers,
+)
 from dedupe import dedupe_papers
 from sent_history import (
     filter_previously_sent_papers,
@@ -158,6 +162,17 @@ if __name__ == "__main__":
     add_argument("--semantic_scholar_queries", type=str, default="")
     add_argument("--semantic_scholar_days", type=int, default=14)
     add_argument("--semantic_scholar_max_results_per_query", type=int, default=20)
+    add_argument("--enable_classic_fallback", type=bool, default=True)
+    add_argument("--classic_fallback_num", type=int, default=3)
+    add_argument("--classic_fallback_candidates_per_query", type=int, default=20)
+    add_argument("--classic_fallback_min_citations", type=int, default=20)
+    add_argument("--classic_fallback_relevance_threshold", type=float, default=0.65)
+    add_argument("--classic_fallback_impact_top_fraction", type=float, default=0.25)
+    add_argument(
+        "--classic_sent_history_path",
+        type=str,
+        default="data/classic_sent_history.json",
+    )
     add_argument("--enable_crossref", type=bool, default=False)
     add_argument("--crossref_journals", type=str, default="")
     add_argument("--crossref_days", type=int, default=7)
@@ -303,15 +318,88 @@ if __name__ == "__main__":
             crossref_before - crossref_after,
         )
 
-    if len(papers) == 0:
+    classic_papers = []
+    classic_history = {}
+    semantic_after_filters = sum(
+        getattr(paper, "source", "") == "Semantic Scholar" for paper in papers
+    )
+    logger.info(
+        "Remaining {} new Semantic Scholar papers after all eligibility filters.",
+        semantic_after_filters,
+    )
+
+    if (
+        args.enable_semantic_scholar
+        and args.enable_classic_fallback
+        and args.classic_fallback_num > 0
+        and semantic_after_filters == 0
+    ):
         logger.info(
-            "No new papers found after keyword filtering. "
-            "If this is unexpected, please check ARXIV_QUERY and keyword settings."
+            "No eligible new Semantic Scholar papers; retrieving classic fallback candidates."
         )
-        if not args.send_empty:
-            exit(0)
-    else:
-        logger.info("Reranking papers...")
+        try:
+            classic_candidates = fetch_classic_semantic_scholar_papers(
+                queries_raw=args.semantic_scholar_queries,
+                api_key=args.semantic_scholar_api_key,
+                recent_days=args.semantic_scholar_days,
+                max_results_per_query=args.classic_fallback_candidates_per_query,
+                min_citations=args.classic_fallback_min_citations,
+            )
+        except Exception as exc:
+            logger.warning(
+                "Semantic Scholar classic fallback failed; continuing without it: {}",
+                exc,
+            )
+            classic_candidates = []
+
+        # Prefer an already selected new paper when a historical query returns
+        # the same DOI/title, then apply both recent and permanent histories.
+        combined = dedupe_papers(papers + classic_candidates)
+        classic_candidates = [
+            paper
+            for paper in combined
+            if getattr(paper, "is_classic_fallback", False)
+        ]
+        classic_candidates, skipped_recent_classics = filter_previously_sent_papers(
+            classic_candidates, sent_history
+        )
+        classic_history = load_sent_history(args.classic_sent_history_path, None)
+        classic_candidates, skipped_permanent_classics = filter_previously_sent_papers(
+            classic_candidates, classic_history
+        )
+        logger.info(
+            "Remaining {} classic candidates after excluding {} recent and {} permanently recorded papers.",
+            len(classic_candidates),
+            skipped_recent_classics,
+            skipped_permanent_classics,
+        )
+
+        classic_candidates = apply_keyword_rules(
+            classic_candidates,
+            boost_raw=args.keywords_boost,
+            require_raw=args.keywords_require,
+            exclude_raw=args.keywords_exclude,
+            mode=args.keyword_filter_mode,
+        )
+        logger.info(
+            "Remaining {} classic candidates after keyword filtering.",
+            len(classic_candidates),
+        )
+
+        if classic_candidates:
+            classic_candidates = rerank_paper(classic_candidates, corpus)
+            classic_papers = rank_classic_papers(
+                classic_candidates,
+                relevance_threshold=args.classic_fallback_relevance_threshold,
+                impact_top_fraction=args.classic_fallback_impact_top_fraction,
+            )[: args.classic_fallback_num]
+        logger.info(
+            "Selected {} classic Semantic Scholar fallback papers.",
+            len(classic_papers),
+        )
+
+    if papers:
+        logger.info("Reranking new papers...")
         papers = rerank_paper(papers, corpus)
 
         for paper in papers:
@@ -321,9 +409,20 @@ if __name__ == "__main__":
 
         papers = sorted(papers, key=lambda paper: paper.score, reverse=True)
 
-        if args.max_paper_num != -1:
-            papers = papers[: args.max_paper_num]
+    if args.max_paper_num != -1:
+        classic_papers = classic_papers[: args.max_paper_num]
+        regular_slots = max(args.max_paper_num - len(classic_papers), 0)
+        papers = papers[:regular_slots]
+    papers.extend(classic_papers)
 
+    if len(papers) == 0:
+        logger.info(
+            "No eligible new or classic fallback papers found. "
+            "If this is unexpected, please check ARXIV_QUERY and keyword settings."
+        )
+        if not args.send_empty:
+            exit(0)
+    else:
         if args.use_llm_api:
             logger.info("Using OpenAI API as global LLM.")
             set_global_llm(
@@ -349,4 +448,11 @@ if __name__ == "__main__":
             sent_history,
             args.sent_history_path,
             args.sent_history_days,
+        )
+    if classic_papers:
+        record_sent_papers(
+            classic_papers,
+            classic_history,
+            args.classic_sent_history_path,
+            None,
         )
