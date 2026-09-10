@@ -19,6 +19,7 @@ PAPER_FIELDS = ",".join(
         "url",
         "authors",
         "venue",
+        "journal",
         "year",
         "publicationDate",
         "externalIds",
@@ -105,6 +106,7 @@ def paper_from_item(item: dict, *, is_classic_fallback: bool = False) -> Externa
         if author.get("name")
     ]
     external_ids = item.get("externalIds") or {}
+    journal = item.get("journal") or {}
     open_pdf = item.get("openAccessPdf") or {}
     pdf_url = open_pdf.get("url") or item.get("url") or ""
     paper_id = (
@@ -121,7 +123,7 @@ def paper_from_item(item: dict, *, is_classic_fallback: bool = False) -> Externa
         paper_id=paper_id,
         pdf_url=pdf_url,
         source="Semantic Scholar",
-        venue=item.get("venue") or "",
+        venue=item.get("venue") or journal.get("name") or "",
         publication_date=item.get("publicationDate") or "",
         doi=external_ids.get("DOI") or "",
         citation_count=item.get("citationCount") or 0,

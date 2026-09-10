@@ -167,6 +167,11 @@ if __name__ == "__main__":
     add_argument("--classic_fallback_candidates_per_query", type=int, default=20)
     add_argument("--classic_fallback_min_citations", type=int, default=20)
     add_argument("--classic_fallback_relevance_threshold", type=float, default=0.65)
+    add_argument(
+        "--classic_fallback_no_keyword_relevance_threshold",
+        type=float,
+        default=0.78,
+    )
     add_argument("--classic_fallback_impact_top_fraction", type=float, default=0.25)
     add_argument(
         "--classic_sent_history_path",
@@ -392,6 +397,9 @@ if __name__ == "__main__":
                 classic_candidates,
                 relevance_threshold=args.classic_fallback_relevance_threshold,
                 impact_top_fraction=args.classic_fallback_impact_top_fraction,
+                no_keyword_relevance_threshold=(
+                    args.classic_fallback_no_keyword_relevance_threshold
+                ),
             )[: args.classic_fallback_num]
         logger.info(
             "Selected {} classic Semantic Scholar fallback papers.",

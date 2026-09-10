@@ -9,6 +9,7 @@ class Candidate:
         self.influential_citation_count = influential
         self.score = relevance * 10
         self.keyword_score = keyword_score
+        self.keyword_hits = ["magnetron sputtering"] if keyword_score > 0 else []
 
 
 class ClassicRankerTests(unittest.TestCase):
@@ -49,6 +50,26 @@ class ClassicRankerTests(unittest.TestCase):
         self.assertAlmostEqual(high.classic_score, 93.0)
         self.assertAlmostEqual(high.impact_percent, 100.0)
         self.assertAlmostEqual(high.relevance_percent, 80.0)
+
+    def test_high_impact_without_keyword_requires_higher_relevance(self):
+        broad_high_impact = Candidate(
+            citations=2000,
+            influential=50,
+            relevance=0.70,
+        )
+        topic_match = Candidate(
+            citations=1000,
+            influential=20,
+            relevance=0.71,
+            keyword_score=2.0,
+        )
+
+        ranked = rank_classic_papers(
+            [broad_high_impact, topic_match],
+            impact_top_fraction=1.0,
+        )
+
+        self.assertEqual(ranked, [topic_match])
 
 
 if __name__ == "__main__":

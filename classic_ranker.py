@@ -28,6 +28,7 @@ def rank_classic_papers(
     papers: list,
     relevance_threshold: float = 0.65,
     impact_top_fraction: float = 0.25,
+    no_keyword_relevance_threshold: float = 0.78,
 ) -> list:
     """Rank historical papers after semantic relevance has been computed.
 
@@ -70,7 +71,12 @@ def rank_classic_papers(
     ranked = []
     for index, paper in enumerate(papers):
         relevance = min(max(float(getattr(paper, "score", 0.0)) / 10.0, 0.0), 1.0)
-        if index not in top_impact_indexes or relevance < relevance_threshold:
+        has_keyword_hit = bool(getattr(paper, "keyword_hits", []))
+        if (
+            index not in top_impact_indexes
+            or relevance < relevance_threshold
+            or (not has_keyword_hit and relevance < no_keyword_relevance_threshold)
+        ):
             continue
 
         keyword_score = float(getattr(paper, "keyword_score", 0.0) or 0.0)

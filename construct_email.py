@@ -195,9 +195,8 @@ def render_paper_block(p):
     score_details = ""
     if getattr(p, "is_classic_fallback", False):
         publication_date = escape(getattr(p, "publication_date", "") or "Unknown")
+        rate += f' <span style="color: #333;">{getattr(p, "classic_score", 0.0):.0f}/100</span>'
         score_details = (
-            '<br><strong>Overall recommendation:</strong> '
-            f'{getattr(p, "classic_score", 0.0):.0f}/100'
             '<br><strong>Research relevance:</strong> '
             f'{getattr(p, "relevance_percent", 0.0):.0f}/100'
             '<br><strong>Citation impact:</strong> '
