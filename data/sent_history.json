@@ -3754,6 +3754,106 @@
       "sent_at": "2026-09-09T07:02:45+00:00",
       "source": "arXiv",
       "title": "Controlling Hydrogen Isotope Retention at Helium Cavities through Radiation-Induced Segregation in Fusion Steels"
+    },
+    "id:2609.09309": {
+      "sent_at": "2026-09-10T07:07:34+00:00",
+      "source": "arXiv",
+      "title": "Implicit size dependence of the valence electron concentration criterion in high-entropy alloys"
+    },
+    "id:2609.09364": {
+      "sent_at": "2026-09-10T07:07:34+00:00",
+      "source": "arXiv",
+      "title": "Phase stability and mechanical response of Ag-interlayered Al/Cu resistance spot-welded joints"
+    },
+    "id:2609.09408": {
+      "sent_at": "2026-09-10T07:07:34+00:00",
+      "source": "arXiv",
+      "title": "RF-Specific Tungsten Erosion and Global Transport in ITER under Neon Seeding"
+    },
+    "id:2609.09517": {
+      "sent_at": "2026-09-10T07:07:34+00:00",
+      "source": "arXiv",
+      "title": "All field strengths are possible locally in Boozer coordinates"
+    },
+    "id:2609.09566": {
+      "sent_at": "2026-09-10T07:07:34+00:00",
+      "source": "arXiv",
+      "title": "Composition and Surface Termination Control Band Alignments in P3HT/Perovskite Heterostructures"
+    },
+    "id:2609.09605": {
+      "sent_at": "2026-09-10T07:07:34+00:00",
+      "source": "arXiv",
+      "title": "Heteroepitaxial Growth of PbSe on InP Substrates via Lattice-Matched III-V Buffer Layers"
+    },
+    "id:2609.09611": {
+      "sent_at": "2026-09-10T07:07:34+00:00",
+      "source": "arXiv",
+      "title": "Twist and strain identification in moiré heterostructures"
+    },
+    "id:2609.09679": {
+      "sent_at": "2026-09-10T07:07:34+00:00",
+      "source": "arXiv",
+      "title": "Automated Generation of Commensurate Magnetic Structures based on Spin Space Groups and Graph Theory"
+    },
+    "id:2609.09720": {
+      "sent_at": "2026-09-10T07:07:34+00:00",
+      "source": "arXiv",
+      "title": "First-principles investigation of structural, mechanical, vibrational, thermal, electronic and optical properties of Na3Bi: a topological Dirac semimetal"
+    },
+    "id:2609.09760": {
+      "sent_at": "2026-09-10T07:07:34+00:00",
+      "source": "arXiv",
+      "title": "Through-thickness coupling of diffusion and viscoelastic relaxation in the transient bending of bilayer microcantilevers"
+    },
+    "id:2609.09761": {
+      "sent_at": "2026-09-10T07:07:34+00:00",
+      "source": "arXiv",
+      "title": "Morphology and depletion force-based large-scale self-assembly of nanocubes on surface"
+    },
+    "id:2609.09771": {
+      "sent_at": "2026-09-10T07:07:34+00:00",
+      "source": "arXiv",
+      "title": "Facile hBN-hBN Interfacial Overlap Engineering for Enhanced Quantum Emitter Formation"
+    },
+    "id:2609.09997": {
+      "sent_at": "2026-09-10T07:07:34+00:00",
+      "source": "arXiv",
+      "title": "A Multi-Model Non-Intrusive Reduced-Order Framework for Parametric Erosion Prediction via Kinematic Cross-Moment Compression"
+    },
+    "id:2609.10190": {
+      "sent_at": "2026-09-10T07:07:34+00:00",
+      "source": "arXiv",
+      "title": "pyeCE: A Python Implementation of the Embedded Cluster Expansion"
+    },
+    "id:2609.10301": {
+      "sent_at": "2026-09-10T07:07:34+00:00",
+      "source": "arXiv",
+      "title": "Structural and Electronic Properties of Bulk $β$(2H)-GaSe from First-Principles DFT Calculations with van der Waals Corrections"
+    },
+    "id:2609.10310": {
+      "sent_at": "2026-09-10T07:07:34+00:00",
+      "source": "arXiv",
+      "title": "Constrained Optimization of Higher-Order Cluster-Expansion Hamiltonians for Alloys Using Simulated Bifurcation"
+    },
+    "id:2609.10341": {
+      "sent_at": "2026-09-10T07:07:34+00:00",
+      "source": "arXiv",
+      "title": "Surrogate-accelerated parameterisation of physics-based Li-ion battery models"
+    },
+    "id:2609.10348": {
+      "sent_at": "2026-09-10T07:07:34+00:00",
+      "source": "arXiv",
+      "title": "Spectroscopic signatures of mode-selective electron-phonon coupling in transient reflectivity change on charge-density-wave TiSe$_2$"
+    },
+    "id:2609.10426": {
+      "sent_at": "2026-09-10T07:07:34+00:00",
+      "source": "arXiv",
+      "title": "Thermal Stability and Carrier Recombination Kinetics in InGaN/GaN Multiple Quantum Wells under High-Temperature Annealing"
+    },
+    "id:2609.10438": {
+      "sent_at": "2026-09-10T07:07:34+00:00",
+      "source": "arXiv",
+      "title": "Overcoming Transport Layer Bottlenecks to Quantify Ionic Parameters from Transient Ion Current Measurements of Perovskite Solar Cells"
     }
   },
   "version": 1
