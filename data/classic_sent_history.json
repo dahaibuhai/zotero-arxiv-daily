@@ -1,4 +1,20 @@
 {
-  "version": 1,
-  "papers": {}
+  "papers": {
+    "doi:10.1016/s0042-207x(99)00189-x": {
+      "sent_at": "2026-09-10T08:43:25+00:00",
+      "source": "Semantic Scholar",
+      "title": "Magnetron sputtering: a review of recent developments and applications"
+    },
+    "doi:10.1063/1.1553997": {
+      "sent_at": "2026-09-10T08:43:25+00:00",
+      "source": "Semantic Scholar",
+      "title": "Transparent ZnO thin-film transistor fabricated by rf magnetron sputtering"
+    },
+    "doi:10.1088/0268-1242/20/4/004": {
+      "sent_at": "2026-09-10T08:43:25+00:00",
+      "source": "Semantic Scholar",
+      "title": "Transparent conducting oxide semiconductors for transparent electrodes"
+    }
+  },
+  "version": 1
 }
