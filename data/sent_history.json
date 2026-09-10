@@ -3770,6 +3770,16 @@
       "source": "arXiv",
       "title": "RF-Specific Tungsten Erosion and Global Transport in ITER under Neon Seeding"
     },
+    "id:2609.09469": {
+      "sent_at": "2026-09-10T07:59:26+00:00",
+      "source": "arXiv",
+      "title": "High-pressure elastic properties of GeO2 polymorphs up to 120 GPa"
+    },
+    "id:2609.09497": {
+      "sent_at": "2026-09-10T07:59:26+00:00",
+      "source": "arXiv",
+      "title": "Light-Driven Ultrafast Control of Time-Reversal Symmetry in SrTiO3"
+    },
     "id:2609.09517": {
       "sent_at": "2026-09-10T07:07:34+00:00",
       "source": "arXiv",
@@ -3779,6 +3789,11 @@
       "sent_at": "2026-09-10T07:07:34+00:00",
       "source": "arXiv",
       "title": "Composition and Surface Termination Control Band Alignments in P3HT/Perovskite Heterostructures"
+    },
+    "id:2609.09598": {
+      "sent_at": "2026-09-10T07:59:26+00:00",
+      "source": "arXiv",
+      "title": "An encoded asymmetric ligand for metal-selective topological assembly of two-dimensional metal-organic frameworks"
     },
     "id:2609.09605": {
       "sent_at": "2026-09-10T07:07:34+00:00",
@@ -3790,15 +3805,35 @@
       "source": "arXiv",
       "title": "Twist and strain identification in moiré heterostructures"
     },
+    "id:2609.09651": {
+      "sent_at": "2026-09-10T07:59:26+00:00",
+      "source": "arXiv",
+      "title": "A polar-harmonic unified gas-kinetic scheme for magnetized ion dynamics from cyclotron kinetics to the Hall-Pedersen constitutive limit"
+    },
+    "id:2609.09660": {
+      "sent_at": "2026-09-10T07:59:26+00:00",
+      "source": "arXiv",
+      "title": "Round-the-Clock Sub-Ambient Cooling via Dynamic Sky View Factor Steering"
+    },
     "id:2609.09679": {
       "sent_at": "2026-09-10T07:07:34+00:00",
       "source": "arXiv",
       "title": "Automated Generation of Commensurate Magnetic Structures based on Spin Space Groups and Graph Theory"
     },
+    "id:2609.09706": {
+      "sent_at": "2026-09-10T07:59:26+00:00",
+      "source": "arXiv",
+      "title": "A Predictive Design Framework for a Soft Robotic Ventricle using Contractile Actuators"
+    },
     "id:2609.09720": {
       "sent_at": "2026-09-10T07:07:34+00:00",
       "source": "arXiv",
       "title": "First-principles investigation of structural, mechanical, vibrational, thermal, electronic and optical properties of Na3Bi: a topological Dirac semimetal"
+    },
+    "id:2609.09744": {
+      "sent_at": "2026-09-10T07:59:26+00:00",
+      "source": "arXiv",
+      "title": "Maximum signal-to-noise ratio enhancement by averaging under a limited measurement time"
     },
     "id:2609.09760": {
       "sent_at": "2026-09-10T07:07:34+00:00",
@@ -3815,15 +3850,50 @@
       "source": "arXiv",
       "title": "Facile hBN-hBN Interfacial Overlap Engineering for Enhanced Quantum Emitter Formation"
     },
+    "id:2609.09799": {
+      "sent_at": "2026-09-10T07:59:26+00:00",
+      "source": "arXiv",
+      "title": "uFlowCSP: Crystal Structure Prediction using Mean flow generative models"
+    },
+    "id:2609.09908": {
+      "sent_at": "2026-09-10T07:59:26+00:00",
+      "source": "arXiv",
+      "title": "High-charge, highly polarized positron beams generated from a laser-driven nanowire-array target"
+    },
+    "id:2609.09916": {
+      "sent_at": "2026-09-10T07:59:26+00:00",
+      "source": "arXiv",
+      "title": "Spectral Geometry and Dispersion-Constrained Projection of Diffusive Fields"
+    },
+    "id:2609.09923": {
+      "sent_at": "2026-09-10T07:59:26+00:00",
+      "source": "arXiv",
+      "title": "Dimensional Control of Excitonic Interactions in Exfoliated 2D Molecular Crystals"
+    },
+    "id:2609.09951": {
+      "sent_at": "2026-09-10T07:59:26+00:00",
+      "source": "arXiv",
+      "title": "An angular distortion matrix approach for joint wave-speed tomography and aberration correction in scattering media"
+    },
     "id:2609.09997": {
       "sent_at": "2026-09-10T07:07:34+00:00",
       "source": "arXiv",
       "title": "A Multi-Model Non-Intrusive Reduced-Order Framework for Parametric Erosion Prediction via Kinematic Cross-Moment Compression"
     },
+    "id:2609.10081": {
+      "sent_at": "2026-09-10T07:59:26+00:00",
+      "source": "arXiv",
+      "title": "Observation of Magnetic-Anisotropy Crossover and High-Temperature Skyrmions in the Dirac Magnet Fe3Ge with a Distorted Kagome Lattice"
+    },
     "id:2609.10190": {
       "sent_at": "2026-09-10T07:07:34+00:00",
       "source": "arXiv",
       "title": "pyeCE: A Python Implementation of the Embedded Cluster Expansion"
+    },
+    "id:2609.10194": {
+      "sent_at": "2026-09-10T07:59:26+00:00",
+      "source": "arXiv",
+      "title": "Beyond Impedance Additivity: A Systematic Nonlinear Perspective on Memristor Associations"
     },
     "id:2609.10301": {
       "sent_at": "2026-09-10T07:07:34+00:00",
@@ -3844,6 +3914,11 @@
       "sent_at": "2026-09-10T07:07:34+00:00",
       "source": "arXiv",
       "title": "Spectroscopic signatures of mode-selective electron-phonon coupling in transient reflectivity change on charge-density-wave TiSe$_2$"
+    },
+    "id:2609.10386": {
+      "sent_at": "2026-09-10T07:59:26+00:00",
+      "source": "arXiv",
+      "title": "Making the Graph Laplacian Physical: Multiscale Coarse-Graining in Electrical Oscillator Networks"
     },
     "id:2609.10426": {
       "sent_at": "2026-09-10T07:07:34+00:00",
