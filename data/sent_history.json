@@ -80,6 +80,11 @@
       "source": "Semantic Scholar",
       "title": "Mechanical and electrical behaviour of reactive magnetron sputtered low-Al content epitaxial single-crystalline Ti1-xAlxNy thin films"
     },
+    "doi:10.1016/j.surfcoat.2009.11.013": {
+      "sent_at": "2026-09-11T07:02:36+00:00",
+      "source": "Semantic Scholar",
+      "title": "High power pulsed magnetron sputtering: A review on scientific and engineering state of the art"
+    },
     "doi:10.1016/j.surfcoat.2026.133732": {
       "sent_at": "2026-08-24T02:52:56+00:00",
       "source": "Semantic Scholar",
@@ -89,6 +94,11 @@
       "sent_at": "2026-08-21T03:13:02+00:00",
       "source": "Semantic Scholar",
       "title": "Influence of pulsed substrate biasing on strain and mechanical properties of low-temperature-grown TiZrNbTaNx films by high-power impulse magnetron sputtering"
+    },
+    "doi:10.1016/j.tsf.2006.03.033": {
+      "sent_at": "2026-09-11T07:02:36+00:00",
+      "source": "Semantic Scholar",
+      "title": "Ionized physical vapor deposition (IPVD): A review of technology and applications"
     },
     "doi:10.1016/j.vacuum.2026.115626": {
       "sent_at": "2026-08-24T02:52:56+00:00",
@@ -129,6 +139,11 @@
       "sent_at": "2026-09-10T08:43:25+00:00",
       "source": "Semantic Scholar",
       "title": "Transparent ZnO thin-film transistor fabricated by rf magnetron sputtering"
+    },
+    "doi:10.1063/1.2353811": {
+      "sent_at": "2026-09-11T07:02:36+00:00",
+      "source": "Semantic Scholar",
+      "title": "High-mobility thin-film transistor with amorphous InGaZnO4 channel fabricated by room temperature rf-magnetron sputtering"
     },
     "doi:10.1063/5.0325421": {
       "sent_at": "2026-07-23T05:18:44+00:00",
@@ -3944,6 +3959,91 @@
       "sent_at": "2026-09-10T07:07:34+00:00",
       "source": "arXiv",
       "title": "Overcoming Transport Layer Bottlenecks to Quantify Ionic Parameters from Transient Ion Current Measurements of Perovskite Solar Cells"
+    },
+    "id:2609.10799": {
+      "sent_at": "2026-09-11T07:02:36+00:00",
+      "source": "arXiv",
+      "title": "On the physical origins of switching diversity in Cu-embedded SiO$_x$ memristive devices"
+    },
+    "id:2609.10958": {
+      "sent_at": "2026-09-11T07:02:36+00:00",
+      "source": "arXiv",
+      "title": "Particle-resolved pathways to energetic-ion formation in a fluctuating low-current hollow-cathode plume"
+    },
+    "id:2609.10979": {
+      "sent_at": "2026-09-11T07:02:36+00:00",
+      "source": "arXiv",
+      "title": "Silicon Solar Cell Design for >30% Efficiency via Singlet Fission"
+    },
+    "id:2609.10995": {
+      "sent_at": "2026-09-11T07:02:36+00:00",
+      "source": "arXiv",
+      "title": "U-Shaped Fermi-Level Dependence of Point-Defect Aggregation Enthalpy in Silicon"
+    },
+    "id:2609.11001": {
+      "sent_at": "2026-09-11T07:02:36+00:00",
+      "source": "arXiv",
+      "title": "Janus Dipoles: Fundamentals, Realizations, and Emerging Applications"
+    },
+    "id:2609.11114": {
+      "sent_at": "2026-09-11T07:02:36+00:00",
+      "source": "arXiv",
+      "title": "High-Performance Scaled P-Type SnOx Transistor by Atomic Layer Deposition with CFET Integration"
+    },
+    "id:2609.11389": {
+      "sent_at": "2026-09-11T07:02:36+00:00",
+      "source": "arXiv",
+      "title": "Modeling of plasma transport during edge-localized mode in tokamak using a kinetic Vlasov-Poisson code"
+    },
+    "id:2609.11397": {
+      "sent_at": "2026-09-11T07:02:36+00:00",
+      "source": "arXiv",
+      "title": "Influence of magnetic fields on the performance of spin-orbit torque magnetic random-access memory"
+    },
+    "id:2609.11419": {
+      "sent_at": "2026-09-11T07:02:36+00:00",
+      "source": "arXiv",
+      "title": "Anisotropy of Ultrafast Strain in $V_2O_3$ Thin Films: Out-of-Equilibrium Phase Transitions under Interfacial Clamping"
+    },
+    "id:2609.11441": {
+      "sent_at": "2026-09-11T07:02:36+00:00",
+      "source": "arXiv",
+      "title": "Vacancy Order and Physical Properties of a Ternary Compound Fe0.68Pd0.80Te with an α-Fe1+xTe-Type Structure"
+    },
+    "id:2609.11464": {
+      "sent_at": "2026-09-11T07:02:36+00:00",
+      "source": "arXiv",
+      "title": "A Community-Developed Domain Ontology for Magnetic Materials"
+    },
+    "id:2609.11563": {
+      "sent_at": "2026-09-11T07:02:36+00:00",
+      "source": "arXiv",
+      "title": "kobra: a new Vlasov code intended for plasma-wall modeling"
+    },
+    "id:2609.11571": {
+      "sent_at": "2026-09-11T07:02:36+00:00",
+      "source": "arXiv",
+      "title": "Effect of Stress and Surface Roughness on Electrodeposition in All-Solid-State Batteries: A Computational Investigation"
+    },
+    "id:2609.11640": {
+      "sent_at": "2026-09-11T07:02:36+00:00",
+      "source": "arXiv",
+      "title": "High-throughput thermodynamic screening of oxide-scale adhesion across the CoCrFeMnNiAl high-entropy alloys"
+    },
+    "id:2609.11755": {
+      "sent_at": "2026-09-11T07:02:36+00:00",
+      "source": "arXiv",
+      "title": "Device Engineering and Performance Optimization of Cu2NiGeS4 Thin-Film Solar Cells with In2S3/MoTe2 Charge-Selective Layers: A Computational Study"
+    },
+    "id:2609.11862": {
+      "sent_at": "2026-09-11T07:02:36+00:00",
+      "source": "arXiv",
+      "title": "High-Temperature ferromagnetism from site-selective filling in (Fe,Ni)$_{6-δ}$GeTe$_2$"
+    },
+    "id:2609.11869": {
+      "sent_at": "2026-09-11T07:02:36+00:00",
+      "source": "arXiv",
+      "title": "Sparse data limit what a mechanistic corrosion model can predict"
     }
   },
   "version": 1
