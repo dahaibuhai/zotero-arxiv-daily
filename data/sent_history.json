@@ -25,6 +25,11 @@
       "source": "Semantic Scholar",
       "title": "Enhanced hydrogen sensing performance by modulating energy band of Pd/SnO2/WO3 triple-layer thin film sensor"
     },
+    "doi:10.1016/0040-6090(93)90636-4": {
+      "sent_at": "2026-09-16T06:55:46+00:00",
+      "source": "Semantic Scholar",
+      "title": "Transparent conducting p-type NiO thin films prepared by magnetron sputtering"
+    },
     "doi:10.1016/j.apsadv.2026.101022": {
       "sent_at": "2026-08-24T02:52:56+00:00",
       "source": "Semantic Scholar",
@@ -89,6 +94,11 @@
       "sent_at": "2026-09-14T07:01:12+00:00",
       "source": "Semantic Scholar",
       "title": "Intrinsic origin and compositional modulation of double epsilon-near-zero behavior in reactive sputtered NbNx films: A quantum-corrected Drude perspective"
+    },
+    "doi:10.1016/j.solener.2004.03.015": {
+      "sent_at": "2026-09-16T06:55:46+00:00",
+      "source": "Semantic Scholar",
+      "title": "TCO and light trapping in silicon thin film solar cells"
     },
     "doi:10.1016/j.surfcoat.2009.11.013": {
       "sent_at": "2026-09-11T07:02:36+00:00",
@@ -4059,6 +4069,96 @@
       "sent_at": "2026-09-11T07:02:36+00:00",
       "source": "arXiv",
       "title": "Sparse data limit what a mechanistic corrosion model can predict"
+    },
+    "id:2609.16172": {
+      "sent_at": "2026-09-16T06:55:46+00:00",
+      "source": "arXiv",
+      "title": "Two-Dimensional Materials toward CMOS-Compatible Scalable Quantum Hardware"
+    },
+    "id:2609.16261": {
+      "sent_at": "2026-09-16T06:55:46+00:00",
+      "source": "arXiv",
+      "title": "Breaking the Wiedemann-Franz limit in thermoelectrics via separated flat bands"
+    },
+    "id:2609.16343": {
+      "sent_at": "2026-09-16T06:55:46+00:00",
+      "source": "arXiv",
+      "title": "Domain-wall energy governs coercivity in ordered and disordered additively manufactured Fe--49Co--2V"
+    },
+    "id:2609.16620": {
+      "sent_at": "2026-09-16T06:55:46+00:00",
+      "source": "arXiv",
+      "title": "Application of Regional Chemical Potential Analysis to Si Adsorption on the Diamond (001) Surface"
+    },
+    "id:2609.16649": {
+      "sent_at": "2026-09-16T06:55:46+00:00",
+      "source": "arXiv",
+      "title": "Total-energy-assisted Tight-binding Method Based on Density Functional Theory - Design Principles toward Transferability and Extrapolation"
+    },
+    "id:2609.16789": {
+      "sent_at": "2026-09-16T06:55:46+00:00",
+      "source": "arXiv",
+      "title": "SpectraFit XPS: a free, browser-based application for X-ray photoelectron spectroscopy peak fitting and quantification"
+    },
+    "id:2609.16802": {
+      "sent_at": "2026-09-16T06:55:46+00:00",
+      "source": "arXiv",
+      "title": "ZStar: An automated toolkit for polarization, Born effective charges, dielectric response, and infrared and Raman spectra calculations"
+    },
+    "id:2609.16940": {
+      "sent_at": "2026-09-16T06:55:46+00:00",
+      "source": "arXiv",
+      "title": "Probabilistic Deep Learning Framework for Phase Transformation Forecasting aided by In Situ High temperature Microscopy"
+    },
+    "id:2609.17123": {
+      "sent_at": "2026-09-16T06:55:46+00:00",
+      "source": "arXiv",
+      "title": "AI for Science with GPT-6 Astra: Thermal Design and Electrothermal Analysis of 2D CFET"
+    },
+    "id:2609.17151": {
+      "sent_at": "2026-09-16T06:55:46+00:00",
+      "source": "arXiv",
+      "title": "JC-PIC: kinetic (PIC-MCC) simulation of lowtemperature plasmas with a documented library of one hundred test cases"
+    },
+    "id:2609.17208": {
+      "sent_at": "2026-09-16T06:55:46+00:00",
+      "source": "arXiv",
+      "title": "Pushing the Dose Limit of Atomic-Resolution Imaging: A 4D-STEM case study of NaCl"
+    },
+    "id:2609.17220": {
+      "sent_at": "2026-09-16T06:55:46+00:00",
+      "source": "arXiv",
+      "title": "A transfer-rod-mounted rotatable sample holder enabling a compact modular vacuum system for ion-beam milling, oblique magnetron sputtering, and co-sputtering"
+    },
+    "id:2609.17270": {
+      "sent_at": "2026-09-16T06:55:46+00:00",
+      "source": "arXiv",
+      "title": "Higher order anharmonicity and polymorphism in the lattice thermal conductivity of transition metal dichalcogenides"
+    },
+    "id:2609.17305": {
+      "sent_at": "2026-09-16T06:55:46+00:00",
+      "source": "arXiv",
+      "title": "Multiproperty Atomistic Characterization of a Synthesized Pyrazinic Nitrogen-Doped Porous Armchair Graphene Nanoribbon"
+    },
+    "id:2609.17345": {
+      "sent_at": "2026-09-16T06:55:46+00:00",
+      "source": "arXiv",
+      "title": "Spatially-resolved methane decomposition in a short glow discharge: insights into suprathermal hydrogen and radical chemistry"
+    },
+    "id:2609.17402": {
+      "sent_at": "2026-09-16T06:55:46+00:00",
+      "source": "arXiv",
+      "title": "Electrons quench ion tails during evaporative cooling in hot ion mode plasmas"
+    },
+    "id:2609.17504": {
+      "sent_at": "2026-09-16T06:55:46+00:00",
+      "source": "arXiv",
+      "title": "Enhanced thermal stability of SiGeSn by suppressing surface-mediated degradation"
+    },
+    "id:2609.17508": {
+      "sent_at": "2026-09-16T06:55:46+00:00",
+      "source": "arXiv",
+      "title": "The chemistry of embrittlement: How hydrogen dwindles cohesion in iron during fracture"
     }
   },
   "version": 1
