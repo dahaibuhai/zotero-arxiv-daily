@@ -40,6 +40,11 @@
       "source": "Semantic Scholar",
       "title": "In situ synthesis of porous S-doped In2O3 gas-sensing thin films via magnetron sputtering for ultrasensitive NO2 detection with ultra-low LOD"
     },
+    "doi:10.1016/j.cis.2021.102597": {
+      "sent_at": "2026-09-17T06:59:24+00:00",
+      "source": "Semantic Scholar",
+      "title": "Synthesis of nanomaterials using various top-down and bottom-up approaches, influencing factors, advantages, and disadvantages: A review."
+    },
     "doi:10.1016/j.est.2026.123973": {
       "sent_at": "2026-08-24T02:52:56+00:00",
       "source": "Semantic Scholar",
@@ -4159,6 +4164,101 @@
       "sent_at": "2026-09-16T06:55:46+00:00",
       "source": "arXiv",
       "title": "The chemistry of embrittlement: How hydrogen dwindles cohesion in iron during fracture"
+    },
+    "id:2609.17741": {
+      "sent_at": "2026-09-17T06:59:24+00:00",
+      "source": "arXiv",
+      "title": "A Multipolar Approach to Sliding Ferroelectricity"
+    },
+    "id:2609.17751": {
+      "sent_at": "2026-09-17T06:59:24+00:00",
+      "source": "arXiv",
+      "title": "Pellet-Size Scaling of Quasi-Steady-State Plasma Performance in Wendelstein 7-X"
+    },
+    "id:2609.17876": {
+      "sent_at": "2026-09-17T06:59:24+00:00",
+      "source": "arXiv",
+      "title": "Surface chemistry investigation of an additively manufactured Al-Mg-Si-Zr alloy: Studies from experiments and first-principles simulation"
+    },
+    "id:2609.18008": {
+      "sent_at": "2026-09-17T06:59:24+00:00",
+      "source": "arXiv",
+      "title": "High-performance orbital-torque magnetic memory on the 300-mm platform"
+    },
+    "id:2609.18059": {
+      "sent_at": "2026-09-17T06:59:24+00:00",
+      "source": "arXiv",
+      "title": "Disentangling Strain and Ti3+ Contributions to the Anomalous Hall Effect in Epitaxial RuO2 Films"
+    },
+    "id:2609.18113": {
+      "sent_at": "2026-09-17T06:59:24+00:00",
+      "source": "arXiv",
+      "title": "Nitrogen based electride superconductor Nb5Ir3N under pressure: multifunctional physical properties from DFT based first-principles investigation"
+    },
+    "id:2609.18365": {
+      "sent_at": "2026-09-17T06:59:24+00:00",
+      "source": "arXiv",
+      "title": "Electronic Origins of Elastic Behavior in Rocksalt, Zinc-Blende and Wurtzite 3d Transition-Metal Nitrides"
+    },
+    "id:2609.18423": {
+      "sent_at": "2026-09-17T06:59:24+00:00",
+      "source": "arXiv",
+      "title": "K-shell x-ray spectroscopy: A reliable probe for stimulated Raman scattering in inertial confinement fusion---"
+    },
+    "id:2609.18573": {
+      "sent_at": "2026-09-17T06:59:24+00:00",
+      "source": "arXiv",
+      "title": "Thermally Desorbable InN Capping Layers for Nitride Surface Science"
+    },
+    "id:2609.18584": {
+      "sent_at": "2026-09-17T06:59:24+00:00",
+      "source": "arXiv",
+      "title": "Nonempirical Time-Dependent Density Functional Theory Framework for Nonlocal Exchange--Correlation Potentials"
+    },
+    "id:2609.18647": {
+      "sent_at": "2026-09-17T06:59:24+00:00",
+      "source": "arXiv",
+      "title": "Low Temperature Halide Assisted HVPE Growth of Single Crystal AlN Films"
+    },
+    "id:2609.18653": {
+      "sent_at": "2026-09-17T06:59:24+00:00",
+      "source": "arXiv",
+      "title": "Adaptive Substrate Support Based on Thin-Film Piezoelectric Actuators"
+    },
+    "id:2609.18771": {
+      "sent_at": "2026-09-17T06:59:24+00:00",
+      "source": "arXiv",
+      "title": "Photoresponse properties of single-crystalline thick film based on high-entropy topological insulator (Bi3/4Sb1/4)2(Te2/5Se2/5S1/5)3"
+    },
+    "id:2609.18775": {
+      "sent_at": "2026-09-17T06:59:24+00:00",
+      "source": "arXiv",
+      "title": "Kilojoule-scale laser acceleration enabling efficient generation of electron-positron and muon beams"
+    },
+    "id:2609.18843": {
+      "sent_at": "2026-09-17T06:59:24+00:00",
+      "source": "arXiv",
+      "title": "Epitaxial inversion of spontaneous polarization in ε-Ga2O3"
+    },
+    "id:2609.18883": {
+      "sent_at": "2026-09-17T06:59:24+00:00",
+      "source": "arXiv",
+      "title": "Helicon wave propagation, plasma generation and interaction with low-frequency waves in toroidal magnetic configurations"
+    },
+    "id:2609.19043": {
+      "sent_at": "2026-09-17T06:59:24+00:00",
+      "source": "arXiv",
+      "title": "Effect of independent parameters on nanoparticle sizes in magnetron-sputtering inert-gas condensation"
+    },
+    "id:2609.19087": {
+      "sent_at": "2026-09-17T06:59:24+00:00",
+      "source": "arXiv",
+      "title": "An Atlas and Design Rules for Single- and Dual-Atom Alloys"
+    },
+    "id:2609.19112": {
+      "sent_at": "2026-09-17T06:59:24+00:00",
+      "source": "arXiv",
+      "title": "Divergence between long- and short-wavelength magnon damping in spinel ferrites"
     }
   },
   "version": 1
