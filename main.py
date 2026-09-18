@@ -225,6 +225,11 @@ if __name__ == "__main__":
     assert not args.use_llm_api or args.openai_api_key is not None
     if args.arxiv_quota < 0 or args.semantic_scholar_quota < 0:
         parser.error("ARXIV_QUOTA and SEMANTIC_SCHOLAR_QUOTA must be zero or greater.")
+    if 0 < args.classic_fallback_num < args.semantic_scholar_quota:
+        parser.error(
+            "CLASSIC_FALLBACK_NUM must be 0 (disable fallback) or at least "
+            "SEMANTIC_SCHOLAR_QUOTA."
+        )
     requested_total = args.arxiv_quota + args.semantic_scholar_quota
     if args.max_paper_num != -1 and args.max_paper_num < requested_total:
         parser.error(
