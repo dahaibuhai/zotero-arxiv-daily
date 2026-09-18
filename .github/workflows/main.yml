@@ -37,7 +37,9 @@ jobs:
           SENDER: ${{ secrets.SENDER }}
           RECEIVER: ${{ secrets.RECEIVER }}
           SENDER_PASSWORD: ${{ secrets.SENDER_PASSWORD }}
-          MAX_PAPER_NUM: ${{ vars.MAX_PAPER_NUM }}
+          MAX_PAPER_NUM: ${{ vars.MAX_PAPER_NUM || '10' }}
+          ARXIV_QUOTA: ${{ vars.ARXIV_QUOTA || '5' }}
+          SEMANTIC_SCHOLAR_QUOTA: ${{ vars.SEMANTIC_SCHOLAR_QUOTA || '5' }}
           USE_LLM_API: ${{ secrets.USE_LLM_API }}
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
           OPENAI_API_BASE: ${{ secrets.OPENAI_API_BASE }}
@@ -54,7 +56,7 @@ jobs:
           SEMANTIC_SCHOLAR_DAYS: ${{ vars.SEMANTIC_SCHOLAR_DAYS || '7' }}
           SEMANTIC_SCHOLAR_MAX_RESULTS_PER_QUERY: ${{ vars.SEMANTIC_SCHOLAR_MAX_RESULTS_PER_QUERY || '5' }}
           ENABLE_CLASSIC_FALLBACK: ${{ vars.ENABLE_CLASSIC_FALLBACK || 'true' }}
-          CLASSIC_FALLBACK_NUM: ${{ vars.CLASSIC_FALLBACK_NUM || '3' }}
+          CLASSIC_FALLBACK_NUM: ${{ vars.CLASSIC_FALLBACK_NUM || '5' }}
           CLASSIC_FALLBACK_CANDIDATES_PER_QUERY: ${{ vars.CLASSIC_FALLBACK_CANDIDATES_PER_QUERY || '20' }}
           CLASSIC_FALLBACK_MIN_CITATIONS: ${{ vars.CLASSIC_FALLBACK_MIN_CITATIONS || '20' }}
           CLASSIC_FALLBACK_RELEVANCE_THRESHOLD: ${{ vars.CLASSIC_FALLBACK_RELEVANCE_THRESHOLD || '0.65' }}

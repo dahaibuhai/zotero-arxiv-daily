@@ -29,6 +29,7 @@ from sent_history import (
     load_sent_history,
     record_sent_papers,
 )
+from source_quota import select_source_quotas, semantic_shortfall
 import feedparser
 
 
@@ -143,7 +144,9 @@ if __name__ == "__main__":
         help="Zotero collection to ignore, using gitignore-style pattern.",
     )
     add_argument("--send_empty", type=bool, help="If get no arxiv paper, send empty email", default=False)
-    add_argument("--max_paper_num", type=int, help="Maximum number of papers to recommend", default=100)
+    add_argument("--max_paper_num", type=int, help="Maximum number of papers to recommend", default=10)
+    add_argument("--arxiv_quota", type=int, default=5)
+    add_argument("--semantic_scholar_quota", type=int, default=5)
     add_argument("--enable_arxiv", type=bool, default=True)
     add_argument("--arxiv_query", type=str, help="Arxiv search query")
     add_argument("--smtp_server", type=str, help="SMTP server")
@@ -163,7 +166,7 @@ if __name__ == "__main__":
     add_argument("--semantic_scholar_days", type=int, default=14)
     add_argument("--semantic_scholar_max_results_per_query", type=int, default=20)
     add_argument("--enable_classic_fallback", type=bool, default=True)
-    add_argument("--classic_fallback_num", type=int, default=3)
+    add_argument("--classic_fallback_num", type=int, default=5)
     add_argument("--classic_fallback_candidates_per_query", type=int, default=20)
     add_argument("--classic_fallback_min_citations", type=int, default=20)
     add_argument("--classic_fallback_relevance_threshold", type=float, default=0.65)
@@ -220,6 +223,14 @@ if __name__ == "__main__":
     args = parser.parse_args()
 
     assert not args.use_llm_api or args.openai_api_key is not None
+    if args.arxiv_quota < 0 or args.semantic_scholar_quota < 0:
+        parser.error("ARXIV_QUOTA and SEMANTIC_SCHOLAR_QUOTA must be zero or greater.")
+    requested_total = args.arxiv_quota + args.semantic_scholar_quota
+    if args.max_paper_num != -1 and args.max_paper_num < requested_total:
+        parser.error(
+            "MAX_PAPER_NUM must be at least ARXIV_QUOTA + SEMANTIC_SCHOLAR_QUOTA "
+            f"({requested_total})."
+        )
 
     if args.debug:
         logger.remove()
@@ -332,15 +343,21 @@ if __name__ == "__main__":
         "Remaining {} new Semantic Scholar papers after all eligibility filters.",
         semantic_after_filters,
     )
+    semantic_fallback_needed = semantic_shortfall(
+        semantic_after_filters,
+        args.semantic_scholar_quota,
+    )
 
     if (
         args.enable_semantic_scholar
         and args.enable_classic_fallback
         and args.classic_fallback_num > 0
-        and semantic_after_filters == 0
+        and semantic_fallback_needed > 0
     ):
         logger.info(
-            "No eligible new Semantic Scholar papers; retrieving classic fallback candidates."
+            "{} Semantic Scholar slot(s) remain after new-paper filtering; "
+            "retrieving classic fallback candidates.",
+            semantic_fallback_needed,
         )
         try:
             classic_candidates = fetch_classic_semantic_scholar_papers(
@@ -400,10 +417,11 @@ if __name__ == "__main__":
                 no_keyword_relevance_threshold=(
                     args.classic_fallback_no_keyword_relevance_threshold
                 ),
-            )[: args.classic_fallback_num]
+            )[: min(args.classic_fallback_num, semantic_fallback_needed)]
         logger.info(
-            "Selected {} classic Semantic Scholar fallback papers.",
+            "Selected {} classic Semantic Scholar fallback papers for a {}-paper shortfall.",
             len(classic_papers),
+            semantic_fallback_needed,
         )
 
     if papers:
@@ -417,11 +435,20 @@ if __name__ == "__main__":
 
         papers = sorted(papers, key=lambda paper: paper.score, reverse=True)
 
-    if args.max_paper_num != -1:
-        classic_papers = classic_papers[: args.max_paper_num]
-        regular_slots = max(args.max_paper_num - len(classic_papers), 0)
-        papers = papers[:regular_slots]
-    papers.extend(classic_papers)
+    papers, arxiv_selected, new_semantic_selected, classic_selected = select_source_quotas(
+        papers,
+        classic_papers,
+        arxiv_quota=args.arxiv_quota,
+        semantic_scholar_quota=args.semantic_scholar_quota,
+    )
+    logger.info(
+        "Selected {} arXiv, {} new Semantic Scholar, and {} classic Semantic Scholar papers "
+        "(total {}).",
+        arxiv_selected,
+        new_semantic_selected,
+        classic_selected,
+        len(papers),
+    )
 
     if len(papers) == 0:
         logger.info(

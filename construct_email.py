@@ -261,7 +261,7 @@ def render_email(papers: list[ArxivPaper]):
             sections.append(
                 get_section_header(
                     "Classic high-impact papers",
-                    "No eligible new Semantic Scholar paper was found today. "
+                    "New Semantic Scholar papers did not fill today's quota. "
                     "These older papers passed the relevance and citation-impact gates.",
                 )
                 + '<br>'.join(classic_parts)
