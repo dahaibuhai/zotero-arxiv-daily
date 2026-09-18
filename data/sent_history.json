@@ -230,6 +230,11 @@
       "source": "Semantic Scholar",
       "title": "Evidence of Crystallization from Amorphous VOx to VO2 (M1) Thin Film Investigated by in-situ LEEM and NEXAFS Techniques"
     },
+    "doi:10.1364/ao.51.006789": {
+      "sent_at": "2026-09-18T06:49:50+00:00",
+      "source": "Semantic Scholar",
+      "title": "Mid-infrared optical properties of thin films of aluminum oxide, titanium dioxide, silicon dioxide, aluminum nitride, and silicon nitride."
+    },
     "doi:10.20935/acadnano8426": {
       "sent_at": "2026-07-20T05:31:22+00:00",
       "source": "Semantic Scholar",
@@ -4259,6 +4264,101 @@
       "sent_at": "2026-09-17T06:59:24+00:00",
       "source": "arXiv",
       "title": "Divergence between long- and short-wavelength magnon damping in spinel ferrites"
+    },
+    "id:2609.19191": {
+      "sent_at": "2026-09-18T06:49:50+00:00",
+      "source": "arXiv",
+      "title": "Machine-Learning Exploration of Defect Topologies and Thermodynamic Stability in Graphene with Atomic Vacancies"
+    },
+    "id:2609.19229": {
+      "sent_at": "2026-09-18T06:49:50+00:00",
+      "source": "arXiv",
+      "title": "Melting of corundum (α-Al2O3) under compression to 8 GPa: A decreasing melting slope"
+    },
+    "id:2609.19467": {
+      "sent_at": "2026-09-18T06:49:50+00:00",
+      "source": "arXiv",
+      "title": "The Origin of the Observed Raman Peaks in α-MnTe"
+    },
+    "id:2609.19571": {
+      "sent_at": "2026-09-18T06:49:50+00:00",
+      "source": "arXiv",
+      "title": "Efficient laser ion acceleration in near-critical density plasmas in the picosecond pulse regime"
+    },
+    "id:2609.19752": {
+      "sent_at": "2026-09-18T06:49:50+00:00",
+      "source": "arXiv",
+      "title": "Indirect-Drive Fusion Target Design for Commercial Fusion Energy"
+    },
+    "id:2609.19835": {
+      "sent_at": "2026-09-18T06:49:50+00:00",
+      "source": "arXiv",
+      "title": "Orbital fingerprinting of magnetism across the Mn-Ni-Ga Heusler ternary"
+    },
+    "id:2609.20019": {
+      "sent_at": "2026-09-18T06:49:50+00:00",
+      "source": "arXiv",
+      "title": "Anharmonic Phonon Renormalization and Defect Tolerance of the Thermoelectric Power Factor in Monolayer SnSe"
+    },
+    "id:2609.20062": {
+      "sent_at": "2026-09-18T06:49:50+00:00",
+      "source": "arXiv",
+      "title": "Modeling Dynamic Magnetic Response of Spinel Soft Ferrites with the Steepest-Entropy-Ascent Quantum Thermodynamics Formalism"
+    },
+    "id:2609.20157": {
+      "sent_at": "2026-09-18T06:49:50+00:00",
+      "source": "arXiv",
+      "title": "Energy Harvesting for Self-Powered Microsystems: A Critical Review of Materials, Power Management, and System Integration"
+    },
+    "id:2609.20326": {
+      "sent_at": "2026-09-18T06:49:50+00:00",
+      "source": "arXiv",
+      "title": "Divergent Solid-state Conversion Pathways in Evaporated All-perovskite Tandem Solar Cells"
+    },
+    "id:2609.20328": {
+      "sent_at": "2026-09-18T06:49:50+00:00",
+      "source": "arXiv",
+      "title": "Experimental setup for testing nanocalorimeter sensors as a plasma diagnostics tool"
+    },
+    "id:2609.20357": {
+      "sent_at": "2026-09-18T06:49:50+00:00",
+      "source": "arXiv",
+      "title": "Three-dimensional vector waves in time-variant materials, with applications in time-reversed focusing and Green's function retrieval"
+    },
+    "id:2609.20373": {
+      "sent_at": "2026-09-18T06:49:50+00:00",
+      "source": "arXiv",
+      "title": "A Computational Method to Simulate Electrostatic Actuation in Polycatenated Architected Materials"
+    },
+    "id:2609.20387": {
+      "sent_at": "2026-09-18T06:49:50+00:00",
+      "source": "arXiv",
+      "title": "Ultralow-Tensile Strain Enables Exciton Funneling and Energy Transfer to Boost MoSe2 Photoluminescence Quantum Yield"
+    },
+    "id:2609.20482": {
+      "sent_at": "2026-09-18T06:49:50+00:00",
+      "source": "arXiv",
+      "title": "Tuning the Coercive Field in Ferroelectric Hf0.5Zr0.5O2-Al2O3 Heterostructures via Interfacial Charge Dynamics"
+    },
+    "id:2609.20486": {
+      "sent_at": "2026-09-18T06:49:50+00:00",
+      "source": "arXiv",
+      "title": "Strain-Induced Metal-to-Insulator Transition in Antiferromagnetic SrCrO$_3$ Thin Films"
+    },
+    "id:2609.20616": {
+      "sent_at": "2026-09-18T06:49:50+00:00",
+      "source": "arXiv",
+      "title": "Magnon-Phonon Dynamics in Multidimensional Antiferromagnetic Oxides"
+    },
+    "id:2609.20618": {
+      "sent_at": "2026-09-18T06:49:50+00:00",
+      "source": "arXiv",
+      "title": "Spin-Lattice Dynamics and Interactions in Magnonic Spinels"
+    },
+    "id:2609.20639": {
+      "sent_at": "2026-09-18T06:49:50+00:00",
+      "source": "arXiv",
+      "title": "First-principles theory of phonon renormalization from nonlinear electron-phonon interactions"
     }
   },
   "version": 1
