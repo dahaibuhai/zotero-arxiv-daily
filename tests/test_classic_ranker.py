@@ -4,12 +4,14 @@ from classic_ranker import rank_classic_papers
 
 
 class Candidate:
-    def __init__(self, citations, influential, relevance, keyword_score=0.0):
+    def __init__(self, citations, influential, relevance, keyword_score=0.0, title="", summary=""):
         self.citation_count = citations
         self.influential_citation_count = influential
         self.score = relevance * 10
         self.keyword_score = keyword_score
         self.keyword_hits = ["magnetron sputtering"] if keyword_score > 0 else []
+        self.title = title
+        self.summary = summary
 
 
 class ClassicRankerTests(unittest.TestCase):
@@ -83,6 +85,24 @@ class ClassicRankerTests(unittest.TestCase):
         self.assertEqual(len(ranked), 4)
         self.assertEqual([paper.citation_count for paper in ranked], [950, 900, 850, 800])
         self.assertTrue(all(paper.relevance_percent >= 78 for paper in ranked))
+
+    def test_topic_query_excludes_broad_thin_film_paper(self):
+        focused = Candidate(400, 30, 0.72, 2.0, title="Magnetron sputtering of Mo films")
+        broad = Candidate(1000, 100, 0.72, 2.0, title="Materials science of thin films")
+        summary_only = Candidate(
+            800, 60, 0.73, 2.0,
+            title="Oblique angle deposition of thin films",
+            summary="Includes magnetron sputtering and other deposition techniques.",
+        )
+
+        ranked = rank_classic_papers(
+            [focused, broad, summary_only],
+            impact_top_fraction=1.0,
+            minimum_candidates=3,
+            queries_raw='"magnetron sputtering"\n"reactive sputtering"',
+        )
+
+        self.assertEqual(ranked, [focused])
 
 
 if __name__ == "__main__":

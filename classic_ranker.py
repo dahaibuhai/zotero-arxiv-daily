@@ -1,4 +1,28 @@
 import math
+import re
+
+
+def _query_phrases(queries_raw: str) -> list[list[str]]:
+    """Keep quoted search concepts together for topic checks."""
+    phrase_groups = []
+    for query in (queries_raw or "").splitlines():
+        query = query.strip()
+        if not query:
+            continue
+        quoted = re.findall(r'"([^"]+)"', query)
+        phrase_groups.append([part.casefold().strip() for part in (quoted or [query])])
+    return phrase_groups
+
+
+def _query_match_location(paper, phrase_groups: list[list[str]]) -> str:
+    """Return title, abstract, or none for the configured search topics."""
+    title = (getattr(paper, "title", "") or "").casefold()
+    abstract = (getattr(paper, "summary", "") or "").casefold()
+    if any(all(phrase in title for phrase in group) for group in phrase_groups):
+        return "title"
+    if any(all(phrase in abstract for phrase in group) for group in phrase_groups):
+        return "abstract"
+    return "none"
 
 
 def _percentile_ranks(values: list[float]) -> list[float]:
@@ -30,6 +54,7 @@ def rank_classic_papers(
     impact_top_fraction: float = 0.25,
     no_keyword_relevance_threshold: float = 0.78,
     minimum_candidates: int = 0,
+    queries_raw: str = "",
 ) -> list:
     """Rank historical papers after semantic relevance has been computed.
 
@@ -40,6 +65,7 @@ def rank_classic_papers(
     """
     if not papers:
         return []
+    phrase_groups = _query_phrases(queries_raw)
 
     citation_percentiles = _percentile_ranks(
         [float(getattr(paper, "citation_count", 0) or 0) for paper in papers]
@@ -75,9 +101,12 @@ def rank_classic_papers(
     for index, paper in enumerate(papers):
         relevance = min(max(float(getattr(paper, "score", 0.0)) / 10.0, 0.0), 1.0)
         has_keyword_hit = bool(getattr(paper, "keyword_hits", []))
+        query_location = _query_match_location(paper, phrase_groups) if phrase_groups else "title"
         if (
             relevance < relevance_threshold
             or (not has_keyword_hit and relevance < no_keyword_relevance_threshold)
+            or query_location == "none"
+            or (query_location == "abstract" and relevance < no_keyword_relevance_threshold)
         ):
             continue
 

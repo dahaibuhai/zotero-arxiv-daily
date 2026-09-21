@@ -424,6 +424,7 @@ if __name__ == "__main__":
                     args.classic_fallback_no_keyword_relevance_threshold
                 ),
                 minimum_candidates=semantic_fallback_needed,
+                queries_raw=args.semantic_scholar_queries,
             )[: min(args.classic_fallback_num, semantic_fallback_needed)]
         logger.info(
             "Selected {} classic Semantic Scholar fallback papers for a {}-paper shortfall.",
