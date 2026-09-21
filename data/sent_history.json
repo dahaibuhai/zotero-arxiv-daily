@@ -95,6 +95,11 @@
       "source": "Semantic Scholar",
       "title": "Effects of gamma irradiation on the structural and electrical properties of SiC thin-films deposited by DC/RF magnetron sputtering"
     },
+    "doi:10.1016/j.nimb.2026.166317": {
+      "sent_at": "2026-09-21T07:02:00+00:00",
+      "source": "Semantic Scholar",
+      "title": "Microstructure, thermal performance, and hydrogen diffusion of magnetron-sputtered Ta–Ti binary films on cu substrate for AB-BNCT targets"
+    },
     "doi:10.1016/j.optmat.2026.118480": {
       "sent_at": "2026-09-14T07:01:12+00:00",
       "source": "Semantic Scholar",
@@ -119,6 +124,11 @@
       "sent_at": "2026-08-21T03:13:02+00:00",
       "source": "Semantic Scholar",
       "title": "Influence of pulsed substrate biasing on strain and mechanical properties of low-temperature-grown TiZrNbTaNx films by high-power impulse magnetron sputtering"
+    },
+    "doi:10.1016/j.tsf.2004.10.051": {
+      "sent_at": "2026-09-21T07:02:00+00:00",
+      "source": "Semantic Scholar",
+      "title": "Fundamental understanding and modeling of reactive sputtering processes"
     },
     "doi:10.1016/j.tsf.2006.03.033": {
       "sent_at": "2026-09-11T07:02:36+00:00",
@@ -4359,6 +4369,31 @@
       "sent_at": "2026-09-18T06:49:50+00:00",
       "source": "arXiv",
       "title": "First-principles theory of phonon renormalization from nonlinear electron-phonon interactions"
+    },
+    "id:2609.21352": {
+      "sent_at": "2026-09-21T07:02:00+00:00",
+      "source": "arXiv",
+      "title": "Strain-Induced Relaxor Multiferroicity at Room Temperature in Hexaferrite BaFe12O19 Thin Films"
+    },
+    "id:2609.21551": {
+      "sent_at": "2026-09-21T07:02:00+00:00",
+      "source": "arXiv",
+      "title": "Orbital angular momentum accumulation in SrVO3 thin films"
+    },
+    "id:2609.21654": {
+      "sent_at": "2026-09-21T07:02:00+00:00",
+      "source": "arXiv",
+      "title": "Material chemical compositon impacts on the band alignments: Preliminary results on the 3D/2D perovskite interfaces"
+    },
+    "id:2609.21884": {
+      "sent_at": "2026-09-21T07:02:00+00:00",
+      "source": "arXiv",
+      "title": "PhonoMC: Occupation-based deviational Monte Carlo for phonon transport with temperature-dependent scattering"
+    },
+    "id:2609.21901": {
+      "sent_at": "2026-09-21T07:02:00+00:00",
+      "source": "arXiv",
+      "title": "Low resistance NiO/β-Ga_{2}O_{3} heterojunction diodes grown via molecular beam epitaxy"
     }
   },
   "version": 1
