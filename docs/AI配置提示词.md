@@ -32,7 +32,7 @@
 3. 将 `KEYWORD_FILTER_MODE` 设为 `boost`，`KEYWORDS_REQUIRE` 默认留空。只有当某个术语对研究范围绝对必要时，才建议 hard 筛选。
 4. `KEYWORDS_EXCLUDE` 只列明确无关的主题，每行一条；不要堆积大量排除词。
 5. 生成 3–8 条英文 `SEMANTIC_SCHOLAR_QUERIES`，每行一条。每条应包含核心主题和必要限定词，兼顾召回率与精确性；不要重复同义词堆砌。
-6. 第一次配置使用 `SEMANTIC_SCHOLAR_DAYS=7`、`SEMANTIC_SCHOLAR_MAX_RESULTS_PER_QUERY=5`、`KEYWORD_BOOST_WEIGHT=1.5`、`SEND_EMPTY=false`。启用默认经典文献补位，并保持 3 篇、最低 20 次引用、最低相关度 0.65、无关键词命中时最低相关度 0.78、影响力前 25% 的默认值。除非我另有要求，不要启用 Crossref。
+6. 第一次配置使用 `SEMANTIC_SCHOLAR_DAYS=7`、`SEMANTIC_SCHOLAR_MAX_RESULTS_PER_QUERY=5`、`KEYWORD_BOOST_WEIGHT=1.5`、`SEND_EMPTY=false`。每日默认最多推送 5 篇 arXiv 和 5 篇 Semantic Scholar；后者不足时优先用影响力前 25% 的旧文献补位，再从满足相同相关度门槛的旧文献中补齐。保留最低 20 次引用、最低相关度 0.65、无关键词命中时最低相关度 0.78 的门槛。除非我另有要求，不要启用 Crossref。
 7. 不要修改 Python、YAML workflow 或 Secrets；本仓库的研究方向配置必须只通过 GitHub Variables 完成。
 
 请按下面的顺序输出：

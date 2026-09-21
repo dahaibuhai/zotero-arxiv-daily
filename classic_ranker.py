@@ -29,12 +29,14 @@ def rank_classic_papers(
     relevance_threshold: float = 0.65,
     impact_top_fraction: float = 0.25,
     no_keyword_relevance_threshold: float = 0.78,
+    minimum_candidates: int = 0,
 ) -> list:
     """Rank historical papers after semantic relevance has been computed.
 
     The final score follows the configured editorial policy:
     55% citation impact, 35% Zotero-corpus relevance, and 10% keyword match.
-    Only the top impact quartile and papers above the relevance threshold remain.
+    Prefer the top impact quartile. When filling a quota, allow further papers
+    that meet the same relevance gates to fill any remaining slots.
     """
     if not papers:
         return []
@@ -68,13 +70,13 @@ def rank_classic_papers(
     max_keyword_score = max(
         float(getattr(paper, "keyword_score", 0.0) or 0.0) for paper in papers
     )
-    ranked = []
+    high_impact_ranked = []
+    other_relevant_ranked = []
     for index, paper in enumerate(papers):
         relevance = min(max(float(getattr(paper, "score", 0.0)) / 10.0, 0.0), 1.0)
         has_keyword_hit = bool(getattr(paper, "keyword_hits", []))
         if (
-            index not in top_impact_indexes
-            or relevance < relevance_threshold
+            relevance < relevance_threshold
             or (not has_keyword_hit and relevance < no_keyword_relevance_threshold)
         ):
             continue
@@ -95,6 +97,12 @@ def rank_classic_papers(
         # The existing email star renderer expects a score on an approximately
         # 0..10 scale. Keep that contract while retaining the 0..100 breakdown.
         paper.score = final_score * 10.0
-        ranked.append(paper)
+        if index in top_impact_indexes:
+            high_impact_ranked.append(paper)
+        else:
+            other_relevant_ranked.append(paper)
 
-    return sorted(ranked, key=lambda paper: paper.classic_score, reverse=True)
+    high_impact_ranked.sort(key=lambda paper: paper.classic_score, reverse=True)
+    other_relevant_ranked.sort(key=lambda paper: paper.classic_score, reverse=True)
+    fallback_count = max(minimum_candidates - len(high_impact_ranked), 0)
+    return high_impact_ranked + other_relevant_ranked[:fallback_count]

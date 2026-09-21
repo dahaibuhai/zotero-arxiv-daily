@@ -1,6 +1,11 @@
 name: Send emails daily
 on:
   workflow_dispatch:
+    inputs:
+      dry_run:
+        description: Select papers without sending email or updating history
+        type: boolean
+        default: false
   schedule:
     - cron: '30 1 * * 1-5'
 
@@ -30,6 +35,7 @@ jobs:
           ZOTERO_KEY: ${{ secrets.ZOTERO_KEY }}
           ZOTERO_IGNORE: ${{ vars.ZOTERO_IGNORE }}
           SEND_EMPTY: ${{ vars.SEND_EMPTY }}
+          DRY_RUN: ${{ inputs.dry_run || 'false' }}
           ENABLE_ARXIV: ${{ vars.ENABLE_ARXIV || 'true' }}
           ARXIV_QUERY: ${{ vars.ARXIV_QUERY }}
           SMTP_SERVER: ${{ secrets.SMTP_SERVER }}
@@ -57,7 +63,7 @@ jobs:
           SEMANTIC_SCHOLAR_MAX_RESULTS_PER_QUERY: ${{ vars.SEMANTIC_SCHOLAR_MAX_RESULTS_PER_QUERY || '5' }}
           ENABLE_CLASSIC_FALLBACK: ${{ vars.ENABLE_CLASSIC_FALLBACK || 'true' }}
           CLASSIC_FALLBACK_NUM: ${{ vars.SEMANTIC_SCHOLAR_QUOTA || '5' }}
-          CLASSIC_FALLBACK_CANDIDATES_PER_QUERY: ${{ vars.CLASSIC_FALLBACK_CANDIDATES_PER_QUERY || '20' }}
+          CLASSIC_FALLBACK_CANDIDATES_PER_QUERY: ${{ vars.CLASSIC_FALLBACK_CANDIDATES_PER_QUERY || '50' }}
           CLASSIC_FALLBACK_MIN_CITATIONS: ${{ vars.CLASSIC_FALLBACK_MIN_CITATIONS || '20' }}
           CLASSIC_FALLBACK_RELEVANCE_THRESHOLD: ${{ vars.CLASSIC_FALLBACK_RELEVANCE_THRESHOLD || '0.65' }}
           CLASSIC_FALLBACK_NO_KEYWORD_RELEVANCE_THRESHOLD: ${{ vars.CLASSIC_FALLBACK_NO_KEYWORD_RELEVANCE_THRESHOLD || '0.78' }}

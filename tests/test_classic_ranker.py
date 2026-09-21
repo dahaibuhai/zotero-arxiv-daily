@@ -71,6 +71,19 @@ class ClassicRankerTests(unittest.TestCase):
 
         self.assertEqual(ranked, [topic_match])
 
+    def test_quota_backfills_relevant_papers_outside_impact_quartile(self):
+        candidates = [
+            Candidate(citations=1000 - index * 50, influential=50 - index, relevance=0.80)
+            for index in range(8)
+        ]
+        candidates[0].score = 6.0  # The most cited paper is off topic.
+
+        ranked = rank_classic_papers(candidates, minimum_candidates=4)
+
+        self.assertEqual(len(ranked), 4)
+        self.assertEqual([paper.citation_count for paper in ranked], [950, 900, 850, 800])
+        self.assertTrue(all(paper.relevance_percent >= 78 for paper in ranked))
+
 
 if __name__ == "__main__":
     unittest.main()

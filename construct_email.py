@@ -235,23 +235,38 @@ def render_email(papers: list[ArxivPaper]):
     if len(papers) == 0:
         return framework.replace('__CONTENT__', get_empty_html())
 
-    regular_papers = [
-        paper for paper in papers if not getattr(paper, "is_classic_fallback", False)
+    arxiv_papers = [
+        paper for paper in papers if getattr(paper, "source", "") == "arXiv"
+    ]
+    new_semantic_papers = [
+        paper for paper in papers
+        if getattr(paper, "source", "") == "Semantic Scholar"
+        and not getattr(paper, "is_classic_fallback", False)
+    ]
+    other_papers = [
+        paper for paper in papers
+        if getattr(paper, "source", "") not in ("arXiv", "Semantic Scholar")
+        and not getattr(paper, "is_classic_fallback", False)
     ]
     classic_papers = [
         paper for paper in papers if getattr(paper, "is_classic_fallback", False)
     ]
     sections = []
     with tqdm(total=len(papers), desc='Rendering Email') as progress:
-        if regular_papers:
-            regular_parts = []
-            for paper in regular_papers:
-                regular_parts.append(render_paper_block(paper))
-                progress.update(1)
-            sections.append(
-                get_section_header("Today's new papers")
-                + '<br>'.join(regular_parts)
-            )
+        for title, section_papers in (
+            ("New arXiv papers", arxiv_papers),
+            ("New Semantic Scholar papers", new_semantic_papers),
+            ("Other new papers", other_papers),
+        ):
+            if section_papers:
+                parts = []
+                for paper in section_papers:
+                    parts.append(render_paper_block(paper))
+                    progress.update(1)
+                sections.append(
+                    get_section_header(f"{title} ({len(section_papers)})")
+                    + '<br>'.join(parts)
+                )
 
         if classic_papers:
             classic_parts = []
@@ -260,7 +275,7 @@ def render_email(papers: list[ArxivPaper]):
                 progress.update(1)
             sections.append(
                 get_section_header(
-                    "Classic high-impact papers",
+                    f"Classic high-impact papers ({len(classic_papers)})",
                     "New Semantic Scholar papers did not fill today's quota. "
                     "These older papers passed the relevance and citation-impact gates.",
                 )
@@ -279,7 +294,7 @@ def send_email(sender:str, receiver:str, password:str,smtp_server:str,smtp_port:
     msg['From'] = _format_addr('Github Action <%s>' % sender)
     msg['To'] = _format_addr('You <%s>' % receiver)
     today = datetime.datetime.now().strftime('%Y/%m/%d')
-    msg['Subject'] = Header(f'Daily arXiv {today}', 'utf-8').encode()
+    msg['Subject'] = Header(f'Daily literature {today}', 'utf-8').encode()
 
     try:
         server = smtplib.SMTP(smtp_server, smtp_port)

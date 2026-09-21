@@ -144,6 +144,7 @@ if __name__ == "__main__":
         help="Zotero collection to ignore, using gitignore-style pattern.",
     )
     add_argument("--send_empty", type=bool, help="If get no arxiv paper, send empty email", default=False)
+    add_argument("--dry_run", type=bool, default=False, help="Select papers without email or history updates")
     add_argument("--max_paper_num", type=int, help="Maximum number of papers to recommend", default=10)
     add_argument("--arxiv_quota", type=int, default=5)
     add_argument("--semantic_scholar_quota", type=int, default=5)
@@ -167,7 +168,7 @@ if __name__ == "__main__":
     add_argument("--semantic_scholar_max_results_per_query", type=int, default=20)
     add_argument("--enable_classic_fallback", type=bool, default=True)
     add_argument("--classic_fallback_num", type=int, default=5)
-    add_argument("--classic_fallback_candidates_per_query", type=int, default=20)
+    add_argument("--classic_fallback_candidates_per_query", type=int, default=50)
     add_argument("--classic_fallback_min_citations", type=int, default=20)
     add_argument("--classic_fallback_relevance_threshold", type=float, default=0.65)
     add_argument(
@@ -422,6 +423,7 @@ if __name__ == "__main__":
                 no_keyword_relevance_threshold=(
                     args.classic_fallback_no_keyword_relevance_threshold
                 ),
+                minimum_candidates=semantic_fallback_needed,
             )[: min(args.classic_fallback_num, semantic_fallback_needed)]
         logger.info(
             "Selected {} classic Semantic Scholar fallback papers for a {}-paper shortfall.",
@@ -454,6 +456,9 @@ if __name__ == "__main__":
         classic_selected,
         len(papers),
     )
+    if args.dry_run:
+        logger.info("Dry run complete: no email sent and no history updated.")
+        exit(0)
 
     if len(papers) == 0:
         logger.info(
