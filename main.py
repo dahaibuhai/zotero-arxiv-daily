@@ -416,6 +416,14 @@ if __name__ == "__main__":
 
         if classic_candidates:
             classic_candidates = rerank_paper(classic_candidates, corpus)
+            if args.dry_run:
+                for paper in classic_candidates[:15]:
+                    logger.info(
+                        "Dry-run candidate: relevance={:.0f}, citations={}, title={}",
+                        min(max(float(paper.score) * 10.0, 0.0), 100.0),
+                        paper.citation_count,
+                        paper.title,
+                    )
             classic_papers = rank_classic_papers(
                 classic_candidates,
                 relevance_threshold=args.classic_fallback_relevance_threshold,
