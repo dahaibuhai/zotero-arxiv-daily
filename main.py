@@ -457,6 +457,17 @@ if __name__ == "__main__":
         len(papers),
     )
     if args.dry_run:
+        for paper in papers:
+            if getattr(paper, "is_classic_fallback", False):
+                logger.info(
+                    "Dry-run classic: score={:.0f}, relevance={:.0f}, impact={:.0f}, "
+                    "citations={}, title={}",
+                    paper.classic_score,
+                    paper.relevance_percent,
+                    paper.impact_percent,
+                    paper.citation_count,
+                    paper.title,
+                )
         logger.info("Dry run complete: no email sent and no history updated.")
         exit(0)
 
