@@ -160,6 +160,11 @@
       "source": "Semantic Scholar",
       "title": "Magnetron sputtering: a review of recent developments and applications"
     },
+    "doi:10.1016/s0257-8972(00)00566-1": {
+      "sent_at": "2026-09-22T06:48:16+00:00",
+      "source": "Semantic Scholar",
+      "title": "Recent aspects concerning DC reactive magnetron sputtering of thin films: a review"
+    },
     "doi:10.1021/acs.chemmater.6c00320": {
       "sent_at": "2026-08-14T04:07:08+00:00",
       "source": "Semantic Scholar",
@@ -169,6 +174,11 @@
       "sent_at": "2026-07-29T05:14:39+00:00",
       "source": "Semantic Scholar",
       "title": "Orientation-Controlled Bi26-x-yCoxFeyO40/MgO/Si Thin Films: Enhanced Magneto-Optical Performance."
+    },
+    "doi:10.1021/jp027345j": {
+      "sent_at": "2026-09-22T06:48:16+00:00",
+      "source": "Semantic Scholar",
+      "title": "Photoelectrochemical and Optical Properties of Nitrogen Doped Titanium Dioxide Films Prepared by Reactive DC Magnetron Sputtering"
     },
     "doi:10.1039/d6nr02365g": {
       "sent_at": "2026-09-07T06:59:27+00:00",
@@ -195,6 +205,11 @@
       "source": "Semantic Scholar",
       "title": "Thermodynamic-kinetic competitive growth and interface physics of β-Ga2O3 thin films on fused quartz for deep ultraviolet detection"
     },
+    "doi:10.1088/0022-3727/33/4/201": {
+      "sent_at": "2026-09-22T06:48:16+00:00",
+      "source": "Semantic Scholar",
+      "title": "Magnetron sputtering of transparent conductive zinc oxide: relation between the sputtering parameters and the electronic properties"
+    },
     "doi:10.1088/0268-1242/20/4/004": {
       "sent_at": "2026-09-10T08:43:25+00:00",
       "source": "Semantic Scholar",
@@ -210,6 +225,11 @@
       "source": "Semantic Scholar",
       "title": "Self-powered transparent UV photodetector based on NiO/WO3 heterojunction with tunable oxygen content"
     },
+    "doi:10.1088/1361-6595/abb7bd": {
+      "sent_at": "2026-09-22T06:48:16+00:00",
+      "source": "Semantic Scholar",
+      "title": "Physics and technology of magnetron sputtering discharges"
+    },
     "doi:10.1103/vkgw-nfbs": {
       "sent_at": "2026-07-13T07:44:44+00:00",
       "source": "Semantic Scholar",
@@ -219,6 +239,11 @@
       "sent_at": "2026-07-31T05:37:32+00:00",
       "source": "Semantic Scholar",
       "title": "Non-Ohmic Behavior in [Ni80Fe20/HfO2]n Discontinuous Multilayers"
+    },
+    "doi:10.1116/1.3691832": {
+      "sent_at": "2026-09-22T06:48:16+00:00",
+      "source": "Semantic Scholar",
+      "title": "High power impulse magnetron sputtering discharge"
     },
     "doi:10.1116/6.0005636": {
       "sent_at": "2026-08-14T04:07:08+00:00",
@@ -4394,6 +4419,31 @@
       "sent_at": "2026-09-21T07:02:00+00:00",
       "source": "arXiv",
       "title": "Low resistance NiO/β-Ga_{2}O_{3} heterojunction diodes grown via molecular beam epitaxy"
+    },
+    "id:2609.22461": {
+      "sent_at": "2026-09-22T06:48:16+00:00",
+      "source": "arXiv",
+      "title": "Laser-Ablated Au Electrodes with Preferred Orientation and Flat Interface on Oxides"
+    },
+    "id:2609.22810": {
+      "sent_at": "2026-09-22T06:48:16+00:00",
+      "source": "arXiv",
+      "title": "Photoresist-Free Lithography via Light-Induced Redox Patterning of Oxide Thin Films"
+    },
+    "id:2609.24081": {
+      "sent_at": "2026-09-22T06:48:16+00:00",
+      "source": "arXiv",
+      "title": "Enhanced thermal conductivity of (010) (AlxGa1-x)2O3 epitaxial films utilizing indium-catalyzed molecular beam epitaxy"
+    },
+    "id:2609.24326": {
+      "sent_at": "2026-09-22T06:48:16+00:00",
+      "source": "arXiv",
+      "title": "Amorphous insulating MoS$_x$ films deposited by magnetron sputtering as a low-index optical coating"
+    },
+    "id:2609.24893": {
+      "sent_at": "2026-09-22T06:48:16+00:00",
+      "source": "arXiv",
+      "title": "Face-to-face anneal temperature controls lattice parameter in Ta(C,N) virtual substrates for AlGaN power electronics"
     }
   },
   "version": 1
