@@ -180,6 +180,11 @@
       "source": "Semantic Scholar",
       "title": "Recent aspects concerning DC reactive magnetron sputtering of thin films: a review"
     },
+    "doi:10.1016/s0927-0248(02)00127-7": {
+      "sent_at": "2026-09-24T06:49:52+00:00",
+      "source": "Semantic Scholar",
+      "title": "Electrical and optical properties of Cu2ZnSnS4 thin films prepared by rf magnetron sputtering process"
+    },
     "doi:10.1021/acs.chemmater.6c00320": {
       "sent_at": "2026-08-14T04:07:08+00:00",
       "source": "Semantic Scholar",
@@ -265,10 +270,25 @@
       "source": "Semantic Scholar",
       "title": "Non-Ohmic Behavior in [Ni80Fe20/HfO2]n Discontinuous Multilayers"
     },
+    "doi:10.1116/1.3299267": {
+      "sent_at": "2026-09-24T06:49:52+00:00",
+      "source": "Semantic Scholar",
+      "title": "Deposition rates of high power impulse magnetron sputtering: Physics and economics"
+    },
     "doi:10.1116/1.3691832": {
       "sent_at": "2026-09-22T06:48:16+00:00",
       "source": "Semantic Scholar",
       "title": "High power impulse magnetron sputtering discharge"
+    },
+    "doi:10.1116/1.569113": {
+      "sent_at": "2026-09-24T06:49:52+00:00",
+      "source": "Semantic Scholar",
+      "title": "Internal stresses in titanium, nickel, molybdenum, and tantalum films deposited by cylindrical magnetron sputtering"
+    },
+    "doi:10.1116/1.574104": {
+      "sent_at": "2026-09-24T06:49:52+00:00",
+      "source": "Semantic Scholar",
+      "title": "Modeling of reactive sputtering of compound materials"
     },
     "doi:10.1116/6.0005636": {
       "sent_at": "2026-08-14T04:07:08+00:00",
@@ -279,6 +299,11 @@
       "sent_at": "2026-08-10T03:33:29+00:00",
       "source": "Semantic Scholar",
       "title": "Comparative Experimental and Theoretical Analysis of Open-Volume Defects and Vacancy Clustering in Sputtered Al and Fe3O4 Thin Films"
+    },
+    "doi:10.1143/jjap.24.l781": {
+      "sent_at": "2026-09-24T06:49:52+00:00",
+      "source": "Semantic Scholar",
+      "title": "Group III Impurity Doped Zinc Oxide Thin Films Prepared by RF Magnetron Sputtering"
     },
     "doi:10.1149/1945-7111/ae8bde": {
       "sent_at": "2026-07-20T05:31:22+00:00",
@@ -4494,6 +4519,31 @@
       "sent_at": "2026-09-23T06:39:59+00:00",
       "source": "arXiv",
       "title": "Three-Dimensional Imaging of High-Density Dislocation Networks and Their Interactions using Multislice Electron Ptychography"
+    },
+    "id:2609.26947": {
+      "sent_at": "2026-09-24T06:49:52+00:00",
+      "source": "arXiv",
+      "title": "A Green's-function method for vertical thermal boundary conductance in anisotropic multilayers"
+    },
+    "id:2609.27618": {
+      "sent_at": "2026-09-24T06:49:52+00:00",
+      "source": "arXiv",
+      "title": "Thermoreflectance-Based Techniques for Micro- and Nanoscale Thermophysical Property Measurements: Principles, Methods, and Recent Advances"
+    },
+    "id:2609.28096": {
+      "sent_at": "2026-09-24T06:49:52+00:00",
+      "source": "arXiv",
+      "title": "Achieving 5-angstrom-resolution diffraction contrast with an uncorrected electron probe and nanosized defect characterizations"
+    },
+    "id:2609.28214": {
+      "sent_at": "2026-09-24T06:49:52+00:00",
+      "source": "arXiv",
+      "title": "Disentangling spin polarization from driven circular ionic motion in EuTiO$_3$"
+    },
+    "id:2609.28249": {
+      "sent_at": "2026-09-24T06:49:52+00:00",
+      "source": "arXiv",
+      "title": "Solid-State Dealloying Enables Local Symmetry Breaking in Ternary Intermetallic Thin Films"
     }
   },
   "version": 1
