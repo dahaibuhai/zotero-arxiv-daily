@@ -25,6 +25,16 @@
       "source": "Semantic Scholar",
       "title": "Enhanced hydrogen sensing performance by modulating energy band of Pd/SnO2/WO3 triple-layer thin film sensor"
     },
+    "doi:10.1016/0040-6090(78)90273-0": {
+      "sent_at": "2026-09-25T06:39:08+00:00",
+      "source": "Semantic Scholar",
+      "title": "Substrate heating in cylindrical magnetron sputtering sources"
+    },
+    "doi:10.1016/0040-6090(83)90319-x": {
+      "sent_at": "2026-09-25T06:39:08+00:00",
+      "source": "Semantic Scholar",
+      "title": "Mechanisms of reactive sputtering of titanium nitride and titanium carbide II: Morphology and structure"
+    },
     "doi:10.1016/0040-6090(93)90636-4": {
       "sent_at": "2026-09-16T06:55:46+00:00",
       "source": "Semantic Scholar",
@@ -200,6 +210,11 @@
       "source": "Semantic Scholar",
       "title": "Photoelectrochemical and Optical Properties of Nitrogen Doped Titanium Dioxide Films Prepared by Reactive DC Magnetron Sputtering"
     },
+    "doi:10.1039/c4nr06411a": {
+      "sent_at": "2026-09-25T06:39:08+00:00",
+      "source": "Semantic Scholar",
+      "title": "Growth of wafer-scale MoS2 monolayer by magnetron sputtering."
+    },
     "doi:10.1039/d6nr02365g": {
       "sent_at": "2026-09-07T06:59:27+00:00",
       "source": "Semantic Scholar",
@@ -214,6 +229,11 @@
       "sent_at": "2026-09-10T08:43:25+00:00",
       "source": "Semantic Scholar",
       "title": "Transparent ZnO thin-film transistor fabricated by rf magnetron sputtering"
+    },
+    "doi:10.1063/1.1825053": {
+      "sent_at": "2026-09-25T06:39:08+00:00",
+      "source": "Semantic Scholar",
+      "title": "Structural properties and bandgap bowing of ZnO1−xSx thin films deposited by reactive sputtering"
     },
     "doi:10.1063/1.2353811": {
       "sent_at": "2026-09-11T07:02:36+00:00",
@@ -299,6 +319,11 @@
       "sent_at": "2026-08-10T03:33:29+00:00",
       "source": "Semantic Scholar",
       "title": "Comparative Experimental and Theoretical Analysis of Open-Volume Defects and Vacancy Clustering in Sputtered Al and Fe3O4 Thin Films"
+    },
+    "doi:10.1143/jjap.23.l280": {
+      "sent_at": "2026-09-25T06:39:08+00:00",
+      "source": "Semantic Scholar",
+      "title": "Highly Conductive and Transparent Aluminum Doped Zinc Oxide Thin Films Prepared by RF Magnetron Sputtering"
     },
     "doi:10.1143/jjap.24.l781": {
       "sent_at": "2026-09-24T06:49:52+00:00",
@@ -4544,6 +4569,31 @@
       "sent_at": "2026-09-24T06:49:52+00:00",
       "source": "arXiv",
       "title": "Solid-State Dealloying Enables Local Symmetry Breaking in Ternary Intermetallic Thin Films"
+    },
+    "id:2609.28891": {
+      "sent_at": "2026-09-25T06:39:08+00:00",
+      "source": "arXiv",
+      "title": "Influence of chemical vapor deposition conditions on N incorporation ratio on vicinal 4H-SiC(000-1) surface: Ab Initio-based approach"
+    },
+    "id:2609.29435": {
+      "sent_at": "2026-09-25T06:39:08+00:00",
+      "source": "arXiv",
+      "title": "Equation of state and transport coefficients of warm dense aluminum from mixed deterministic-stochastic density functional theory"
+    },
+    "id:2609.29990": {
+      "sent_at": "2026-09-25T06:39:08+00:00",
+      "source": "arXiv",
+      "title": "Integration of p-type Cr2O3 on Ultra-Wide Bandgap AlGaN PolFETs with 2.5 kV Breakdown Voltage"
+    },
+    "id:2609.30155": {
+      "sent_at": "2026-09-25T06:39:08+00:00",
+      "source": "arXiv",
+      "title": "Singularities of the cold plasma theory: Modeling challenges for ICRF operation in low-density edge plasma"
+    },
+    "id:2609.30229": {
+      "sent_at": "2026-09-25T06:39:08+00:00",
+      "source": "arXiv",
+      "title": "Molecular Beam Epitaxy of AgTaO3"
     }
   },
   "version": 1

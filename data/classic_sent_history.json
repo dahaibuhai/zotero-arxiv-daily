@@ -1,5 +1,15 @@
 {
   "papers": {
+    "doi:10.1016/0040-6090(78)90273-0": {
+      "sent_at": "2026-09-25T06:39:08+00:00",
+      "source": "Semantic Scholar",
+      "title": "Substrate heating in cylindrical magnetron sputtering sources"
+    },
+    "doi:10.1016/0040-6090(83)90319-x": {
+      "sent_at": "2026-09-25T06:39:08+00:00",
+      "source": "Semantic Scholar",
+      "title": "Mechanisms of reactive sputtering of titanium nitride and titanium carbide II: Morphology and structure"
+    },
     "doi:10.1016/0040-6090(93)90636-4": {
       "sent_at": "2026-09-16T06:55:46+00:00",
       "source": "Semantic Scholar",
@@ -60,6 +70,11 @@
       "source": "Semantic Scholar",
       "title": "Photoelectrochemical and Optical Properties of Nitrogen Doped Titanium Dioxide Films Prepared by Reactive DC Magnetron Sputtering"
     },
+    "doi:10.1039/c4nr06411a": {
+      "sent_at": "2026-09-25T06:39:08+00:00",
+      "source": "Semantic Scholar",
+      "title": "Growth of wafer-scale MoS2 monolayer by magnetron sputtering."
+    },
     "doi:10.1063/1.1359162": {
       "sent_at": "2026-09-23T06:39:59+00:00",
       "source": "Semantic Scholar",
@@ -69,6 +84,11 @@
       "sent_at": "2026-09-10T08:43:25+00:00",
       "source": "Semantic Scholar",
       "title": "Transparent ZnO thin-film transistor fabricated by rf magnetron sputtering"
+    },
+    "doi:10.1063/1.1825053": {
+      "sent_at": "2026-09-25T06:39:08+00:00",
+      "source": "Semantic Scholar",
+      "title": "Structural properties and bandgap bowing of ZnO1−xSx thin films deposited by reactive sputtering"
     },
     "doi:10.1063/1.2353811": {
       "sent_at": "2026-09-11T07:02:36+00:00",
@@ -114,6 +134,11 @@
       "sent_at": "2026-09-24T06:49:52+00:00",
       "source": "Semantic Scholar",
       "title": "Modeling of reactive sputtering of compound materials"
+    },
+    "doi:10.1143/jjap.23.l280": {
+      "sent_at": "2026-09-25T06:39:08+00:00",
+      "source": "Semantic Scholar",
+      "title": "Highly Conductive and Transparent Aluminum Doped Zinc Oxide Thin Films Prepared by RF Magnetron Sputtering"
     },
     "doi:10.1143/jjap.24.l781": {
       "sent_at": "2026-09-24T06:49:52+00:00",
