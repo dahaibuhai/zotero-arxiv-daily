@@ -1,5 +1,10 @@
 {
   "papers": {
+    "doi:10.1002/sia.2032": {
+      "sent_at": "2026-09-28T07:45:31+00:00",
+      "source": "Semantic Scholar",
+      "title": "An accurate semi‐empirical equation for sputtering yields I: for argon ions"
+    },
     "doi:10.1016/0040-6090(78)90273-0": {
       "sent_at": "2026-09-25T06:39:08+00:00",
       "source": "Semantic Scholar",
@@ -70,6 +75,11 @@
       "source": "Semantic Scholar",
       "title": "Photoelectrochemical and Optical Properties of Nitrogen Doped Titanium Dioxide Films Prepared by Reactive DC Magnetron Sputtering"
     },
+    "doi:10.1021/jp402684c": {
+      "sent_at": "2026-09-28T07:45:31+00:00",
+      "source": "Semantic Scholar",
+      "title": "Universal equation for argon gas cluster sputtering yields."
+    },
     "doi:10.1039/c4nr06411a": {
       "sent_at": "2026-09-25T06:39:08+00:00",
       "source": "Semantic Scholar",
@@ -95,6 +105,11 @@
       "source": "Semantic Scholar",
       "title": "High-mobility thin-film transistor with amorphous InGaZnO4 channel fabricated by room temperature rf-magnetron sputtering"
     },
+    "doi:10.1063/1.332340": {
+      "sent_at": "2026-09-28T07:45:31+00:00",
+      "source": "Semantic Scholar",
+      "title": "Energy dependence of the sputtering yield of silicon bombarded with neon, argon, krypton, and xenon ions"
+    },
     "doi:10.1063/1.365556": {
       "sent_at": "2026-09-23T06:39:59+00:00",
       "source": "Semantic Scholar",
@@ -104,6 +119,11 @@
       "sent_at": "2026-09-22T06:48:16+00:00",
       "source": "Semantic Scholar",
       "title": "Magnetron sputtering of transparent conductive zinc oxide: relation between the sputtering parameters and the electronic properties"
+    },
+    "doi:10.1088/0022-3727/43/25/253001": {
+      "sent_at": "2026-09-28T07:45:31+00:00",
+      "source": "Semantic Scholar",
+      "title": "Sputtering yields of compounds using argon ions"
     },
     "doi:10.1088/0268-1242/20/4/004": {
       "sent_at": "2026-09-10T08:43:25+00:00",
@@ -134,6 +154,11 @@
       "sent_at": "2026-09-24T06:49:52+00:00",
       "source": "Semantic Scholar",
       "title": "Modeling of reactive sputtering of compound materials"
+    },
+    "doi:10.1116/1.577221": {
+      "sent_at": "2026-09-28T07:45:31+00:00",
+      "source": "Semantic Scholar",
+      "title": "Fabrication of high‐reflectance Mo–Si multilayer mirrors by planar‐magnetron sputtering"
     },
     "doi:10.1143/jjap.23.l280": {
       "sent_at": "2026-09-25T06:39:08+00:00",
