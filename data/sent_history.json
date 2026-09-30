@@ -35,6 +35,11 @@
       "source": "Semantic Scholar",
       "title": "Substrate heating in cylindrical magnetron sputtering sources"
     },
+    "doi:10.1016/0040-6090(81)90490-9": {
+      "sent_at": "2026-09-30T07:23:24+00:00",
+      "source": "Semantic Scholar",
+      "title": "Pure element sputtering yields using 500–1000 eV argon ions"
+    },
     "doi:10.1016/0040-6090(83)90319-x": {
       "sent_at": "2026-09-25T06:39:08+00:00",
       "source": "Semantic Scholar",
@@ -44,6 +49,11 @@
       "sent_at": "2026-09-16T06:55:46+00:00",
       "source": "Semantic Scholar",
       "title": "Transparent conducting p-type NiO thin films prepared by magnetron sputtering"
+    },
+    "doi:10.1016/0257-8972(95)02425-5": {
+      "sent_at": "2026-09-30T07:23:24+00:00",
+      "source": "Semantic Scholar",
+      "title": "Deposition of molybdenum nitride thin films by r.f. reactive magnetron sputtering"
     },
     "doi:10.1016/j.apsadv.2026.101022": {
       "sent_at": "2026-08-24T02:52:56+00:00",
@@ -74,6 +84,11 @@
       "sent_at": "2026-08-21T03:13:02+00:00",
       "source": "Semantic Scholar",
       "title": "Temperature-driven nanostructure evolution in magnetron-sputtered Zr-Ti oxide thin films enabling tunable optical, electrical and hydrophobic functionalities"
+    },
+    "doi:10.1016/j.jallcom.2017.06.149": {
+      "sent_at": "2026-09-30T07:23:24+00:00",
+      "source": "Semantic Scholar",
+      "title": "The evolution of the Mo5+ oxidation state in the thermochromic effect of MoO3 thin films deposited by rf magnetron sputtering"
     },
     "doi:10.1016/j.jallcom.2026.189894": {
       "sent_at": "2026-07-21T05:17:43+00:00",
@@ -239,6 +254,11 @@
       "sent_at": "2026-09-07T06:59:27+00:00",
       "source": "Semantic Scholar",
       "title": "Scale-bridging characterization of iron oxide thin films obtained by reactive magnetron sputtering."
+    },
+    "doi:10.1063/1.1288162": {
+      "sent_at": "2026-09-30T07:23:24+00:00",
+      "source": "Semantic Scholar",
+      "title": "In situ measurement of mechanical stress in polycrystalline zinc-oxide thin films prepared by magnetron sputtering"
     },
     "doi:10.1063/1.1359162": {
       "sent_at": "2026-09-23T06:39:59+00:00",
@@ -4690,10 +4710,40 @@
       "source": "arXiv",
       "title": "Phase compositions of Si oxynitride: A comprehensive thermodynamic modeling study"
     },
+    "id:2609.35091": {
+      "sent_at": "2026-09-30T07:23:24+00:00",
+      "source": "Semantic Scholar",
+      "title": "Low-Temperature Stabilization of $\\delta$-NbN Superconducting Thin Films through Energy-Selective Ion Beam Sputtering"
+    },
     "id:2609.35510": {
       "sent_at": "2026-09-29T07:31:04+00:00",
       "source": "arXiv",
       "title": "High-Throughput Imaging of Degradation-Inducing Microscopic Impurities in Perovskite Solar Cells"
+    },
+    "id:2609.36749": {
+      "sent_at": "2026-09-30T07:23:24+00:00",
+      "source": "arXiv",
+      "title": "Study of LAGP coating on polyethylene separator for polysulfide suppression in thin Li-S batteries"
+    },
+    "id:2609.36758": {
+      "sent_at": "2026-09-30T07:23:24+00:00",
+      "source": "arXiv",
+      "title": "Synthesis and modification of thin NaSICON solid electrolytes using ion beams"
+    },
+    "id:2609.36871": {
+      "sent_at": "2026-09-30T07:23:24+00:00",
+      "source": "arXiv",
+      "title": "Orientation engineering is a universal strategy for ferroelectric trans-switching"
+    },
+    "id:2609.36983": {
+      "sent_at": "2026-09-30T07:23:24+00:00",
+      "source": "arXiv",
+      "title": "24-hr Solid-State Power Generation with Self-Adaptive Tunable Radiative Coatings"
+    },
+    "id:2609.37075": {
+      "sent_at": "2026-09-30T07:23:24+00:00",
+      "source": "arXiv",
+      "title": "Defect-controlled electrical and optical properties of CrN thin films: experiment and first-principles study"
     }
   },
   "version": 1
