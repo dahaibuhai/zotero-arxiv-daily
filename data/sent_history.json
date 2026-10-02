@@ -60,6 +60,11 @@
       "source": "Semantic Scholar",
       "title": "Reactive sputter-driven gas-phase synthesis of multiporous Cu₃N nanoparticles toward sustainable CO₂ electroreduction"
     },
+    "doi:10.1016/j.apsusc.2011.06.101": {
+      "sent_at": "2026-10-02T07:36:57+00:00",
+      "source": "Semantic Scholar",
+      "title": "Molybdenum thin film deposited by in-line DC magnetron sputtering as a back contact for Cu(In,Ga)Se2 solar cells"
+    },
     "doi:10.1016/j.cej.2026.178682": {
       "sent_at": "2026-07-13T07:44:44+00:00",
       "source": "Semantic Scholar",
@@ -175,6 +180,11 @@
       "source": "Semantic Scholar",
       "title": "Control of reactive sputtering processes"
     },
+    "doi:10.1016/j.tsf.2006.01.049": {
+      "sent_at": "2026-10-02T07:36:57+00:00",
+      "source": "Semantic Scholar",
+      "title": "Microstructure and Optical Properties of TiO2 Thin Films Prepared by Low Pressure Hot Target Reactive Magnetron Sputtering"
+    },
     "doi:10.1016/j.tsf.2006.03.033": {
       "sent_at": "2026-09-11T07:02:36+00:00",
       "source": "Semantic Scholar",
@@ -280,6 +290,11 @@
       "source": "Semantic Scholar",
       "title": "High-mobility thin-film transistor with amorphous InGaZnO4 channel fabricated by room temperature rf-magnetron sputtering"
     },
+    "doi:10.1063/1.326140": {
+      "sent_at": "2026-10-02T07:36:57+00:00",
+      "source": "Semantic Scholar",
+      "title": "Energy and fluence dependence of the sputtering yield of silicon bombarded with argon and xenon"
+    },
     "doi:10.1063/1.332340": {
       "sent_at": "2026-09-28T07:45:31+00:00",
       "source": "Semantic Scholar",
@@ -355,6 +370,11 @@
       "source": "Semantic Scholar",
       "title": "Non-Ohmic Behavior in [Ni80Fe20/HfO2]n Discontinuous Multilayers"
     },
+    "doi:10.1111/1541-4337.70663": {
+      "sent_at": "2026-10-02T07:36:57+00:00",
+      "source": "Semantic Scholar",
+      "title": "Beyond Bactericidal: Plasma Surface Engineering to Defeat Food Matrix-Conditioning Layers."
+    },
     "doi:10.1116/1.3299267": {
       "sent_at": "2026-09-24T06:49:52+00:00",
       "source": "Semantic Scholar",
@@ -414,6 +434,11 @@
       "sent_at": "2026-09-18T06:49:50+00:00",
       "source": "Semantic Scholar",
       "title": "Mid-infrared optical properties of thin films of aluminum oxide, titanium dioxide, silicon dioxide, aluminum nitride, and silicon nitride."
+    },
+    "doi:10.1364/oe.23.013580": {
+      "sent_at": "2026-10-02T07:36:57+00:00",
+      "source": "Semantic Scholar",
+      "title": "Large-scale two-dimensional MoS₂ photodetectors by magnetron sputtering."
     },
     "doi:10.20935/acadnano8426": {
       "sent_at": "2026-07-20T05:31:22+00:00",
@@ -4744,6 +4769,31 @@
       "sent_at": "2026-09-30T07:23:24+00:00",
       "source": "arXiv",
       "title": "Defect-controlled electrical and optical properties of CrN thin films: experiment and first-principles study"
+    },
+    "id:2610.00842": {
+      "sent_at": "2026-10-02T07:36:57+00:00",
+      "source": "arXiv",
+      "title": "Finite Element Simulation of Microwave Technologies for PowderBased Volumetric Additive Manufacturing Processes"
+    },
+    "id:2610.01055": {
+      "sent_at": "2026-10-02T07:36:57+00:00",
+      "source": "arXiv",
+      "title": "Landau-like formalism for the thermal-runaway and filamentation instabilities in switching Mott devices"
+    },
+    "id:2610.01183": {
+      "sent_at": "2026-10-02T07:36:57+00:00",
+      "source": "arXiv",
+      "title": "Additive solid immersion lenses for enhanced collection efficiency of shallow NV centers by pulsed laser deposition and structurization of high-k amorphous oxides"
+    },
+    "id:2610.01309": {
+      "sent_at": "2026-10-02T07:36:57+00:00",
+      "source": "arXiv",
+      "title": "Determination of van der Waals thin film thickness via characteristic X-ray photon yield"
+    },
+    "id:2610.01357": {
+      "sent_at": "2026-10-02T07:36:57+00:00",
+      "source": "arXiv",
+      "title": "Domain-engineered ferroelectric BiFeO$_3$ thin films for efficient bias-free THz emission"
     }
   },
   "version": 1
