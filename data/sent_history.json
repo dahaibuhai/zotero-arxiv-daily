@@ -65,6 +65,11 @@
       "source": "Semantic Scholar",
       "title": "Molybdenum thin film deposited by in-line DC magnetron sputtering as a back contact for Cu(In,Ga)Se2 solar cells"
     },
+    "doi:10.1016/j.cattod.2018.04.065": {
+      "sent_at": "2026-10-05T07:42:23+00:00",
+      "source": "Semantic Scholar",
+      "title": "Enhanced photocatalytic activity of amorphous MoO3 thin films deposited by rf reactive magnetron sputtering"
+    },
     "doi:10.1016/j.cej.2026.178682": {
       "sent_at": "2026-07-13T07:44:44+00:00",
       "source": "Semantic Scholar",
@@ -130,6 +135,11 @@
       "source": "Semantic Scholar",
       "title": "Effects of gamma irradiation on the structural and electrical properties of SiC thin-films deposited by DC/RF magnetron sputtering"
     },
+    "doi:10.1016/j.nimb.2004.12.129": {
+      "sent_at": "2026-10-05T07:42:23+00:00",
+      "source": "Semantic Scholar",
+      "title": "An accurate semi-empirical equation for sputtering yields, II: for neon, argon and xenon ions"
+    },
     "doi:10.1016/j.nimb.2026.166317": {
       "sent_at": "2026-09-21T07:02:00+00:00",
       "source": "Semantic Scholar",
@@ -155,6 +165,16 @@
       "source": "Semantic Scholar",
       "title": "High power pulsed magnetron sputtering: A review on scientific and engineering state of the art"
     },
+    "doi:10.1016/j.surfcoat.2017.10.071": {
+      "sent_at": "2026-10-05T07:42:23+00:00",
+      "source": "Semantic Scholar",
+      "title": "Enhanced wear resistance of molybdenum nitride coatings deposited by high power impulse magnetron sputtering by using micropatterned surfaces"
+    },
+    "doi:10.1016/j.surfcoat.2020.125618": {
+      "sent_at": "2026-10-05T07:42:23+00:00",
+      "source": "Semantic Scholar",
+      "title": "Chromium coatings deposited by cooled and hot target magnetron sputtering for accident tolerant nuclear fuel claddings"
+    },
     "doi:10.1016/j.surfcoat.2026.133732": {
       "sent_at": "2026-08-24T02:52:56+00:00",
       "source": "Semantic Scholar",
@@ -179,6 +199,11 @@
       "sent_at": "2026-09-23T06:39:59+00:00",
       "source": "Semantic Scholar",
       "title": "Control of reactive sputtering processes"
+    },
+    "doi:10.1016/j.tsf.2005.11.012": {
+      "sent_at": "2026-10-05T07:42:23+00:00",
+      "source": "Semantic Scholar",
+      "title": "Transparent conductive In2O3:Mo thin films prepared by reactive direct current magnetron sputtering at room temperature"
     },
     "doi:10.1016/j.tsf.2006.01.049": {
       "sent_at": "2026-10-02T07:36:57+00:00",
@@ -4794,6 +4819,31 @@
       "sent_at": "2026-10-02T07:36:57+00:00",
       "source": "arXiv",
       "title": "Domain-engineered ferroelectric BiFeO$_3$ thin films for efficient bias-free THz emission"
+    },
+    "id:2610.02693": {
+      "sent_at": "2026-10-05T07:42:23+00:00",
+      "source": "arXiv",
+      "title": "Temperature--Composition Mapping and Growth-History Dependence of rBN-Related Raman Responses in BN Grown on Fe--B under Flowing N$_2$"
+    },
+    "id:2610.02871": {
+      "sent_at": "2026-10-05T07:42:23+00:00",
+      "source": "arXiv",
+      "title": "Orientation refinement for nanobeam precession electron diffraction patterns using spot intensity profiles"
+    },
+    "id:2610.03171": {
+      "sent_at": "2026-10-05T07:42:23+00:00",
+      "source": "arXiv",
+      "title": "Coercivity-Aware Machine Learning Discovery of Rare-Earth-Free Soft Magnetic Alloys with First-Principles Magnetic Benchmarks"
+    },
+    "id:2610.03230": {
+      "sent_at": "2026-10-05T07:42:23+00:00",
+      "source": "arXiv",
+      "title": "Dynamics-aware bandwidth selection for smoothed charge deposition in 2D electrostatic particle-in-cell"
+    },
+    "id:2610.03435": {
+      "sent_at": "2026-10-05T07:42:23+00:00",
+      "source": "arXiv",
+      "title": "Recrystallization as a tool to characterize and control the properties of cold sprayed materials: case study on 316L steel"
     }
   },
   "version": 1
