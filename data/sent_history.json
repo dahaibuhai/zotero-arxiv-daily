@@ -5,6 +5,11 @@
       "source": "Semantic Scholar",
       "title": "Broadband Photodetectors and Imaging Arrays Based on PtSe\n 2\n /Si Heterojunctions"
     },
+    "doi:10.1002/adts.70565": {
+      "sent_at": "2026-10-06T08:15:05+00:00",
+      "source": "Semantic Scholar",
+      "title": "SputterOne: A Physics‐Informed Interactive Magnetron Sputtering Simulator Enabling a Process Digital Twin"
+    },
     "doi:10.1002/sia.2032": {
       "sent_at": "2026-09-28T07:45:31+00:00",
       "source": "Semantic Scholar",
@@ -165,6 +170,16 @@
       "source": "Semantic Scholar",
       "title": "High power pulsed magnetron sputtering: A review on scientific and engineering state of the art"
     },
+    "doi:10.1016/j.surfcoat.2011.08.005": {
+      "sent_at": "2026-10-06T08:15:05+00:00",
+      "source": "Semantic Scholar",
+      "title": "On surface temperatures during high power pulsed magnetron sputtering using a hot target"
+    },
+    "doi:10.1016/j.surfcoat.2016.06.096": {
+      "sent_at": "2026-10-06T08:15:05+00:00",
+      "source": "Semantic Scholar",
+      "title": "High-rate magnetron sputtering with hot target"
+    },
     "doi:10.1016/j.surfcoat.2017.10.071": {
       "sent_at": "2026-10-05T07:42:23+00:00",
       "source": "Semantic Scholar",
@@ -225,6 +240,11 @@
       "source": "Semantic Scholar",
       "title": "Magnetron sputtering – Milestones of 30 years"
     },
+    "doi:10.1016/j.vacuum.2016.07.030": {
+      "sent_at": "2026-10-06T08:15:05+00:00",
+      "source": "Semantic Scholar",
+      "title": "Evaporation factor in productivity increase of hot target magnetron sputtering systems"
+    },
     "doi:10.1016/j.vacuum.2026.115626": {
       "sent_at": "2026-08-24T02:52:56+00:00",
       "source": "Semantic Scholar",
@@ -244,6 +264,11 @@
       "sent_at": "2026-09-15T06:44:26+00:00",
       "source": "Semantic Scholar",
       "title": "Thermal oxidation, mechanical response and tribological performance of WS2 coatings deposited by magnetron sputtering"
+    },
+    "doi:10.1016/s0042-207x(02)00279-8": {
+      "sent_at": "2026-10-06T08:15:05+00:00",
+      "source": "Semantic Scholar",
+      "title": "TiO2 films prepared by DC magnetron sputtering from ceramic targets"
     },
     "doi:10.1016/s0042-207x(99)00189-x": {
       "sent_at": "2026-09-10T08:43:25+00:00",
@@ -4844,6 +4869,31 @@
       "sent_at": "2026-10-05T07:42:23+00:00",
       "source": "arXiv",
       "title": "Recrystallization as a tool to characterize and control the properties of cold sprayed materials: case study on 316L steel"
+    },
+    "id:2610.03933": {
+      "sent_at": "2026-10-06T08:15:05+00:00",
+      "source": "arXiv",
+      "title": "A Novel Iterative-Fitting Approach for the Thermal Characterization of Thin Fibers"
+    },
+    "id:2610.04797": {
+      "sent_at": "2026-10-06T08:15:05+00:00",
+      "source": "arXiv",
+      "title": "Quantitative near-atomic-resolution oxidation-state mapping in complex oxide heterostructures by electron energy-loss spectroscopy"
+    },
+    "id:2610.05363": {
+      "sent_at": "2026-10-06T08:15:05+00:00",
+      "source": "arXiv",
+      "title": "Sliding and stacking thin homo-monolayers from energy landscapes and combinatorics"
+    },
+    "id:2610.06283": {
+      "sent_at": "2026-10-06T08:15:05+00:00",
+      "source": "arXiv",
+      "title": "First-Principles Investigation of Multimodal Toxic Gas Sensing in Carbon-Tuned hBN-Graphene Alloys: Chemiresistive, Work-Function, and Optical Responses"
+    },
+    "id:2610.06655": {
+      "sent_at": "2026-10-06T08:15:05+00:00",
+      "source": "arXiv",
+      "title": "Structural, electronic, and magnetic properties of HoCo$_2$ thin films grown by pulsed laser deposition"
     }
   },
   "version": 1
