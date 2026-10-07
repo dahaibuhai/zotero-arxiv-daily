@@ -160,6 +160,11 @@
       "source": "Semantic Scholar",
       "title": "High-performance ultraviolet photodetector based on CuO/ZnO composite nanowire forest heterojunction fabricated by combined glancing angle deposition and magnetron sputtering"
     },
+    "doi:10.1016/j.physleta.2016.11.028": {
+      "sent_at": "2026-10-07T07:52:05+00:00",
+      "source": "Semantic Scholar",
+      "title": "Physicochemical model for reactive sputtering of hot target"
+    },
     "doi:10.1016/j.solener.2004.03.015": {
       "sent_at": "2026-09-16T06:55:46+00:00",
       "source": "Semantic Scholar",
@@ -184,6 +189,11 @@
       "sent_at": "2026-10-05T07:42:23+00:00",
       "source": "Semantic Scholar",
       "title": "Enhanced wear resistance of molybdenum nitride coatings deposited by high power impulse magnetron sputtering by using micropatterned surfaces"
+    },
+    "doi:10.1016/j.surfcoat.2019.07.025": {
+      "sent_at": "2026-10-07T07:52:05+00:00",
+      "source": "Semantic Scholar",
+      "title": "Chromium films deposition by hot target high power pulsed magnetron sputtering: Deposition conditions and film properties"
     },
     "doi:10.1016/j.surfcoat.2020.125618": {
       "sent_at": "2026-10-05T07:42:23+00:00",
@@ -230,6 +240,11 @@
       "source": "Semantic Scholar",
       "title": "Ionized physical vapor deposition (IPVD): A review of technology and applications"
     },
+    "doi:10.1016/j.tsf.2006.11.082": {
+      "sent_at": "2026-10-07T07:52:05+00:00",
+      "source": "Semantic Scholar",
+      "title": "Photoluminescence of Eu-doped TiO2 thin films prepared by low pressure hot target magnetron sputtering"
+    },
     "doi:10.1016/j.tsf.2009.01.190": {
       "sent_at": "2026-09-29T07:31:04+00:00",
       "source": "Semantic Scholar",
@@ -244,6 +259,16 @@
       "sent_at": "2026-10-06T08:15:05+00:00",
       "source": "Semantic Scholar",
       "title": "Evaporation factor in productivity increase of hot target magnetron sputtering systems"
+    },
+    "doi:10.1016/j.vacuum.2017.03.020": {
+      "sent_at": "2026-10-07T07:52:05+00:00",
+      "source": "Semantic Scholar",
+      "title": "A comparative study on the properties of chromium coatings deposited by magnetron sputtering with hot and cooled target"
+    },
+    "doi:10.1016/j.vacuum.2020.109734": {
+      "sent_at": "2026-10-07T07:52:05+00:00",
+      "source": "Semantic Scholar",
+      "title": "Hot target magnetron sputtering process: Effect of infrared radiation on the deposition of titanium and titanium oxide thin films"
     },
     "doi:10.1016/j.vacuum.2026.115626": {
       "sent_at": "2026-08-24T02:52:56+00:00",
@@ -4894,6 +4919,31 @@
       "sent_at": "2026-10-06T08:15:05+00:00",
       "source": "arXiv",
       "title": "Structural, electronic, and magnetic properties of HoCo$_2$ thin films grown by pulsed laser deposition"
+    },
+    "id:2610.07007": {
+      "sent_at": "2026-10-07T07:52:05+00:00",
+      "source": "arXiv",
+      "title": "Identifying Plastic Inorganic Semiconductors Requires More Rigorous Criteria"
+    },
+    "id:2610.07113": {
+      "sent_at": "2026-10-07T07:52:05+00:00",
+      "source": "arXiv",
+      "title": "Direct-Write Chemical Vapor Deposition"
+    },
+    "id:2610.07222": {
+      "sent_at": "2026-10-07T07:52:05+00:00",
+      "source": "arXiv",
+      "title": "Effect of Source-to-Substrate Distance on the Optical and Electrical Properties of Thermally Deposited CdTe, CdSe and Sb$_2$S$_3$ Thin Films"
+    },
+    "id:2610.07494": {
+      "sent_at": "2026-10-07T07:52:05+00:00",
+      "source": "arXiv",
+      "title": "Conditions for Altermagnetism in RuO2"
+    },
+    "id:2610.08249": {
+      "sent_at": "2026-10-07T07:52:05+00:00",
+      "source": "arXiv",
+      "title": "Extraction of different electronic contributions to transport properties of transition metals from first principles"
     }
   },
   "version": 1
