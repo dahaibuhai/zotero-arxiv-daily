@@ -35,6 +35,11 @@
       "source": "Semantic Scholar",
       "title": "Enhanced hydrogen sensing performance by modulating energy band of Pd/SnO2/WO3 triple-layer thin film sensor"
     },
+    "doi:10.1007/s10854-026-18593-y": {
+      "sent_at": "2026-10-08T08:02:10+00:00",
+      "source": "Semantic Scholar",
+      "title": "Bandgap engineering of tantalum nitride thin films by ion‑assisted magnetron sputtering for advanced electronic and radiation detection applications"
+    },
     "doi:10.1016/0040-6090(78)90273-0": {
       "sent_at": "2026-09-25T06:39:08+00:00",
       "source": "Semantic Scholar",
@@ -170,6 +175,11 @@
       "source": "Semantic Scholar",
       "title": "TCO and light trapping in silicon thin film solar cells"
     },
+    "doi:10.1016/j.surfcoat.2005.11.055": {
+      "sent_at": "2026-10-08T08:02:10+00:00",
+      "source": "Semantic Scholar",
+      "title": "Characterization of nanocrystalline TiO2–HfO2 thin films prepared by low pressure hot target reactive magnetron sputtering"
+    },
     "doi:10.1016/j.surfcoat.2009.11.013": {
       "sent_at": "2026-09-11T07:02:36+00:00",
       "source": "Semantic Scholar",
@@ -189,6 +199,11 @@
       "sent_at": "2026-10-05T07:42:23+00:00",
       "source": "Semantic Scholar",
       "title": "Enhanced wear resistance of molybdenum nitride coatings deposited by high power impulse magnetron sputtering by using micropatterned surfaces"
+    },
+    "doi:10.1016/j.surfcoat.2017.11.024": {
+      "sent_at": "2026-10-08T08:02:10+00:00",
+      "source": "Semantic Scholar",
+      "title": "Hot target magnetron sputtering for ferromagnetic films deposition"
     },
     "doi:10.1016/j.surfcoat.2019.07.025": {
       "sent_at": "2026-10-07T07:52:05+00:00",
@@ -249,6 +264,11 @@
       "sent_at": "2026-09-29T07:31:04+00:00",
       "source": "Semantic Scholar",
       "title": "Control of molybdenum disulfide basal plane orientation during coating growth in pulsed magnetron sputtering discharges"
+    },
+    "doi:10.1016/j.vacuum.2005.01.056": {
+      "sent_at": "2026-10-08T08:02:10+00:00",
+      "source": "Semantic Scholar",
+      "title": "Deposition of Zr–ZrOX and Y–YXOY films by reactive magnetron sputtering"
     },
     "doi:10.1016/j.vacuum.2009.12.014": {
       "sent_at": "2026-09-29T07:31:04+00:00",
@@ -479,6 +499,11 @@
       "sent_at": "2026-08-14T04:07:08+00:00",
       "source": "Semantic Scholar",
       "title": "Process optimization and characterization of dielectric, piezoelectric, and ferroelectric properties of 30% ScAlN thin films"
+    },
+    "doi:10.1134/s108765961604009x": {
+      "sent_at": "2026-10-08T08:02:10+00:00",
+      "source": "Semantic Scholar",
+      "title": "Composition and structure of copper oxide films synthesized by reactive magnetron sputtering with a hot target"
     },
     "doi:10.1142/s0217979226502401": {
       "sent_at": "2026-08-10T03:33:29+00:00",
@@ -4944,6 +4969,31 @@
       "sent_at": "2026-10-07T07:52:05+00:00",
       "source": "arXiv",
       "title": "Extraction of different electronic contributions to transport properties of transition metals from first principles"
+    },
+    "id:2610.09192": {
+      "sent_at": "2026-10-08T08:02:10+00:00",
+      "source": "arXiv",
+      "title": "Physics-Derived Natural Coordinates for Fast Uncertainty Propagation in Multilayer Thermoreflectance"
+    },
+    "id:2610.09465": {
+      "sent_at": "2026-10-08T08:02:10+00:00",
+      "source": "arXiv",
+      "title": "Optimization-Based Thickness Estimation and Depth-Resolved FIB-Induced Damage Characterization via Multislice Electron Ptychography"
+    },
+    "id:2610.10063": {
+      "sent_at": "2026-10-08T08:02:10+00:00",
+      "source": "arXiv",
+      "title": "Universal orbital-coupling rules for hydrogen-defect interactions in bcc metals"
+    },
+    "id:2610.10191": {
+      "sent_at": "2026-10-08T08:02:10+00:00",
+      "source": "arXiv",
+      "title": "Prediction of the thermal neutron response of grain-boundary impedance in Gd-doped ceria based on the radiation-ionic effect"
+    },
+    "id:2610.10401": {
+      "sent_at": "2026-10-08T08:02:10+00:00",
+      "source": "arXiv",
+      "title": "Interface Doping Mechanism of p-Type Conductivity in Mist-CVD-Grown LiGa5O8 Thin Films"
     }
   },
   "version": 1
