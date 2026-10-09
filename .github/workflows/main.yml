@@ -59,12 +59,13 @@ jobs:
           ENABLE_SEMANTIC_SCHOLAR: ${{ vars.ENABLE_SEMANTIC_SCHOLAR || 'true' }}
           SEMANTIC_SCHOLAR_API_KEY: ${{ secrets.SEMANTIC_SCHOLAR_API_KEY }}
           SEMANTIC_SCHOLAR_QUERIES: ${{ vars.SEMANTIC_SCHOLAR_QUERIES }}
-          SEMANTIC_SCHOLAR_DAYS: ${{ vars.SEMANTIC_SCHOLAR_DAYS || '7' }}
-          SEMANTIC_SCHOLAR_MAX_RESULTS_PER_QUERY: ${{ vars.SEMANTIC_SCHOLAR_MAX_RESULTS_PER_QUERY || '5' }}
+          SEMANTIC_SCHOLAR_DAYS: ${{ vars.SEMANTIC_SCHOLAR_DAYS || '14' }}
+          SEMANTIC_SCHOLAR_MAX_RESULTS_PER_QUERY: "20"
           ENABLE_CLASSIC_FALLBACK: ${{ vars.ENABLE_CLASSIC_FALLBACK || 'true' }}
           CLASSIC_FALLBACK_NUM: ${{ vars.SEMANTIC_SCHOLAR_QUOTA || '5' }}
-          CLASSIC_FALLBACK_CANDIDATES_PER_QUERY: ${{ vars.CLASSIC_FALLBACK_CANDIDATES_PER_QUERY || '50' }}
-          CLASSIC_FALLBACK_MIN_CITATIONS: ${{ vars.CLASSIC_FALLBACK_MIN_CITATIONS || '20' }}
+          CLASSIC_FALLBACK_CANDIDATES_PER_QUERY: "200"
+          CLASSIC_FALLBACK_MAX_CANDIDATES_PER_QUERY: "500"
+          CLASSIC_FALLBACK_MIN_CITATIONS: "5"
           CLASSIC_FALLBACK_RELEVANCE_THRESHOLD: ${{ vars.CLASSIC_FALLBACK_RELEVANCE_THRESHOLD || '0.65' }}
           CLASSIC_FALLBACK_NO_KEYWORD_RELEVANCE_THRESHOLD: ${{ vars.CLASSIC_FALLBACK_NO_KEYWORD_RELEVANCE_THRESHOLD || '0.78' }}
           CLASSIC_FALLBACK_IMPACT_TOP_FRACTION: ${{ vars.CLASSIC_FALLBACK_IMPACT_TOP_FRACTION || '0.25' }}
@@ -78,6 +79,13 @@ jobs:
           CLASSIC_SENT_HISTORY_PATH: data/classic_sent_history.json
         run: |
           uv run main.py
+
+      - name: Save diagnostic selections
+        if: success() && inputs.dry_run
+        uses: actions/upload-artifact@v4
+        with:
+          name: dry-run-selection
+          path: logs/dry_run_selection.json
 
       - name: Persist sent history
         if: success()

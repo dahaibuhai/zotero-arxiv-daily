@@ -1,5 +1,6 @@
 import math
 import re
+from research_scope import normalize, contains, classify_paper
 
 
 def _query_phrases(queries_raw: str) -> list[list[str]]:
@@ -16,11 +17,20 @@ def _query_phrases(queries_raw: str) -> list[list[str]]:
 
 def _query_match_location(paper, phrase_groups: list[list[str]]) -> str:
     """Return title, abstract, or none for the configured search topics."""
-    title = (getattr(paper, "title", "") or "").casefold()
-    abstract = (getattr(paper, "summary", "") or "").casefold()
-    if any(all(phrase in title for phrase in group) for group in phrase_groups):
+    title = normalize(getattr(paper, "title", ""))
+    abstract = normalize(getattr(paper, "summary", ""))
+    aliases = {
+        "reactive sputtering": ("reactive sputtering", "reactive sputter deposition"),
+        "magnetron sputtering": ("magnetron sputtering", "magnetron sputter deposition"),
+        "hipims": ("hipims", "high power impulse magnetron sputtering"),
+        "high power impulse magnetron sputtering": ("hipims", "high power impulse magnetron sputtering"),
+        "hot target": ("hot target", "heated target", "high temperature target"),
+    }
+    def matches(field):
+        return any(all(any(contains(field, alias) for alias in aliases.get(normalize(phrase), (phrase,))) for phrase in group) for group in phrase_groups)
+    if matches(title):
         return "title"
-    if any(all(phrase in abstract for phrase in group) for group in phrase_groups):
+    if matches(abstract):
         return "abstract"
     return "none"
 
@@ -55,6 +65,7 @@ def rank_classic_papers(
     no_keyword_relevance_threshold: float = 0.78,
     minimum_candidates: int = 0,
     queries_raw: str = "",
+    expanded_scope: bool = False,
 ) -> list:
     """Rank historical papers after semantic relevance has been computed.
 
@@ -102,7 +113,17 @@ def rank_classic_papers(
         relevance = min(max(float(getattr(paper, "score", 0.0)) / 10.0, 0.0), 1.0)
         has_keyword_hit = bool(getattr(paper, "keyword_hits", []))
         query_location = _query_match_location(paper, phrase_groups) if phrase_groups else "title"
-        if (
+        if expanded_scope:
+            topic, location, reason = classify_paper(paper)
+            if topic is None:
+                continue
+            paper.research_topic = topic
+            paper.topic_match_location = location
+            paper.recommendation_reason = reason
+            query_location = location
+            # Broader film/plasma papers are vetted by specific topic evidence,
+            # not a hard similarity threshold against a Mo-focused library.
+        if (not expanded_scope or paper.research_topic == "core") and (
             relevance < relevance_threshold
             or (not has_keyword_hit and relevance < no_keyword_relevance_threshold)
             or query_location == "none"

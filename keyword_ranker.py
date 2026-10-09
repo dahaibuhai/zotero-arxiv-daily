@@ -1,5 +1,6 @@
 import math
 import re
+from research_scope import MD_TERMS, normalize, hits as topic_hits, sputtering_related
 
 
 def parse_weighted_keywords(raw: str) -> dict[str, float]:
@@ -34,7 +35,13 @@ def keyword_score(paper, boost_raw="", require_raw="", exclude_raw="", mode="boo
     summary = getattr(paper, "summary", "") or ""
     text = f"{title}\n{summary}".lower()
 
-    exclude = parse_keywords(exclude_raw)
+    normalized = normalize(text)
+    if topic_hits(normalized, MD_TERMS) and not sputtering_related(normalized):
+        return None, []
+
+    # Legacy deployment variables used to exclude all molecular dynamics.
+    # The approved policy now conditionally admits sputtering-related MD.
+    exclude = [term for term in parse_keywords(exclude_raw) if normalize(term) not in {normalize(term) for term in MD_TERMS}]
     if any(contains_phrase(text, keyword) for keyword in exclude):
         return None, []
 

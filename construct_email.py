@@ -210,6 +210,12 @@ def render_paper_block(p):
         )
 
     source = getattr(p, "source", "")
+    if getattr(p, "research_topic", ""):
+        from research_scope import TOPIC_LABELS
+        score_details += (
+            '<br><strong>Topic:</strong> ' + escape(TOPIC_LABELS[p.research_topic])
+            + '<br><strong>Recommended because:</strong> ' + escape(p.recommendation_reason)
+        )
     if getattr(p, "is_classic_fallback", False):
         source = f"{source} · Classic fallback"
 
@@ -275,7 +281,7 @@ def render_email(papers: list[ArxivPaper]):
                 progress.update(1)
             sections.append(
                 get_section_header(
-                    f"Classic high-impact papers ({len(classic_papers)})",
+                    f"Classic selected papers ({len(classic_papers)})",
                     "New Semantic Scholar papers did not fill today's quota. "
                     "These older papers passed the relevance and citation-impact gates.",
                 )

@@ -31,7 +31,35 @@ PAPER_FIELDS = ",".join(
 
 
 def parse_queries(raw: str) -> list[str]:
-    return [line.strip() for line in (raw or "").splitlines() if line.strip()]
+    return list(dict.fromkeys(line.strip() for line in (raw or "").splitlines() if line.strip()))
+
+
+def search_items(params, headers, count, skip=0):
+    """Walk bulk-search continuation tokens, stopping at the requested budget."""
+    if count <= 0:
+        return []
+    params = dict(params)
+    items = []
+    seen_tokens = set()
+    scanned = 0
+    while len(items) < count:
+        payload = request_with_retry(params, headers).json()
+        for item in payload.get("data", []):
+            if not item.get("title"):
+                continue
+            scanned += 1
+            if scanned <= skip:
+                continue
+            items.append(item)
+            if len(items) >= count:
+                break
+        token = payload.get("token")
+        if len(items) >= count or not token or token in seen_tokens:
+            break
+        seen_tokens.add(token)
+        params["token"] = token
+        time.sleep(REQUEST_INTERVAL_SECONDS)
+    return items
 
 
 def request_with_retry(params: dict, headers: dict) -> requests.Response:
@@ -162,8 +190,7 @@ def fetch_semantic_scholar_papers(
             "sort": "publicationDate:desc",
         }
         try:
-            response = request_with_retry(params=params, headers=headers)
-            data = response.json().get("data", [])
+            data = search_items(params, headers, max_results_per_query)
         except requests.RequestException as exc:
             # Semantic Scholar is an optional discovery source.  A persistent
             # rate limit or transient network error for one query must not
@@ -210,8 +237,9 @@ def fetch_classic_semantic_scholar_papers(
     queries_raw: str,
     api_key: str | None = None,
     recent_days: int = 14,
-    max_results_per_query: int = 20,
-    min_citations: int = 20,
+    max_results_per_query: int = 200,
+    min_citations: int = 5,
+    skip_results_per_query: int = 0,
 ):
     """Fetch older, highly cited candidates for an empty daily S2 result set."""
     queries = parse_queries(queries_raw)
@@ -234,8 +262,7 @@ def fetch_classic_semantic_scholar_papers(
             "sort": "citationCount:desc",
         }
         try:
-            response = request_with_retry(params=params, headers=headers)
-            data = response.json().get("data", [])
+            data = search_items(params, headers, max_results_per_query, skip_results_per_query)
         except requests.RequestException as exc:
             logger.warning(
                 "Skipping Semantic Scholar classic query after retries: {!r} ({})",

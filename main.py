@@ -2,6 +2,9 @@ import arxiv
 import argparse
 import os
 import sys
+import json
+from pathlib import Path
+from collections import Counter
 from dotenv import load_dotenv
 
 load_dotenv(override=True)
@@ -30,6 +33,7 @@ from sent_history import (
     record_sent_papers,
 )
 from source_quota import select_source_quotas, semantic_shortfall
+from research_scope import DEFAULT_QUERIES, TOPIC_LABELS, apply_research_scope
 import feedparser
 
 
@@ -166,10 +170,12 @@ if __name__ == "__main__":
     add_argument("--semantic_scholar_queries", type=str, default="")
     add_argument("--semantic_scholar_days", type=int, default=14)
     add_argument("--semantic_scholar_max_results_per_query", type=int, default=20)
+    add_argument("--expanded_research_scope", type=bool, default=True)
     add_argument("--enable_classic_fallback", type=bool, default=True)
     add_argument("--classic_fallback_num", type=int, default=5)
-    add_argument("--classic_fallback_candidates_per_query", type=int, default=50)
-    add_argument("--classic_fallback_min_citations", type=int, default=20)
+    add_argument("--classic_fallback_candidates_per_query", type=int, default=200)
+    add_argument("--classic_fallback_max_candidates_per_query", type=int, default=500)
+    add_argument("--classic_fallback_min_citations", type=int, default=5)
     add_argument("--classic_fallback_relevance_threshold", type=float, default=0.65)
     add_argument(
         "--classic_fallback_no_keyword_relevance_threshold",
@@ -222,6 +228,12 @@ if __name__ == "__main__":
     )
     parser.add_argument("--debug", action="store_true", help="Debug mode")
     args = parser.parse_args()
+
+    if args.expanded_research_scope:
+        args.semantic_scholar_queries = "\n".join(dict.fromkeys(
+            line.strip() for line in (args.semantic_scholar_queries + "\n" + DEFAULT_QUERIES).splitlines() if line.strip()
+        ))
+        args.keywords_boost += "\nhollow cathode:6\nreactive sputter deposition:6\nmagnetron sputter deposition:6\natomic layer deposition:4\nchemical vapor deposition:4\npulsed laser deposition:4\ncathodic arc:4\nion beam deposition:4\nplasma diagnostics:4\nplasma sheath:4\nlow temperature plasma:4"
 
     assert not args.use_llm_api or args.openai_api_key is not None
     if args.arxiv_quota < 0 or args.semantic_scholar_quota < 0:
@@ -320,6 +332,9 @@ if __name__ == "__main__":
         mode=args.keyword_filter_mode,
     )
     logger.info(f"Remaining {len(papers)} papers after keyword filtering.")
+    if args.expanded_research_scope:
+        papers = apply_research_scope(papers)
+        logger.info("Remaining {} new papers after research-topic gating.", len(papers))
 
     crossref_before = sum(
         getattr(paper, "source", "") == "Crossref" for paper in papers
@@ -365,75 +380,93 @@ if __name__ == "__main__":
             "retrieving classic fallback candidates.",
             semantic_fallback_needed,
         )
-        try:
-            classic_candidates = fetch_classic_semantic_scholar_papers(
-                queries_raw=args.semantic_scholar_queries,
-                api_key=args.semantic_scholar_api_key,
-                recent_days=args.semantic_scholar_days,
-                max_results_per_query=args.classic_fallback_candidates_per_query,
-                min_citations=args.classic_fallback_min_citations,
-            )
-        except Exception as exc:
-            logger.warning(
-                "Semantic Scholar classic fallback failed; continuing without it: {}",
-                exc,
-            )
-            classic_candidates = []
-
-        # Prefer an already selected new paper when a historical query returns
-        # the same DOI/title, then apply both recent and permanent histories.
-        combined = dedupe_papers(papers + classic_candidates)
-        classic_candidates = [
-            paper
-            for paper in combined
-            if getattr(paper, "is_classic_fallback", False)
-        ]
-        classic_candidates, skipped_recent_classics = filter_previously_sent_papers(
-            classic_candidates, sent_history
-        )
         classic_history = load_sent_history(args.classic_sent_history_path, None)
-        classic_candidates, skipped_permanent_classics = filter_previously_sent_papers(
-            classic_candidates, classic_history
-        )
-        logger.info(
-            "Remaining {} classic candidates after excluding {} recent and {} permanently recorded papers.",
-            len(classic_candidates),
-            skipped_recent_classics,
-            skipped_permanent_classics,
-        )
+        # Expand only when the initial 200-per-query pool cannot fill the
+        # semantic shortfall. The second pass retrieves ranks 201..500.
+        budgets = [args.classic_fallback_candidates_per_query]
+        if args.classic_fallback_max_candidates_per_query > budgets[0]:
+            budgets.append(args.classic_fallback_max_candidates_per_query)
+        all_classic_candidates = []
+        for candidate_budget in budgets:
+            skip = 0 if candidate_budget == budgets[0] else budgets[0]
+            logger.info("Classic candidate search: ranks {}..{} per query.", skip + 1, candidate_budget)
+            try:
+                classic_candidates = fetch_classic_semantic_scholar_papers(
+                    queries_raw=args.semantic_scholar_queries,
+                    api_key=args.semantic_scholar_api_key,
+                    recent_days=args.semantic_scholar_days,
+                    max_results_per_query=candidate_budget - skip,
+                    min_citations=args.classic_fallback_min_citations,
+                    skip_results_per_query=skip,
+                )
+            except Exception as exc:
+                logger.warning(
+                    "Semantic Scholar classic fallback failed; continuing without it: {}",
+                    exc,
+                )
+                classic_candidates = []
 
-        classic_candidates = apply_keyword_rules(
-            classic_candidates,
-            boost_raw=args.keywords_boost,
-            require_raw=args.keywords_require,
-            exclude_raw=args.keywords_exclude,
-            mode=args.keyword_filter_mode,
-        )
-        logger.info(
-            "Remaining {} classic candidates after keyword filtering.",
-            len(classic_candidates),
-        )
+            # Prefer an already selected new paper when a historical query returns
+            # the same DOI/title, then apply both recent and permanent histories.
+            combined = dedupe_papers(papers + classic_candidates)
+            classic_candidates = [
+                paper
+                for paper in combined
+                if getattr(paper, "is_classic_fallback", False)
+            ]
+            classic_candidates, skipped_recent_classics = filter_previously_sent_papers(
+                classic_candidates, sent_history
+            )
+            classic_history = load_sent_history(args.classic_sent_history_path, None)
+            classic_candidates, skipped_permanent_classics = filter_previously_sent_papers(
+                classic_candidates, classic_history
+            )
+            logger.info(
+                "Remaining {} classic candidates after excluding {} recent and {} permanently recorded papers.",
+                len(classic_candidates),
+                skipped_recent_classics,
+                skipped_permanent_classics,
+            )
 
-        if classic_candidates:
-            classic_candidates = rerank_paper(classic_candidates, corpus)
-            if args.dry_run:
-                for paper in classic_candidates[:15]:
-                    logger.info(
-                        "Dry-run candidate: relevance={:.0f}, citations={}, title={}",
-                        min(max(float(paper.score) * 10.0, 0.0), 100.0),
-                        paper.citation_count,
-                        paper.title,
-                    )
-            classic_papers = rank_classic_papers(
+            classic_candidates = apply_keyword_rules(
                 classic_candidates,
-                relevance_threshold=args.classic_fallback_relevance_threshold,
-                impact_top_fraction=args.classic_fallback_impact_top_fraction,
-                no_keyword_relevance_threshold=(
-                    args.classic_fallback_no_keyword_relevance_threshold
-                ),
-                minimum_candidates=semantic_fallback_needed,
-                queries_raw=args.semantic_scholar_queries,
-            )[: min(args.classic_fallback_num, semantic_fallback_needed)]
+                boost_raw=args.keywords_boost,
+                require_raw=args.keywords_require,
+                exclude_raw=args.keywords_exclude,
+                mode=args.keyword_filter_mode,
+            )
+            logger.info(
+                "Remaining {} classic candidates after keyword filtering.",
+                len(classic_candidates),
+            )
+
+            if args.expanded_research_scope:
+                classic_candidates = apply_research_scope(classic_candidates)
+            all_classic_candidates = dedupe_papers(all_classic_candidates + classic_candidates)
+            classic_candidates = all_classic_candidates
+            if classic_candidates:
+                classic_candidates = rerank_paper(classic_candidates, corpus)
+                if args.dry_run:
+                    for paper in classic_candidates[:15]:
+                        logger.info(
+                            "Dry-run candidate: relevance={:.0f}, citations={}, title={}",
+                            min(max(float(paper.score) * 10.0, 0.0), 100.0),
+                            paper.citation_count,
+                            paper.title,
+                        )
+                classic_papers = rank_classic_papers(
+                    classic_candidates,
+                    relevance_threshold=args.classic_fallback_relevance_threshold,
+                    impact_top_fraction=args.classic_fallback_impact_top_fraction,
+                    no_keyword_relevance_threshold=(
+                        args.classic_fallback_no_keyword_relevance_threshold
+                    ),
+                    minimum_candidates=len(classic_candidates),
+                    queries_raw=args.semantic_scholar_queries,
+                    expanded_scope=args.expanded_research_scope,
+                )
+            if len(classic_papers) >= semantic_fallback_needed:
+                break
         logger.info(
             "Selected {} classic Semantic Scholar fallback papers for a {}-paper shortfall.",
             len(classic_papers),
@@ -456,6 +489,7 @@ if __name__ == "__main__":
         classic_papers,
         arxiv_quota=args.arxiv_quota,
         semantic_scholar_quota=args.semantic_scholar_quota,
+        balance_topics=args.expanded_research_scope,
     )
     logger.info(
         "Selected {} arXiv, {} new Semantic Scholar, and {} classic Semantic Scholar papers "
@@ -465,8 +499,22 @@ if __name__ == "__main__":
         classic_selected,
         len(papers),
     )
+    if len(papers) < requested_total:
+        logger.warning("Quota shortfall: arXiv {}/{}, Semantic Scholar {}/{}; no unvetted filler.",
+                       arxiv_selected, args.arxiv_quota, new_semantic_selected + classic_selected, args.semantic_scholar_quota)
+    logger.info("Selected topic counts: {}", dict(Counter(getattr(p, "research_topic", "") for p in papers)))
     if args.dry_run:
+        report = []
         for paper in papers:
+            logger.info("Dry-run selection: source={}, topic={}, reason={}, title={}",
+                        paper.source, TOPIC_LABELS.get(getattr(paper, "research_topic", ""), ""),
+                        getattr(paper, "recommendation_reason", ""), paper.title)
+            report.append({"title": paper.title, "source": paper.source,
+                           "classic": bool(getattr(paper, "is_classic_fallback", False)),
+                           "topic": TOPIC_LABELS.get(getattr(paper, "research_topic", ""), ""),
+                           "reason": getattr(paper, "recommendation_reason", ""),
+                           "citations": getattr(paper, "citation_count", 0),
+                           "url": paper.pdf_url})
             if getattr(paper, "is_classic_fallback", False):
                 logger.info(
                     "Dry-run classic: score={:.0f}, relevance={:.0f}, impact={:.0f}, "
@@ -477,6 +525,8 @@ if __name__ == "__main__":
                     paper.citation_count,
                     paper.title,
                 )
+        Path("logs").mkdir(exist_ok=True)
+        Path("logs/dry_run_selection.json").write_text(json.dumps(report, ensure_ascii=False, indent=2), encoding="utf-8")
         logger.info("Dry run complete: no email sent and no history updated.")
         exit(0)
 
@@ -514,9 +564,10 @@ if __name__ == "__main__":
             args.sent_history_path,
             args.sent_history_days,
         )
-    if classic_papers:
+    delivered_classics = [p for p in papers if getattr(p, "is_classic_fallback", False)]
+    if delivered_classics:
         record_sent_papers(
-            classic_papers,
+            delivered_classics,
             classic_history,
             args.classic_sent_history_path,
             None,

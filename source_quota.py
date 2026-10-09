@@ -16,6 +16,7 @@ def select_source_quotas(
     *,
     arxiv_quota: int,
     semantic_scholar_quota: int,
+    balance_topics: bool = False,
 ) -> tuple[list, int, int, int]:
     """Select ranked papers without allowing one source to crowd out another.
 
@@ -30,13 +31,23 @@ def select_source_quotas(
         paper
         for paper in papers
         if getattr(paper, "source", "") == ARXIV_SOURCE
-    ][:arxiv_quota]
+    ]
     new_semantic = [
         paper
         for paper in papers
         if getattr(paper, "source", "") == SEMANTIC_SCHOLAR_SOURCE
-    ][:semantic_scholar_quota]
+    ]
+    if balance_topics:
+        from research_scope import select_balanced
+        arxiv = select_balanced(arxiv, arxiv_quota, [])
+        new_semantic = select_balanced(new_semantic, semantic_scholar_quota, arxiv)
+    else:
+        arxiv = arxiv[:arxiv_quota]
+        new_semantic = new_semantic[:semantic_scholar_quota]
     classic_needed = semantic_shortfall(len(new_semantic), semantic_scholar_quota)
-    classic = classic_papers[:classic_needed]
+    if balance_topics:
+        classic = select_balanced(classic_papers, classic_needed, arxiv + new_semantic)
+    else:
+        classic = classic_papers[:classic_needed]
 
     return arxiv + new_semantic + classic, len(arxiv), len(new_semantic), len(classic)
