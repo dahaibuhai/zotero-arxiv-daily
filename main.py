@@ -34,10 +34,20 @@ from sent_history import (
 )
 from source_quota import select_source_quotas, semantic_shortfall
 from research_scope import DEFAULT_QUERIES, TOPIC_LABELS, apply_research_scope
+from network_retry import retry_transient
 import feedparser
 
 
 def get_zotero_corpus(id: str, key: str) -> list[dict]:
+    return retry_transient(
+        lambda: _get_zotero_corpus(id, key),
+        lambda status, attempt, attempts, delay: logger.warning(
+            "Zotero returned HTTP {} (attempt {}/{}); retrying in {}s.", status, attempt, attempts, delay
+        ),
+    )
+
+
+def _get_zotero_corpus(id: str, key: str) -> list[dict]:
     zot = zotero.Zotero(id, "user", key)
     collections = zot.everything(zot.collections())
     collections = {c["key"]: c for c in collections}
