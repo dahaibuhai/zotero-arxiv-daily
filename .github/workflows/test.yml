@@ -2,15 +2,24 @@ name: Test workflow
 on:
   workflow_dispatch:
 
+permissions:
+  contents: write
+
+concurrency:
+  group: literature-delivery-${{ github.repository }}-${{ github.ref_name }}
+  cancel-in-progress: false
+
 jobs:
   calculate-and-send:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
+        id: checkout
         uses: actions/checkout@v4
         with:
-          repository: ${{ vars.REPOSITORY }}
-          ref: ${{ vars.REF }}
+          repository: ${{ vars.REPOSITORY || github.repository }}
+          ref: ${{ vars.REF || github.ref_name }}
+          fetch-depth: 0
 
       - name: Setup uv
         uses: astral-sh/setup-uv@v3
@@ -61,8 +70,22 @@ jobs:
           CROSSREF_DAYS: ${{ vars.CROSSREF_DAYS }}
           CROSSREF_ROWS_PER_JOURNAL: ${{ vars.CROSSREF_ROWS_PER_JOURNAL }}
           CROSSREF_MAILTO: ${{ vars.CROSSREF_MAILTO }}
+          DELIVERY_LEDGER_PATH: data/daily_delivery.json
           SENT_HISTORY_PATH: .tmp/sent_history_test.json
           SENT_HISTORY_DAYS: "90"
           CLASSIC_SENT_HISTORY_PATH: .tmp/classic_sent_history_test.json
         run: |
           uv run main.py --debug
+
+      - name: Persist successful delivery day
+        if: always() && steps.checkout.outcome == 'success'
+        run: |
+          if [ -z "$(git status --porcelain -- data/daily_delivery.json)" ]; then
+            echo "Delivery day is unchanged."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/daily_delivery.json
+          git commit -m "chore: record successful test delivery day"
+          git push

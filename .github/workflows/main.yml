@@ -12,11 +12,16 @@ on:
 permissions:
   contents: write
 
+concurrency:
+  group: literature-delivery-${{ github.repository }}-${{ github.ref_name }}
+  cancel-in-progress: false
+
 jobs:
   calculate-and-send:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
+        id: checkout
         uses: actions/checkout@v4
         with:
           repository: ${{ vars.REPOSITORY || github.repository }}
@@ -74,6 +79,7 @@ jobs:
           CROSSREF_DAYS: ${{ vars.CROSSREF_DAYS }}
           CROSSREF_ROWS_PER_JOURNAL: ${{ vars.CROSSREF_ROWS_PER_JOURNAL }}
           CROSSREF_MAILTO: ${{ vars.CROSSREF_MAILTO }}
+          DELIVERY_LEDGER_PATH: data/daily_delivery.json
           SENT_HISTORY_PATH: data/sent_history.json
           SENT_HISTORY_DAYS: "90"
           CLASSIC_SENT_HISTORY_PATH: data/classic_sent_history.json
@@ -88,14 +94,14 @@ jobs:
           path: logs/dry_run_selection.json
 
       - name: Persist sent history
-        if: success()
+        if: always() && steps.checkout.outcome == 'success'
         run: |
-          if [ -z "$(git status --porcelain -- data/sent_history.json data/classic_sent_history.json)" ]; then
+          if [ -z "$(git status --porcelain -- data/sent_history.json data/classic_sent_history.json data/daily_delivery.json)" ]; then
             echo "Sent history is unchanged."
             exit 0
           fi
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data/sent_history.json data/classic_sent_history.json
+          git add data/sent_history.json data/classic_sent_history.json data/daily_delivery.json
           git commit -m "chore: update paper histories"
           git push

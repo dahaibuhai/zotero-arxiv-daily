@@ -35,6 +35,7 @@ from sent_history import (
 from source_quota import select_source_quotas, semantic_shortfall
 from research_scope import DEFAULT_QUERIES, TOPIC_LABELS, apply_research_scope, scoped_queries
 from network_retry import retry_transient
+from daily_delivery import should_skip_scheduled, record_delivery
 import feedparser
 
 
@@ -159,6 +160,7 @@ if __name__ == "__main__":
     )
     add_argument("--send_empty", type=bool, help="If get no arxiv paper, send empty email", default=False)
     add_argument("--dry_run", type=bool, default=False, help="Select papers without email or history updates")
+    add_argument("--delivery_ledger_path", type=str, default="data/daily_delivery.json")
     add_argument("--max_paper_num", type=int, help="Maximum number of papers to recommend", default=10)
     add_argument("--arxiv_quota", type=int, default=5)
     add_argument("--semantic_scholar_quota", type=int, default=5)
@@ -265,6 +267,11 @@ if __name__ == "__main__":
     else:
         logger.remove()
         logger.add(sys.stdout, level="INFO")
+
+    delivery_event = os.environ.get("GITHUB_EVENT_NAME", "local")
+    if should_skip_scheduled(delivery_event, args.dry_run, args.delivery_ledger_path, args.sent_history_path):
+        logger.info("Scheduled run skipped: email already delivered today (Asia/Shanghai).")
+        sys.exit(0)
 
     logger.info("Retrieving Zotero corpus...")
     corpus = get_zotero_corpus(args.zotero_id, args.zotero_key)
@@ -561,6 +568,7 @@ if __name__ == "__main__":
     html = render_email(papers)
     logger.info("Sending email...")
     send_email(args.sender, args.receiver, args.sender_password, args.smtp_server, args.smtp_port, html)
+    record_delivery(args.delivery_ledger_path, delivery_event)
     logger.success(
         "Email sent successfully! If you don't receive the email, "
         "please check the configuration and the junk box."
