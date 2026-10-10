@@ -33,7 +33,7 @@ from sent_history import (
     record_sent_papers,
 )
 from source_quota import select_source_quotas, semantic_shortfall
-from research_scope import DEFAULT_QUERIES, TOPIC_LABELS, apply_research_scope
+from research_scope import DEFAULT_QUERIES, TOPIC_LABELS, apply_research_scope, scoped_queries
 from network_retry import retry_transient
 import feedparser
 
@@ -240,9 +240,7 @@ if __name__ == "__main__":
     args = parser.parse_args()
 
     if args.expanded_research_scope:
-        args.semantic_scholar_queries = "\n".join(dict.fromkeys(
-            line.strip() for line in (args.semantic_scholar_queries + "\n" + DEFAULT_QUERIES).splitlines() if line.strip()
-        ))
+        args.semantic_scholar_queries = scoped_queries(args.semantic_scholar_queries + "\n" + DEFAULT_QUERIES)
         args.keywords_boost += "\nhollow cathode:6\nreactive sputter deposition:6\nmagnetron sputter deposition:6\natomic layer deposition:4\nchemical vapor deposition:4\npulsed laser deposition:4\ncathodic arc:4\nion beam deposition:4\nplasma diagnostics:4\nplasma sheath:4\nlow temperature plasma:4"
 
     assert not args.use_llm_api or args.openai_api_key is not None

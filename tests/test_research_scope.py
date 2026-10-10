@@ -2,7 +2,7 @@ import unittest
 from types import SimpleNamespace
 from collections import Counter
 
-from research_scope import classify_paper, apply_research_scope
+from research_scope import classify_paper, apply_research_scope, scoped_queries, DEFAULT_QUERIES
 from keyword_ranker import keyword_score
 from classic_ranker import rank_classic_papers, _query_match_location, _query_phrases
 from source_quota import select_source_quotas
@@ -31,8 +31,8 @@ class ResearchScopeTests(unittest.TestCase):
             "Atomic layer deposition of oxide films": "films",
             "Pulsed laser deposition of TiN": "films",
             "Microstructure and adhesion of copper thin films": "films",
-            "Langmuir probe diagnostics of low-temperature plasma": "plasma",
-            "Particle-in-cell simulation of plasma sheath": "plasma",
+            "Langmuir probe diagnostics of low-temperature plasma in a glow discharge": "plasma",
+            "Particle-in-cell simulation of plasma sheath in a low-pressure discharge": "plasma",
         }
         for title, topic in examples.items():
             with self.subTest(title=title):
@@ -45,6 +45,35 @@ class ResearchScopeTests(unittest.TestCase):
         self.assertEqual(_query_match_location(paper("Molybdenum films by magnetron sputter deposition"), groups), "title")
         self.assertEqual(_query_match_location(paper("Titanium films by magnetron sputter deposition"), groups), "none")
 
+    def test_rejects_actual_off_topic_arxiv_selections(self):
+        titles = [
+            "Imaging ablator-fuel mix of hot spot in inertial confinement fusion via resonant X-ray absorption using an X-ray free electron laser",
+            "Beam filamentation instability drives deuterium-tritium fusion with polarized neutron emission",
+            "The Richtmyer-Meshkov Instability of Thermal, Isotope, and Species Interfaces in a five-moment multi-fluid plasma",
+            "Reconstruction of Multiscale Plasma Dynamics Across Operating Regimes",
+            "Kinetic wave activity and proton heating in 3D hybrid simulations of decaying balanced and imbalanced Alfvénic turbulence",
+        ]
+        for title in titles:
+            with self.subTest(title=title):
+                self.assertIsNone(classify_paper(paper(title, "We use particle-in-cell simulation and plasma diagnostics to study tokamak dynamics."))[0])
+
+    def test_requires_laboratory_context_for_generic_diagnostics_and_models(self):
+        self.assertIsNone(classify_paper(paper("Particle-in-cell simulation of plasma sheath"))[0])
+        self.assertIsNone(classify_paper(paper("Plasma diagnostics", "Simulation of plasma dynamics"))[0])
+        for title in ["Plasma diagnostics in an inductively coupled reactor", "Fluid modeling of plasma sheath in a glow discharge", "Hybrid plasma model for magnetron sputtering", "Monte Carlo simulation of sputtering yield", "Hollow cathode discharge diagnostics", "Argon plasma surface treatment of polymers", "Radio-frequency plasma diagnostics", "Modeling of a plasma etching reactor"]:
+            self.assertIsNotNone(classify_paper(paper(title))[0])
+
+    def test_retains_material_processing_when_fusion_is_background(self):
+        candidate = paper("Magnetron sputtering of tungsten thin films", "Coatings for tokamak walls are deposited using a magnetron plasma source.")
+        self.assertEqual(classify_paper(candidate)[0], "core")
+
+    def test_removes_legacy_unscoped_queries(self):
+        queries = scoped_queries('"particle in cell" "plasma"\n"plasma diagnostics"\n"molybdenum" "magnetron sputtering"\n' + DEFAULT_QUERIES)
+        self.assertNotIn('"particle in cell" "plasma"', queries.splitlines())
+        self.assertNotIn('"plasma diagnostics"', queries.splitlines())
+        self.assertIn('"plasma diagnostics" "discharge"', queries.splitlines())
+        self.assertIn('"molybdenum" "magnetron sputtering"', queries.splitlines())
+
     def test_expansion_does_not_require_similarity_to_mo_library(self):
         film = paper("Atomic layer deposition of oxide films", score=4.0)
         core = paper("Magnetron sputtering of Mo films", score=4.0)
@@ -56,7 +85,7 @@ class ResearchScopeTests(unittest.TestCase):
         arxiv = apply_research_scope([paper("Magnetron sputtering " + str(i), source="arXiv") for i in range(6)]
                                     + [paper("Atomic layer deposition " + str(i), source="arXiv") for i in range(3)])
         semantic = apply_research_scope([paper("Atomic layer deposition " + str(i)) for i in range(4)]
-                                       + [paper("Plasma diagnostics " + str(i)) for i in range(4)])
+                                       + [paper("Plasma diagnostics in a glow discharge " + str(i)) for i in range(4)])
         selected, a, n, c = select_source_quotas(arxiv + semantic, [paper("classic")], arxiv_quota=5, semantic_scholar_quota=5, balance_topics=True)
         self.assertEqual((a, n, c), (5, 5, 0))
         self.assertEqual(Counter(p.research_topic for p in selected), {"core": 4, "films": 3, "plasma": 3})

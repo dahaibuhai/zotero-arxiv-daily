@@ -1,6 +1,7 @@
 """Explicit editorial scope for thin-film and laboratory-plasma literature."""
 
 import re
+import unicodedata
 from collections import Counter
 
 TOPIC_TARGETS = {"core": 4, "films": 3, "plasma": 3}
@@ -12,9 +13,10 @@ DEFAULT_QUERIES = '\n'.join([
     '"atomic layer deposition"', '"chemical vapor deposition" "film"',
     '"pulsed laser deposition"', '"cathodic arc" "coating"',
     '"ion beam deposition"', '"evaporation" "thin film"',
-    '"low temperature plasma"', '"plasma diagnostics"',
-    '"plasma sheath"', '"particle in cell" "plasma"',
-    '"fluid model" "plasma"', '"hybrid model" "plasma"',
+    '"low temperature plasma" "discharge"', '"plasma diagnostics" "discharge"',
+    '"plasma sheath" "low pressure"', '"particle in cell" "discharge"',
+    '"fluid model" "glow discharge"', '"hybrid model" "magnetron"',
+    '"plasma" "surface treatment"', '"electron energy distribution" "discharge"',
     '"molecular dynamics" "sputtering"', '"collision cascade" "sputtering"',
     '"Monte Carlo" "sputtering"',
 ])
@@ -24,12 +26,21 @@ CORE_TERMS = ("magnetron sputtering", "magnetron sputter deposition", "reactive 
 FILM_METHODS = ("atomic layer deposition", "chemical vapor deposition", "chemical vapour deposition", "pulsed laser deposition", "cathodic arc", "ion beam deposition", "physical vapor deposition", "physical vapour deposition", "electron beam evaporation", "thermal evaporation")
 FILM_CONTEXT = ("thin film", "coating", "film growth", "film deposition", "deposited film")
 FILM_EVIDENCE = ("deposition", "deposited", "growth", "microstructure", "adhesion", "residual stress", "film stress", "crystallinity", "structure property", "electrical properties", "optical properties", "mechanical properties", "synthesis")
-PLASMA_TERMS = ("low temperature plasma", "non thermal plasma", "nonthermal plasma", "plasma diagnostics", "plasma diagnostic", "plasma sheath", "glow discharge", "radio frequency discharge", "microwave discharge", "electron energy distribution", "plasma surface interaction", "langmuir probe", "rf plasma", "capacitively coupled plasma", "inductively coupled plasma")
+PLASMA_TERMS = ("low temperature plasma", "non thermal plasma", "nonthermal plasma", "plasma diagnostics", "plasma diagnostic", "plasma sheath", "glow discharge", "radio frequency discharge", "microwave discharge", "electron energy distribution", "plasma surface interaction", "langmuir probe", "rf plasma", "capacitively coupled plasma", "inductively coupled plasma", "radio frequency plasma", "microwave plasma", "plasma surface treatment", "plasma etching", "plasma nitriding", "plasma source", "plasma reactor")
 SIMULATION_TERMS = ("particle in cell", "pic mcc", "fluid model", "hybrid model", "monte carlo", "binary collision approximation", "collision cascade", "simulation", "modeling", "modelling")
+UNSCOPED_PLASMA_QUERIES = ('"low temperature plasma"', '"plasma diagnostics"', '"plasma sheath"', '"particle in cell" "plasma"', '"fluid model" "plasma"', '"hybrid model" "plasma"')
+LAB_PLASMA_CONTEXT = ("glow discharge", "low pressure discharge", "low pressure plasma", "capacitively coupled", "inductively coupled", "radio frequency discharge", "radio frequency plasma", "rf discharge", "rf plasma", "microwave discharge", "microwave plasma", "dielectric barrier discharge", "magnetron", "hollow cathode", "plasma processing", "plasma assisted deposition", "plasma enhanced deposition", "plasma etching", "plasma surface treatment", "surface activation", "plasma nitriding", "plasma source", "plasma reactor")
+OFF_SCOPE_PLASMA = ("fusion", "tokamak", "stellarator", "inertial confinement", "alfven", "alfvenic", "solar wind", "solar corona", "magnetosphere", "interstellar", "astrophysical", "astrophysics", "space plasma", "cosmic plasma", "magnetic reconnection", "richtmyer meshkov", "ablator fuel")
+
+
+def scoped_queries(raw):
+    excluded = {normalize(q) for q in UNSCOPED_PLASMA_QUERIES}
+    return "\n".join(dict.fromkeys(q.strip() for q in (raw or "").splitlines() if q.strip() and normalize(q) not in excluded))
 
 
 def normalize(text):
-    return re.sub(r"\s+", " ", re.sub(r"[^\w]+", " ", (text or "").casefold())).strip()
+    text = "".join(c for c in unicodedata.normalize("NFKD", (text or "").casefold()) if not unicodedata.combining(c))
+    return re.sub(r"\s+", " ", re.sub(r"[^\w]+", " ", text)).strip()
 
 
 def contains(text, phrase):
@@ -50,14 +61,22 @@ def classify_paper(paper):
     title = normalize(getattr(paper, "title", ""))
     abstract = normalize(getattr(paper, "summary", ""))
     text = title + " " + abstract
+    # A paper about fusion/space dynamics is not rescued by merely mentioning
+    # simulation, diagnostics, a sheath or generic plasma in its abstract.
+    material_title = hits(title, CORE_TERMS + FILM_METHODS) or (hits(title, FILM_CONTEXT) and hits(title, FILM_EVIDENCE))
+    lab_context = hits(text, LAB_PLASMA_CONTEXT)
+    if (hits(title, OFF_SCOPE_PLASMA) and not material_title) or (hits(abstract, OFF_SCOPE_PLASMA) and not lab_context and not material_title):
+        return None, "none", "聚变、空间或高能等离子体主题偏离材料加工范围"
     if hits(text, MD_TERMS) and not sputtering_related(text):
         return None, "none", "分子动力学主题与溅射无关"
     simulation = hits(text, MD_TERMS + SIMULATION_TERMS)
-    if simulation and (sputtering_related(text) or contains(text, "plasma")):
+    if simulation and (sputtering_related(text) or (contains(text, "plasma") and lab_context)):
         evidence = simulation[0]
         location = "title" if hits(title, MD_TERMS + SIMULATION_TERMS) and (sputtering_related(title) or contains(title, "plasma")) else "abstract"
         return "plasma", location, "等离子体或溅射模拟：" + evidence
     for topic, terms in (("core", CORE_TERMS), ("plasma", PLASMA_TERMS)):
+        if topic == "plasma" and not lab_context:
+            continue
         for location, field in (("title", title), ("abstract", abstract)):
             matches = hits(field, terms)
             if matches:
