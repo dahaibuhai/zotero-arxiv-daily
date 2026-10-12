@@ -80,15 +80,15 @@
       "source": "Semantic Scholar",
       "title": "Enhanced photocatalytic activity of amorphous MoO3 thin films deposited by rf reactive magnetron sputtering"
     },
-    "doi:10.1016/j.cej.2026.178682": {
-      "sent_at": "2026-07-13T07:44:44+00:00",
-      "source": "Semantic Scholar",
-      "title": "In situ synthesis of porous S-doped In2O3 gas-sensing thin films via magnetron sputtering for ultrasensitive NO2 detection with ultra-low LOD"
-    },
     "doi:10.1016/j.cis.2021.102597": {
       "sent_at": "2026-09-17T06:59:24+00:00",
       "source": "Semantic Scholar",
       "title": "Synthesis of nanomaterials using various top-down and bottom-up approaches, influencing factors, advantages, and disadvantages: A review."
+    },
+    "doi:10.1016/j.diamond.2026.114138": {
+      "sent_at": "2026-10-12T06:29:26+00:00",
+      "source": "Semantic Scholar",
+      "title": "Amorphous carbon coatings fabricated by hollow cathode-assisted active screen plasma deposition: Microstructural evolution and tribological performance"
     },
     "doi:10.1016/j.est.2026.123973": {
       "sent_at": "2026-08-24T02:52:56+00:00",
@@ -124,16 +124,6 @@
       "sent_at": "2026-08-31T07:56:25+00:00",
       "source": "Semantic Scholar",
       "title": "Enhanced crystalline quality of reactive sputtered AlN thin films through sapphire nitridation and nitrogen-rich plasma engineering"
-    },
-    "doi:10.1016/j.jmmm.2026.174370": {
-      "sent_at": "2026-07-13T07:44:44+00:00",
-      "source": "Semantic Scholar",
-      "title": "Production-compatible fabrication of hard-magnetic CeCo₅ thin films by magnetron sputtering and rapid thermal annealing"
-    },
-    "doi:10.1016/j.matdes.2026.116454": {
-      "sent_at": "2026-07-13T07:44:44+00:00",
-      "source": "Semantic Scholar",
-      "title": "Tailoring phase formation and mechanical properties of low-temperature-grown Al-rich CrAlWN films by selective metal-ion bombardment during high-power impulse magnetron sputtering"
     },
     "doi:10.1016/j.matdes.2026.116760": {
       "sent_at": "2026-08-14T04:07:08+00:00",
@@ -415,11 +405,6 @@
       "source": "Semantic Scholar",
       "title": "Growth and optical properties of polar-, nonpolar, and semi-polar wurtzite ScGaN films"
     },
-    "doi:10.1063/5.0338090": {
-      "sent_at": "2026-07-13T07:44:44+00:00",
-      "source": "Semantic Scholar",
-      "title": "Thermodynamic-kinetic competitive growth and interface physics of β-Ga2O3 thin films on fused quartz for deep ultraviolet detection"
-    },
     "doi:10.1088/0022-3727/33/4/201": {
       "sent_at": "2026-09-22T06:48:16+00:00",
       "source": "Semantic Scholar",
@@ -445,11 +430,6 @@
       "source": "Semantic Scholar",
       "title": "Transparent conducting oxide semiconductors for transparent electrodes"
     },
-    "doi:10.1088/1361-6463/ae8866": {
-      "sent_at": "2026-07-13T07:44:44+00:00",
-      "source": "Semantic Scholar",
-      "title": "Study on the microstructure and properties of WC-DLC coatings under different bias voltages"
-    },
     "doi:10.1088/1361-6463/ae9d8c": {
       "sent_at": "2026-08-31T07:56:25+00:00",
       "source": "Semantic Scholar",
@@ -464,11 +444,6 @@
       "sent_at": "2026-10-10T01:43:00+00:00",
       "source": "Semantic Scholar",
       "title": "Effect of magnetic field configuration on ionised carbon flux fraction in HiPIMS"
-    },
-    "doi:10.1103/vkgw-nfbs": {
-      "sent_at": "2026-07-13T07:44:44+00:00",
-      "source": "Semantic Scholar",
-      "title": "Structural and magnetic properties of epitaxial\n                    <mml:math xmlns:mml=\"http://www.w3.org/1998/Math/MathML\">\n                      <mml:mrow>\n                        <mml:mi mathvariant=\"normal\">M</mml:mi>\n                        <mml:msub>\n                          <mml:mi mathvari"
     },
     "doi:10.1109/tmag.2026.3707577": {
       "sent_at": "2026-07-31T05:37:32+00:00",
@@ -509,6 +484,21 @@
       "sent_at": "2026-08-14T04:07:08+00:00",
       "source": "Semantic Scholar",
       "title": "Process optimization and characterization of dielectric, piezoelectric, and ferroelectric properties of 30% ScAlN thin films"
+    },
+    "doi:10.1117/12.3111713": {
+      "sent_at": "2026-10-12T06:29:26+00:00",
+      "source": "Semantic Scholar",
+      "title": "Temperature-dependent spectroscopic ellipsometry for high-temperature optical coating design"
+    },
+    "doi:10.1117/12.3113882": {
+      "sent_at": "2026-10-12T06:29:26+00:00",
+      "source": "Semantic Scholar",
+      "title": "Instrument for in situ transient absorption spectroscopy during aerosol assisted chemical vapor deposition"
+    },
+    "doi:10.1117/12.3114726": {
+      "sent_at": "2026-10-12T06:29:26+00:00",
+      "source": "Semantic Scholar",
+      "title": "Atomic layer deposition of AlFx on 2D MoS2"
     },
     "doi:10.1134/s108765961604009x": {
       "sent_at": "2026-10-08T08:02:10+00:00",
@@ -595,15 +585,15 @@
       "source": "Semantic Scholar",
       "title": "DLC Coatings for Manufacturing Applications: Effects of Coating Structure on Mechanical and Tribological Performance"
     },
-    "doi:10.3390/ma19142943": {
-      "sent_at": "2026-07-13T07:44:44+00:00",
-      "source": "Semantic Scholar",
-      "title": "An Overview of Chromic Transition Metal Oxide Thin Films"
-    },
     "doi:10.3390/ma19153167": {
       "sent_at": "2026-07-28T05:17:37+00:00",
       "source": "Semantic Scholar",
       "title": "Investigation of the Substrate Rotation Speed Effect on the Morphology and Tribo-Mechanical Behavior of CrAlN Thin Films Using DC Magnetron Sputtering"
+    },
+    "doi:10.3390/ma19194228": {
+      "sent_at": "2026-10-12T06:29:26+00:00",
+      "source": "Semantic Scholar",
+      "title": "Synthesis, Phase Engineering and Optoelectronic Applications of Binary Arsenic Sulphide Thin Films from Orpiment to Dimorphite"
     },
     "doi:10.3390/polym18161979": {
       "sent_at": "2026-08-17T02:49:32+00:00",
@@ -624,171 +614,6 @@
       "sent_at": "2026-07-17T05:11:55+00:00",
       "source": "Semantic Scholar",
       "title": "Application of a-WO3 Simulated Memristors with Oxygen Vacancy Concentration Gradients in Neuromorphic Computing"
-    },
-    "id:2607.07428": {
-      "sent_at": "2026-07-13T07:44:44+00:00",
-      "source": "Semantic Scholar",
-      "title": "Growth of (111)-textured SrTiO3 thin films on Pt(111)/Al2O3(1-102) substrates by rf magnetron sputter deposition"
-    },
-    "id:2607.08868": {
-      "sent_at": "2026-07-13T07:44:44+00:00",
-      "source": "arXiv",
-      "title": "Grain-boundary-mediated kinetic arrest in graphite-to-diamond transformation"
-    },
-    "id:2607.08881": {
-      "sent_at": "2026-07-13T07:44:44+00:00",
-      "source": "arXiv",
-      "title": "High density two-component glasses of organic semiconductors prepared by physical vapor deposition"
-    },
-    "id:2607.08929": {
-      "sent_at": "2026-07-13T07:44:44+00:00",
-      "source": "arXiv",
-      "title": "Fast Homoepitaxy on (100) \\b{eta}-Ga2O3 Substrates with Large Grown-In Offcut"
-    },
-    "id:2607.09046": {
-      "sent_at": "2026-07-13T07:44:44+00:00",
-      "source": "arXiv",
-      "title": "Implicit discretization schemes for full-kinetic ion and drift-kinetic electron simulations"
-    },
-    "id:2607.09219": {
-      "sent_at": "2026-07-13T07:44:44+00:00",
-      "source": "arXiv",
-      "title": "Comparison of DBS measurements of turbulence spectra by vertical-displacement and poloidal-angle scans using the Scotty synthetic diagnostic"
-    },
-    "id:2607.09229": {
-      "sent_at": "2026-07-13T07:44:44+00:00",
-      "source": "arXiv",
-      "title": "Tens of MeV, collimated, bright fluxes of protons from ordered nano-structured targets in ultra-relativistic laser-matter interaction"
-    },
-    "id:2607.09292": {
-      "sent_at": "2026-07-13T07:44:44+00:00",
-      "source": "arXiv",
-      "title": "Kinetic Cellular Model of Corrosion"
-    },
-    "id:2607.09321": {
-      "sent_at": "2026-07-13T07:44:44+00:00",
-      "source": "arXiv",
-      "title": "Semi-Empirical Kinetic Model for Phase Selection in Rapidly Solidified Multicomponent Concentrated Alloys"
-    },
-    "id:2607.09346": {
-      "sent_at": "2026-07-13T07:44:44+00:00",
-      "source": "arXiv",
-      "title": "The fixed boundary plasma equilibrium basis for a one Gigawatt electric stellarator power plant"
-    },
-    "id:2607.09425": {
-      "sent_at": "2026-07-13T07:44:44+00:00",
-      "source": "arXiv",
-      "title": "Electronic manipulation of polar order in electron crystal"
-    },
-    "id:2607.09466": {
-      "sent_at": "2026-07-13T07:44:44+00:00",
-      "source": "arXiv",
-      "title": "Unraveling atomic-resolution valence electron energy-loss spectroscopic imaging in a single-crystal CaNb2O6"
-    },
-    "id:2607.09509": {
-      "sent_at": "2026-07-13T07:44:44+00:00",
-      "source": "arXiv",
-      "title": "3D Plasma plume characterization of an electrodeless thruster cluster in magnetic arch configuration"
-    },
-    "id:2607.09914": {
-      "sent_at": "2026-07-14T04:53:20+00:00",
-      "source": "arXiv",
-      "title": "Improved Heat Dissipation in CsPbBr${_3}$-hBN Heterostructures"
-    },
-    "id:2607.09977": {
-      "sent_at": "2026-07-14T04:53:20+00:00",
-      "source": "arXiv",
-      "title": "Thermodynamics of hydride formation: Anisotropic size-dependent coupled chemo-thermo-mechanical effects at Ni/NiH interfaces"
-    },
-    "id:2607.10063": {
-      "sent_at": "2026-07-14T04:53:20+00:00",
-      "source": "arXiv",
-      "title": "Polarization Rotation Drives a Spin-Topological Transition in Ferroelectric Bismuth Monolayer"
-    },
-    "id:2607.10211": {
-      "sent_at": "2026-07-14T04:53:20+00:00",
-      "source": "arXiv",
-      "title": "Self-Consistent Phonon Spectral Functions and Thermal Transport Beyond the Quasiparticle Approximation"
-    },
-    "id:2607.10339": {
-      "sent_at": "2026-07-14T04:53:20+00:00",
-      "source": "arXiv",
-      "title": "Enabling temperature controlled in-situ vapor dosing for lab source X-ray reflectivity measurements"
-    },
-    "id:2607.10378": {
-      "sent_at": "2026-07-14T04:53:20+00:00",
-      "source": "arXiv",
-      "title": "Why Do Thick MOCVD-Grown beta-Ga2O3 Epilayers on (001) Substrates Crack: Crystallographic Origin"
-    },
-    "id:2607.10388": {
-      "sent_at": "2026-07-14T04:53:20+00:00",
-      "source": "arXiv",
-      "title": "The evolution of AI from image interpretation toward scientific inference in nanoparticle electron microscopy"
-    },
-    "id:2607.10440": {
-      "sent_at": "2026-07-14T04:53:20+00:00",
-      "source": "arXiv",
-      "title": "Connecting Diffuse Scattering to Atomic-Site-Resolved Occupancy and Displacement Fields through Fourier Filtering"
-    },
-    "id:2607.10907": {
-      "sent_at": "2026-07-14T04:53:20+00:00",
-      "source": "arXiv",
-      "title": "High-Quality Ge-Doped (010) $β$-Ga$_2$O$_3$ Homoepitaxial Films Grown by Low-pressure CVD: Structural, Electrical, and Schottky Diode Characteristics"
-    },
-    "id:2607.10908": {
-      "sent_at": "2026-07-14T04:53:20+00:00",
-      "source": "arXiv",
-      "title": "High-Mobility Ge-Doped $β$-Ga$_2$O$_3$ Growth on Sapphire by Low-Pressure Chemical Vapor Deposition"
-    },
-    "id:2607.11002": {
-      "sent_at": "2026-07-14T04:53:20+00:00",
-      "source": "arXiv",
-      "title": "Measurement of Kerr rotation using a variable-angle polarizer method"
-    },
-    "id:2607.11077": {
-      "sent_at": "2026-07-14T04:53:20+00:00",
-      "source": "arXiv",
-      "title": "Effect of annealing temperature on the structure and properties of co-sputtered Fe-Mn-Sn films near 2:1:1 ratio"
-    },
-    "id:2607.11105": {
-      "sent_at": "2026-07-14T04:53:20+00:00",
-      "source": "arXiv",
-      "title": "Tiling decomposition multiplicity predicts stability of GaN(0001) surface reconstructions"
-    },
-    "id:2607.11176": {
-      "sent_at": "2026-07-14T04:53:20+00:00",
-      "source": "arXiv",
-      "title": "A Generalized Frank-Bilby Equation for Interfaces in Crystalline Materials"
-    },
-    "id:2607.11189": {
-      "sent_at": "2026-07-14T04:53:20+00:00",
-      "source": "arXiv",
-      "title": "Temperature dependence of charge-to-spin conversion in rhombohedral (110) bismuth thin film"
-    },
-    "id:2607.11208": {
-      "sent_at": "2026-07-14T04:53:20+00:00",
-      "source": "arXiv",
-      "title": "VSC: A Zero-Dimensional Fusion Design Platform for Multiple Magnetic Configurations"
-    },
-    "id:2607.11237": {
-      "sent_at": "2026-07-14T04:53:20+00:00",
-      "source": "arXiv",
-      "title": "Anisotropic hot carrier relaxation mediated by electron phonon scattering in TiN thin films"
-    },
-    "id:2607.11253": {
-      "sent_at": "2026-07-14T04:53:20+00:00",
-      "source": "arXiv",
-      "title": "Impact of Electronic Energy Dissipation on Primary Radiation Damage Formation in Silicon"
-    },
-    "id:2607.11521": {
-      "sent_at": "2026-07-14T04:53:20+00:00",
-      "source": "arXiv",
-      "title": "Capturing the calendering U-shape in lithium-ion electrode thermal conductivity"
-    },
-    "id:2607.11550": {
-      "sent_at": "2026-07-14T04:53:20+00:00",
-      "source": "arXiv",
-      "title": "Synthesis of Ti2B2Clx MBenes in molten salts from theoretical and experimental perspectives"
     },
     "id:2607.11908": {
       "sent_at": "2026-07-15T09:12:23+00:00",
