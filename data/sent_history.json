@@ -495,6 +495,11 @@
       "source": "Semantic Scholar",
       "title": "Instrument for in situ transient absorption spectroscopy during aerosol assisted chemical vapor deposition"
     },
+    "doi:10.1117/12.3114705": {
+      "sent_at": "2026-10-13T05:25:07+00:00",
+      "source": "Semantic Scholar",
+      "title": "Selective formation of isolated tantalum oxide crystallites via reactive laser crystallization"
+    },
     "doi:10.1117/12.3114726": {
       "sent_at": "2026-10-12T06:29:26+00:00",
       "source": "Semantic Scholar",
@@ -525,6 +530,11 @@
       "source": "Semantic Scholar",
       "title": "Electropolymerized Polyaniline on Sputtered TiO₂ Thin Films: Visible-NIR Optical Extension and Interfacial Electrochemical Activation of Compact Hybrid Electrodes"
     },
+    "doi:10.1177/14644207261496158": {
+      "sent_at": "2026-10-13T05:25:07+00:00",
+      "source": "Semantic Scholar",
+      "title": "Deposition rate– dependent transition of growth mechanisms in Zr\n 60\n Ni\n 30\n Al\n 10\n metallic glass thin films"
+    },
     "doi:10.12982/cmjs.2026.076": {
       "sent_at": "2026-07-27T05:44:10+00:00",
       "source": "Semantic Scholar",
@@ -539,6 +549,11 @@
       "sent_at": "2026-10-02T07:36:57+00:00",
       "source": "Semantic Scholar",
       "title": "Large-scale two-dimensional MoS₂ photodetectors by magnetron sputtering."
+    },
+    "doi:10.1380/vss.69.586": {
+      "sent_at": "2026-10-13T05:25:07+00:00",
+      "source": "Semantic Scholar",
+      "title": "Fundamentals of Chemical Vapor Deposition (CVD) and Atomic Layer Deposition (ALD) and Safety Management of Chemical Substances Part 7 : Evaporation of Liquid Raw Materials and Vaporizer Design Concepts"
     },
     "doi:10.20935/acadnano8426": {
       "sent_at": "2026-07-20T05:31:22+00:00",
@@ -609,6 +624,11 @@
       "sent_at": "2026-10-10T01:43:00+00:00",
       "source": "Semantic Scholar",
       "title": "Nanostructured Thermoelectric Thin Films for Low-Grade Waste Heat Recovery"
+    },
+    "doi:10.54708/26587572_2026_832657": {
+      "sent_at": "2026-10-13T05:25:07+00:00",
+      "source": "Semantic Scholar",
+      "title": "Structure coating based on B, Ti and Si and synthesized by plasma assisted vacuum arc method on solid-state substrate"
     },
     "doi:10.7498/aps.75.20251348": {
       "sent_at": "2026-07-17T05:11:55+00:00",
@@ -4869,6 +4889,11 @@
       "sent_at": "2026-10-09T08:00:27+00:00",
       "source": "arXiv",
       "title": "FHiVI$^{2}$: A Fast High-Voltage approach for Ionisation Improvement in the context of plasma-assisted magnetron sputtering"
+    },
+    "id:2610.13509": {
+      "sent_at": "2026-10-13T05:25:07+00:00",
+      "source": "Semantic Scholar",
+      "title": "Energy-dependent trapping of backscattered helium during magnetron sputtering growth: A molecular dynamics study"
     }
   },
   "version": 1
