@@ -218,6 +218,9 @@ def render_paper_block(p):
         )
     if getattr(p, "is_classic_fallback", False):
         source = f"{source} · Classic fallback"
+    if getattr(p, "arxiv_backfill_days", 0):
+        source += f" · Recent {p.arxiv_backfill_days}-day backfill"
+        score_details += '<br><strong>Submitted:</strong> ' + escape(getattr(p, "publication_date", ""))
 
     return get_block_html(
         p.title,

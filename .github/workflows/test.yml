@@ -32,6 +32,9 @@ jobs:
           ZOTERO_KEY: ${{ secrets.ZOTERO_KEY }}
           ZOTERO_IGNORE: ${{ vars.ZOTERO_IGNORE }}
           ARXIV_QUERY: ${{ vars.ARXIV_QUERY }}
+          ENABLE_ARXIV_BACKFILL: ${{ vars.ENABLE_ARXIV_BACKFILL || 'true' }}
+          ARXIV_BACKFILL_MAX_DAYS: ${{ vars.ARXIV_BACKFILL_MAX_DAYS || '14' }}
+          ARXIV_BACKFILL_RESULTS_PER_TOPIC: ${{ vars.ARXIV_BACKFILL_RESULTS_PER_TOPIC || '200' }}
           ENABLE_ARXIV: ${{ vars.ENABLE_ARXIV || 'true' }}
           SEND_EMPTY: ${{ vars.SEND_EMPTY }}
           SMTP_SERVER: ${{ secrets.SMTP_SERVER }}

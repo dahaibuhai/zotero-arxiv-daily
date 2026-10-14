@@ -15,6 +15,38 @@ def paper(title, summary="", source="Semantic Scholar", score=7.5):
 
 
 class ResearchScopeTests(unittest.TestCase):
+    def test_experimental_epitaxy_and_contextual_abbreviations(self):
+        candidate = paper("Doubly Metastable Synthesis for Accelerated Quantum Materials Discovery",
+                          "We develop diffusion-activated epitaxy, a technique combining diffusion and epitaxy. We experimentally identify four phases by X-ray diffraction.")
+        self.assertEqual(classify_paper(candidate)[0], "films")
+        for title in ("ALD of oxide films", "CVD deposition on copper substrates", "PLD growth of TiN films", "PVD coatings", "MBE growth of epitaxial layers"):
+            self.assertEqual(classify_paper(paper(title))[0], "films")
+        self.assertIsNone(classify_paper(paper("CVD risk in clinical patients"))[0])
+        self.assertIsNone(classify_paper(paper("A new MBE algorithm"))[0])
+
+    def test_method_exclusions_require_concrete_material_subject(self):
+        exclusions = "neural network\nlarge language model\nquantum computing\nastrophysics"
+        for title in ("Neural network prediction of sputtering yield", "MBE growth of thin films for quantum computing", "Magnetron sputtering of coatings for astrophysics"):
+            self.assertIsNotNone(keyword_score(paper(title), exclude_raw=exclusions)[0])
+        candidate = paper("Neural network for general classification", "Training data include papers about sputtering.")
+        self.assertIsNone(keyword_score(candidate, exclude_raw=exclusions)[0])
+        self.assertIsNone(keyword_score(paper("Large language model benchmark"), exclude_raw=exclusions)[0])
+
+    def test_macroscopic_printed_layers_are_not_thin_film_filler(self):
+        candidate = paper("Wrinkling of a bilayered cylinder under tension",
+                          "A thin compressible film coats a core. We fabricated 3D-printed soft cylinders with stiff auxetic layers and bespoke microstructures.")
+        self.assertIsNone(classify_paper(candidate)[0])
+        deposited = paper("Magnetron sputtering of copper coatings on 3D-printed substrates")
+        self.assertEqual(classify_paper(deposited)[0], "core")
+
+    def test_md_background_does_not_reject_experimental_films(self):
+        background = paper("Atomic layer deposition of oxide films", "We experimentally deposited oxide films. Previous molecular dynamics studies reported adsorption mechanisms.")
+        self.assertEqual(classify_paper(background)[0], "films")
+        self.assertIsNotNone(keyword_score(background)[0])
+        own_md = paper("Atomic layer deposition of oxide films", "We use molecular dynamics to simulate film growth.")
+        self.assertIsNone(classify_paper(own_md)[0])
+        self.assertIsNone(keyword_score(own_md)[0])
+
     def test_md_allowed_only_for_sputtering_even_with_legacy_exclusions(self):
         for title in ("Molecular-dynamics simulation of argon sputtering", "LAMMPS study of sputter-deposited film growth"):
             candidate = paper(title)

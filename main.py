@@ -20,7 +20,6 @@ from gitignore_parser import parse_gitignore
 from tempfile import mkstemp
 from paper import ArxivPaper
 from llm import set_global_llm
-from keyword_ranker import apply_keyword_rules
 from providers.crossref import fetch_crossref_papers
 from providers.semantic_scholar import (
     fetch_classic_semantic_scholar_papers,
@@ -28,14 +27,15 @@ from providers.semantic_scholar import (
 )
 from dedupe import dedupe_papers
 from sent_history import (
-    filter_previously_sent_papers,
     load_sent_history,
     record_sent_papers,
 )
 from source_quota import select_source_quotas, semantic_shortfall
-from research_scope import DEFAULT_QUERIES, TOPIC_LABELS, apply_research_scope, scoped_queries
+from research_scope import DEFAULT_QUERIES, TOPIC_LABELS, scoped_queries
 from network_retry import retry_transient
 from daily_delivery import should_skip_scheduled, record_delivery
+from eligibility import filter_candidates, collect_arxiv_backfill
+from providers.arxiv_recent import fetch_recent_arxiv_papers
 import feedparser
 
 
@@ -166,6 +166,9 @@ if __name__ == "__main__":
     add_argument("--semantic_scholar_quota", type=int, default=5)
     add_argument("--enable_arxiv", type=bool, default=True)
     add_argument("--arxiv_query", type=str, help="Arxiv search query")
+    add_argument("--enable_arxiv_backfill", type=bool, default=True)
+    add_argument("--arxiv_backfill_max_days", type=int, default=14)
+    add_argument("--arxiv_backfill_results_per_topic", type=int, default=200)
     add_argument("--smtp_server", type=str, help="SMTP server")
     add_argument("--smtp_port", type=int, help="SMTP port")
     add_argument("--sender", type=str, help="Sender email address")
@@ -248,6 +251,8 @@ if __name__ == "__main__":
     assert not args.use_llm_api or args.openai_api_key is not None
     if args.arxiv_quota < 0 or args.semantic_scholar_quota < 0:
         parser.error("ARXIV_QUOTA and SEMANTIC_SCHOLAR_QUOTA must be zero or greater.")
+    if args.arxiv_backfill_max_days not in (7, 14) or args.arxiv_backfill_results_per_topic <= 0:
+        parser.error("ARXIV_BACKFILL_MAX_DAYS must be 7 or 14 and ARXIV_BACKFILL_RESULTS_PER_TOPIC must be positive.")
     if 0 < args.classic_fallback_num < args.semantic_scholar_quota:
         parser.error(
             "CLASSIC_FALLBACK_NUM must be 0 (disable fallback) or at least "
@@ -329,27 +334,40 @@ if __name__ == "__main__":
         logger.info(f"Retrieved {len(crossref_papers)} papers from Crossref.")
         papers.extend(crossref_papers)
 
-    papers = dedupe_papers(papers)
-    logger.info(f"Remaining {len(papers)} papers after deduplication.")
-
     sent_history = load_sent_history(args.sent_history_path, args.sent_history_days)
-    papers, skipped_sent_count = filter_previously_sent_papers(papers, sent_history)
-    logger.info(
-        f"Remaining {len(papers)} papers after excluding {skipped_sent_count} previously sent papers."
-    )
+    filter_options = dict(boost_raw=args.keywords_boost, require_raw=args.keywords_require,
+                          exclude_raw=args.keywords_exclude, mode=args.keyword_filter_mode,
+                          expanded_scope=args.expanded_research_scope)
+    diagnostic = {"batches": [], "backfill_errors": []}
 
-    logger.info("Applying keyword rules...")
-    papers = apply_keyword_rules(
-        papers,
-        boost_raw=args.keywords_boost,
-        require_raw=args.keywords_require,
-        exclude_raw=args.keywords_exclude,
-        mode=args.keyword_filter_mode,
-    )
-    logger.info(f"Remaining {len(papers)} papers after keyword filtering.")
-    if args.expanded_research_scope:
-        papers = apply_research_scope(papers)
-        logger.info("Remaining {} new papers after research-topic gating.", len(papers))
+    def save_audit(name, audit):
+        diagnostic["batches"].append({"name": name, **audit})
+        for stage, counts in audit["counts"].items():
+            logger.info("Candidate funnel [{}]: {} {}", name, stage, counts)
+        Path("logs").mkdir(exist_ok=True)
+        Path("logs/eligibility_report.json").write_text(json.dumps(diagnostic, ensure_ascii=False, indent=2), encoding="utf-8")
+
+    def backfill_error(context, exc):
+        logger.warning("arXiv backfill [{}]: {}", context, exc)
+        diagnostic["backfill_errors"].append({"context": str(context), "error": str(exc)})
+        Path("logs/eligibility_report.json").write_text(json.dumps(diagnostic, ensure_ascii=False, indent=2), encoding="utf-8")
+
+    papers, audit = filter_candidates(papers, sent_history, **filter_options)
+    save_audit("daily", audit)
+    logger.info("Remaining {} new papers after research-topic gating.", len(papers))
+
+    if args.enable_arxiv and args.enable_arxiv_backfill:
+        eligible_arxiv = sum(p.source == "arXiv" for p in papers)
+        logger.info("Eligible daily arXiv {}/{}; backfill searches only unfilled slots.", eligible_arxiv, args.arxiv_quota)
+
+        def fetch_backfill(**window):
+            logger.info("Searching arXiv backfill: {}..{} days ago.", window["skip_days"], window["days"])
+            return fetch_recent_arxiv_papers(**window, max_results_per_topic=args.arxiv_backfill_results_per_topic,
+                                            on_error=backfill_error)
+
+        papers = collect_arxiv_backfill(papers, sent_history, args.arxiv_quota, fetch_backfill,
+                    filter_options=filter_options, max_days=args.arxiv_backfill_max_days,
+                    on_audit=lambda days, audit: save_audit(f"arxiv-{days}-days", audit), on_error=backfill_error)
 
     crossref_before = sum(
         getattr(paper, "source", "") == "Crossref" for paper in papers
@@ -421,42 +439,12 @@ if __name__ == "__main__":
                 )
                 classic_candidates = []
 
-            # Prefer an already selected new paper when a historical query returns
-            # the same DOI/title, then apply both recent and permanent histories.
-            combined = dedupe_papers(papers + classic_candidates)
-            classic_candidates = [
-                paper
-                for paper in combined
-                if getattr(paper, "is_classic_fallback", False)
-            ]
-            classic_candidates, skipped_recent_classics = filter_previously_sent_papers(
-                classic_candidates, sent_history
-            )
             classic_history = load_sent_history(args.classic_sent_history_path, None)
-            classic_candidates, skipped_permanent_classics = filter_previously_sent_papers(
-                classic_candidates, classic_history
-            )
-            logger.info(
-                "Remaining {} classic candidates after excluding {} recent and {} permanently recorded papers.",
-                len(classic_candidates),
-                skipped_recent_classics,
-                skipped_permanent_classics,
-            )
-
-            classic_candidates = apply_keyword_rules(
-                classic_candidates,
-                boost_raw=args.keywords_boost,
-                require_raw=args.keywords_require,
-                exclude_raw=args.keywords_exclude,
-                mode=args.keyword_filter_mode,
-            )
-            logger.info(
-                "Remaining {} classic candidates after keyword filtering.",
-                len(classic_candidates),
-            )
-
-            if args.expanded_research_scope:
-                classic_candidates = apply_research_scope(classic_candidates)
+            classic_candidates, audit = filter_candidates(
+                classic_candidates, {**sent_history, **classic_history},
+                seen=papers + all_classic_candidates,
+                history_label="近90天或经典文献永久记录中已推送", **filter_options)
+            save_audit(f"semantic-classic-{candidate_budget}", audit)
             all_classic_candidates = dedupe_papers(all_classic_candidates + classic_candidates)
             classic_candidates = all_classic_candidates
             if classic_candidates:
@@ -518,6 +506,10 @@ if __name__ == "__main__":
         logger.warning("Quota shortfall: arXiv {}/{}, Semantic Scholar {}/{}; no unvetted filler.",
                        arxiv_selected, args.arxiv_quota, new_semantic_selected + classic_selected, args.semantic_scholar_quota)
     logger.info("Selected topic counts: {}", dict(Counter(getattr(p, "research_topic", "") for p in papers)))
+    diagnostic["selection"] = [{"title": p.title, "source": p.source,
+                                "id": str(getattr(p, "arxiv_id", "")),
+                                "backfill_days": getattr(p, "arxiv_backfill_days", 0)} for p in papers]
+    Path("logs/eligibility_report.json").write_text(json.dumps(diagnostic, ensure_ascii=False, indent=2), encoding="utf-8")
     if args.dry_run:
         report = []
         for paper in papers:
@@ -528,6 +520,8 @@ if __name__ == "__main__":
                            "classic": bool(getattr(paper, "is_classic_fallback", False)),
                            "topic": TOPIC_LABELS.get(getattr(paper, "research_topic", ""), ""),
                            "reason": getattr(paper, "recommendation_reason", ""),
+                           "backfill_days": getattr(paper, "arxiv_backfill_days", 0),
+                           "published": getattr(paper, "publication_date", ""),
                            "citations": getattr(paper, "citation_count", 0),
                            "url": paper.pdf_url})
             if getattr(paper, "is_classic_fallback", False):

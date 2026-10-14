@@ -29,6 +29,10 @@ class ArxivPaper:
     @property
     def summary(self) -> str:
         return self._paper.summary
+
+    @property
+    def publication_date(self) -> str:
+        return self._paper.published.isoformat()
     
     @property
     def authors(self) -> list[str]:

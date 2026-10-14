@@ -8,7 +8,7 @@ from unittest.mock import patch
 class PaginationTests(unittest.TestCase):
     def setUp(self):
         # Keep these network-contract tests runnable without the LLM runtime.
-        stubs = {"providers.common": types.SimpleNamespace(ExternalPaper=lambda **kwargs: types.SimpleNamespace(**kwargs))}
+        stubs = {"providers.common": types.SimpleNamespace(ExternalPaper=types.SimpleNamespace)}
         try:
             import requests
         except ImportError:

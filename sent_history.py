@@ -4,7 +4,7 @@ from pathlib import Path
 
 from loguru import logger
 
-from dedupe import paper_key
+from dedupe import paper_key, identity_keys, history_identity_keys
 
 
 def history_key(paper) -> str:
@@ -65,9 +65,10 @@ def load_sent_history(path: str, retention_days: int | None) -> dict[str, dict]:
 def filter_previously_sent_papers(papers: list, sent_history: dict[str, dict]) -> tuple[list, int]:
     unseen_papers = []
     skipped_count = 0
+    sent_keys = history_identity_keys(sent_history)
 
     for paper in papers:
-        if history_key(paper) in sent_history:
+        if identity_keys(paper) & sent_keys:
             skipped_count += 1
             continue
         unseen_papers.append(paper)

@@ -34,6 +34,9 @@ jobs:
         with:
           version: '0.5.4'
 
+      - name: Check selection rules
+        run: python -m unittest discover -s tests -v
+
       - name: Run script
         env:
           ZOTERO_ID: ${{ secrets.ZOTERO_ID }}
@@ -43,6 +46,9 @@ jobs:
           DRY_RUN: ${{ inputs.dry_run || 'false' }}
           ENABLE_ARXIV: ${{ vars.ENABLE_ARXIV || 'true' }}
           ARXIV_QUERY: ${{ vars.ARXIV_QUERY }}
+          ENABLE_ARXIV_BACKFILL: ${{ vars.ENABLE_ARXIV_BACKFILL || 'true' }}
+          ARXIV_BACKFILL_MAX_DAYS: ${{ vars.ARXIV_BACKFILL_MAX_DAYS || '14' }}
+          ARXIV_BACKFILL_RESULTS_PER_TOPIC: ${{ vars.ARXIV_BACKFILL_RESULTS_PER_TOPIC || '200' }}
           SMTP_SERVER: ${{ secrets.SMTP_SERVER }}
           SMTP_PORT: ${{ secrets.SMTP_PORT }}
           SENDER: ${{ secrets.SENDER }}
@@ -87,11 +93,14 @@ jobs:
           uv run main.py
 
       - name: Save diagnostic selections
-        if: success() && inputs.dry_run
+        if: always()
         uses: actions/upload-artifact@v4
         with:
-          name: dry-run-selection
-          path: logs/dry_run_selection.json
+          name: literature-diagnostics
+          if-no-files-found: ignore
+          path: |
+            logs/dry_run_selection.json
+            logs/eligibility_report.json
 
       - name: Persist sent history
         if: always() && steps.checkout.outcome == 'success'

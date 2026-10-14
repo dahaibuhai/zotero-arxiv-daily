@@ -19,6 +19,8 @@ DEFAULT_QUERIES = '\n'.join([
     '"plasma" "surface treatment"', '"electron energy distribution" "discharge"',
     '"molecular dynamics" "sputtering"', '"collision cascade" "sputtering"',
     '"Monte Carlo" "sputtering"',
+    '"epitaxy" "synthesis"', '"epitaxial growth"',
+    '"molecular beam epitaxy"',
 ])
 
 MD_TERMS = ("molecular dynamics", "md simulation", "atomistic simulation", "lammps", "aimd", "ab initio molecular dynamics")
@@ -31,6 +33,37 @@ SIMULATION_TERMS = ("particle in cell", "pic mcc", "fluid model", "hybrid model"
 UNSCOPED_PLASMA_QUERIES = ('"low temperature plasma"', '"plasma diagnostics"', '"plasma sheath"', '"particle in cell" "plasma"', '"fluid model" "plasma"', '"hybrid model" "plasma"')
 LAB_PLASMA_CONTEXT = ("glow discharge", "low pressure discharge", "low pressure plasma", "capacitively coupled", "inductively coupled", "radio frequency discharge", "radio frequency plasma", "rf discharge", "rf plasma", "microwave discharge", "microwave plasma", "dielectric barrier discharge", "magnetron", "hollow cathode", "plasma processing", "plasma assisted deposition", "plasma enhanced deposition", "plasma etching", "plasma surface treatment", "surface activation", "plasma nitriding", "plasma source", "plasma reactor")
 OFF_SCOPE_PLASMA = ("fusion", "tokamak", "stellarator", "inertial confinement", "alfven", "alfvenic", "solar wind", "solar corona", "magnetosphere", "interstellar", "astrophysical", "astrophysics", "space plasma", "cosmic plasma", "magnetic reconnection", "richtmyer meshkov", "ablator fuel")
+
+FILM_METHODS += ("molecular beam epitaxy", "epitaxial growth", "diffusion activated epitaxy", "liquid phase epitaxy", "solid phase epitaxy", "thermal laser epitaxy")
+FILM_CONTEXT += ("epitaxial film", "epitaxial layer", "ultrathin film", "thinfilm", "deposited coating")
+METHOD_ALIASES = {"ald": "atomic layer deposition", "cvd": "chemical vapor deposition", "pld": "pulsed laser deposition", "pvd": "physical vapor deposition", "mbe": "molecular beam epitaxy"}
+METHOD_CONTEXT = FILM_CONTEXT + ("substrate", "deposition", "deposited", "epitaxial", "film", "layer")
+EXPERIMENTAL_EVIDENCE = ("synthesis", "synthesized", "synthesised", "fabricated", "grown", "growth", "experiment", "experimentally", "experimental", "deposition", "deposited")
+CONDITIONAL_EXCLUSIONS = ("neural network", "large language model", "quantum computing", "astrophysics", "cosmology")
+
+
+def method_hits(text):
+    matches = hits(text, FILM_METHODS)
+    if hits(text, METHOD_CONTEXT):
+        matches += [name for alias, name in METHOD_ALIASES.items() if contains(text, alias)]
+    # Generic epitaxy needs an explicit synthesis/growth context.
+    if hits(text, ("epitaxy", "epitaxial")) and hits(text, EXPERIMENTAL_EVIDENCE):
+        matches.append("epitaxy")
+    return list(dict.fromkeys(matches))
+
+
+def is_background_md(paper):
+    """Only exempt explicitly attributed prior work in an experimental paper."""
+    title = normalize(getattr(paper, "title", ""))
+    abstract = getattr(paper, "summary", "") or ""
+    text = title + " " + normalize(abstract)
+    if hits(title, MD_TERMS) or not hits(text, EXPERIMENTAL_EVIDENCE):
+        return False
+    sentences = re.split(r"(?<=[.!?;])\s+|\n+", abstract)
+    md_sentences = [normalize(s) for s in sentences if hits(normalize(s), MD_TERMS)]
+    background = ("previous", "prior", "earlier", "literature", "reported", "published")
+    own_work = ("we use", "we perform", "we employ", "we simulate", "our simulation", "our simulations", "in this work", "in this study", "here we")
+    return bool(md_sentences) and all(hits(s, background) and not hits(s, own_work) for s in md_sentences)
 
 
 def scoped_queries(raw):
@@ -63,13 +96,14 @@ def classify_paper(paper):
     text = title + " " + abstract
     # A paper about fusion/space dynamics is not rescued by merely mentioning
     # simulation, diagnostics, a sheath or generic plasma in its abstract.
-    material_title = hits(title, CORE_TERMS + FILM_METHODS) or (hits(title, FILM_CONTEXT) and hits(title, FILM_EVIDENCE))
+    material_title = hits(title, CORE_TERMS) or method_hits(title) or (hits(title, FILM_CONTEXT) and hits(title, FILM_EVIDENCE))
     lab_context = hits(text, LAB_PLASMA_CONTEXT)
     if (hits(title, OFF_SCOPE_PLASMA) and not material_title) or (hits(abstract, OFF_SCOPE_PLASMA) and not lab_context and not material_title):
         return None, "none", "聚变、空间或高能等离子体主题偏离材料加工范围"
-    if hits(text, MD_TERMS) and not sputtering_related(text):
+    background_md = is_background_md(paper)
+    if hits(text, MD_TERMS) and not sputtering_related(text) and not background_md:
         return None, "none", "分子动力学主题与溅射无关"
-    simulation = hits(text, MD_TERMS + SIMULATION_TERMS)
+    simulation = hits(text, SIMULATION_TERMS if background_md else MD_TERMS + SIMULATION_TERMS)
     if simulation and (sputtering_related(text) or (contains(text, "plasma") and lab_context)):
         evidence = simulation[0]
         location = "title" if hits(title, MD_TERMS + SIMULATION_TERMS) and (sputtering_related(title) or contains(title, "plasma")) else "abstract"
@@ -83,15 +117,43 @@ def classify_paper(paper):
                 return topic, location, "主题匹配：" + matches[0]
     # Specific deposition methods are sufficient in a title; abstracts also
     # need film/coating context to avoid unrelated chemical applications.
-    if hits(title, FILM_METHODS):
-        return "films", "title", "薄膜制备方法：" + hits(title, FILM_METHODS)[0]
-    if hits(text, FILM_CONTEXT) and hits(text, FILM_METHODS + FILM_EVIDENCE):
+    title_methods = method_hits(title)
+    abstract_methods = method_hits(abstract)
+    if title_methods:
+        return "films", "title", "薄膜制备方法：" + title_methods[0]
+    if abstract_methods and hits(abstract, EXPERIMENTAL_EVIDENCE):
+        return "films", "abstract", "摘要中的薄膜制备方法及实验依据：" + abstract_methods[0]
+    if hits(text, ("3d printed", "3d printing", "additive manufacturing")) and not method_hits(text) and not sputtering_related(text):
+        return None, "none", "增材制造或宏观层状结构缺少薄膜沉积证据"
+    if hits(text, FILM_CONTEXT) and (method_hits(text) or hits(text, FILM_EVIDENCE)):
         location = "title" if hits(title, FILM_CONTEXT) and hits(title, FILM_METHODS + FILM_EVIDENCE) else "abstract"
         return "films", location, "薄膜制备或结构性能关系"
     # General sputtering (including other metals and yield experiments).
     if sputtering_related(text):
         return "core", "title" if sputtering_related(title) else "abstract", "溅射过程或材料研究"
     return None, "none", "未匹配薄膜制备、实验室等离子体或溅射研究"
+
+
+def exclusion_reason(paper, exclude_terms):
+    """Configured exclusions may describe a method or an application."""
+    title = normalize(getattr(paper, "title", ""))
+    abstract = normalize(getattr(paper, "summary", ""))
+    text = title + " " + abstract
+    if hits(text, MD_TERMS) and not sputtering_related(text) and not is_background_md(paper):
+        return "分子动力学主题与溅射无关"
+    for term in exclude_terms:
+        if not contains(text, term):
+            continue
+        if normalize(term) in {normalize(t) for t in MD_TERMS}:
+            continue
+        if normalize(term) in {normalize(t) for t in CONDITIONAL_EXCLUSIONS}:
+            topic, location, _ = classify_paper(paper)
+            # Require material/plasma subject evidence in the title, or a
+            # specific experimental deposition method in the abstract.
+            if topic and (location == "title" or (method_hits(abstract) and hits(abstract, EXPERIMENTAL_EVIDENCE))):
+                continue
+        return "关键词排除：" + term
+    return None
 
 
 def apply_research_scope(papers):

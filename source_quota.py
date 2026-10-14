@@ -37,9 +37,20 @@ def select_source_quotas(
         for paper in papers
         if getattr(paper, "source", "") == SEMANTIC_SCHOLAR_SOURCE
     ]
+    # Preserve today's vetted papers before 7-day and 14-day supplements,
+    # even when an older paper receives a higher similarity score.
+    primary_arxiv = []
+    for window in sorted({getattr(p, "arxiv_backfill_days", 0) for p in arxiv}):
+        group = [p for p in arxiv if getattr(p, "arxiv_backfill_days", 0) == window]
+        remaining = max(arxiv_quota - len(primary_arxiv), 0)
+        if balance_topics:
+            from research_scope import select_balanced
+            primary_arxiv.extend(select_balanced(group, remaining, primary_arxiv))
+        else:
+            primary_arxiv.extend(group[:remaining])
+    arxiv = primary_arxiv
     if balance_topics:
         from research_scope import select_balanced
-        arxiv = select_balanced(arxiv, arxiv_quota, [])
         new_semantic = select_balanced(new_semantic, semantic_scholar_quota, arxiv)
     else:
         arxiv = arxiv[:arxiv_quota]
