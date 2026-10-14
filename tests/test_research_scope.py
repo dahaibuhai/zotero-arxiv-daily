@@ -46,6 +46,19 @@ class ResearchScopeTests(unittest.TestCase):
         own_md = paper("Atomic layer deposition of oxide films", "We use molecular dynamics to simulate film growth.")
         self.assertIsNone(classify_paper(own_md)[0])
         self.assertIsNone(keyword_score(own_md)[0])
+        theoretical = paper("Atomic layer deposition of oxide films", "Previous molecular dynamics studies reported adsorption. We propose a theoretical growth model.")
+        self.assertIsNone(classify_paper(theoretical)[0])
+
+    def test_astrophysical_sputtering_is_not_laboratory_sputtering(self):
+        astronomy = paper("Complex Organic Molecules in Protostars with ALMA Spectral Surveys",
+                          "Spectral modeling supports the dust sputtering scenario induced by shocks.")
+        self.assertIsNone(classify_paper(astronomy)[0])
+        category_only = paper("Ion-driven erosion dynamics", "We model sputtering by shocks.")
+        category_only.arxiv_categories = ("astro-ph.GA",)
+        self.assertIsNone(classify_paper(category_only)[0])
+        material = paper("Magnetron sputtering of tungsten coatings", "Coatings for astronomical instruments.")
+        material.arxiv_categories = ("astro-ph.IM", "physics.app-ph")
+        self.assertEqual(classify_paper(material)[0], "core")
 
     def test_md_allowed_only_for_sputtering_even_with_legacy_exclusions(self):
         for title in ("Molecular-dynamics simulation of argon sputtering", "LAMMPS study of sputter-deposited film growth"):

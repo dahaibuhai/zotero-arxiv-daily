@@ -61,13 +61,15 @@ def parse_feed(data, start, end, paper_factory=None):
         arxiv_id = re.sub(r"v\d+$", "", identifier.rsplit("/abs/", 1)[-1])
         if not re.fullmatch(r"\d{4}\.\d{4,5}|[a-z.-]+/\d{7}", arxiv_id):
             raise ValueError("Unexpected arXiv identifier: " + identifier)
-        papers.append(paper_factory(
+        paper = paper_factory(
             title=" ".join(entry.findtext("a:title", "", NS).split()),
             summary=entry.findtext("a:summary", "", NS).strip(),
             authors=[author.findtext("a:name", "", NS) for author in entry.findall("a:author", NS)],
             paper_id=arxiv_id, doi=entry.findtext("x:doi", "", NS),
             pdf_url="https://arxiv.org/pdf/" + arxiv_id,
-            publication_date=published, source="arXiv", venue="arXiv"))
+            publication_date=published, source="arXiv", venue="arXiv")
+        paper.arxiv_categories = tuple(category.attrib.get("term", "") for category in entry.findall("a:category", NS))
+        papers.append(paper)
     return papers, total, len(entries)
 
 

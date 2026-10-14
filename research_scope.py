@@ -40,6 +40,7 @@ METHOD_ALIASES = {"ald": "atomic layer deposition", "cvd": "chemical vapor depos
 METHOD_CONTEXT = FILM_CONTEXT + ("substrate", "deposition", "deposited", "epitaxial", "film", "layer")
 EXPERIMENTAL_EVIDENCE = ("synthesis", "synthesized", "synthesised", "fabricated", "grown", "growth", "experiment", "experimentally", "experimental", "deposition", "deposited")
 CONDITIONAL_EXCLUSIONS = ("neural network", "large language model", "quantum computing", "astrophysics", "cosmology")
+OFF_SCOPE_PLASMA += ("protostar", "protostellar", "star formation", "molecular cloud", "alma", "galaxy", "galaxies", "supernova", "circumstellar", "protoplanetary", "nebula", "cosmic ray", "dust sputtering")
 
 
 def method_hits(text):
@@ -57,7 +58,8 @@ def is_background_md(paper):
     title = normalize(getattr(paper, "title", ""))
     abstract = getattr(paper, "summary", "") or ""
     text = title + " " + normalize(abstract)
-    if hits(title, MD_TERMS) or not hits(text, EXPERIMENTAL_EVIDENCE):
+    experimental = ("experiment", "experiments", "experimentally", "experimental", "we deposited", "we fabricated", "we grew", "we synthesized", "we synthesised", "measurements", "measured")
+    if hits(title, MD_TERMS) or not hits(normalize(abstract), experimental):
         return False
     sentences = re.split(r"(?<=[.!?;])\s+|\n+", abstract)
     md_sentences = [normalize(s) for s in sentences if hits(normalize(s), MD_TERMS)]
@@ -98,6 +100,8 @@ def classify_paper(paper):
     # simulation, diagnostics, a sheath or generic plasma in its abstract.
     material_title = hits(title, CORE_TERMS) or method_hits(title) or (hits(title, FILM_CONTEXT) and hits(title, FILM_EVIDENCE))
     lab_context = hits(text, LAB_PLASMA_CONTEXT)
+    if any(str(category).startswith("astro-ph") for category in getattr(paper, "arxiv_categories", ())) and not material_title:
+        return None, "none", "天体物理分类且缺少明确材料制备主题"
     if (hits(title, OFF_SCOPE_PLASMA) and not material_title) or (hits(abstract, OFF_SCOPE_PLASMA) and not lab_context and not material_title):
         return None, "none", "聚变、空间或高能等离子体主题偏离材料加工范围"
     background_md = is_background_md(paper)

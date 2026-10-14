@@ -33,6 +33,10 @@ class ArxivPaper:
     @property
     def publication_date(self) -> str:
         return self._paper.published.isoformat()
+
+    @property
+    def arxiv_categories(self) -> tuple[str, ...]:
+        return tuple(self._paper.categories)
     
     @property
     def authors(self) -> list[str]:
