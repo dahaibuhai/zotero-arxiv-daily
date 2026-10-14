@@ -1,5 +1,10 @@
 {
   "papers": {
+    "doi:10.1002/adma.75307": {
+      "sent_at": "2026-10-14T06:50:13+00:00",
+      "source": "Semantic Scholar",
+      "title": "Controlling BCC-FCC Phase Selection in Cantor Thin Films Grown by Molecular Beam Epitaxy."
+    },
     "doi:10.1002/adom.71596": {
       "sent_at": "2026-08-11T03:51:11+00:00",
       "source": "Semantic Scholar",
@@ -435,6 +440,11 @@
       "source": "Semantic Scholar",
       "title": "Self-powered transparent UV photodetector based on NiO/WO3 heterojunction with tunable oxygen content"
     },
+    "doi:10.1088/1361-6463/aeaef6": {
+      "sent_at": "2026-10-14T06:50:13+00:00",
+      "source": "Semantic Scholar",
+      "title": "Pulsing discharge driven by direct power supply: self-pulsing, self-oscillating and Trichel pulse discharges"
+    },
     "doi:10.1088/1361-6595/abb7bd": {
       "sent_at": "2026-09-22T06:48:16+00:00",
       "source": "Semantic Scholar",
@@ -444,6 +454,11 @@
       "sent_at": "2026-10-10T01:43:00+00:00",
       "source": "Semantic Scholar",
       "title": "Effect of magnetic field configuration on ionised carbon flux fraction in HiPIMS"
+    },
+    "doi:10.1109/lmwt.2026.3689349": {
+      "sent_at": "2026-10-14T06:50:13+00:00",
+      "source": "Semantic Scholar",
+      "title": "5.8-GHz Al0.6Sc0.4N Film Bulk Acoustic Resonator With High Electromechanical Coupling Coefficient of 23.9%"
     },
     "doi:10.1109/tmag.2026.3707577": {
       "sent_at": "2026-07-31T05:37:32+00:00",
@@ -484,6 +499,11 @@
       "sent_at": "2026-08-14T04:07:08+00:00",
       "source": "Semantic Scholar",
       "title": "Process optimization and characterization of dielectric, piezoelectric, and ferroelectric properties of 30% ScAlN thin films"
+    },
+    "doi:10.1117/12.3111640": {
+      "sent_at": "2026-10-14T06:50:13+00:00",
+      "source": "Semantic Scholar",
+      "title": "Electric double layer effect at solid/solid interface in all-solid-state battery using superionic conductor"
     },
     "doi:10.1117/12.3111713": {
       "sent_at": "2026-10-12T06:29:26+00:00",
@@ -560,11 +580,6 @@
       "source": "Semantic Scholar",
       "title": "Tuning of UV-absorbing performance in high-transmittance ZnO nanostructured thin films: a study of thickness-dependent optical properties"
     },
-    "doi:10.3390/app16146991": {
-      "sent_at": "2026-07-16T05:09:07+00:00",
-      "source": "Semantic Scholar",
-      "title": "Engineering the Baseline Resistance of Al-Doped ZnO Thin Films for Chemiresistive Gas Sensor Platforms"
-    },
     "doi:10.3390/app16147165": {
       "sent_at": "2026-07-20T05:31:22+00:00",
       "source": "Semantic Scholar",
@@ -579,11 +594,6 @@
       "sent_at": "2026-08-24T02:52:56+00:00",
       "source": "Semantic Scholar",
       "title": "Review of the Sputtering Process for Obtaining Thin Films and Their Application to the III-Nitride Compounds"
-    },
-    "doi:10.3390/coatings16070828": {
-      "sent_at": "2026-07-16T05:09:07+00:00",
-      "source": "Semantic Scholar",
-      "title": "Comprehensive Investigation of the Effect of Annealing on Electrochromic Properties of WO3 Films"
     },
     "doi:10.3390/coatings16070855": {
       "sent_at": "2026-07-23T05:18:44+00:00",
@@ -630,200 +640,15 @@
       "source": "Semantic Scholar",
       "title": "Structure coating based on B, Ti and Si and synthesized by plasma assisted vacuum arc method on solid-state substrate"
     },
+    "doi:10.61440/jmset.2026.v4.116": {
+      "sent_at": "2026-10-14T06:50:13+00:00",
+      "source": "Semantic Scholar",
+      "title": "Emission of Cluster Ions During Surface Sputtering"
+    },
     "doi:10.7498/aps.75.20251348": {
       "sent_at": "2026-07-17T05:11:55+00:00",
       "source": "Semantic Scholar",
       "title": "Application of a-WO3 Simulated Memristors with Oxygen Vacancy Concentration Gradients in Neuromorphic Computing"
-    },
-    "id:2607.11908": {
-      "sent_at": "2026-07-15T09:12:23+00:00",
-      "source": "arXiv",
-      "title": "Integrated 3D fully kinetic simulation of field-reversed-configuration formation with embedded coils"
-    },
-    "id:2607.11996": {
-      "sent_at": "2026-07-15T09:12:23+00:00",
-      "source": "arXiv",
-      "title": "Coordination-Resolved Surrogate Models for Thermodynamic Stability, Band Gaps, and Magnetic Moments of Spinel Oxides, Sulfides, and Selenides"
-    },
-    "id:2607.12080": {
-      "sent_at": "2026-07-15T09:12:23+00:00",
-      "source": "arXiv",
-      "title": "Hyperfine Structure and Exchange Coupling of Vacancy-Induced Ce$^{3+}$ Spin Centers in Nuclear-Spin-Dilute CeO$_2$"
-    },
-    "id:2607.12191": {
-      "sent_at": "2026-07-15T09:12:23+00:00",
-      "source": "arXiv",
-      "title": "Phase-Controlled Epitaxy and Anisotropic Antiferromagnetism of Polar Wurtzite MnTe"
-    },
-    "id:2607.12294": {
-      "sent_at": "2026-07-15T09:12:23+00:00",
-      "source": "arXiv",
-      "title": "Full-Path Nonlinear Modeling of Microwave Power Transmission Through Ionospheric Plasma for Space Solar Power Station"
-    },
-    "id:2607.12388": {
-      "sent_at": "2026-07-15T09:12:23+00:00",
-      "source": "arXiv",
-      "title": "Magnetic Contributions to Phase Stability in the Co-Ni Binary: A First-Principles CALPHAD Study"
-    },
-    "id:2607.12439": {
-      "sent_at": "2026-07-15T09:12:23+00:00",
-      "source": "arXiv",
-      "title": "Radiation reaction measurements via single-shot energy-loss determination in high-intensity laser-electron collisions"
-    },
-    "id:2607.12451": {
-      "sent_at": "2026-07-15T09:12:23+00:00",
-      "source": "arXiv",
-      "title": "Impact of Residual Angular Chirp in a Petawatt-class Laser System on Laser-driven Proton Acceleration"
-    },
-    "id:2607.12498": {
-      "sent_at": "2026-07-15T09:12:23+00:00",
-      "source": "arXiv",
-      "title": "Many-body interactions in the dielectric theory of stopping power of solids for classical and quantum projectiles"
-    },
-    "id:2607.12512": {
-      "sent_at": "2026-07-15T09:12:23+00:00",
-      "source": "arXiv",
-      "title": "First reduced model for integrated computations of helicon wave heating and current drive in magnetic fusion plasmas"
-    },
-    "id:2607.12572": {
-      "sent_at": "2026-07-15T09:12:23+00:00",
-      "source": "arXiv",
-      "title": "Compatibility of Martensitic Microstructures in Polycrystals"
-    },
-    "id:2607.12669": {
-      "sent_at": "2026-07-15T09:12:23+00:00",
-      "source": "arXiv",
-      "title": "Emergent exchange bias in ultra-thin La0.67Sr0.33MnO3 films driven by ferro-antiferromagnetic phase coexistence"
-    },
-    "id:2607.12682": {
-      "sent_at": "2026-07-15T09:12:23+00:00",
-      "source": "arXiv",
-      "title": "On the transition to large fluxes and access to second stability in gyrokinetic simulations of electromagnetic turbulence in STEP"
-    },
-    "id:2607.12689": {
-      "sent_at": "2026-07-15T09:12:23+00:00",
-      "source": "arXiv",
-      "title": "High-frequency magnetotransport in LaMnO3 samples synthesized by microwave irradiation versus conventional heating"
-    },
-    "id:2607.12707": {
-      "sent_at": "2026-07-15T09:12:23+00:00",
-      "source": "arXiv",
-      "title": "Are gate-all-around 2D CFETs the optimal architecture for the A2 node and beyond?"
-    },
-    "id:2607.12740": {
-      "sent_at": "2026-07-15T09:12:23+00:00",
-      "source": "arXiv",
-      "title": "Antiphase boundary-driven large exchange bias and negative magnetoresistance in NiCo2O4"
-    },
-    "id:2607.12781": {
-      "sent_at": "2026-07-15T09:12:23+00:00",
-      "source": "arXiv",
-      "title": "The self-organized vacancy order in Pr$_9$Ge$_{16}$"
-    },
-    "id:2607.12783": {
-      "sent_at": "2026-07-15T09:12:23+00:00",
-      "source": "arXiv",
-      "title": "Photogeneration and signatures of coherent phonons in time-resolved photoemission spectroscopy: First-principles time-dependent adiabatic GW approach"
-    },
-    "id:2607.12960": {
-      "sent_at": "2026-07-15T09:12:23+00:00",
-      "source": "arXiv",
-      "title": "Decoupling Strain-Rate Sensitivity and Deformation Length Scale Effects in Neutron-Irradiated Tungsten: A Coupled Nano-Indentation, HR-EBSD and Crystal Plasticity Study"
-    },
-    "id:2607.13026": {
-      "sent_at": "2026-07-15T09:12:23+00:00",
-      "source": "arXiv",
-      "title": "Non-intrusive MEMS microphone sensing of acoustic field state in resonant acoustic levitators"
-    },
-    "id:2607.13107": {
-      "sent_at": "2026-07-16T05:09:07+00:00",
-      "source": "arXiv",
-      "title": "DeepCormack: Fermi surface tomography using model-based data-driven algorithms"
-    },
-    "id:2607.13180": {
-      "sent_at": "2026-07-16T05:09:07+00:00",
-      "source": "arXiv",
-      "title": "Synthesis of the Elusive Bulk Iodide Double-Perovskite Semiconductor, Cs2AgBiI6: Microcrystals and Photoconductive Films"
-    },
-    "id:2607.13211": {
-      "sent_at": "2026-07-16T05:09:07+00:00",
-      "source": "arXiv",
-      "title": "Multiwavelength Raman investigation of mono- and few-layer MoS2 grown by Pulsed Laser Deposition on SiO2"
-    },
-    "id:2607.13306": {
-      "sent_at": "2026-07-16T05:09:07+00:00",
-      "source": "arXiv",
-      "title": "Structural Requirements for Ion-Acoustic Double Layers: A Parametric Perturbation Analysis of the Maxwellian Limit"
-    },
-    "id:2607.13364": {
-      "sent_at": "2026-07-16T05:09:07+00:00",
-      "source": "arXiv",
-      "title": "Direct Imaging of Temperature Evolution of Polar Nanoregions and Chemically Ordered Regions in PMN Relaxor: Evidence for Polar Phase Percolation"
-    },
-    "id:2607.13390": {
-      "sent_at": "2026-07-16T05:09:07+00:00",
-      "source": "arXiv",
-      "title": "Boronization-enabled I-mode on EAST tokamak with an expanded density window and favorable-configuration access"
-    },
-    "id:2607.13419": {
-      "sent_at": "2026-07-16T05:09:07+00:00",
-      "source": "arXiv",
-      "title": "Resistivity in Dilute Cu-3d Alloys Governed by Disorder-Induced Band Broadening"
-    },
-    "id:2607.13426": {
-      "sent_at": "2026-07-16T05:09:07+00:00",
-      "source": "arXiv",
-      "title": "Chiral Landau levels induced by two in-plane pseudomagnetic fields in underwater acoustic metamaterials"
-    },
-    "id:2607.13467": {
-      "sent_at": "2026-07-16T05:09:07+00:00",
-      "source": "arXiv",
-      "title": "Physics-Informed Residual Deep Learning for Constitutive Modeling of Hot Deformation and Dynamic Recrystallization in a Mo-Rich $α+β$ Titanium Alloy"
-    },
-    "id:2607.13632": {
-      "sent_at": "2026-07-16T05:09:07+00:00",
-      "source": "arXiv",
-      "title": "Research progress in high-pressure tuning of layered magnetic materials"
-    },
-    "id:2607.13779": {
-      "sent_at": "2026-07-16T05:09:07+00:00",
-      "source": "arXiv",
-      "title": "Mapping recrystallization trajectories in GaAs using latent space diffraction analysis"
-    },
-    "id:2607.13846": {
-      "sent_at": "2026-07-16T05:09:07+00:00",
-      "source": "arXiv",
-      "title": "First-principles Study of Structural and Electronic Properties of Mn-doped Cu2NiXY4 (X=Sn, Ge, Si; Y=S, Se) Chalcogenide Semiconductors"
-    },
-    "id:2607.13851": {
-      "sent_at": "2026-07-16T05:09:07+00:00",
-      "source": "arXiv",
-      "title": "Electron Beam Radiolysis-Assisted Growth of Rutile TiO2 Thin Films"
-    },
-    "id:2607.13893": {
-      "sent_at": "2026-07-16T05:09:07+00:00",
-      "source": "arXiv",
-      "title": "Revealing the MoS2 Growth Mechanism in Chemical Vapor Deposition: Real-Time Imaging and Statistical Analysis"
-    },
-    "id:2607.13896": {
-      "sent_at": "2026-07-16T05:09:07+00:00",
-      "source": "arXiv",
-      "title": "Chemical short-range order controls deformation pathways in a complex concentrated alloy"
-    },
-    "id:2607.13979": {
-      "sent_at": "2026-07-16T05:09:07+00:00",
-      "source": "arXiv",
-      "title": "Using superpixels for interpretable feature reduction in large 2D diffraction datasets"
-    },
-    "id:2607.14025": {
-      "sent_at": "2026-07-16T05:09:07+00:00",
-      "source": "arXiv",
-      "title": "The WEST code for large-scale excited-state materials simulations"
-    },
-    "id:2607.14069": {
-      "sent_at": "2026-07-16T05:09:07+00:00",
-      "source": "arXiv",
-      "title": "Orbital Hybridization Induces Giant Cubic Rashba Effect at Cu/WO$_{3}$ Interface"
     },
     "id:2607.14142": {
       "sent_at": "2026-07-17T05:11:55+00:00",
@@ -4894,6 +4719,31 @@
       "sent_at": "2026-10-13T05:25:07+00:00",
       "source": "Semantic Scholar",
       "title": "Energy-dependent trapping of backscattered helium during magnetron sputtering growth: A molecular dynamics study"
+    },
+    "id:2610.15022": {
+      "sent_at": "2026-10-14T06:50:13+00:00",
+      "source": "arXiv",
+      "title": "Graphene-Confined Growth of Few-Layer PtSe2 via One-Step Selenization"
+    },
+    "id:2610.15798": {
+      "sent_at": "2026-10-14T06:50:13+00:00",
+      "source": "arXiv",
+      "title": "Ionomer-free Iridium Anodes with Low Loading for Zero-gap Electrolyzers via Direct Atomic Layer Deposition"
+    },
+    "id:2610.15861": {
+      "sent_at": "2026-10-14T06:50:13+00:00",
+      "source": "arXiv",
+      "title": "Epitaxial Oxide Thin Films with High Entropy and Anomalous Crystallinity"
+    },
+    "id:2610.18068": {
+      "sent_at": "2026-10-14T06:50:13+00:00",
+      "source": "arXiv",
+      "title": "Hydrogen partial pressure as a key parameter in the reactive sputtering of photochromic YHO thin films"
+    },
+    "id:2610.18448": {
+      "sent_at": "2026-10-14T06:50:13+00:00",
+      "source": "arXiv",
+      "title": "Substrate-controlled epitaxial-like growth and photochromic properties of yttrium oxyhydride thin films"
     }
   },
   "version": 1
