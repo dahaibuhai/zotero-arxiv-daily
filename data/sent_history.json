@@ -345,10 +345,20 @@
       "source": "Semantic Scholar",
       "title": "Defect Landscape\nand Stability of High-Entropy Carbides"
     },
+    "doi:10.1021/acsaelm.6c01847": {
+      "sent_at": "2026-10-16T09:29:29+00:00",
+      "source": "Semantic Scholar",
+      "title": "High-Mobility Enhancement-Mode ITO/ZnO Thin-Film Transistors with an Asymmetric Vertical Channel Architecture"
+    },
     "doi:10.1021/acsami.6c04528": {
       "sent_at": "2026-07-29T05:14:39+00:00",
       "source": "Semantic Scholar",
       "title": "Orientation-Controlled Bi26-x-yCoxFeyO40/MgO/Si Thin Films: Enhanced Magneto-Optical Performance."
+    },
+    "doi:10.1021/acsomega.6c06128": {
+      "sent_at": "2026-10-16T09:29:29+00:00",
+      "source": "Semantic Scholar",
+      "title": "Investigation of\nthe Effect of O2/Ar Ratio\non Flexible WO3 Electrochromic Films Prepared by Magnetron\nSputtering and Performance Optimization via Ti Doping"
     },
     "doi:10.1021/jp027345j": {
       "sent_at": "2026-09-22T06:48:16+00:00",
@@ -595,6 +605,11 @@
       "source": "Semantic Scholar",
       "title": "Tuning of UV-absorbing performance in high-transmittance ZnO nanostructured thin films: a study of thickness-dependent optical properties"
     },
+    "doi:10.26599/jac.2026.9221397": {
+      "sent_at": "2026-10-16T09:29:29+00:00",
+      "source": "Semantic Scholar",
+      "title": "Electrical insulation enhancement of the Al\n 2\n O\n 3\n composite films at high temperature by oxygen vacancy suppression"
+    },
     "doi:10.3311/ppme.45036": {
       "sent_at": "2026-10-15T08:57:28+00:00",
       "source": "Semantic Scholar",
@@ -639,6 +654,11 @@
       "sent_at": "2026-10-12T06:29:26+00:00",
       "source": "Semantic Scholar",
       "title": "Synthesis, Phase Engineering and Optoelectronic Applications of Binary Arsenic Sulphide Thin Films from Orpiment to Dimorphite"
+    },
+    "doi:10.3390/ma19204284": {
+      "sent_at": "2026-10-16T09:29:29+00:00",
+      "source": "Semantic Scholar",
+      "title": "Enhanced Performance of In2O3/SnO2 Dual-Channel Thin-Film Transistor by Heterostructure Strategy"
     },
     "doi:10.3390/polym18161979": {
       "sent_at": "2026-08-17T02:49:32+00:00",
@@ -4520,6 +4540,11 @@
       "source": "arXiv",
       "title": "Orientation refinement for nanobeam precession electron diffraction patterns using spot intensity profiles"
     },
+    "id:2610.03150": {
+      "sent_at": "2026-10-16T09:29:29+00:00",
+      "source": "Semantic Scholar",
+      "title": "Self-organized Layered Structures of Nitrogen-Vacancy Centers with Preferential Orientation in Heteroepitaxial Diamond Films"
+    },
     "id:2610.03171": {
       "sent_at": "2026-10-05T07:42:23+00:00",
       "source": "arXiv",
@@ -4660,6 +4685,11 @@
       "source": "arXiv",
       "title": "Ionomer-free Iridium Anodes with Low Loading for Zero-gap Electrolyzers via Direct Atomic Layer Deposition"
     },
+    "id:2610.15812": {
+      "sent_at": "2026-10-16T09:29:29+00:00",
+      "source": "arXiv",
+      "title": "Nanofluid transport in Taylor bubble flows"
+    },
     "id:2610.15861": {
       "sent_at": "2026-10-14T06:50:13+00:00",
       "source": "arXiv",
@@ -4685,6 +4715,11 @@
       "source": "arXiv",
       "title": "Substrate-controlled epitaxial-like growth and photochromic properties of yttrium oxyhydride thin films"
     },
+    "id:2610.19284": {
+      "sent_at": "2026-10-16T09:29:29+00:00",
+      "source": "arXiv",
+      "title": "Chern insulator optics"
+    },
     "id:2610.20361": {
       "sent_at": "2026-10-15T08:57:28+00:00",
       "source": "arXiv",
@@ -4694,6 +4729,21 @@
       "sent_at": "2026-10-15T08:57:28+00:00",
       "source": "arXiv",
       "title": "Growth-induced trade-off between polarity, electrical isolation, and structural quality in AlN grown on Si(111) by plasma-assisted molecular beam epitaxy"
+    },
+    "id:2610.21163": {
+      "sent_at": "2026-10-16T09:29:29+00:00",
+      "source": "arXiv",
+      "title": "Strain-enhanced superconductivity in RuO$_2$ thin films: Joint experimental and theoretical studies"
+    },
+    "id:2610.21856": {
+      "sent_at": "2026-10-16T09:29:29+00:00",
+      "source": "arXiv",
+      "title": "Large in-plane optical anisotropy in epitaxial CrN(113) films"
+    },
+    "id:2610.22095": {
+      "sent_at": "2026-10-16T09:29:29+00:00",
+      "source": "arXiv",
+      "title": "Plasma-Enabled Wideband Matching of Electrically Small Antennas"
     }
   },
   "version": 1
