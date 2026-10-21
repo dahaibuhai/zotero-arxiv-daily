@@ -15,6 +15,11 @@
       "source": "Semantic Scholar",
       "title": "SputterOne: A Physics‐Informed Interactive Magnetron Sputtering Simulator Enabling a Process Digital Twin"
     },
+    "doi:10.1002/lpor.72057": {
+      "sent_at": "2026-10-21T01:20:01+00:00",
+      "source": "Semantic Scholar",
+      "title": "CMOS‐Compatible Hybrid Silicon and Strontium Barium Niobate Mach‐Zehnder Modulators"
+    },
     "doi:10.1002/pssa.70559": {
       "sent_at": "2026-10-15T08:57:28+00:00",
       "source": "Semantic Scholar",
@@ -105,6 +110,11 @@
       "source": "Semantic Scholar",
       "title": "Molybdenum thin film deposited by in-line DC magnetron sputtering as a back contact for Cu(In,Ga)Se2 solar cells"
     },
+    "doi:10.1016/j.apsusc.2026.168701": {
+      "sent_at": "2026-10-21T01:20:01+00:00",
+      "source": "Semantic Scholar",
+      "title": "Surface composition–property relationships in amorphous AlCrTiZrSiW coatings deposited by multi-target high-power impulse magnetron sputtering"
+    },
     "doi:10.1016/j.cattod.2018.04.065": {
       "sent_at": "2026-10-05T07:42:23+00:00",
       "source": "Semantic Scholar",
@@ -154,6 +164,11 @@
       "sent_at": "2026-08-14T04:07:08+00:00",
       "source": "Semantic Scholar",
       "title": "Mechanical and electrical behaviour of reactive magnetron sputtered low-Al content epitaxial single-crystalline Ti1-xAlxNy thin films"
+    },
+    "doi:10.1016/j.matlet.2026.141678": {
+      "sent_at": "2026-10-21T01:20:01+00:00",
+      "source": "Semantic Scholar",
+      "title": "Topographical investigation of rhenium oxide thin films grown via direct chemical vapor deposition"
     },
     "doi:10.1016/j.microrel.2026.116294": {
       "sent_at": "2026-09-15T06:44:26+00:00",
@@ -480,6 +495,11 @@
       "source": "Semantic Scholar",
       "title": "Pulsing discharge driven by direct power supply: self-pulsing, self-oscillating and Trichel pulse discharges"
     },
+    "doi:10.1088/1361-6463/aeb555": {
+      "sent_at": "2026-10-21T01:20:01+00:00",
+      "source": "Semantic Scholar",
+      "title": "Anode-assisted magnetron sputtering: Fundamentals and recent developments"
+    },
     "doi:10.1088/1361-6595/abb7bd": {
       "sent_at": "2026-09-22T06:48:16+00:00",
       "source": "Semantic Scholar",
@@ -665,6 +685,11 @@
       "source": "Semantic Scholar",
       "title": "Enhanced Performance of In2O3/SnO2 Dual-Channel Thin-Film Transistor by Heterostructure Strategy"
     },
+    "doi:10.3390/ma19204363": {
+      "sent_at": "2026-10-21T01:20:01+00:00",
+      "source": "Semantic Scholar",
+      "title": "Corrosion Resistance of ALD-Deposited HfO2 Coatings on Stainless Steel for Biomedical Applications"
+    },
     "doi:10.3390/polym18161979": {
       "sent_at": "2026-08-17T02:49:32+00:00",
       "source": "Semantic Scholar",
@@ -689,106 +714,6 @@
       "sent_at": "2026-10-14T06:50:13+00:00",
       "source": "Semantic Scholar",
       "title": "Emission of Cluster Ions During Surface Sputtering"
-    },
-    "id:2607.18420": {
-      "sent_at": "2026-07-22T05:17:30+00:00",
-      "source": "arXiv",
-      "title": "Electron escape probability in high-efficiency photocathodes measured by reverse-injection photovoltage"
-    },
-    "id:2607.18423": {
-      "sent_at": "2026-07-22T05:17:30+00:00",
-      "source": "arXiv",
-      "title": "Long Non-Exponential PL Decay from Localized Defect States in Monolayer WSe$_2$ at Low Temperature"
-    },
-    "id:2607.18472": {
-      "sent_at": "2026-07-22T05:17:30+00:00",
-      "source": "arXiv",
-      "title": "Vacancy Diffusion Across FeCrAl Alloy Composition Space for Accident-Tolerant Fuel Cladding"
-    },
-    "id:2607.18474": {
-      "sent_at": "2026-07-22T05:17:30+00:00",
-      "source": "arXiv",
-      "title": "Sky-blue Solution-processed TADF and Hyperfluorescent OLEDs via a High-Work-Function PEDOT:PSS:PFI Hole Injection Layer"
-    },
-    "id:2607.18524": {
-      "sent_at": "2026-07-22T05:17:30+00:00",
-      "source": "arXiv",
-      "title": "Data-Efficient Training of Linear ACE Potentials through Leverage-Guided Subset Selection of ASSYST Structure Pools"
-    },
-    "id:2607.18558": {
-      "sent_at": "2026-07-22T05:17:30+00:00",
-      "source": "arXiv",
-      "title": "The power exhaust constrained SPARC separatrix operational space"
-    },
-    "id:2607.18590": {
-      "sent_at": "2026-07-22T05:17:30+00:00",
-      "source": "arXiv",
-      "title": "Battery Material Comparisons Should Refocus on Diffusivity with Best Practices"
-    },
-    "id:2607.18591": {
-      "sent_at": "2026-07-22T05:17:30+00:00",
-      "source": "arXiv",
-      "title": "GQD-AdsNet: Graph Neural Networks Unlock Rapid Exploration of Transition Metal Adsorption on Graphene Quantum Dots"
-    },
-    "id:2607.18750": {
-      "sent_at": "2026-07-22T05:17:30+00:00",
-      "source": "arXiv",
-      "title": "Alchemical thermodynamic integration for ab initio free-energy calculations in solutions"
-    },
-    "id:2607.18838": {
-      "sent_at": "2026-07-22T05:17:30+00:00",
-      "source": "arXiv",
-      "title": "Quantitative schlieren imaging coupled with inverse Abel transformation for flow field studies in a cylindrical surface DBD"
-    },
-    "id:2607.18900": {
-      "sent_at": "2026-07-22T05:17:30+00:00",
-      "source": "arXiv",
-      "title": "Switchable selective backscatter modulation via the Kerker effect"
-    },
-    "id:2607.18963": {
-      "sent_at": "2026-07-22T05:17:30+00:00",
-      "source": "arXiv",
-      "title": "Stereochemical Vacuum Gap Explains Out-of-Plane Thermal Insulation in MXenes"
-    },
-    "id:2607.18982": {
-      "sent_at": "2026-07-22T05:17:30+00:00",
-      "source": "arXiv",
-      "title": "Ambient Pressure-Driven Actuators and Shape-Morphing Metamaterials"
-    },
-    "id:2607.19003": {
-      "sent_at": "2026-07-22T05:17:30+00:00",
-      "source": "arXiv",
-      "title": "Deciphering Mechanoluminescence: How the Nature of Mechanical Stress and Structural Dimensionality Shape Mechanisms and Responses"
-    },
-    "id:2607.19095": {
-      "sent_at": "2026-07-22T05:17:30+00:00",
-      "source": "arXiv",
-      "title": "Doping tunable charge density waves in misfit layer compounds"
-    },
-    "id:2607.19121": {
-      "sent_at": "2026-07-22T05:17:30+00:00",
-      "source": "arXiv",
-      "title": "Combined tools for Particle-In-Cell simulations performed with transversely asymmetric chirped lasers"
-    },
-    "id:2607.19123": {
-      "sent_at": "2026-07-22T05:17:30+00:00",
-      "source": "arXiv",
-      "title": "Thermal and electrical conductivity of a refractory high-entropy alloy after high-pressure torsion: Electron versus phonon contributions"
-    },
-    "id:2607.19180": {
-      "sent_at": "2026-07-22T05:17:30+00:00",
-      "source": "arXiv",
-      "title": "Exploring Self-Organization of Charged Dust Dimers in Plasma"
-    },
-    "id:2607.19198": {
-      "sent_at": "2026-07-22T05:17:30+00:00",
-      "source": "arXiv",
-      "title": "ATLAS: A Foundation Neural Sampler for Amorphous Materials"
-    },
-    "id:2607.19239": {
-      "sent_at": "2026-07-22T05:17:30+00:00",
-      "source": "arXiv",
-      "title": "Spatially resolved in-situ characterisation of competing martensitic transformation pathways during nanoscratch in 316H Stainless Steel"
     },
     "id:2607.19488": {
       "sent_at": "2026-07-23T05:18:44+00:00",
@@ -4495,6 +4420,11 @@
       "source": "arXiv",
       "title": "FHiVI$^{2}$: A Fast High-Voltage approach for Ionisation Improvement in the context of plasma-assisted magnetron sputtering"
     },
+    "id:2610.12556": {
+      "sent_at": "2026-10-21T01:20:01+00:00",
+      "source": "arXiv",
+      "title": "TLS loss in superconducting resonators on epitaxial hBN thin films"
+    },
     "id:2610.13509": {
       "sent_at": "2026-10-13T05:25:07+00:00",
       "source": "Semantic Scholar",
@@ -4594,6 +4524,11 @@
       "sent_at": "2026-10-20T00:59:10+00:00",
       "source": "arXiv",
       "title": "Magnetic order in epitaxial (La2/3Sr1/3MnO3)3/(BaTiO3)3 trilayer heterostructures: Evidence for quasi-two-dimensional ferrimagnetism"
+    },
+    "id:2610.27240": {
+      "sent_at": "2026-10-21T01:20:01+00:00",
+      "source": "arXiv",
+      "title": "Nanoscale chemical engineering of Ti3C2Tx MXene multilayers through in situ electron beam irradiation in a TEM"
     }
   },
   "version": 1
