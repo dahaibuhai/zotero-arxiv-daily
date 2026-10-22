@@ -450,11 +450,6 @@
       "source": "Semantic Scholar",
       "title": "Structural, electrical and optical properties of aluminum doped zinc oxide films prepared by radio frequency magnetron sputtering"
     },
-    "doi:10.1063/5.0325421": {
-      "sent_at": "2026-07-23T05:18:44+00:00",
-      "source": "Semantic Scholar",
-      "title": "Growth and optical properties of polar-, nonpolar, and semi-polar wurtzite ScGaN films"
-    },
     "doi:10.1063/5.0347358": {
       "sent_at": "2026-10-20T00:59:10+00:00",
       "source": "Semantic Scholar",
@@ -509,6 +504,16 @@
       "sent_at": "2026-10-10T01:43:00+00:00",
       "source": "Semantic Scholar",
       "title": "Effect of magnetic field configuration on ionised carbon flux fraction in HiPIMS"
+    },
+    "doi:10.1088/1402-4896/aeb5b7": {
+      "sent_at": "2026-10-22T06:30:56+00:00",
+      "source": "Semantic Scholar",
+      "title": "Fabrication and characterization of ZnBO-based ultrasonic transducers for potential cardiovascular sensing applications"
+    },
+    "doi:10.1088/2058-6272/aeb487": {
+      "sent_at": "2026-10-22T06:30:56+00:00",
+      "source": "Semantic Scholar",
+      "title": "Transient charged-particle evolution in sputter ion pumps under extreme-high-vacuum conditions: a PIC/MCC study"
     },
     "doi:10.1109/jsen.2026.3729615": {
       "sent_at": "2026-10-20T00:59:10+00:00",
@@ -585,6 +590,11 @@
       "source": "Semantic Scholar",
       "title": "Atomic layer deposition of AlFx on 2D MoS2"
     },
+    "doi:10.1117/12.3131203": {
+      "sent_at": "2026-10-22T06:30:56+00:00",
+      "source": "Semantic Scholar",
+      "title": "Effects of annealing temperature on the properties of potassium sodium niobate films grown by RF magnetron sputtering"
+    },
     "doi:10.1134/s108765961604009x": {
       "sent_at": "2026-10-08T08:02:10+00:00",
       "source": "Semantic Scholar",
@@ -655,11 +665,6 @@
       "source": "Semantic Scholar",
       "title": "Review of the Sputtering Process for Obtaining Thin Films and Their Application to the III-Nitride Compounds"
     },
-    "doi:10.3390/coatings16070855": {
-      "sent_at": "2026-07-23T05:18:44+00:00",
-      "source": "Semantic Scholar",
-      "title": "Research on the Performance of ZnO Piezoelectric Film Ultrasonic Transducers and Its Application in the Detection of Preload of Hydroelectric Bolts"
-    },
     "doi:10.3390/coatings16080984": {
       "sent_at": "2026-08-24T02:52:56+00:00",
       "source": "Semantic Scholar",
@@ -690,6 +695,11 @@
       "source": "Semantic Scholar",
       "title": "Corrosion Resistance of ALD-Deposited HfO2 Coatings on Stainless Steel for Biomedical Applications"
     },
+    "doi:10.3390/plasma9040040": {
+      "sent_at": "2026-10-22T06:30:56+00:00",
+      "source": "Semantic Scholar",
+      "title": "Two-Temperature Electron Energy Distribution Function and Its Device Dependence in Atmospheric-Pressure Nonequilibrium Argon Plasma"
+    },
     "doi:10.3390/polym18161979": {
       "sent_at": "2026-08-17T02:49:32+00:00",
       "source": "Semantic Scholar",
@@ -710,100 +720,15 @@
       "source": "Semantic Scholar",
       "title": "Structure coating based on B, Ti and Si and synthesized by plasma assisted vacuum arc method on solid-state substrate"
     },
+    "doi:10.56201/ijemt.vol.11.no4.2025.pg11.22": {
+      "sent_at": "2026-10-22T06:30:56+00:00",
+      "source": "Semantic Scholar",
+      "title": "Performance Improvement of Concentrated Solar Thermal Collectors using Ti and AlN Composite Coatings for Photothermal Conversion Applications"
+    },
     "doi:10.61440/jmset.2026.v4.116": {
       "sent_at": "2026-10-14T06:50:13+00:00",
       "source": "Semantic Scholar",
       "title": "Emission of Cluster Ions During Surface Sputtering"
-    },
-    "id:2607.19488": {
-      "sent_at": "2026-07-23T05:18:44+00:00",
-      "source": "arXiv",
-      "title": "Electron-Induced Formation of C$_{2}$ on Si(100) from Acetylene and Ethylene"
-    },
-    "id:2607.19551": {
-      "sent_at": "2026-07-23T05:18:44+00:00",
-      "source": "arXiv",
-      "title": "Photoemission from Semi-Infinite Crystals: An \\emph{Ab Initio} Scattering-State Approach"
-    },
-    "id:2607.19569": {
-      "sent_at": "2026-07-23T05:18:44+00:00",
-      "source": "arXiv",
-      "title": "Assessing the Influence of d-Orbital Radius on the Formation of Localized Photogenerated States in Corundum Metal Oxides"
-    },
-    "id:2607.19656": {
-      "sent_at": "2026-07-23T05:18:44+00:00",
-      "source": "arXiv",
-      "title": "Nitrospinics as a platform from orbital-torque memory to artificial intelligence"
-    },
-    "id:2607.19664": {
-      "sent_at": "2026-07-23T05:18:44+00:00",
-      "source": "arXiv",
-      "title": "Synergistic Interface Stability and High Room-Temperature Ionic Conductivity for Wide-Temperature All-Solid-State Batteries Based on Li6+xSixSb1-xS5I Electrolytes"
-    },
-    "id:2607.19698": {
-      "sent_at": "2026-07-23T05:18:44+00:00",
-      "source": "arXiv",
-      "title": "Analytical Retrieval of Material Parameters in Monolayer Transition-Metal Dichalcogenides Based on a Solvable Exciton Model"
-    },
-    "id:2607.19732": {
-      "sent_at": "2026-07-23T05:18:44+00:00",
-      "source": "arXiv",
-      "title": "A Thermodynamic Pinning Criterion for Two-Dimensional Structural Superlubricity"
-    },
-    "id:2607.19789": {
-      "sent_at": "2026-07-23T05:18:44+00:00",
-      "source": "arXiv",
-      "title": "Numerical exploration on unveiling the photovoltaic potential of MgXS3(X = Ti, Zr, Hf) chalcogenide perovskites"
-    },
-    "id:2607.19885": {
-      "sent_at": "2026-07-23T05:18:44+00:00",
-      "source": "arXiv",
-      "title": "The origin of ferroelectricity, polarization and high resistivity in Aurivillius CaBi2B2O9 (B = Ta, Nb)"
-    },
-    "id:2607.19930": {
-      "sent_at": "2026-07-23T05:18:44+00:00",
-      "source": "arXiv",
-      "title": "Reduced-order non-self-consistent Monte Carlo simulation of a planar magnetron discharge: electron heating, recapture and racetrack formation"
-    },
-    "id:2607.19979": {
-      "sent_at": "2026-07-23T05:18:44+00:00",
-      "source": "arXiv",
-      "title": "Interface-resolved structural properties of epitaxial Y$_3$Fe$_5$O$_{12}$/ Gd$_3$Fe$_5$O$_{12}$ bilayers grown on GGG(111) by pulsed laser deposition"
-    },
-    "id:2607.20032": {
-      "sent_at": "2026-07-23T05:18:44+00:00",
-      "source": "arXiv",
-      "title": "Huge hole injection in tungsten dichalcogenide heterostructures without electric gating: a DFT study"
-    },
-    "id:2607.20054": {
-      "sent_at": "2026-07-23T05:18:44+00:00",
-      "source": "arXiv",
-      "title": "Thickness-dependent crack suppression and wrinkle formation in freestanding BaTiO3 membranes"
-    },
-    "id:2607.20066": {
-      "sent_at": "2026-07-23T05:18:44+00:00",
-      "source": "arXiv",
-      "title": "Kinetically-Arrested Phase Separation leads to Tunable Domain Structures in Vapor-Deposited Glasses"
-    },
-    "id:2607.20077": {
-      "sent_at": "2026-07-23T05:18:44+00:00",
-      "source": "arXiv",
-      "title": "From MLIPs to Microstructure: A High-Throughput Computational Framework to Design Spinodal Alloys in High-Dimensional Composition Spaces via Analytic Derivatives of CALPHAD Model Predictions"
-    },
-    "id:2607.20278": {
-      "sent_at": "2026-07-23T05:18:44+00:00",
-      "source": "arXiv",
-      "title": "A low-temperature plasma collisional framework for quadrature-based moment methods"
-    },
-    "id:2607.20281": {
-      "sent_at": "2026-07-23T05:18:44+00:00",
-      "source": "arXiv",
-      "title": "Parametric Decay of Broadband Lower Hybrid Waves"
-    },
-    "id:2607.20298": {
-      "sent_at": "2026-07-23T05:18:44+00:00",
-      "source": "arXiv",
-      "title": "Competing ferromagnetic and antiferromagnetic interactions in non-altermagnetic Ru$_{1-x}$Cr$_{x}$O$_{2}$"
     },
     "id:2607.21660": {
       "sent_at": "2026-07-27T05:44:10+00:00",
@@ -4525,10 +4450,35 @@
       "source": "arXiv",
       "title": "Magnetic order in epitaxial (La2/3Sr1/3MnO3)3/(BaTiO3)3 trilayer heterostructures: Evidence for quasi-two-dimensional ferrimagnetism"
     },
+    "id:2610.24167": {
+      "sent_at": "2026-10-22T06:30:56+00:00",
+      "source": "arXiv",
+      "title": "Probing wetting and solidification dynamics of neon thin films with a high-$T_c$ superconducting circuit"
+    },
     "id:2610.27240": {
       "sent_at": "2026-10-21T01:20:01+00:00",
       "source": "arXiv",
       "title": "Nanoscale chemical engineering of Ti3C2Tx MXene multilayers through in situ electron beam irradiation in a TEM"
+    },
+    "id:2610.28593": {
+      "sent_at": "2026-10-22T06:30:56+00:00",
+      "source": "arXiv",
+      "title": "Correcting topographic artifacts in three-dimensional ToF-SIMS: A practical guide from data-only reconstruction to correlative AFM"
+    },
+    "id:2610.29401": {
+      "sent_at": "2026-10-22T06:30:56+00:00",
+      "source": "arXiv",
+      "title": "Super-tetragonal ferroelectric barium titanate through anionic overstoichiometry"
+    },
+    "id:2610.29599": {
+      "sent_at": "2026-10-22T06:30:56+00:00",
+      "source": "arXiv",
+      "title": "Microstructural evolution during isothermal tempering of a highly supersaturated metastable austenitic state of a PM high-speed steel"
+    },
+    "id:2610.29858": {
+      "sent_at": "2026-10-22T06:30:56+00:00",
+      "source": "arXiv",
+      "title": "Robust Anomalous Hall Effect in Epitaxial Cubic D0$_3$-Fe$_3$Ge Nanoplates Grown by Chemical Vapor Deposition"
     }
   },
   "version": 1
