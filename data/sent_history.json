@@ -365,6 +365,11 @@
       "source": "Semantic Scholar",
       "title": "Defect Landscape\nand Stability of High-Entropy Carbides"
     },
+    "doi:10.1021/acs.nanolett.6c04067": {
+      "sent_at": "2026-10-24T02:08:41+00:00",
+      "source": "Semantic Scholar",
+      "title": "From Dense\nto Nanostructured Thin Film Anodes: Boosting\nLi-Ion Accessibility in TiO2 Thin Film Electrodes"
+    },
     "doi:10.1021/acsaelm.6c01847": {
       "sent_at": "2026-10-16T09:29:29+00:00",
       "source": "Semantic Scholar",
@@ -374,6 +379,21 @@
       "sent_at": "2026-07-29T05:14:39+00:00",
       "source": "Semantic Scholar",
       "title": "Orientation-Controlled Bi26-x-yCoxFeyO40/MgO/Si Thin Films: Enhanced Magneto-Optical Performance."
+    },
+    "doi:10.1021/acsami.6c09340": {
+      "sent_at": "2026-10-24T02:08:41+00:00",
+      "source": "Semantic Scholar",
+      "title": "Invisible Patterned Silver-Based Transparent Electrodes via Control of Light Scattering and Absorption."
+    },
+    "doi:10.1021/acsomega.6c06081": {
+      "sent_at": "2026-10-24T02:08:41+00:00",
+      "source": "Semantic Scholar",
+      "title": "Toward More Cost-Effective Hydrogen Production: Magnetron-Sputtered\nNi- and Co-Based CeO2 Catalysts at Ultralow Metal Loading"
+    },
+    "doi:10.1021/acsomega.6c06100": {
+      "sent_at": "2026-10-24T02:08:41+00:00",
+      "source": "Semantic Scholar",
+      "title": "DC Magnetron-Generated\nReactive Glow Discharge Plasma\nActivation of Acid-Etched Titanium for Superhydrophilic TiO2-Rich Surfaces"
     },
     "doi:10.1021/acsomega.6c06128": {
       "sent_at": "2026-10-16T09:29:29+00:00",
@@ -564,6 +584,11 @@
       "sent_at": "2026-08-14T04:07:08+00:00",
       "source": "Semantic Scholar",
       "title": "Process optimization and characterization of dielectric, piezoelectric, and ferroelectric properties of 30% ScAlN thin films"
+    },
+    "doi:10.1116/6.0005766": {
+      "sent_at": "2026-10-24T02:08:41+00:00",
+      "source": "Semantic Scholar",
+      "title": "Microstructure and corrosion properties of N–Cr co-doped amorphous carbon coatings for proton exchange membrane fuel cell bipolar plates"
     },
     "doi:10.1117/12.3111640": {
       "sent_at": "2026-10-14T06:50:13+00:00",
@@ -4455,6 +4480,21 @@
       "source": "arXiv",
       "title": "Probing wetting and solidification dynamics of neon thin films with a high-$T_c$ superconducting circuit"
     },
+    "id:2610.24768": {
+      "sent_at": "2026-10-24T02:08:41+00:00",
+      "source": "arXiv",
+      "title": "Epitaxial Displacement-etched GaAsSb Quantum Dots Emitting at Telecom Wavelengths"
+    },
+    "id:2610.25382": {
+      "sent_at": "2026-10-24T02:08:41+00:00",
+      "source": "arXiv",
+      "title": "Design and synthesis of laser inscribed flexible Bragg gratings containing silicon oxynitride-doped silicon thin film for authentication applications with the insights from X-Ray Absorption Spectroscopy and Quantum Mechanical Calculations"
+    },
+    "id:2610.25619": {
+      "sent_at": "2026-10-24T02:08:41+00:00",
+      "source": "arXiv",
+      "title": "Autonomous adaptive spectral analysis with an LLM agent for self-driving laboratories"
+    },
     "id:2610.27240": {
       "sent_at": "2026-10-21T01:20:01+00:00",
       "source": "arXiv",
@@ -4479,6 +4519,11 @@
       "sent_at": "2026-10-22T06:30:56+00:00",
       "source": "arXiv",
       "title": "Robust Anomalous Hall Effect in Epitaxial Cubic D0$_3$-Fe$_3$Ge Nanoplates Grown by Chemical Vapor Deposition"
+    },
+    "id:2610.30375": {
+      "sent_at": "2026-10-24T02:08:41+00:00",
+      "source": "arXiv",
+      "title": "Delta-Doped GeV$^-$ in diamond with isotope resolvable optical spectra"
     }
   },
   "version": 1
