@@ -15,6 +15,11 @@
       "source": "Semantic Scholar",
       "title": "SputterOne: A Physics‐Informed Interactive Magnetron Sputtering Simulator Enabling a Process Digital Twin"
     },
+    "doi:10.1002/ijch.70050": {
+      "sent_at": "2026-10-27T01:17:24+00:00",
+      "source": "Semantic Scholar",
+      "title": "Orientation‐Dependent Surface Stoichiometry and Electronic Properties of ZnFe\n 2\n O\n 4\n Thin Film Photoanodes"
+    },
     "doi:10.1002/lpor.72057": {
       "sent_at": "2026-10-21T01:20:01+00:00",
       "source": "Semantic Scholar",
@@ -470,6 +475,11 @@
       "source": "Semantic Scholar",
       "title": "Structural, electrical and optical properties of aluminum doped zinc oxide films prepared by radio frequency magnetron sputtering"
     },
+    "doi:10.1063/10.0047246": {
+      "sent_at": "2026-10-27T01:17:24+00:00",
+      "source": "Semantic Scholar",
+      "title": "Thin-film calcium tungstate for scalable quantum communication networks"
+    },
     "doi:10.1063/5.0333299": {
       "sent_at": "2026-10-26T06:27:45+00:00",
       "source": "Semantic Scholar",
@@ -600,6 +610,11 @@
       "source": "Semantic Scholar",
       "title": "Microstructure and corrosion properties of N–Cr co-doped amorphous carbon coatings for proton exchange membrane fuel cell bipolar plates"
     },
+    "doi:10.1117/1.oe.65.10.105103": {
+      "sent_at": "2026-10-27T01:17:24+00:00",
+      "source": "Semantic Scholar",
+      "title": "Achieving tunable near-perfect sub-bandgap absorption via Au/MoS2/W tri-layer cavities"
+    },
     "doi:10.1117/12.3111640": {
       "sent_at": "2026-10-14T06:50:13+00:00",
       "source": "Semantic Scholar",
@@ -675,6 +690,11 @@
       "source": "Semantic Scholar",
       "title": "Fundamentals of Chemical Vapor Deposition (CVD) and Atomic Layer Deposition (ALD) and Safety Management of Chemical Substances Part 7 : Evaporation of Liquid Raw Materials and Vaporizer Design Concepts"
     },
+    "doi:10.17073/1997-308x.2026.592p.1140": {
+      "sent_at": "2026-10-27T01:17:24+00:00",
+      "source": "Semantic Scholar",
+      "title": "Effect of nitrogen content on the mechanical and tribological properties of Ta–Si–C–N coatings deposited by HIPIMS"
+    },
     "doi:10.26599/jac.2026.9221397": {
       "sent_at": "2026-10-16T09:29:29+00:00",
       "source": "Semantic Scholar",
@@ -709,6 +729,11 @@
       "sent_at": "2026-10-26T06:27:45+00:00",
       "source": "Semantic Scholar",
       "title": "Alloying-Driven Mechanical Enhancement in TiAlN Coatings with Mo and Mo/W"
+    },
+    "doi:10.3390/cryst16110681": {
+      "sent_at": "2026-10-27T01:17:24+00:00",
+      "source": "Semantic Scholar",
+      "title": "Structural and Microstructural Comparison of Titania–Silica Thin Films Deposited by PE-PVD and Sol–Gel Methods as Potential Functional Coatings"
     },
     "doi:10.3390/lubricants14100373": {
       "sent_at": "2026-10-10T01:43:00+00:00",
@@ -4349,6 +4374,31 @@
       "sent_at": "2026-10-24T02:08:41+00:00",
       "source": "arXiv",
       "title": "Delta-Doped GeV$^-$ in diamond with isotope resolvable optical spectra"
+    },
+    "id:2610.31924": {
+      "sent_at": "2026-10-27T01:17:24+00:00",
+      "source": "arXiv",
+      "title": "Sub-monolayer tracking of molecular states at buried interfaces"
+    },
+    "id:2610.31934": {
+      "sent_at": "2026-10-27T01:17:24+00:00",
+      "source": "arXiv",
+      "title": "Structural characterization of the rutile-GeO2/TiO2 (001) heterointerface"
+    },
+    "id:2610.32553": {
+      "sent_at": "2026-10-27T01:17:24+00:00",
+      "source": "arXiv",
+      "title": "Modification of optical properties in ultrathin ALD-grown NbN layers using oxygen plasma treatment"
+    },
+    "id:2610.33595": {
+      "sent_at": "2026-10-27T01:17:24+00:00",
+      "source": "arXiv",
+      "title": "Co layer Thickness Driven Structural Evolution and Magnetic Behaviour of Co/Ir/Co Trilayers"
+    },
+    "id:2610.33637": {
+      "sent_at": "2026-10-27T01:17:24+00:00",
+      "source": "arXiv",
+      "title": "Perpendicular Anisotropy and g-Factor of Sputtered Ni Films on Si(111) Studied by Angle-Dependent Ferromagnetic Resonance"
     }
   },
   "version": 1
