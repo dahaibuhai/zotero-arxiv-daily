@@ -380,11 +380,6 @@
       "source": "Semantic Scholar",
       "title": "High-Mobility Enhancement-Mode ITO/ZnO Thin-Film Transistors with an Asymmetric Vertical Channel Architecture"
     },
-    "doi:10.1021/acsami.6c04528": {
-      "sent_at": "2026-07-29T05:14:39+00:00",
-      "source": "Semantic Scholar",
-      "title": "Orientation-Controlled Bi26-x-yCoxFeyO40/MgO/Si Thin Films: Enhanced Magneto-Optical Performance."
-    },
     "doi:10.1021/acsami.6c09340": {
       "sent_at": "2026-10-24T02:08:41+00:00",
       "source": "Semantic Scholar",
@@ -530,6 +525,11 @@
       "source": "Semantic Scholar",
       "title": "Anode-assisted magnetron sputtering: Fundamentals and recent developments"
     },
+    "doi:10.1088/1361-6528/aeac61": {
+      "sent_at": "2026-10-28T01:25:56+00:00",
+      "source": "Semantic Scholar",
+      "title": "Effects of 2 MeV proton irradiation on two-dimensional monolayer and multilayer MoS2: critical impact of dimensionality on the optical, electronic, and structural properties"
+    },
     "doi:10.1088/1361-6595/abb7bd": {
       "sent_at": "2026-09-22T06:48:16+00:00",
       "source": "Semantic Scholar",
@@ -549,6 +549,11 @@
       "sent_at": "2026-10-22T06:30:56+00:00",
       "source": "Semantic Scholar",
       "title": "Fabrication and characterization of ZnBO-based ultrasonic transducers for potential cardiovascular sensing applications"
+    },
+    "doi:10.1088/1402-4896/aeb74b": {
+      "sent_at": "2026-10-28T01:25:56+00:00",
+      "source": "Semantic Scholar",
+      "title": "Tunable graphene/Sb\n 2\n Se\n 3\n based metamaterials for reconfigurable terahertz devices"
     },
     "doi:10.1088/2058-6272/aeb487": {
       "sent_at": "2026-10-22T06:30:56+00:00",
@@ -604,6 +609,11 @@
       "sent_at": "2026-08-14T04:07:08+00:00",
       "source": "Semantic Scholar",
       "title": "Process optimization and characterization of dielectric, piezoelectric, and ferroelectric properties of 30% ScAlN thin films"
+    },
+    "doi:10.1116/6.0005655": {
+      "sent_at": "2026-10-28T01:25:56+00:00",
+      "source": "Semantic Scholar",
+      "title": "Design and numerical simulation of a ring waveguide slot-coupled magnetic resonance cavity for large-area diamond film deposition"
     },
     "doi:10.1116/6.0005766": {
       "sent_at": "2026-10-24T02:08:41+00:00",
@@ -785,105 +795,15 @@
       "source": "Semantic Scholar",
       "title": "Performance Improvement of Concentrated Solar Thermal Collectors using Ti and AlN Composite Coatings for Photothermal Conversion Applications"
     },
+    "doi:10.59277/romjphys.2026.71.617": {
+      "sent_at": "2026-10-28T01:25:56+00:00",
+      "source": "Semantic Scholar",
+      "title": "Influence of Deposition Method and Film Thickness on Surface, Morphology, Wettability and Photoresponse Behavior of Copper Oxide Thin Films"
+    },
     "doi:10.61440/jmset.2026.v4.116": {
       "sent_at": "2026-10-14T06:50:13+00:00",
       "source": "Semantic Scholar",
       "title": "Emission of Cluster Ions During Surface Sputtering"
-    },
-    "id:2607.24871": {
-      "sent_at": "2026-07-29T05:14:39+00:00",
-      "source": "arXiv",
-      "title": "A flexible kinetic Monte Carlo framework for GaN molecular beam epitaxy with adaptive on-the-fly barrier evaluation"
-    },
-    "id:2607.25022": {
-      "sent_at": "2026-07-29T05:14:39+00:00",
-      "source": "arXiv",
-      "title": "Machine-Learning Potentials for sodium-potassium chloride mixtures: Predicting thermophysical properties and phase behavior of multicomponent salts"
-    },
-    "id:2607.25039": {
-      "sent_at": "2026-07-29T05:14:39+00:00",
-      "source": "arXiv",
-      "title": "Citrine Informatics: Chemical & Materials Development Platform"
-    },
-    "id:2607.25102": {
-      "sent_at": "2026-07-29T05:14:39+00:00",
-      "source": "arXiv",
-      "title": "Identifying Contact Barrier Types in Few-Layer MoS2 Devices Using Correlative IV, LBIC, and Bias-Dependent KPFM"
-    },
-    "id:2607.25158": {
-      "sent_at": "2026-07-29T05:14:39+00:00",
-      "source": "arXiv",
-      "title": "Statistical structure of canonical kinetic equilibrium with sheared flow"
-    },
-    "id:2607.25172": {
-      "sent_at": "2026-07-29T05:14:39+00:00",
-      "source": "arXiv",
-      "title": "A Catalogue of Topological Moiré Bands in Twisted Semiconductors"
-    },
-    "id:2607.25409": {
-      "sent_at": "2026-07-29T05:14:39+00:00",
-      "source": "arXiv",
-      "title": "Polaris: a flexible stellarator demonstration experiment with simple modular coils"
-    },
-    "id:2607.25477": {
-      "sent_at": "2026-07-29T05:14:39+00:00",
-      "source": "arXiv",
-      "title": "Stretch-free, shape-induced 3D Island-Bridge Networks for flexible TFTs on Silicon Planar Technology verified through Bending and Scalability to 9x9 Matrix"
-    },
-    "id:2607.25481": {
-      "sent_at": "2026-07-29T05:14:39+00:00",
-      "source": "arXiv",
-      "title": "Reconciling chemical models of X-ray Thomson Scattering with the Bethe $f$-sum rule"
-    },
-    "id:2607.25556": {
-      "sent_at": "2026-07-29T05:14:39+00:00",
-      "source": "arXiv",
-      "title": "HIR: A collisional-radiative model for hydrogen ionization in plasma with anisotropic fast ions"
-    },
-    "id:2607.25652": {
-      "sent_at": "2026-07-29T05:14:39+00:00",
-      "source": "arXiv",
-      "title": "Transformer Atomic Cluster Expansion: TRACE"
-    },
-    "id:2607.25713": {
-      "sent_at": "2026-07-29T05:14:39+00:00",
-      "source": "arXiv",
-      "title": "Laser induced optical reconfiguration in Ge_Sb_Te Films with composition dependent response"
-    },
-    "id:2607.25768": {
-      "sent_at": "2026-07-29T05:14:39+00:00",
-      "source": "arXiv",
-      "title": "Synergistic Role of Electron and Photon Dose in Stepwise Laser-Induced Complete Deoxygenation of Graphene Oxide Revealed by In-situ TEM"
-    },
-    "id:2607.25803": {
-      "sent_at": "2026-07-29T05:14:39+00:00",
-      "source": "arXiv",
-      "title": "Integrating moment tensor potentials with finite-element modeling for heat transfer prediction in FLiBe-based molten salt systems"
-    },
-    "id:2607.25843": {
-      "sent_at": "2026-07-29T05:14:39+00:00",
-      "source": "arXiv",
-      "title": "Laser power transmission in space: Plasma-based power cell"
-    },
-    "id:2607.25908": {
-      "sent_at": "2026-07-29T05:14:39+00:00",
-      "source": "arXiv",
-      "title": "Variational approach to Yukawa fluids. I. Thermodynamics"
-    },
-    "id:2607.25963": {
-      "sent_at": "2026-07-29T05:14:39+00:00",
-      "source": "arXiv",
-      "title": "Stacking Polarity-Controlled Interlayer Photocarrier Dynamics in MoSe2/MoS2 Heterostructures"
-    },
-    "id:2607.25999": {
-      "sent_at": "2026-07-29T05:14:39+00:00",
-      "source": "arXiv",
-      "title": "Facet-Dependent Electronic Properties and Interfacial Point Defect Interactions in WS$_2$/ZnO Heterostructures"
-    },
-    "id:2607.26018": {
-      "sent_at": "2026-07-29T05:14:39+00:00",
-      "source": "arXiv",
-      "title": "Extracting Atomic Environments for Machine Learning Interatomic Potentials"
     },
     "id:2607.26081": {
       "sent_at": "2026-07-30T05:06:54+00:00",
@@ -4399,6 +4319,36 @@
       "sent_at": "2026-10-27T01:17:24+00:00",
       "source": "arXiv",
       "title": "Perpendicular Anisotropy and g-Factor of Sputtered Ni Films on Si(111) Studied by Angle-Dependent Ferromagnetic Resonance"
+    },
+    "id:2610.34736": {
+      "sent_at": "2026-10-28T01:25:56+00:00",
+      "source": "arXiv",
+      "title": "Optimised growth of epitaxial D019 Mn3Ge(0001) thin films via single target sputtering"
+    },
+    "id:2610.35236": {
+      "sent_at": "2026-10-28T01:25:56+00:00",
+      "source": "arXiv",
+      "title": "Control of the Electronic and Atomic Structure of the Altermagnetic α-MnTe Surface via Substrate-Induced Surfactants"
+    },
+    "id:2610.35454": {
+      "sent_at": "2026-10-28T01:25:56+00:00",
+      "source": "arXiv",
+      "title": "Pulsed Laser Deposition of Ferroelectric SrTiO3 Shells Enables Polarization-Controlled Charge Separation in TiO2 Photoanode"
+    },
+    "id:2610.35535": {
+      "sent_at": "2026-10-28T01:25:56+00:00",
+      "source": "arXiv",
+      "title": "Multi-objective Bayesian optimization reveals HiPIMS deposition rates exceeding direct current sputtering"
+    },
+    "id:2610.35768": {
+      "sent_at": "2026-10-28T01:25:56+00:00",
+      "source": "Semantic Scholar",
+      "title": "Growth Phase Map of {\\alpha} and \\b{eta} Tantalum as a Function of Growth Temperature and Oxygen Partial Pressure"
+    },
+    "id:2610.36479": {
+      "sent_at": "2026-10-28T01:25:56+00:00",
+      "source": "arXiv",
+      "title": "A pathway to improve Nb$_3$Sn for SRF accelerator cavities via Zr inclusion"
     }
   },
   "version": 1
