@@ -70,6 +70,11 @@
       "source": "Semantic Scholar",
       "title": "Structure and wear resistance of thin coatings of the Cu-Mo system obtained by magnetron sputtering of pressed targets"
     },
+    "doi:10.1007/s11665-026-15367-9": {
+      "sent_at": "2026-10-29T06:32:26+00:00",
+      "source": "Semantic Scholar",
+      "title": "Effect of Silver and Oxygen Content on the Mechanical Properties of Multilayer Cr-Zr-Mo-Ag-N-O Nanocomposite Films Deposited by Reactive Sputtering"
+    },
     "doi:10.1007/s43153-026-00731-y": {
       "sent_at": "2026-10-20T00:59:10+00:00",
       "source": "Semantic Scholar",
@@ -385,6 +390,11 @@
       "source": "Semantic Scholar",
       "title": "Invisible Patterned Silver-Based Transparent Electrodes via Control of Light Scattering and Absorption."
     },
+    "doi:10.1021/acsanm.6c03874": {
+      "sent_at": "2026-10-29T06:32:26+00:00",
+      "source": "Semantic Scholar",
+      "title": "From Monolayer MoS2 FETs to MoS2−MoO2 Nanoheterostructures: Enhanced Self-Powered Visible-Light and NO2 Sensing"
+    },
     "doi:10.1021/acsomega.6c06081": {
       "sent_at": "2026-10-24T02:08:41+00:00",
       "source": "Semantic Scholar",
@@ -570,11 +580,6 @@
       "source": "Semantic Scholar",
       "title": "5.8-GHz Al0.6Sc0.4N Film Bulk Acoustic Resonator With High Electromechanical Coupling Coefficient of 23.9%"
     },
-    "doi:10.1109/tmag.2026.3707577": {
-      "sent_at": "2026-07-31T05:37:32+00:00",
-      "source": "Semantic Scholar",
-      "title": "Non-Ohmic Behavior in [Ni80Fe20/HfO2]n Discontinuous Multilayers"
-    },
     "doi:10.1111/1541-4337.70663": {
       "sent_at": "2026-10-02T07:36:57+00:00",
       "source": "Semantic Scholar",
@@ -675,6 +680,11 @@
       "source": "Semantic Scholar",
       "title": "Group III Impurity Doped Zinc Oxide Thin Films Prepared by RF Magnetron Sputtering"
     },
+    "doi:10.1177/02670836261496092": {
+      "sent_at": "2026-10-29T06:32:26+00:00",
+      "source": "Semantic Scholar",
+      "title": "Raman analysis of deposition pressure variations in nanocomposite Si-C-N coatings: A 4-stage model"
+    },
     "doi:10.1177/14644207261496158": {
       "sent_at": "2026-10-13T05:25:07+00:00",
       "source": "Semantic Scholar",
@@ -765,6 +775,16 @@
       "source": "Semantic Scholar",
       "title": "Corrosion Resistance of ALD-Deposited HfO2 Coatings on Stainless Steel for Biomedical Applications"
     },
+    "doi:10.3390/ma19214439": {
+      "sent_at": "2026-10-29T06:32:26+00:00",
+      "source": "Semantic Scholar",
+      "title": "Sputtering-Power-Ratio Engineering of SS–Ti–N Coatings: Correlation of Composition, Structure, Morphology, and Hardness"
+    },
+    "doi:10.3390/mi17111221": {
+      "sent_at": "2026-10-29T06:32:26+00:00",
+      "source": "Semantic Scholar",
+      "title": "A Comparative Study of Parylene, PSPI and ALD TiO2/TiN/Ru/Cu Multilayer as Adhesion Layers on Glass Surface for Glass-Cu Adhesion Enhancement"
+    },
     "doi:10.3390/plasma9040040": {
       "sent_at": "2026-10-22T06:30:56+00:00",
       "source": "Semantic Scholar",
@@ -804,201 +824,6 @@
       "sent_at": "2026-10-14T06:50:13+00:00",
       "source": "Semantic Scholar",
       "title": "Emission of Cluster Ions During Surface Sputtering"
-    },
-    "id:2607.26081": {
-      "sent_at": "2026-07-30T05:06:54+00:00",
-      "source": "arXiv",
-      "title": "Coupling model of metallic target ablation-plasma evolution-radiation under nanosecond laser irradiation"
-    },
-    "id:2607.26252": {
-      "sent_at": "2026-07-30T05:06:54+00:00",
-      "source": "arXiv",
-      "title": "Quasi-static transverse electric field driven electron acceleration in relativistic laser matter interaction"
-    },
-    "id:2607.26263": {
-      "sent_at": "2026-07-30T05:06:54+00:00",
-      "source": "arXiv",
-      "title": "Influence of BaTiO_3 nanoparticles on the anisotropy of the dielectric properties of nematic liquid crystal 5CB"
-    },
-    "id:2607.26312": {
-      "sent_at": "2026-07-30T05:06:54+00:00",
-      "source": "arXiv",
-      "title": "Superconducting Nanowire Based Surface Acoustic Wave Transduction"
-    },
-    "id:2607.26479": {
-      "sent_at": "2026-07-30T05:06:54+00:00",
-      "source": "arXiv",
-      "title": "Kinetic Optimization of Magnetic Mirror Confinement: Beyond Classical Loss-Cone Theory"
-    },
-    "id:2607.26494": {
-      "sent_at": "2026-07-30T05:06:54+00:00",
-      "source": "arXiv",
-      "title": "Revisiting Electron Heating in Capacitively Coupled Plasma (CCP) Discharges: A Nonlinear Dynamics Perspective"
-    },
-    "id:2607.26586": {
-      "sent_at": "2026-07-30T05:06:54+00:00",
-      "source": "arXiv",
-      "title": "Percolating Multifractal Domains at a Polymorphic Phase Boundary"
-    },
-    "id:2607.26597": {
-      "sent_at": "2026-07-30T05:06:54+00:00",
-      "source": "arXiv",
-      "title": "Transient Detour and Cooperative Oxygen Exchange in the Polarization Switching of Ferroelectric Hf0.5Zr0.5O2"
-    },
-    "id:2607.26667": {
-      "sent_at": "2026-07-30T05:06:54+00:00",
-      "source": "arXiv",
-      "title": "Computational Study of Water Adsorption and Dissociative Mechanisms Impacting g-C3N4's Optical and Electronic Properties"
-    },
-    "id:2607.26815": {
-      "sent_at": "2026-07-30T05:06:54+00:00",
-      "source": "arXiv",
-      "title": "End-to-End Modeling of a Volatile TiO2 Memristor for Neuromorphic Circuit Simulation"
-    },
-    "id:2607.26833": {
-      "sent_at": "2026-07-30T05:06:54+00:00",
-      "source": "arXiv",
-      "title": "Inferring Magnetic Material Parameters from Statistical Measures in Strongly Fluctuating Magnetization Dynamics"
-    },
-    "id:2607.26881": {
-      "sent_at": "2026-07-30T05:06:54+00:00",
-      "source": "arXiv",
-      "title": "Crystal forming ability of amorphous refractory metals under nanoindentation: a molecular dynamics study"
-    },
-    "id:2607.26965": {
-      "sent_at": "2026-07-30T05:06:54+00:00",
-      "source": "arXiv",
-      "title": "Measurement of multiple mechanical properties from multi-dimensional signals in nanosecond laser ablation via PINN"
-    },
-    "id:2607.26971": {
-      "sent_at": "2026-07-30T05:06:54+00:00",
-      "source": "arXiv",
-      "title": "Ferroelectric switchable altermagnetic-like compensated ferrimagnets with charge ordering"
-    },
-    "id:2607.26986": {
-      "sent_at": "2026-07-30T05:06:54+00:00",
-      "source": "arXiv",
-      "title": "Theory of phonon-magnon hybridization and angular momentum in CrI$_3$ and CrBr$_3$"
-    },
-    "id:2607.26992": {
-      "sent_at": "2026-07-30T05:06:54+00:00",
-      "source": "arXiv",
-      "title": "Generation of representative powder particle packing in 2D/3D: which tool for which application?"
-    },
-    "id:2607.27024": {
-      "sent_at": "2026-07-30T05:06:54+00:00",
-      "source": "arXiv",
-      "title": "Rotating mirror with all-directional pinch compressions - The beauty and simplicity in controlled nuclear fusion"
-    },
-    "id:2607.27095": {
-      "sent_at": "2026-07-30T05:06:54+00:00",
-      "source": "arXiv",
-      "title": "No band gap, no problem: Defects in InAs using a band-avoiding occupation-constrained density functional theory"
-    },
-    "id:2607.27108": {
-      "sent_at": "2026-07-30T05:06:54+00:00",
-      "source": "arXiv",
-      "title": "Formation of $\\mathrm{L}1_2$-ordered $γ'$-$\\mathrm{Ni}_3\\mathrm{Al}$ precipitates in ternary Cu-Ni-Al alloys modelled using an ab initio concentration wave theory and atomistic simulations"
-    },
-    "id:2607.27127": {
-      "sent_at": "2026-07-30T05:06:54+00:00",
-      "source": "arXiv",
-      "title": "Divertor topology and vacuum vessel design for stellarators"
-    },
-    "id:2607.27234": {
-      "sent_at": "2026-07-31T05:37:32+00:00",
-      "source": "arXiv",
-      "title": "LoKI-GM: a global model framework for plasma chemistry studies"
-    },
-    "id:2607.27375": {
-      "sent_at": "2026-07-31T05:37:32+00:00",
-      "source": "arXiv",
-      "title": "Evolution of the Irradiation Induced Defect Landscape through Dislocation Vacancy Loop Interactions in Tungsten"
-    },
-    "id:2607.27399": {
-      "sent_at": "2026-07-31T05:37:32+00:00",
-      "source": "arXiv",
-      "title": "PEDOT:PSS-Coated Magnetoelastic Sensors for Highly Sensitive Wireless Humidity Sensing"
-    },
-    "id:2607.27419": {
-      "sent_at": "2026-07-31T05:37:32+00:00",
-      "source": "arXiv",
-      "title": "Optimization of Epitaxial Mn4N Thin Films Grown by Sputtering for Spintronic Applications"
-    },
-    "id:2607.27424": {
-      "sent_at": "2026-07-31T05:37:32+00:00",
-      "source": "arXiv",
-      "title": "Structure and thermodynamic stability of $β$-Ga$_2$O$_3$ surfaces"
-    },
-    "id:2607.27486": {
-      "sent_at": "2026-07-31T05:37:32+00:00",
-      "source": "arXiv",
-      "title": "Dynamics of Null and Electrostatic Blind Spots for Quantitative PFM"
-    },
-    "id:2607.27517": {
-      "sent_at": "2026-07-31T05:37:32+00:00",
-      "source": "arXiv",
-      "title": "Temperature-doping phase diagram and endurance in Ce-doped HfO2"
-    },
-    "id:2607.27554": {
-      "sent_at": "2026-07-31T05:37:32+00:00",
-      "source": "arXiv",
-      "title": "Beyond Hexagonal Boron Nitride: First-Principles Study of Pentaoctite-BN and Pop-BN Monolayers"
-    },
-    "id:2607.27608": {
-      "sent_at": "2026-07-31T05:37:32+00:00",
-      "source": "arXiv",
-      "title": "Anisotropic Tensile Strength and Fracture Mechanism of $θ$-TaN: A Machine-Learning Potential Molecular Dynamics Study"
-    },
-    "id:2607.27625": {
-      "sent_at": "2026-07-31T05:37:32+00:00",
-      "source": "arXiv",
-      "title": "Physics to Circuit Analysis of GaN RF Integrated Circuits versus GaAs and Silicon"
-    },
-    "id:2607.27752": {
-      "sent_at": "2026-07-31T05:37:32+00:00",
-      "source": "arXiv",
-      "title": "Tilt-driven ferrielectricity in PbZrO$_3$"
-    },
-    "id:2607.27803": {
-      "sent_at": "2026-07-31T05:37:32+00:00",
-      "source": "arXiv",
-      "title": "Finite-temperature bulk moduli from an EOS-based Grüneisen function"
-    },
-    "id:2607.27820": {
-      "sent_at": "2026-07-31T05:37:32+00:00",
-      "source": "arXiv",
-      "title": "Deep Learning for Accelerated Long-Horizon Forecasting of Multicomponent Multiphase Microstructure Evolution in High-Entropy Alloys"
-    },
-    "id:2607.27939": {
-      "sent_at": "2026-07-31T05:37:32+00:00",
-      "source": "arXiv",
-      "title": "STM study of single phosphorus incorporation into silicon by heating PBr3 on Si(100)"
-    },
-    "id:2607.27980": {
-      "sent_at": "2026-07-31T05:37:32+00:00",
-      "source": "arXiv",
-      "title": "Tunable Conformal Graphene Growth on Oxide Nanotube scaffolds: Towards Superwettable Hierarchical 2D-3D Architectures"
-    },
-    "id:2607.28000": {
-      "sent_at": "2026-07-31T05:37:32+00:00",
-      "source": "arXiv",
-      "title": "PASS: Perturbation augmented space group structure sampling for transferable Fe-O machine learning interatomic potential"
-    },
-    "id:2607.28244": {
-      "sent_at": "2026-07-31T05:37:32+00:00",
-      "source": "arXiv",
-      "title": "Negative Thermal Expansion in Cubic Ice: A Collective Quantum Effect of the hydrogen-bond network"
-    },
-    "id:2607.28258": {
-      "sent_at": "2026-07-31T05:37:32+00:00",
-      "source": "arXiv",
-      "title": "\"Anomalous Solid Solution\" in Ultra-High Melting Point Oxides: A New Strategy for Developing Ultra-High Temperature Thermal Protection Coatings"
-    },
-    "id:2607.28441": {
-      "sent_at": "2026-07-31T05:37:32+00:00",
-      "source": "arXiv",
-      "title": "Transport Evidence of Magnetic Polarization in the Altermagnetic Candidate MnTe"
     },
     "id:2607.28745": {
       "sent_at": "2026-08-03T05:32:39+00:00",
@@ -4310,6 +4135,11 @@
       "source": "arXiv",
       "title": "Modification of optical properties in ultrathin ALD-grown NbN layers using oxygen plasma treatment"
     },
+    "id:2610.32565": {
+      "sent_at": "2026-10-29T06:32:26+00:00",
+      "source": "arXiv",
+      "title": "Magnetic Anisotropy and Magnetization Dynamics in Si/Ni Multilayers Probed by FMR and VSM Magnetometry"
+    },
     "id:2610.33595": {
       "sent_at": "2026-10-27T01:17:24+00:00",
       "source": "arXiv",
@@ -4319,6 +4149,11 @@
       "sent_at": "2026-10-27T01:17:24+00:00",
       "source": "arXiv",
       "title": "Perpendicular Anisotropy and g-Factor of Sputtered Ni Films on Si(111) Studied by Angle-Dependent Ferromagnetic Resonance"
+    },
+    "id:2610.34584": {
+      "sent_at": "2026-10-29T06:32:26+00:00",
+      "source": "arXiv",
+      "title": "Methyl radicals dynamics on (100)--(2x1):H diamond surfaces based on refined variational transition state calculations of gas-surface reaction rate coefficients"
     },
     "id:2610.34736": {
       "sent_at": "2026-10-28T01:25:56+00:00",
