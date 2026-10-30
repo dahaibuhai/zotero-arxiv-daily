@@ -380,6 +380,11 @@
       "source": "Semantic Scholar",
       "title": "From Dense\nto Nanostructured Thin Film Anodes: Boosting\nLi-Ion Accessibility in TiO2 Thin Film Electrodes"
     },
+    "doi:10.1021/acsaelm.6c01814": {
+      "sent_at": "2026-10-30T09:43:26+00:00",
+      "source": "Semantic Scholar",
+      "title": "Room-Temperature Wafer-Scale Growth of 1T′-MoTe2 for Self-Powered Broadband and Polarization-Sensitive Photodetection toward Optical Communication"
+    },
     "doi:10.1021/acsaelm.6c01847": {
       "sent_at": "2026-10-16T09:29:29+00:00",
       "source": "Semantic Scholar",
@@ -570,10 +575,20 @@
       "source": "Semantic Scholar",
       "title": "Transient charged-particle evolution in sputter ion pumps under extreme-high-vacuum conditions: a PIC/MCC study"
     },
+    "doi:10.1088/2058-6272/aeb8bd": {
+      "sent_at": "2026-10-30T09:43:26+00:00",
+      "source": "Semantic Scholar",
+      "title": "Electric-field coupling effect in a double-layer coaxial dielectric barrier discharge for CO₂ decomposition"
+    },
     "doi:10.1109/jsen.2026.3729615": {
       "sent_at": "2026-10-20T00:59:10+00:00",
       "source": "Semantic Scholar",
       "title": "Study on Overload Resistance Capability of U-Shaped Silicon-Based MEMS Electrothermal Actuators Based on Surface Coating Technology"
+    },
+    "doi:10.1109/jstqe.2026.3719340": {
+      "sent_at": "2026-10-30T09:43:26+00:00",
+      "source": "Semantic Scholar",
+      "title": "Optical Metrology for VCSEL Epitaxial Growth and Processing"
     },
     "doi:10.1109/lmwt.2026.3689349": {
       "sent_at": "2026-10-14T06:50:13+00:00",
@@ -809,6 +824,11 @@
       "sent_at": "2026-10-13T05:25:07+00:00",
       "source": "Semantic Scholar",
       "title": "Structure coating based on B, Ti and Si and synthesized by plasma assisted vacuum arc method on solid-state substrate"
+    },
+    "doi:10.56201/ijemt.vol.11.no12.2025.pg205.227": {
+      "sent_at": "2026-10-30T09:43:26+00:00",
+      "source": "Semantic Scholar",
+      "title": "Conceptualizing A Closed-Loop Digital Twin for Real-Time Plasma Control in Large-Area Magnetron Sputtering Systems"
     },
     "doi:10.56201/ijemt.vol.11.no4.2025.pg11.22": {
       "sent_at": "2026-10-22T06:30:56+00:00",
@@ -4184,6 +4204,36 @@
       "sent_at": "2026-10-28T01:25:56+00:00",
       "source": "arXiv",
       "title": "A pathway to improve Nb$_3$Sn for SRF accelerator cavities via Zr inclusion"
+    },
+    "id:2610.37366": {
+      "sent_at": "2026-10-30T09:43:26+00:00",
+      "source": "Semantic Scholar",
+      "title": "Superconductivity and local stacking polymorphism in LaNiGa2 thin films"
+    },
+    "id:2610.38070": {
+      "sent_at": "2026-10-30T09:43:26+00:00",
+      "source": "arXiv",
+      "title": "Thermal laser evaporation of superconducting Nb films"
+    },
+    "id:2610.39523": {
+      "sent_at": "2026-10-30T09:43:26+00:00",
+      "source": "arXiv",
+      "title": "Thermalization-Controlled Superconducting Diode-Like Transport in Disordered Molybdenum and NbN Thin Films"
+    },
+    "id:2610.39622": {
+      "sent_at": "2026-10-30T09:43:26+00:00",
+      "source": "arXiv",
+      "title": "Ultrasound-Assisted Facile Nanoconfinement of Luminescent Guests in Zirconium Metal-Organic Frameworks"
+    },
+    "id:2610.39696": {
+      "sent_at": "2026-10-30T09:43:26+00:00",
+      "source": "arXiv",
+      "title": "Pulse Laser Deposited GaFeO3 Thin Film Grown on FTO: Correlated Ferroic Orders and Strong Magnetodielectric Coupling at Room Temperature"
+    },
+    "id:2610.39770": {
+      "sent_at": "2026-10-30T09:43:26+00:00",
+      "source": "arXiv",
+      "title": "Growth and morphology of core-shell nanowires incorporating dissimilar hexagonal semiconductors: the case of InAs-ZnTe"
     }
   },
   "version": 1
