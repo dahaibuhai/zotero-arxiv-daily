@@ -15,6 +15,11 @@
       "source": "Semantic Scholar",
       "title": "SputterOne: A Physics‐Informed Interactive Magnetron Sputtering Simulator Enabling a Process Digital Twin"
     },
+    "doi:10.1002/aelm.70629": {
+      "sent_at": "2026-11-05T01:59:15+00:00",
+      "source": "Semantic Scholar",
+      "title": "Dual‐Defect‐Engineered Zinc Oxynitride Thin‐Film Transistors Enabling Electrostatic Current Balancing in Geometrically Symmetric Oxide Logic"
+    },
     "doi:10.1002/ijch.70050": {
       "sent_at": "2026-10-27T01:17:24+00:00",
       "source": "Semantic Scholar",
@@ -260,6 +265,11 @@
       "source": "Semantic Scholar",
       "title": "Influence of pulsed substrate biasing on strain and mechanical properties of low-temperature-grown TiZrNbTaNx films by high-power impulse magnetron sputtering"
     },
+    "doi:10.1016/j.surfcoat.2026.134098": {
+      "sent_at": "2026-11-05T01:59:15+00:00",
+      "source": "Semantic Scholar",
+      "title": "Low-temperature growth of epitaxial Li3xLa(2/3−x)TiO3 thin films by RF magnetron sputtering"
+    },
     "doi:10.1016/j.tsf.2004.07.041": {
       "sent_at": "2026-09-23T06:39:59+00:00",
       "source": "Semantic Scholar",
@@ -400,6 +410,11 @@
       "source": "Semantic Scholar",
       "title": "From Monolayer MoS2 FETs to MoS2−MoO2 Nanoheterostructures: Enhanced Self-Powered Visible-Light and NO2 Sensing"
     },
+    "doi:10.1021/acsaom.6c00573": {
+      "sent_at": "2026-11-05T01:59:15+00:00",
+      "source": "Semantic Scholar",
+      "title": "Synergistic WO3 Incorporation and Thermal\nPhase-Transition Engineering for Tunable Nonlinear Optical Switching\nin V2O5/WO3 Heterojunction Films"
+    },
     "doi:10.1021/acsomega.6c06081": {
       "sent_at": "2026-10-24T02:08:41+00:00",
       "source": "Semantic Scholar",
@@ -424,6 +439,11 @@
       "sent_at": "2026-09-28T07:45:31+00:00",
       "source": "Semantic Scholar",
       "title": "Universal equation for argon gas cluster sputtering yields."
+    },
+    "doi:10.1038/s43246-026-01415-3": {
+      "sent_at": "2026-11-05T01:59:15+00:00",
+      "source": "Semantic Scholar",
+      "title": "Large-area sputtered 2H-MoS2 thin films for spin and orbital charge conversion"
     },
     "doi:10.1039/c4nr06411a": {
       "sent_at": "2026-09-25T06:39:08+00:00",
@@ -844,6 +864,11 @@
       "sent_at": "2026-10-14T06:50:13+00:00",
       "source": "Semantic Scholar",
       "title": "Emission of Cluster Ions During Surface Sputtering"
+    },
+    "doi:10.66073/refocus-conf/0910301": {
+      "sent_at": "2026-11-05T01:59:15+00:00",
+      "source": "Semantic Scholar",
+      "title": "Магнетронное распыление широкозонного триоксида молибдена MoO3"
     },
     "id:2607.28745": {
       "sent_at": "2026-08-03T05:32:39+00:00",
@@ -4234,6 +4259,31 @@
       "sent_at": "2026-10-30T09:43:26+00:00",
       "source": "arXiv",
       "title": "Growth and morphology of core-shell nanowires incorporating dissimilar hexagonal semiconductors: the case of InAs-ZnTe"
+    },
+    "id:2610.40993": {
+      "sent_at": "2026-11-05T01:59:15+00:00",
+      "source": "arXiv",
+      "title": "Complete Au-free Metallization Platform for UWBG Al$_{0.65}$Ga$_{0.35}$N channel MOS-HEMTs using Ti/Al/Ti Ohmic Contacts and Refractory TiN/Pt Gates"
+    },
+    "id:2611.00390": {
+      "sent_at": "2026-11-05T01:59:15+00:00",
+      "source": "arXiv",
+      "title": "Helical Magnetic Nature of $β$-Mn Structured CoZn Thin-Films Determined by a Bayesian Approach to Modeling Polarized Neutron Reflectivity Data"
+    },
+    "id:2611.00739": {
+      "sent_at": "2026-11-05T01:59:15+00:00",
+      "source": "arXiv",
+      "title": "Beyond Synthesis Conditions: Linking In-situ Growth Dynamics to Carbon Nanotube Forest Properties through Multimodal Machine Learning"
+    },
+    "id:2611.02347": {
+      "sent_at": "2026-11-05T01:59:15+00:00",
+      "source": "arXiv",
+      "title": "Optical Detection of Coefficient of Thermal Expansion via Frequency Tracking at Cryogenic Temperatures"
+    },
+    "id:2611.04429": {
+      "sent_at": "2026-11-05T01:59:15+00:00",
+      "source": "arXiv",
+      "title": "Annealing-Induced Structural and Optical Evolution of Ion-Beam-Sputtered Ta2O5 Films for High-Power Laser Applications"
     }
   },
   "version": 1
