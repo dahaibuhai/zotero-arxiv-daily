@@ -56,7 +56,7 @@ This fork is a general daily-literature service for any research field. It uses 
 2. In your fork, open **Settings → Secrets and variables → Actions**. Set your Zotero and email credentials as **Secrets**. Do not add OpenAI-related Secrets unless you intentionally switch on the optional LLM API mode.
 3. Configure your research profile as **Variables**. The complete field list, including arXiv categories, Semantic Scholar queries and keyword rules, is in the Chinese [multi-source literature-push guide](docs/多源文献推送操作手册.md).
 4. If you do not know how to turn your topic into search terms, copy the [AI configuration prompt](docs/AI配置提示词.md) into an AI chat, fill in your research profile, and paste the returned values into repository Variables. Never provide the AI with API keys, email passwords or other Secrets.
-5. Run **Actions → Test workflow → Run workflow**. Review the email and logs. Once satisfactory, **Send emails daily** runs on weekdays at approximately 09:30 Beijing time.
+5. Run **Actions → Test workflow → Run workflow**. Review the email and logs. Once satisfactory, **Send emails daily** runs on weekdays at approximately 10:00 Beijing time.
 
 The test workflow does not write to the production sent-paper history. The formal workflow records successfully delivered papers for 90 days to prevent repeat emails. See the guide for validation logs, troubleshooting and optional Crossref journal monitoring.
 
