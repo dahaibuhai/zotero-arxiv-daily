@@ -40,11 +40,6 @@
       "source": "Semantic Scholar",
       "title": "An accurate semi‐empirical equation for sputtering yields I: for argon ions"
     },
-    "doi:10.1002/smll.74932": {
-      "sent_at": "2026-08-05T05:12:45+00:00",
-      "source": "Semantic Scholar",
-      "title": "Electronic Structure Engineering of CuNi Alloys: Enabling Dual-Path Synergy and Enhanced Performance in Furfural Electrohydrogenation."
-    },
     "doi:10.1002/smll.76237": {
       "sent_at": "2026-10-20T00:59:10+00:00",
       "source": "Semantic Scholar",
@@ -54,16 +49,6 @@
       "sent_at": "2026-10-15T08:57:28+00:00",
       "source": "Semantic Scholar",
       "title": "A Rapid and Uniform Magnetization Method for Fe3O4 Nanoparticles Assisted by Rotating Magnetic Fields for Microrobots."
-    },
-    "doi:10.1007/s10751-026-02708-2": {
-      "sent_at": "2026-08-07T04:49:19+00:00",
-      "source": "Semantic Scholar",
-      "title": "Nanostructured Co-based thin film coatings deposited by DC magnetron sputtering for stability analysis using machine learning and deep learning"
-    },
-    "doi:10.1007/s10854-026-18099-7": {
-      "sent_at": "2026-08-03T05:32:39+00:00",
-      "source": "Semantic Scholar",
-      "title": "Enhanced hydrogen sensing performance by modulating energy band of Pd/SnO2/WO3 triple-layer thin film sensor"
     },
     "doi:10.1007/s10854-026-18593-y": {
       "sent_at": "2026-10-08T08:02:10+00:00",
@@ -164,6 +149,11 @@
       "sent_at": "2026-08-10T03:33:29+00:00",
       "source": "Semantic Scholar",
       "title": "Tunable optical and magnetotransport properties of vanadium-doped zinc nitride thin films grown by magnetron sputtering"
+    },
+    "doi:10.1016/j.jallcom.2026.192089": {
+      "sent_at": "2026-11-06T02:09:58+00:00",
+      "source": "Semantic Scholar",
+      "title": "High-throughput magnetron sputtering for compositional screening of Ti-Al-Mo-V alloys under non-equilibrium conditions"
     },
     "doi:10.1016/j.jcrysgro.2026.128814": {
       "sent_at": "2026-08-31T07:56:25+00:00",
@@ -590,6 +580,11 @@
       "source": "Semantic Scholar",
       "title": "Tunable graphene/Sb\n 2\n Se\n 3\n based metamaterials for reconfigurable terahertz devices"
     },
+    "doi:10.1088/1402-4896/aebcd7": {
+      "sent_at": "2026-11-06T02:09:58+00:00",
+      "source": "Semantic Scholar",
+      "title": "Annealing induced bandgap engineering and interfacial oxide formation in nanostructured TiO\n 2\n -Ge thin film heterojunctions for photovoltaic applications"
+    },
     "doi:10.1088/2058-6272/aeb487": {
       "sent_at": "2026-10-22T06:30:56+00:00",
       "source": "Semantic Scholar",
@@ -760,6 +755,11 @@
       "source": "Semantic Scholar",
       "title": "Morphology Replication Effects in Hybrid-treated MIM 17-4PH Stainless Steel and Their Influence on Friction and Wear Behavior"
     },
+    "doi:10.3389/fmats.2026.1942932": {
+      "sent_at": "2026-11-06T02:09:58+00:00",
+      "source": "Semantic Scholar",
+      "title": "Tailoring surface and structural properties of WO3 thin films via mixed-gas plasma deposition for optimized H2 gas sensing performance"
+    },
     "doi:10.3390/app16168188": {
       "sent_at": "2026-08-20T03:12:53+00:00",
       "source": "Semantic Scholar",
@@ -815,6 +815,11 @@
       "source": "Semantic Scholar",
       "title": "Sputtering-Power-Ratio Engineering of SS–Ti–N Coatings: Correlation of Composition, Structure, Morphology, and Hardness"
     },
+    "doi:10.3390/ma19214671": {
+      "sent_at": "2026-11-06T02:09:58+00:00",
+      "source": "Semantic Scholar",
+      "title": "Effect of Vacuum Annealing Temperature on Optoelectrical Performance of IGZTO Films and Thin-Film Transistors"
+    },
     "doi:10.3390/mi17111221": {
       "sent_at": "2026-10-29T06:32:26+00:00",
       "source": "Semantic Scholar",
@@ -834,6 +839,11 @@
       "sent_at": "2026-10-10T01:43:00+00:00",
       "source": "Semantic Scholar",
       "title": "Activation of the Internal Surfaces of Polymer Tubes with Argon Plasma Through Hollow Cathode Effect"
+    },
+    "doi:10.3390/s26216901": {
+      "sent_at": "2026-11-06T02:09:58+00:00",
+      "source": "Semantic Scholar",
+      "title": "Neutron Conversion Layers for Semiconductor Neutron Detectors: A Review of Materials, Thin-Film Deposition Technologies, and Performance Optimization"
     },
     "doi:10.48175/ijarsct-38503": {
       "sent_at": "2026-10-10T01:43:00+00:00",
@@ -869,391 +879,6 @@
       "sent_at": "2026-11-05T01:59:15+00:00",
       "source": "Semantic Scholar",
       "title": "Магнетронное распыление широкозонного триоксида молибдена MoO3"
-    },
-    "id:2607.28745": {
-      "sent_at": "2026-08-03T05:32:39+00:00",
-      "source": "arXiv",
-      "title": "Symmetry Rules for Cavity Materials Engineering with Linearly Polarized Vacuum Fields"
-    },
-    "id:2607.28752": {
-      "sent_at": "2026-08-03T05:32:39+00:00",
-      "source": "arXiv",
-      "title": "Local B-site chemistry controls oxygen-vacancy energetics in Ca-Ce-Ti-Mn perovskites for thermochemical hydrogen production"
-    },
-    "id:2607.28787": {
-      "sent_at": "2026-08-03T05:32:39+00:00",
-      "source": "arXiv",
-      "title": "Electrical Control over Volatile Mott Switching through Non-Volatile Memory Effects"
-    },
-    "id:2607.28828": {
-      "sent_at": "2026-08-03T05:32:39+00:00",
-      "source": "arXiv",
-      "title": "Giant Exfoliation Induced Magnetic Coercivity in Fe$_3$GaTe$_2$"
-    },
-    "id:2607.28838": {
-      "sent_at": "2026-08-03T05:32:39+00:00",
-      "source": "arXiv",
-      "title": "Ultrafast Nonthermal Lattice Destabilization and Suppression of Polar Optical Scattering in Electronically Excited $α$-SiO$_2$ from First-Principles and Deep Neural Network Potential Modeling"
-    },
-    "id:2607.28843": {
-      "sent_at": "2026-08-03T05:32:39+00:00",
-      "source": "arXiv",
-      "title": "An End-to-End Differentiable Forward Model for High-Energy Diffraction Microscopy"
-    },
-    "id:2607.28859": {
-      "sent_at": "2026-08-03T05:32:39+00:00",
-      "source": "arXiv",
-      "title": "Automating the analysis of micron-scale synchrotron diffraction data on inhomogeneous polycrystalline samples: a solid oxide electrolysis cell case study"
-    },
-    "id:2607.28888": {
-      "sent_at": "2026-08-03T05:32:39+00:00",
-      "source": "arXiv",
-      "title": "SH-SAW Acousto-Electric Amplifier in Epitaxial InGaAs on Lithium Niobate on Insulator"
-    },
-    "id:2607.28905": {
-      "sent_at": "2026-08-03T05:32:39+00:00",
-      "source": "arXiv",
-      "title": "Knudsen-Controlled Switching of Thermal Conductivity Response by Targeted Phonon Excitation"
-    },
-    "id:2607.28909": {
-      "sent_at": "2026-08-03T05:32:39+00:00",
-      "source": "arXiv",
-      "title": "Molecular beam epitaxy synthesis of ternary nitride PrTaN$_2$ and its crystal structure determination"
-    },
-    "id:2607.28976": {
-      "sent_at": "2026-08-03T05:32:39+00:00",
-      "source": "arXiv",
-      "title": "Pulse Shaping Increases Efficiency in Pulsed Plasma Accelerators"
-    },
-    "id:2607.29022": {
-      "sent_at": "2026-08-03T05:32:39+00:00",
-      "source": "arXiv",
-      "title": "One-Step Epitaxial Access to Rhombohedral Graphene Flat-Band States on Step-Bunched SiC"
-    },
-    "id:2607.29152": {
-      "sent_at": "2026-08-03T05:32:39+00:00",
-      "source": "arXiv",
-      "title": "Domain-Selective Enhancement of Second Harmonic Generation in Monolayer MoS$_2$ via Ferroelectricity-Controlled Photodoping"
-    },
-    "id:2607.29214": {
-      "sent_at": "2026-08-03T05:32:39+00:00",
-      "source": "arXiv",
-      "title": "Quadratic piezoelectricity from stacking-engineered interference in multilayer sliding ferroelectrics"
-    },
-    "id:2607.29239": {
-      "sent_at": "2026-08-03T05:32:39+00:00",
-      "source": "arXiv",
-      "title": "Proof of operation of a micro-hollow cathode discharge driven by a true ns-pulsed high voltage: emission properties and atomic nitrogen production"
-    },
-    "id:2607.29328": {
-      "sent_at": "2026-08-03T05:32:39+00:00",
-      "source": "arXiv",
-      "title": "Savi-Bhransha: Graph-Theoretic Dislocation-Loop Characterization in Crystals"
-    },
-    "id:2607.29348": {
-      "sent_at": "2026-08-03T05:32:39+00:00",
-      "source": "arXiv",
-      "title": "Mode-dependent photothermal responsivity mapping of tensile-stressed nanomechanical resonators"
-    },
-    "id:2607.29362": {
-      "sent_at": "2026-08-03T05:32:39+00:00",
-      "source": "arXiv",
-      "title": "Nonlinear polarization effects on plasma screening for thermonuclear reactions"
-    },
-    "id:2607.29411": {
-      "sent_at": "2026-08-03T05:32:39+00:00",
-      "source": "arXiv",
-      "title": "A versatile generalized digital twin for Electron Microscopy"
-    },
-    "id:2608.00112": {
-      "sent_at": "2026-08-04T05:23:01+00:00",
-      "source": "arXiv",
-      "title": "Centimeter-scale fully suspended metal and metal oxide thin films by one-step transfer-free liquid metal capillary forming"
-    },
-    "id:2608.00131": {
-      "sent_at": "2026-08-04T05:23:01+00:00",
-      "source": "arXiv",
-      "title": "Wrinkling of Randomly Heterogeneous Film-Substrate Systems"
-    },
-    "id:2608.00269": {
-      "sent_at": "2026-08-04T05:23:01+00:00",
-      "source": "arXiv",
-      "title": "Resonant Raman spectroscopies beyond density-functional theory"
-    },
-    "id:2608.00319": {
-      "sent_at": "2026-08-04T05:23:01+00:00",
-      "source": "arXiv",
-      "title": "Transient Liquid Phase Bonding of NiTi Using Cu- and Nb-base Interlayers"
-    },
-    "id:2608.00362": {
-      "sent_at": "2026-08-04T05:23:01+00:00",
-      "source": "arXiv",
-      "title": "An essay on $d_0$ in neutron-based strain measurement techniques: equilibrium-based methods for non-destructive $d_0$ estimation"
-    },
-    "id:2608.00425": {
-      "sent_at": "2026-08-04T05:23:01+00:00",
-      "source": "arXiv",
-      "title": "The AFLOW Library of Crystallographic Prototypes: Part 5"
-    },
-    "id:2608.00593": {
-      "sent_at": "2026-08-04T05:23:01+00:00",
-      "source": "arXiv",
-      "title": "Uncertainty-guided active learning for surrogate prediction of stream-finishing wear fields"
-    },
-    "id:2608.00699": {
-      "sent_at": "2026-08-04T05:23:01+00:00",
-      "source": "arXiv",
-      "title": "Ultrahigh Intrinsic Hole Mobilities in $M$N$_2$ ($M$= Mo and W) at Room Temperature"
-    },
-    "id:2608.00704": {
-      "sent_at": "2026-08-04T05:23:01+00:00",
-      "source": "arXiv",
-      "title": "Atomic-scale reactivity of the CeO$_2$~(100) surface reconstructions by scanning probe microscopy"
-    },
-    "id:2608.00797": {
-      "sent_at": "2026-08-04T05:23:01+00:00",
-      "source": "arXiv",
-      "title": "Ion stopping from bound and free electrons in plasmas: A channel-mixed RPA approach with average-atom orbitals"
-    },
-    "id:2608.01030": {
-      "sent_at": "2026-08-04T05:23:01+00:00",
-      "source": "arXiv",
-      "title": "Investigation of high pressure capacitively coupled plasmas produced by electrons energized in DC sheath at powered electrode"
-    },
-    "id:2608.01210": {
-      "sent_at": "2026-08-04T05:23:01+00:00",
-      "source": "arXiv",
-      "title": "EBSD and Subtle Crystallographic Differences - A Study of Resolving Interlayer Spacings in Nb-Ni and Nb-Co mu-phases"
-    },
-    "id:2608.01257": {
-      "sent_at": "2026-08-04T05:23:01+00:00",
-      "source": "arXiv",
-      "title": "Active Passivation Tunes Hotspot Locations in GaN Transistors with In Situ Thermal Mechanical Visualization"
-    },
-    "id:2608.01779": {
-      "sent_at": "2026-08-04T05:23:01+00:00",
-      "source": "arXiv",
-      "title": "Machine-Learning-Accelerated Metallene Stabilization from High-Throughput Sandwich Modeling"
-    },
-    "id:2608.01903": {
-      "sent_at": "2026-08-04T05:23:01+00:00",
-      "source": "arXiv",
-      "title": "Machine Learning Assisted Design of Complex and High Entropy Alloys by Hybrid HiPIMS/Pulsed-DC PVD Process for Low Carbon Energy Applications in Extreme Environments"
-    },
-    "id:2608.02226": {
-      "sent_at": "2026-08-04T05:23:01+00:00",
-      "source": "arXiv",
-      "title": "Mass Spectrometry Studies of Hydrogen Ions Energy Distributions in an ECR- based Large Volume Plasma Source"
-    },
-    "id:2608.02263": {
-      "sent_at": "2026-08-04T05:23:01+00:00",
-      "source": "arXiv",
-      "title": "Second-Harmonic Imaging of Magnetic Domains in Thin Film Hematite"
-    },
-    "id:2608.02400": {
-      "sent_at": "2026-08-04T05:23:01+00:00",
-      "source": "arXiv",
-      "title": "GRADAR: orientation-map-driven detection and ranking of grains for targeted two-beam electron channeling contrast imaging"
-    },
-    "id:2608.02456": {
-      "sent_at": "2026-08-04T05:23:01+00:00",
-      "source": "arXiv",
-      "title": "Real-time dynamics of the two-step charge-density-wave transition in bulk 1T-TaS$_2$"
-    },
-    "id:2608.02516": {
-      "sent_at": "2026-08-04T05:23:01+00:00",
-      "source": "arXiv",
-      "title": "Reduced Dark Current in Cd0.9Zn0.1Te Detector Arrays by Aluminium Oxide Passivation"
-    },
-    "id:2608.02710": {
-      "sent_at": "2026-08-05T05:12:45+00:00",
-      "source": "arXiv",
-      "title": "Investigation of GeSn aspect ratio trapping growth up to 8% Sn"
-    },
-    "id:2608.02763": {
-      "sent_at": "2026-08-05T05:12:45+00:00",
-      "source": "arXiv",
-      "title": "Radial transport of electric current by electromagnetic microturbulence in tokamaks"
-    },
-    "id:2608.02858": {
-      "sent_at": "2026-08-05T05:12:45+00:00",
-      "source": "arXiv",
-      "title": "Physics-Informed and Knowledge-Driven Generative AI for Autonomous Discovery of Porous Oxide Energy Materials: Opportunities and Challenges"
-    },
-    "id:2608.02925": {
-      "sent_at": "2026-08-05T05:12:45+00:00",
-      "source": "arXiv",
-      "title": "Symmetry-Guided Computational Screening of Two-Dimensional Altermagnets with ab initio Hubbard Corrections"
-    },
-    "id:2608.02968": {
-      "sent_at": "2026-08-05T05:12:45+00:00",
-      "source": "arXiv",
-      "title": "Optical properties of Ag, Au, and Cu from first principles"
-    },
-    "id:2608.02981": {
-      "sent_at": "2026-08-05T05:12:45+00:00",
-      "source": "arXiv",
-      "title": "Electrostatic Superlattices beyond 1:1 Stoichiometry"
-    },
-    "id:2608.03122": {
-      "sent_at": "2026-08-05T05:12:45+00:00",
-      "source": "arXiv",
-      "title": "Quasi-single-stage optimization for advanced stellarators"
-    },
-    "id:2608.03344": {
-      "sent_at": "2026-08-05T05:12:45+00:00",
-      "source": "arXiv",
-      "title": "Picometre-scale real-time drift correction in TEM and STEM by dynamic control of the specimen stage for atomic-resolution imaging"
-    },
-    "id:2608.03347": {
-      "sent_at": "2026-08-05T05:12:45+00:00",
-      "source": "arXiv",
-      "title": "Alloy engineering of excitonic properties in TMD monolayers"
-    },
-    "id:2608.03478": {
-      "sent_at": "2026-08-05T05:12:45+00:00",
-      "source": "arXiv",
-      "title": "Anisotropic Phonon Heat Flow and Thermoelectric Response in Tetragonal GeS$_2$ and GeSe$_2$"
-    },
-    "id:2608.03492": {
-      "sent_at": "2026-08-05T05:12:45+00:00",
-      "source": "arXiv",
-      "title": "Spin-Chirality-Driven Bulk Photovoltaic Effect in van der Waals Magnet CrSBr"
-    },
-    "id:2608.03568": {
-      "sent_at": "2026-08-05T05:12:45+00:00",
-      "source": "arXiv",
-      "title": "Strain Tuning of Orbital-Driven Giant Magnetoresistance in van der Waals ferrimagnet Mn$_3$Si$_2$Te$_6$"
-    },
-    "id:2608.03602": {
-      "sent_at": "2026-08-05T05:12:45+00:00",
-      "source": "arXiv",
-      "title": "Toward two dimensional MoS2 electrets"
-    },
-    "id:2608.03638": {
-      "sent_at": "2026-08-05T05:12:45+00:00",
-      "source": "arXiv",
-      "title": "Epitaxial SiGeSn alloys for CMOS-compatible thermoelectric devices"
-    },
-    "id:2608.03798": {
-      "sent_at": "2026-08-05T05:12:45+00:00",
-      "source": "arXiv",
-      "title": "From phase transformation to amorphization: damage accumulation in Yb-implanted \\b{eta}-Ga2O3"
-    },
-    "id:2608.03805": {
-      "sent_at": "2026-08-05T05:12:45+00:00",
-      "source": "arXiv",
-      "title": "Physics-Informed Machine Learning for Refractory Alloy Design"
-    },
-    "id:2608.03901": {
-      "sent_at": "2026-08-05T05:12:45+00:00",
-      "source": "arXiv",
-      "title": "Optical centers in cubic boron nitride and diamond: remarkable similarities"
-    },
-    "id:2608.03932": {
-      "sent_at": "2026-08-05T05:12:45+00:00",
-      "source": "arXiv",
-      "title": "Understanding and Designing Phase Change Materials: Insights from Atom Probe Tomography"
-    },
-    "id:2608.03969": {
-      "sent_at": "2026-08-05T05:12:45+00:00",
-      "source": "arXiv",
-      "title": "Development of Thomson parabola spectrometer for diagnostics of ions driven by ultrahigh intensity laser: Simulations and numerical analysis"
-    },
-    "id:2608.05252": {
-      "sent_at": "2026-08-07T04:49:19+00:00",
-      "source": "arXiv",
-      "title": "Reduction of intrinsic losses in nanomechanical silicon nitride resonators through thermal treatment in ultrahigh vacuum"
-    },
-    "id:2608.05305": {
-      "sent_at": "2026-08-07T04:49:19+00:00",
-      "source": "arXiv",
-      "title": "Cooperative adsorption and diffusion trapping induced by AlF3 intercalation in graphite"
-    },
-    "id:2608.05320": {
-      "sent_at": "2026-08-07T04:49:19+00:00",
-      "source": "arXiv",
-      "title": "Nitrogen Vacancy Centers in Hexagonal Diamond Exhibit Long Coherence Times"
-    },
-    "id:2608.05387": {
-      "sent_at": "2026-08-07T04:49:19+00:00",
-      "source": "arXiv",
-      "title": "Fine-Tuning Small Language Models for Reliable VASP INCAR Generation"
-    },
-    "id:2608.05452": {
-      "sent_at": "2026-08-07T04:49:19+00:00",
-      "source": "arXiv",
-      "title": "Low-resistivity nitrogen-doped p-type Cu2O thin films enabled by millisecond flash lamp annealing"
-    },
-    "id:2608.05469": {
-      "sent_at": "2026-08-07T04:49:19+00:00",
-      "source": "arXiv",
-      "title": "Antiferromagnetic Phases in Zr-Fe-Ge Kagome Systems"
-    },
-    "id:2608.05528": {
-      "sent_at": "2026-08-07T04:49:19+00:00",
-      "source": "arXiv",
-      "title": "Intra-unit-cell resolved intertwining of multi-$Q$ charge and spin textures in an itinerant skyrmion magnet"
-    },
-    "id:2608.05529": {
-      "sent_at": "2026-08-07T04:49:19+00:00",
-      "source": "arXiv",
-      "title": "Emergent Surface Altermagnetism"
-    },
-    "id:2608.05555": {
-      "sent_at": "2026-08-07T04:49:19+00:00",
-      "source": "arXiv",
-      "title": "Millisecond-Scale Neural Operator Surrogates for Double-Null Free-Boundary Grad-Shafranov Equilibria"
-    },
-    "id:2608.05603": {
-      "sent_at": "2026-08-07T04:49:19+00:00",
-      "source": "arXiv",
-      "title": "Interface Engineering of Helium Confinement in Argon-Preplated MCM-41 Nanopores"
-    },
-    "id:2608.05620": {
-      "sent_at": "2026-08-07T04:49:19+00:00",
-      "source": "arXiv",
-      "title": "Magnetic susceptibility of diluted magnetic semiconductors at low carrier densities"
-    },
-    "id:2608.05667": {
-      "sent_at": "2026-08-07T04:49:19+00:00",
-      "source": "arXiv",
-      "title": "BORAY-3D: A ray tracing code for three-dimensional magnetized plasma configurations"
-    },
-    "id:2608.05669": {
-      "sent_at": "2026-08-07T04:49:19+00:00",
-      "source": "arXiv",
-      "title": "SafeDivertor: Faithful Divertor Heat Flux Reconstruction from Macroscopic Plasma State Signals via Time-Frequency Prior Exploitation"
-    },
-    "id:2608.05788": {
-      "sent_at": "2026-08-07T04:49:19+00:00",
-      "source": "arXiv",
-      "title": "Anatomy of Spin--Orbit Torques in Monolayer Fe$_3$GeTe$_2$ and Fe$_3$GaTe$_2$: Insights from atomistic and momentum-space decompositions"
-    },
-    "id:2608.05890": {
-      "sent_at": "2026-08-07T04:49:19+00:00",
-      "source": "arXiv",
-      "title": "Tuning the Optoelectronics of Mixed-Semiconductors through the interplay of Quantum confinement and Stoichiometry Engineering"
-    },
-    "id:2608.05937": {
-      "sent_at": "2026-08-07T04:49:19+00:00",
-      "source": "arXiv",
-      "title": "Polarization-Conditioned Fourier-enhanced DeepONet for Electric Field Reconstruction from EFISH Measurements"
-    },
-    "id:2608.05957": {
-      "sent_at": "2026-08-07T04:49:19+00:00",
-      "source": "arXiv",
-      "title": "ASE2SPRKKR: a unified Python framework integrating the Spin-Polarized Relativistic Korringa-Kohn-Rostoker method into the Atomic Simulation Environment"
-    },
-    "id:2608.06118": {
-      "sent_at": "2026-08-07T04:49:19+00:00",
-      "source": "arXiv",
-      "title": "Calculations of the Krypton Phase Diagram and Novel Plasticity"
-    },
-    "id:2608.06309": {
-      "sent_at": "2026-08-07T04:49:19+00:00",
-      "source": "arXiv",
-      "title": "Metal-Coordination Effects on the Stability and ORR/OER Activity of Layered Organometallic Single-Atom Catalysts: A Theoretical Study"
     },
     "id:2608.06456": {
       "sent_at": "2026-08-11T03:51:11+00:00",
@@ -4265,6 +3890,11 @@
       "source": "arXiv",
       "title": "Complete Au-free Metallization Platform for UWBG Al$_{0.65}$Ga$_{0.35}$N channel MOS-HEMTs using Ti/Al/Ti Ohmic Contacts and Refractory TiN/Pt Gates"
     },
+    "id:2611.00277": {
+      "sent_at": "2026-11-06T02:09:58+00:00",
+      "source": "arXiv",
+      "title": "Finesse evolution in a bichromatic cavity under blue and red resonant illumination in vacuum"
+    },
     "id:2611.00390": {
       "sent_at": "2026-11-05T01:59:15+00:00",
       "source": "arXiv",
@@ -4275,15 +3905,35 @@
       "source": "arXiv",
       "title": "Beyond Synthesis Conditions: Linking In-situ Growth Dynamics to Carbon Nanotube Forest Properties through Multimodal Machine Learning"
     },
+    "id:2611.01797": {
+      "sent_at": "2026-11-06T02:09:58+00:00",
+      "source": "arXiv",
+      "title": "Stable AgBiS2 near-infrared absorbers for thin film tandem photovoltaics"
+    },
     "id:2611.02347": {
       "sent_at": "2026-11-05T01:59:15+00:00",
       "source": "arXiv",
       "title": "Optical Detection of Coefficient of Thermal Expansion via Frequency Tracking at Cryogenic Temperatures"
     },
+    "id:2611.02850": {
+      "sent_at": "2026-11-06T02:09:58+00:00",
+      "source": "arXiv",
+      "title": "A plug-and-play platform for self-aligning 3D-printed structures on optical fibers"
+    },
     "id:2611.04429": {
       "sent_at": "2026-11-05T01:59:15+00:00",
       "source": "arXiv",
       "title": "Annealing-Induced Structural and Optical Evolution of Ion-Beam-Sputtered Ta2O5 Films for High-Power Laser Applications"
+    },
+    "id:2611.05647": {
+      "sent_at": "2026-11-06T02:09:58+00:00",
+      "source": "arXiv",
+      "title": "Low cross-plane thermal conductivity of $κ$-Ga$_2$O$_3$ thin films"
+    },
+    "id:2611.06326": {
+      "sent_at": "2026-11-06T02:09:58+00:00",
+      "source": "arXiv",
+      "title": "Strain control of magneto-optical properties of ultra-thin Ni-Mn-Ga films grown by magnetron sputtering"
     }
   },
   "version": 1
