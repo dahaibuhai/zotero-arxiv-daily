@@ -5,11 +5,6 @@
       "source": "Semantic Scholar",
       "title": "Controlling BCC-FCC Phase Selection in Cantor Thin Films Grown by Molecular Beam Epitaxy."
     },
-    "doi:10.1002/adom.71596": {
-      "sent_at": "2026-08-11T03:51:11+00:00",
-      "source": "Semantic Scholar",
-      "title": "Broadband Photodetectors and Imaging Arrays Based on PtSe\n 2\n /Si Heterojunctions"
-    },
     "doi:10.1002/adts.70565": {
       "sent_at": "2026-10-06T08:15:05+00:00",
       "source": "Semantic Scholar",
@@ -19,6 +14,11 @@
       "sent_at": "2026-11-05T01:59:15+00:00",
       "source": "Semantic Scholar",
       "title": "Dual‐Defect‐Engineered Zinc Oxynitride Thin‐Film Transistors Enabling Electrostatic Current Balancing in Geometrically Symmetric Oxide Logic"
+    },
+    "doi:10.1002/ctpp.70192": {
+      "sent_at": "2026-11-09T09:19:28+00:00",
+      "source": "Semantic Scholar",
+      "title": "Experimental and Simulation Study on Cathode Spot Characteristics of Surface Flashover Ion Sources"
     },
     "doi:10.1002/ijch.70050": {
       "sent_at": "2026-10-27T01:17:24+00:00",
@@ -144,11 +144,6 @@
       "sent_at": "2026-09-30T07:23:24+00:00",
       "source": "Semantic Scholar",
       "title": "The evolution of the Mo5+ oxidation state in the thermochromic effect of MoO3 thin films deposited by rf magnetron sputtering"
-    },
-    "doi:10.1016/j.jallcom.2026.190251": {
-      "sent_at": "2026-08-10T03:33:29+00:00",
-      "source": "Semantic Scholar",
-      "title": "Tunable optical and magnetotransport properties of vanadium-doped zinc nitride thin films grown by magnetron sputtering"
     },
     "doi:10.1016/j.jallcom.2026.192089": {
       "sent_at": "2026-11-06T02:09:58+00:00",
@@ -450,6 +445,11 @@
       "source": "Semantic Scholar",
       "title": "Scale-bridging characterization of iron oxide thin films obtained by reactive magnetron sputtering."
     },
+    "doi:10.1039/d6ra07982b": {
+      "sent_at": "2026-11-09T09:19:28+00:00",
+      "source": "Semantic Scholar",
+      "title": "Air-annealing-induced vertical elemental gradients regulate defect chemistry and optoelectronic properties of cylindrical-target-sputtered ITO thin films"
+    },
     "doi:10.1063/1.1288162": {
       "sent_at": "2026-09-30T07:23:24+00:00",
       "source": "Semantic Scholar",
@@ -695,11 +695,6 @@
       "source": "Semantic Scholar",
       "title": "Composition and structure of copper oxide films synthesized by reactive magnetron sputtering with a hot target"
     },
-    "doi:10.1142/s0217979226502401": {
-      "sent_at": "2026-08-10T03:33:29+00:00",
-      "source": "Semantic Scholar",
-      "title": "Comparative Experimental and Theoretical Analysis of Open-Volume Defects and Vacancy Clustering in Sputtered Al and Fe3O4 Thin Films"
-    },
     "doi:10.1143/jjap.23.l280": {
       "sent_at": "2026-09-25T06:39:08+00:00",
       "source": "Semantic Scholar",
@@ -714,6 +709,16 @@
       "sent_at": "2026-10-29T06:32:26+00:00",
       "source": "Semantic Scholar",
       "title": "Raman analysis of deposition pressure variations in nanocomposite Si-C-N coatings: A 4-stage model"
+    },
+    "doi:10.1177/02670836261504500": {
+      "sent_at": "2026-11-09T09:19:28+00:00",
+      "source": "Semantic Scholar",
+      "title": "Effect of CH\n 4\n flow rate on the microstructure and tribological behavior of Ti/W-C/W-DLC gradient coatings on YG12 cemented carbide"
+    },
+    "doi:10.1177/14644207261493907": {
+      "sent_at": "2026-11-09T09:19:28+00:00",
+      "source": "Semantic Scholar",
+      "title": "Performance of MoS\n 2\n -alloyed-TiAlSiN-coated cutting tools in dry turning of Ti-6Al-4V alloy"
     },
     "doi:10.1177/14644207261496158": {
       "sent_at": "2026-10-13T05:25:07+00:00",
@@ -749,6 +754,11 @@
       "sent_at": "2026-10-16T09:29:29+00:00",
       "source": "Semantic Scholar",
       "title": "Electrical insulation enhancement of the Al\n 2\n O\n 3\n composite films at high temperature by oxygen vacancy suppression"
+    },
+    "doi:10.29227/im-2026-02-02-049": {
+      "sent_at": "2026-11-09T09:19:28+00:00",
+      "source": "Semantic Scholar",
+      "title": "Ultra-Wide Band Gap Material Gallium Oxide, Technology, Properties, Characterization"
     },
     "doi:10.3311/ppme.45036": {
       "sent_at": "2026-10-15T08:57:28+00:00",
@@ -879,101 +889,6 @@
       "sent_at": "2026-11-05T01:59:15+00:00",
       "source": "Semantic Scholar",
       "title": "Магнетронное распыление широкозонного триоксида молибдена MoO3"
-    },
-    "id:2608.06456": {
-      "sent_at": "2026-08-11T03:51:11+00:00",
-      "source": "arXiv",
-      "title": "Sublattice-resolved coherent phonon dynamics in charge density waves"
-    },
-    "id:2608.06541": {
-      "sent_at": "2026-08-11T03:51:11+00:00",
-      "source": "arXiv",
-      "title": "A 28-GHz Varactor-Based RIS With Continuous Phase Control: From Unit-Cell Modeling to Programmable Wavefront Control and Synthesis"
-    },
-    "id:2608.06568": {
-      "sent_at": "2026-08-11T03:51:11+00:00",
-      "source": "arXiv",
-      "title": "Nonreciprocity reversal of magnetoacoustic attenuation in NiFe alloy thin films"
-    },
-    "id:2608.06643": {
-      "sent_at": "2026-08-11T03:51:11+00:00",
-      "source": "arXiv",
-      "title": "Extracting the full conductivity tensor in a rectangular sample"
-    },
-    "id:2608.06662": {
-      "sent_at": "2026-08-11T03:51:11+00:00",
-      "source": "arXiv",
-      "title": "Cross-Geometry Transferability Assessment of Universal Machine Learning Interatomic Potentials: From Bulk Materials to Atomic Nanowires"
-    },
-    "id:2608.06700": {
-      "sent_at": "2026-08-11T03:51:11+00:00",
-      "source": "arXiv",
-      "title": "Universal Magnetoresistance Scaling in Layered Pd-based Multiband Metals Beyond Compensated Semimetal Regime"
-    },
-    "id:2608.06759": {
-      "sent_at": "2026-08-11T03:51:11+00:00",
-      "source": "arXiv",
-      "title": "Optical Anisotropy and Phase Matching in Non-Centrosymmetric Perovskite Oxides from DFT+U and DFT+U+V Functionals"
-    },
-    "id:2608.06764": {
-      "sent_at": "2026-08-11T03:51:11+00:00",
-      "source": "arXiv",
-      "title": "Linear and nonlinear benchmark of gyrokinetic simulation of energetic particle driven toroidal Alfven eigenmodes in ITPA TAE benchmark case"
-    },
-    "id:2608.06877": {
-      "sent_at": "2026-08-11T03:51:11+00:00",
-      "source": "arXiv",
-      "title": "Autonomous Optimization of Complex Oxides for Thermochemical Fuel Production"
-    },
-    "id:2608.06895": {
-      "sent_at": "2026-08-11T03:51:11+00:00",
-      "source": "arXiv",
-      "title": "Local Structure Dictates Ionic Transport and Mechanical Properties in Glassy Solid Electrolytes for Lithium Batteries"
-    },
-    "id:2608.07049": {
-      "sent_at": "2026-08-11T03:51:11+00:00",
-      "source": "arXiv",
-      "title": "Roadmap on UV-C photodetectors: materials, applications and industry perspectives"
-    },
-    "id:2608.07081": {
-      "sent_at": "2026-08-11T03:51:11+00:00",
-      "source": "arXiv",
-      "title": "Local lattice dynamics of hcp zinc from EXAFS and machine-learning interatomic potentials"
-    },
-    "id:2608.07097": {
-      "sent_at": "2026-08-11T03:51:11+00:00",
-      "source": "arXiv",
-      "title": "Net and Hidden Spin-Valley Locking Enable Ultrahigh Hole Mobility in Covalent Bulk WN$_2$"
-    },
-    "id:2608.07130": {
-      "sent_at": "2026-08-11T03:51:11+00:00",
-      "source": "arXiv",
-      "title": "Morphology Engineering of Mixed Ionic Electronic Conductors through Aqueous Phase Separation"
-    },
-    "id:2608.07165": {
-      "sent_at": "2026-08-11T03:51:11+00:00",
-      "source": "arXiv",
-      "title": "Electron-Scale-Driven Turbulence by Negative-Density-Gradient in NSTX"
-    },
-    "id:2608.07266": {
-      "sent_at": "2026-08-11T03:51:11+00:00",
-      "source": "arXiv",
-      "title": "Homojunction-induced thermopower enhancement in polymer films"
-    },
-    "id:2608.07305": {
-      "sent_at": "2026-08-11T03:51:11+00:00",
-      "source": "arXiv",
-      "title": "Fractional Spin Ferroelectric and Sliding Spin Current in Magnetic Sliding Ferroelectrics"
-    },
-    "id:2608.07320": {
-      "sent_at": "2026-08-11T03:51:11+00:00",
-      "source": "arXiv",
-      "title": "Surface Equilibration Mechanism Controls the Stability of a Model Co-deposited Glass Mixture of Organic Semiconductors"
-    },
-    "id:2608.07445": {
-      "sent_at": "2026-08-11T03:51:11+00:00",
-      "source": "arXiv",
-      "title": "Permutation invariant neural network prediction of vacancy formation under deformation and varying chemical environment in FCC high entropy alloys"
     },
     "id:2608.07721": {
       "sent_at": "2026-08-12T04:02:13+00:00",
@@ -3900,6 +3815,11 @@
       "source": "arXiv",
       "title": "Helical Magnetic Nature of $β$-Mn Structured CoZn Thin-Films Determined by a Bayesian Approach to Modeling Polarized Neutron Reflectivity Data"
     },
+    "id:2611.00424": {
+      "sent_at": "2026-11-09T09:19:28+00:00",
+      "source": "arXiv",
+      "title": "Effect of Rapid Thermal Annealing on the Superconductivity of ALD-Grown TiN thin films"
+    },
     "id:2611.00739": {
       "sent_at": "2026-11-05T01:59:15+00:00",
       "source": "arXiv",
@@ -3925,6 +3845,11 @@
       "source": "arXiv",
       "title": "Annealing-Induced Structural and Optical Evolution of Ion-Beam-Sputtered Ta2O5 Films for High-Power Laser Applications"
     },
+    "id:2611.04622": {
+      "sent_at": "2026-11-09T09:19:28+00:00",
+      "source": "arXiv",
+      "title": "A flux-balanced diffuse-interface kinetic model for rarefied gas-solid boundaries with arbitrary absorption probability"
+    },
     "id:2611.05647": {
       "sent_at": "2026-11-06T02:09:58+00:00",
       "source": "arXiv",
@@ -3934,6 +3859,21 @@
       "sent_at": "2026-11-06T02:09:58+00:00",
       "source": "arXiv",
       "title": "Strain control of magneto-optical properties of ultra-thin Ni-Mn-Ga films grown by magnetron sputtering"
+    },
+    "id:2611.08851": {
+      "sent_at": "2026-11-09T09:19:28+00:00",
+      "source": "arXiv",
+      "title": "Conformationally frustrated epitaxy at heteromolecular interface"
+    },
+    "id:2611.08965": {
+      "sent_at": "2026-11-09T09:19:28+00:00",
+      "source": "arXiv",
+      "title": "Evaporation-induced colloidal diffusiophoresis in electrolyte solutions"
+    },
+    "id:2611.09103": {
+      "sent_at": "2026-11-09T09:19:28+00:00",
+      "source": "arXiv",
+      "title": "Spontaneous Formation of Lateral Defect-Density Gradient in CVD-Grown MoS2 Monolayers"
     }
   },
   "version": 1
