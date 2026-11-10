@@ -5,6 +5,11 @@
       "source": "Semantic Scholar",
       "title": "Controlling BCC-FCC Phase Selection in Cantor Thin Films Grown by Molecular Beam Epitaxy."
     },
+    "doi:10.1002/adma.75582": {
+      "sent_at": "2026-11-10T09:27:07+00:00",
+      "source": "Semantic Scholar",
+      "title": "Ultra-Long Helical CNFs 3D-Networks as High-Conductivity Current Collectors for Efficient Sodium Deposition."
+    },
     "doi:10.1002/adts.70565": {
       "sent_at": "2026-10-06T08:15:05+00:00",
       "source": "Semantic Scholar",
@@ -49,6 +54,11 @@
       "sent_at": "2026-10-15T08:57:28+00:00",
       "source": "Semantic Scholar",
       "title": "A Rapid and Uniform Magnetization Method for Fe3O4 Nanoparticles Assisted by Rotating Magnetic Fields for Microrobots."
+    },
+    "doi:10.1002/solr.70534": {
+      "sent_at": "2026-11-10T09:27:07+00:00",
+      "source": "Semantic Scholar",
+      "title": "Effect of Seed Layers on Morphology and Optoelectronic Properties of IZO/Ag/IZO Multilayer Transparent Electrodes"
     },
     "doi:10.1007/s10854-026-18593-y": {
       "sent_at": "2026-10-08T08:02:10+00:00",
@@ -129,6 +139,11 @@
       "sent_at": "2026-08-24T02:52:56+00:00",
       "source": "Semantic Scholar",
       "title": "Reactive-sputtered W–W2N thin films delivering superior cycle stability for energy storage applications"
+    },
+    "doi:10.1016/j.heliyon.2026.e45645": {
+      "sent_at": "2026-11-10T09:27:07+00:00",
+      "source": "Semantic Scholar",
+      "title": "Structural, phase, mechanical, tribological and corrosion performance of Ti/TiN/TiO2 and Ti/TiN/SiO2 multilayer coatings obtained by reactive magnetron sputtering with potential biomedical applications"
     },
     "doi:10.1016/j.intermet.2026.109446": {
       "sent_at": "2026-08-24T02:52:56+00:00",
@@ -610,6 +625,11 @@
       "source": "Semantic Scholar",
       "title": "5.8-GHz Al0.6Sc0.4N Film Bulk Acoustic Resonator With High Electromechanical Coupling Coefficient of 23.9%"
     },
+    "doi:10.1109/ted.2026.3681246": {
+      "sent_at": "2026-11-10T09:27:07+00:00",
+      "source": "Semantic Scholar",
+      "title": "4-μm Gate Length (001) Diamond MOSFETs With 1 A/mm Current Density Enabled by a Non-Plasma-Contact Hydrogenation Process"
+    },
     "doi:10.1111/1541-4337.70663": {
       "sent_at": "2026-10-02T07:36:57+00:00",
       "source": "Semantic Scholar",
@@ -889,106 +909,6 @@
       "sent_at": "2026-11-05T01:59:15+00:00",
       "source": "Semantic Scholar",
       "title": "Магнетронное распыление широкозонного триоксида молибдена MoO3"
-    },
-    "id:2608.07721": {
-      "sent_at": "2026-08-12T04:02:13+00:00",
-      "source": "arXiv",
-      "title": "PASCHEN-1D: A one-dimensional fluid plasma solver with multi-mechanism surface emission and flexible external circuit coupling"
-    },
-    "id:2608.07823": {
-      "sent_at": "2026-08-12T04:02:13+00:00",
-      "source": "arXiv",
-      "title": "Sn-Doping in LPCVD-Grown (010) $β$-Ga$_2$O$_3$ Films"
-    },
-    "id:2608.07884": {
-      "sent_at": "2026-08-12T04:02:13+00:00",
-      "source": "arXiv",
-      "title": "Metastability limit of pristine 2D noble metals with high-energy facet: dominance of the Bell-Evans-Polanyi principle"
-    },
-    "id:2608.07900": {
-      "sent_at": "2026-08-12T04:02:13+00:00",
-      "source": "arXiv",
-      "title": "Gate-tunable electronic properties of epitaxial Bi (111) films using a printable hexagonal boron nitride ionogel"
-    },
-    "id:2608.08000": {
-      "sent_at": "2026-08-12T04:02:13+00:00",
-      "source": "arXiv",
-      "title": "Local coordination and migration-network topology shape Li-ion transport and delithiation in the low-energy $\\varepsilon$-LiMnO$_2$ polymorph"
-    },
-    "id:2608.08031": {
-      "sent_at": "2026-08-12T04:02:13+00:00",
-      "source": "arXiv",
-      "title": "Beam experiments for reactive ion etching of silicon (Si)-based materials by silicon halide ions"
-    },
-    "id:2608.08415": {
-      "sent_at": "2026-08-12T04:02:13+00:00",
-      "source": "arXiv",
-      "title": "Thermo-mechanical Characterization of 2D hexagonal Boron Phosphide (h-BP)"
-    },
-    "id:2608.08474": {
-      "sent_at": "2026-08-12T04:02:13+00:00",
-      "source": "arXiv",
-      "title": "Unified open-boundary electrostatics in real-space density functional theory"
-    },
-    "id:2608.08534": {
-      "sent_at": "2026-08-12T04:02:13+00:00",
-      "source": "arXiv",
-      "title": "High Thermal Conductivity of Back-End-of-Line Compatible Diamond Films"
-    },
-    "id:2608.08647": {
-      "sent_at": "2026-08-12T04:02:13+00:00",
-      "source": "arXiv",
-      "title": "An Automated Magnetron Sputtering Chamber for Ferroelectric Thin Film Deposition"
-    },
-    "id:2608.08741": {
-      "sent_at": "2026-08-12T04:02:13+00:00",
-      "source": "arXiv",
-      "title": "Microscopic Origin of Spin Splitting in Altermagnetic CrSb Thin Films"
-    },
-    "id:2608.08767": {
-      "sent_at": "2026-08-12T04:02:13+00:00",
-      "source": "arXiv",
-      "title": "Distribution of Relaxation Times analysis of evolution of Oxygen Reduction Pathways for ionic conductor infiltration on MIEC cathode"
-    },
-    "id:2608.09003": {
-      "sent_at": "2026-08-12T04:02:13+00:00",
-      "source": "Semantic Scholar",
-      "title": "Wafer-scale monolithic integration of Ce:YIG films and magneto-optical isolators on silicon"
-    },
-    "id:2608.09039": {
-      "sent_at": "2026-08-12T04:02:13+00:00",
-      "source": "arXiv",
-      "title": "Anharmonic dephasing in the electron-phonon interaction"
-    },
-    "id:2608.09041": {
-      "sent_at": "2026-08-12T04:02:13+00:00",
-      "source": "arXiv",
-      "title": "Wrinkling in Selected Polymer Thin Films Induced by Combined Ion Beam and Humidity Exposure"
-    },
-    "id:2608.09431": {
-      "sent_at": "2026-08-12T04:02:13+00:00",
-      "source": "arXiv",
-      "title": "Time-resolved study of carbonization and growth of ultrathin 3C-SiC on Si(111) under ultra-high vacuum"
-    },
-    "id:2608.09508": {
-      "sent_at": "2026-08-12T04:02:13+00:00",
-      "source": "arXiv",
-      "title": "200 mm Wafer-Scale Monolithic 3D Integration of Atomic Layer-Deposited Oxide Semiconductors"
-    },
-    "id:2608.09841": {
-      "sent_at": "2026-08-12T04:02:13+00:00",
-      "source": "arXiv",
-      "title": "Spatially resolved elastic strain and lattice rotation at threading dislocations in HgCdTe/CdZnTe epilayers by dark-field X-ray microscopy"
-    },
-    "id:2608.09909": {
-      "sent_at": "2026-08-12T04:02:13+00:00",
-      "source": "arXiv",
-      "title": "Substrate-dependent thermally driven morphological evolution of Pt$_{0.9}$Ni$_{0.1}$ thin films on sapphire and langasite"
-    },
-    "id:2608.09916": {
-      "sent_at": "2026-08-12T04:02:13+00:00",
-      "source": "arXiv",
-      "title": "AES-Debye: an Accurate, Efficient, and Scalable Engine for Debye Scattering Calculations"
     },
     "id:2608.09960": {
       "sent_at": "2026-08-13T04:11:30+00:00",
@@ -3840,6 +3760,11 @@
       "source": "arXiv",
       "title": "A plug-and-play platform for self-aligning 3D-printed structures on optical fibers"
     },
+    "id:2611.03707": {
+      "sent_at": "2026-11-10T09:27:07+00:00",
+      "source": "Semantic Scholar",
+      "title": "Surface chemistry as data for level-set simulation of etching and deposition"
+    },
     "id:2611.04429": {
       "sent_at": "2026-11-05T01:59:15+00:00",
       "source": "arXiv",
@@ -3874,6 +3799,31 @@
       "sent_at": "2026-11-09T09:19:28+00:00",
       "source": "arXiv",
       "title": "Spontaneous Formation of Lateral Defect-Density Gradient in CVD-Grown MoS2 Monolayers"
+    },
+    "id:2611.10354": {
+      "sent_at": "2026-11-10T09:27:07+00:00",
+      "source": "arXiv",
+      "title": "Fabrication and Characterization of Flexible In2O3 Thin-Film Transistors on Mica Substrates"
+    },
+    "id:2611.10427": {
+      "sent_at": "2026-11-10T09:27:07+00:00",
+      "source": "arXiv",
+      "title": "Multifractality in sputtered crystalline and amorphous transition metal nitride thin films"
+    },
+    "id:2611.11054": {
+      "sent_at": "2026-11-10T09:27:07+00:00",
+      "source": "arXiv",
+      "title": "Analysis of Solid Boron Injection for ITER"
+    },
+    "id:2611.11276": {
+      "sent_at": "2026-11-10T09:27:07+00:00",
+      "source": "arXiv",
+      "title": "Strain Controlled Hydrogen Interstitial Site Preference and Hydride Phase Suppression in Epitaxial Vanadium"
+    },
+    "id:2611.12733": {
+      "sent_at": "2026-11-10T09:27:07+00:00",
+      "source": "arXiv",
+      "title": "Out-of-plane interference effects in the angle-resolved photoemission of epitaxial graphene"
     }
   },
   "version": 1
