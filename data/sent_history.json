@@ -110,6 +110,11 @@
       "source": "Semantic Scholar",
       "title": "Reactive sputter-driven gas-phase synthesis of multiporous Cu₃N nanoparticles toward sustainable CO₂ electroreduction"
     },
+    "doi:10.1016/j.apsadv.2026.101093": {
+      "sent_at": "2026-11-11T09:10:16+00:00",
+      "source": "Semantic Scholar",
+      "title": "Photocatalytic properties of bismuth oxyfluoride thin films deposited by reactive magnetron sputtering in Ar/O2/CF4 atmosphere"
+    },
     "doi:10.1016/j.apsusc.2011.06.101": {
       "sent_at": "2026-10-02T07:36:57+00:00",
       "source": "Semantic Scholar",
@@ -390,6 +395,11 @@
       "source": "Semantic Scholar",
       "title": "From Dense\nto Nanostructured Thin Film Anodes: Boosting\nLi-Ion Accessibility in TiO2 Thin Film Electrodes"
     },
+    "doi:10.1021/acsaelm.6c01643": {
+      "sent_at": "2026-11-11T09:10:16+00:00",
+      "source": "Semantic Scholar",
+      "title": "Retaining Hole Conduction Using a Germanium Seed Layer for High-\n k\n HfO2 ALD on Salt-Assisted APCVD Tungsten Diselenide"
+    },
     "doi:10.1021/acsaelm.6c01814": {
       "sent_at": "2026-10-30T09:43:26+00:00",
       "source": "Semantic Scholar",
@@ -580,6 +590,11 @@
       "source": "Semantic Scholar",
       "title": "Effect of magnetic field configuration on ionised carbon flux fraction in HiPIMS"
     },
+    "doi:10.1088/1361-6668/aebe73": {
+      "sent_at": "2026-11-11T09:10:16+00:00",
+      "source": "Semantic Scholar",
+      "title": "Direct measurement of magnetic fields generated in Nb3Sn films for SRF cavities during the superconducting transition"
+    },
     "doi:10.1088/1402-4896/aeb33b": {
       "sent_at": "2026-10-26T06:27:45+00:00",
       "source": "Semantic Scholar",
@@ -669,6 +684,11 @@
       "sent_at": "2026-10-28T01:25:56+00:00",
       "source": "Semantic Scholar",
       "title": "Design and numerical simulation of a ring waveguide slot-coupled magnetic resonance cavity for large-area diamond film deposition"
+    },
+    "doi:10.1116/6.0005676": {
+      "sent_at": "2026-11-11T09:10:16+00:00",
+      "source": "Semantic Scholar",
+      "title": "Atomic layer controlled electron beam induced etching of molybdenum using sequential O2 and HCl exposures with positive sample voltage"
     },
     "doi:10.1116/6.0005766": {
       "sent_at": "2026-10-24T02:08:41+00:00",
@@ -910,105 +930,10 @@
       "source": "Semantic Scholar",
       "title": "Магнетронное распыление широкозонного триоксида молибдена MoO3"
     },
-    "id:2608.09960": {
-      "sent_at": "2026-08-13T04:11:30+00:00",
-      "source": "arXiv",
-      "title": "Physics-informed genetic algorithms (PIGAs) facilitating LIBS spectral normalization with shockwave characteristics"
-    },
-    "id:2608.09969": {
-      "sent_at": "2026-08-13T04:11:30+00:00",
-      "source": "arXiv",
-      "title": "Numerical modeling and simulation on nanosecond laser-target interactions"
-    },
-    "id:2608.10048": {
-      "sent_at": "2026-08-13T04:11:30+00:00",
-      "source": "arXiv",
-      "title": "Numerical modeling of microstructure evolution in nanocrystalline alloys - grain boundary segregation, solute drag and mechanics"
-    },
-    "id:2608.10099": {
-      "sent_at": "2026-08-13T04:11:30+00:00",
-      "source": "arXiv",
-      "title": "Solver-Agnostic Implementation of Atom-Informed Thermal Conductivity Fields in Continuum Heat-Flow Simulations"
-    },
-    "id:2608.10124": {
-      "sent_at": "2026-08-13T04:11:30+00:00",
-      "source": "arXiv",
-      "title": "Steady state, core, operational optimization of an ARC-like tokamak via plasma composition and shape"
-    },
-    "id:2608.10226": {
-      "sent_at": "2026-08-13T04:11:30+00:00",
-      "source": "arXiv",
-      "title": "Revealing the Atomic Structure of NiO/Ga$_{2}$O$_{3}$ Interfaces"
-    },
-    "id:2608.10243": {
-      "sent_at": "2026-08-13T04:11:30+00:00",
-      "source": "arXiv",
-      "title": "Balanced electron and phonon heat transport in metallic $\\varepsilon$-TaN"
-    },
-    "id:2608.10353": {
-      "sent_at": "2026-08-13T04:11:30+00:00",
-      "source": "arXiv",
-      "title": "Metallic Bonding-Driven Elastic Softness and Optical Response in the Mg-Rich Laves-Phase LaMg2"
-    },
-    "id:2608.10432": {
-      "sent_at": "2026-08-13T04:11:30+00:00",
-      "source": "arXiv",
-      "title": "Universal Density Control of Surface Reconstruction in Two-Dimensional Metals"
-    },
-    "id:2608.10527": {
-      "sent_at": "2026-08-13T04:11:30+00:00",
-      "source": "arXiv",
-      "title": "Construction of 3D-Ferroelectric Polarization Microstructure and Detection of Polarization Invariants under Induced Flexoelectric Strains"
-    },
-    "id:2608.10548": {
-      "sent_at": "2026-08-13T04:11:30+00:00",
-      "source": "arXiv",
-      "title": "Development and Characterization of a Microwave Atmospheric Pressure Plasma Jet"
-    },
-    "id:2608.10565": {
-      "sent_at": "2026-08-13T04:11:30+00:00",
-      "source": "arXiv",
-      "title": "Potential of Atmospheric Pressure Thermal Plasma Technology towards Waste Processing: A Comprehensive Review"
-    },
-    "id:2608.10575": {
-      "sent_at": "2026-08-13T04:11:30+00:00",
-      "source": "arXiv",
-      "title": "Gas Flow Rate Influence on Gas Temperature Regulation in a Reinforced Radio-Frequency Cross-Field Atmospheric Plasma Jet"
-    },
-    "id:2608.10580": {
-      "sent_at": "2026-08-13T04:11:30+00:00",
-      "source": "arXiv",
-      "title": "Enhanced Screening in Epitaxial Graphene via Nearly Free-Electron Metal Intercalation"
-    },
-    "id:2608.10734": {
-      "sent_at": "2026-08-13T04:11:30+00:00",
-      "source": "arXiv",
-      "title": "Multi-scale modeling of high strain rate deformation and spall fracture in poly-crystalline metals"
-    },
-    "id:2608.10768": {
-      "sent_at": "2026-08-13T04:11:30+00:00",
-      "source": "arXiv",
-      "title": "High-pressure electride superconductor Li5N for multifunctional applications: A theoretical insight into the physical properties"
-    },
-    "id:2608.10910": {
-      "sent_at": "2026-08-13T04:11:30+00:00",
-      "source": "arXiv",
-      "title": "Oxygen K-edge X-ray Absorption Spectroscopy Database for NMC811 Layered Cathode Materials"
-    },
-    "id:2608.11062": {
-      "sent_at": "2026-08-13T04:11:30+00:00",
-      "source": "arXiv",
-      "title": "Accelerated Discovery of Materials with Extreme Work Functions through Uncertainty-Aware Multi-Fidelity Screening"
-    },
-    "id:2608.11102": {
-      "sent_at": "2026-08-13T04:11:30+00:00",
-      "source": "arXiv",
-      "title": "Stable Glasses of Organic Semiconductor Resist Crystallization"
-    },
-    "id:2608.11165": {
-      "sent_at": "2026-08-13T04:11:30+00:00",
-      "source": "arXiv",
-      "title": "Structural, Optical and Magnetic Properties of Superparamagnetic Fe3O4@TiO2 and Fe3O4@SiO2@TiO2 CoreShell Nanostructures"
+    "doi:10.67642/g1fw2r66": {
+      "sent_at": "2026-11-11T09:10:16+00:00",
+      "source": "Semantic Scholar",
+      "title": "Variations of milling parameters and their effect on the volumetric sputtering yield of Silicon with the use of a plasma focused ion beam"
     },
     "id:2608.11261": {
       "sent_at": "2026-08-14T04:07:08+00:00",
@@ -3810,6 +3735,11 @@
       "source": "arXiv",
       "title": "Multifractality in sputtered crystalline and amorphous transition metal nitride thin films"
     },
+    "id:2611.10988": {
+      "sent_at": "2026-11-11T09:10:16+00:00",
+      "source": "arXiv",
+      "title": "Deterministically fabricated C-band single-photon sources based on quantum dot circular Bragg grating cavities"
+    },
     "id:2611.11054": {
       "sent_at": "2026-11-10T09:27:07+00:00",
       "source": "arXiv",
@@ -3820,10 +3750,30 @@
       "source": "arXiv",
       "title": "Strain Controlled Hydrogen Interstitial Site Preference and Hydride Phase Suppression in Epitaxial Vanadium"
     },
+    "id:2611.12476": {
+      "sent_at": "2026-11-11T09:10:16+00:00",
+      "source": "arXiv",
+      "title": "Scalable operating currents in amorphous W-N/FePt superconducting rectifiers"
+    },
     "id:2611.12733": {
       "sent_at": "2026-11-10T09:27:07+00:00",
       "source": "arXiv",
       "title": "Out-of-plane interference effects in the angle-resolved photoemission of epitaxial graphene"
+    },
+    "id:2611.12788": {
+      "sent_at": "2026-11-11T09:10:16+00:00",
+      "source": "arXiv",
+      "title": "Ambient-pressure superconductivity in bulk single crystals of La$_5$Ni$_4$O$_{10}$"
+    },
+    "id:2611.14231": {
+      "sent_at": "2026-11-11T09:10:16+00:00",
+      "source": "arXiv",
+      "title": "From Growth to Devices: Oxygen-Controlled Superconductivity in BSCCO Thin Films"
+    },
+    "id:2611.14292": {
+      "sent_at": "2026-11-11T09:10:16+00:00",
+      "source": "arXiv",
+      "title": "Nanostructuring Semiconductor Surfaces Using Self-Assembled Metal Nanoparticles for Optoelectronic Applications"
     }
   },
   "version": 1
