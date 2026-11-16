@@ -1,5 +1,10 @@
 {
   "papers": {
+    "doi:10.1002/adem.71405": {
+      "sent_at": "2026-11-16T05:47:08+00:00",
+      "source": "Semantic Scholar",
+      "title": "Ta–V Nanoscale Multilayered Hydrogen Diffusion Layers for High‑Power Boron Neutron Capture Therapy Neutron Targets: Microstructure, Hydrogen Embrittlement Resistance, and Irradiation Performance"
+    },
     "doi:10.1002/adma.75307": {
       "sent_at": "2026-10-14T06:50:13+00:00",
       "source": "Semantic Scholar",
@@ -105,6 +110,11 @@
       "source": "Semantic Scholar",
       "title": "Deposition of molybdenum nitride thin films by r.f. reactive magnetron sputtering"
     },
+    "doi:10.1016/j.actaastro.2026.10.051": {
+      "sent_at": "2026-11-16T05:47:08+00:00",
+      "source": "arXiv",
+      "title": "Radiation Hardness Assurance of Optical Coatings for the COMPASSO Iodine Reference"
+    },
     "doi:10.1016/j.apsadv.2026.101022": {
       "sent_at": "2026-08-24T02:52:56+00:00",
       "source": "Semantic Scholar",
@@ -175,11 +185,6 @@
       "source": "Semantic Scholar",
       "title": "Enhanced crystalline quality of reactive sputtered AlN thin films through sapphire nitridation and nitrogen-rich plasma engineering"
     },
-    "doi:10.1016/j.matdes.2026.116760": {
-      "sent_at": "2026-08-14T04:07:08+00:00",
-      "source": "Semantic Scholar",
-      "title": "Mechanical and electrical behaviour of reactive magnetron sputtered low-Al content epitaxial single-crystalline Ti1-xAlxNy thin films"
-    },
     "doi:10.1016/j.matlet.2026.141678": {
       "sent_at": "2026-10-21T01:20:01+00:00",
       "source": "Semantic Scholar",
@@ -214,6 +219,11 @@
       "sent_at": "2026-10-07T07:52:05+00:00",
       "source": "Semantic Scholar",
       "title": "Physicochemical model for reactive sputtering of hot target"
+    },
+    "doi:10.1016/j.snb.2026.141225": {
+      "sent_at": "2026-11-16T05:47:08+00:00",
+      "source": "Semantic Scholar",
+      "title": "Optical and electrical hydrogen sensing in Pt/WO3 thin films deposited by gas impulse magnetron sputtering with mechanistic insight from in situ studies"
     },
     "doi:10.1016/j.solener.2004.03.015": {
       "sent_at": "2026-09-16T06:55:46+00:00",
@@ -385,10 +395,10 @@
       "source": "Semantic Scholar",
       "title": "Electrical and optical properties of Cu2ZnSnS4 thin films prepared by rf magnetron sputtering process"
     },
-    "doi:10.1021/acs.chemmater.6c00320": {
-      "sent_at": "2026-08-14T04:07:08+00:00",
-      "source": "Semantic Scholar",
-      "title": "Defect Landscape\nand Stability of High-Entropy Carbides"
+    "doi:10.1021/acs.jpclett.6c02486": {
+      "sent_at": "2026-11-16T05:47:08+00:00",
+      "source": "arXiv",
+      "title": "High-Quality InSb Nanowires Grown by Molecular-Beam Epitaxy via Precise Catalyst Modulation"
     },
     "doi:10.1021/acs.nanolett.6c04067": {
       "sent_at": "2026-10-24T02:08:41+00:00",
@@ -580,6 +590,11 @@
       "source": "Semantic Scholar",
       "title": "Effects of 2 MeV proton irradiation on two-dimensional monolayer and multilayer MoS2: critical impact of dimensionality on the optical, electronic, and structural properties"
     },
+    "doi:10.1088/1361-6528/aebfa9": {
+      "sent_at": "2026-11-16T05:47:08+00:00",
+      "source": "Semantic Scholar",
+      "title": "RF magnetron sputtering of β-Ga₂O₃ thin films: a critical process-map review of growth regimes, parameter coupling, and conditional process windows."
+    },
     "doi:10.1088/1361-6595/abb7bd": {
       "sent_at": "2026-09-22T06:48:16+00:00",
       "source": "Semantic Scholar",
@@ -675,11 +690,6 @@
       "source": "Semantic Scholar",
       "title": "Fabrication of high‐reflectance Mo–Si multilayer mirrors by planar‐magnetron sputtering"
     },
-    "doi:10.1116/6.0005636": {
-      "sent_at": "2026-08-14T04:07:08+00:00",
-      "source": "Semantic Scholar",
-      "title": "Process optimization and characterization of dielectric, piezoelectric, and ferroelectric properties of 30% ScAlN thin films"
-    },
     "doi:10.1116/6.0005655": {
       "sent_at": "2026-10-28T01:25:56+00:00",
       "source": "Semantic Scholar",
@@ -694,6 +704,11 @@
       "sent_at": "2026-10-24T02:08:41+00:00",
       "source": "Semantic Scholar",
       "title": "Microstructure and corrosion properties of N–Cr co-doped amorphous carbon coatings for proton exchange membrane fuel cell bipolar plates"
+    },
+    "doi:10.1116/6.0005869": {
+      "sent_at": "2026-11-16T05:47:08+00:00",
+      "source": "Semantic Scholar",
+      "title": "Magnetic circuit design and magnetic field uniformity optimization of a magnetron sputtering system for large-size inclined substrates"
     },
     "doi:10.1117/1.oe.65.10.105103": {
       "sent_at": "2026-10-27T01:17:24+00:00",
@@ -734,6 +749,11 @@
       "sent_at": "2026-10-08T08:02:10+00:00",
       "source": "Semantic Scholar",
       "title": "Composition and structure of copper oxide films synthesized by reactive magnetron sputtering with a hot target"
+    },
+    "doi:10.1142/s1793604726510367": {
+      "sent_at": "2026-11-16T05:47:08+00:00",
+      "source": "Semantic Scholar",
+      "title": "UVB-Sensitive MSM Photodetectors Using Quaternary Gallium-Based Semiconductor Thin Films"
     },
     "doi:10.1143/jjap.23.l280": {
       "sent_at": "2026-09-25T06:39:08+00:00",
@@ -880,11 +900,6 @@
       "source": "Semantic Scholar",
       "title": "Two-Temperature Electron Energy Distribution Function and Its Device Dependence in Atmospheric-Pressure Nonequilibrium Argon Plasma"
     },
-    "doi:10.3390/polym18161979": {
-      "sent_at": "2026-08-17T02:49:32+00:00",
-      "source": "Semantic Scholar",
-      "title": "Research on the Absorption Performance of Glass Fiber Fabric Composites Coated with Nickel by Magnetron Sputtering"
-    },
     "doi:10.3390/polym18192416": {
       "sent_at": "2026-10-10T01:43:00+00:00",
       "source": "Semantic Scholar",
@@ -934,186 +949,6 @@
       "sent_at": "2026-11-11T09:10:16+00:00",
       "source": "Semantic Scholar",
       "title": "Variations of milling parameters and their effect on the volumetric sputtering yield of Silicon with the use of a plasma focused ion beam"
-    },
-    "id:2608.11261": {
-      "sent_at": "2026-08-14T04:07:08+00:00",
-      "source": "arXiv",
-      "title": "Temperature-Driven Sequential Modeling for the Prediction of Annual Power Conversion Efficiency Profiles of Organic Photovoltaic Materials: Douala Case Study"
-    },
-    "id:2608.11466": {
-      "sent_at": "2026-08-14T04:07:08+00:00",
-      "source": "arXiv",
-      "title": "Accurate Evaluation of Nanoscale Spatiotemporal Dynamics with Electron Correlation Microscopy"
-    },
-    "id:2608.11485": {
-      "sent_at": "2026-08-14T04:07:08+00:00",
-      "source": "arXiv",
-      "title": "Advances and opportunities for automated robotic preparation of 2D materials and fabrication of 2D heterostructures"
-    },
-    "id:2608.11628": {
-      "sent_at": "2026-08-14T04:07:08+00:00",
-      "source": "arXiv",
-      "title": "Reconstructive AI Spectroscopy of Charged Particle Beams"
-    },
-    "id:2608.11664": {
-      "sent_at": "2026-08-14T04:07:08+00:00",
-      "source": "arXiv",
-      "title": "Measurements of Laser-Driven Plasma Expansion into Hohlraum-Relevant Background Gas"
-    },
-    "id:2608.11725": {
-      "sent_at": "2026-08-14T04:07:08+00:00",
-      "source": "arXiv",
-      "title": "Deep-Learning-Accelerated Dopant Selection for High-k HfO2 Dielectrics: A Disorder-Resolved Study of Y, Si and Al"
-    },
-    "id:2608.11773": {
-      "sent_at": "2026-08-14T04:07:08+00:00",
-      "source": "arXiv",
-      "title": "Advancing in situ hydrogen embrittlement studies through an integrated charging cell for SEM micromechanical testing"
-    },
-    "id:2608.11809": {
-      "sent_at": "2026-08-14T04:07:08+00:00",
-      "source": "arXiv",
-      "title": "Lithography-free patterning of SrTiO$_3$-based two-dimensional electron gases using direct atomic layer processing"
-    },
-    "id:2608.11832": {
-      "sent_at": "2026-08-14T04:07:08+00:00",
-      "source": "arXiv",
-      "title": "Optically Tunable Threshold Switching and Thermally Activated Transport in Planar Ag/MAPbI$_3$ Thin Single-Crystal Devices"
-    },
-    "id:2608.11910": {
-      "sent_at": "2026-08-14T04:07:08+00:00",
-      "source": "arXiv",
-      "title": "Magneto-optical magnetoelectric voltage sensor"
-    },
-    "id:2608.11952": {
-      "sent_at": "2026-08-14T04:07:08+00:00",
-      "source": "arXiv",
-      "title": "Electronic structure, band offset, and interface electron population of the LaInO$_3$/BaSnO$_3$ system"
-    },
-    "id:2608.12017": {
-      "sent_at": "2026-08-14T04:07:08+00:00",
-      "source": "arXiv",
-      "title": "Energy-Dependent Dechanneling in Cu: Insights from Monte Carlo Channeling Simulations"
-    },
-    "id:2608.12092": {
-      "sent_at": "2026-08-14T04:07:08+00:00",
-      "source": "arXiv",
-      "title": "Thermoelastic Harvesting Outperforming Thermoelectric Generators Below 100 °C"
-    },
-    "id:2608.12105": {
-      "sent_at": "2026-08-14T04:07:08+00:00",
-      "source": "arXiv",
-      "title": "Beam Routing through Excitons in Transition Metal Dichalcogenide Monolayers"
-    },
-    "id:2608.12152": {
-      "sent_at": "2026-08-14T04:07:08+00:00",
-      "source": "arXiv",
-      "title": "The electrical transport of intrinsic two-dimensional ferroelectric metal PtBi2"
-    },
-    "id:2608.12205": {
-      "sent_at": "2026-08-14T04:07:08+00:00",
-      "source": "arXiv",
-      "title": "Derivation and application of sheath boundary conditions for drift-kinetic simulations in a linear plasma device based on a gyromoment approach"
-    },
-    "id:2608.12277": {
-      "sent_at": "2026-08-14T04:07:08+00:00",
-      "source": "arXiv",
-      "title": "PACE-SIMS: Checkpoint-Gated Autonomous SIMS Characterization with AI-Agent Quality Control"
-    },
-    "id:2608.13688": {
-      "sent_at": "2026-08-18T03:10:06+00:00",
-      "source": "arXiv",
-      "title": "Thickness-dependent secondary-electron emission from suspended MoS$_2$ membranes in the helium ion microscope"
-    },
-    "id:2608.13703": {
-      "sent_at": "2026-08-18T03:10:06+00:00",
-      "source": "arXiv",
-      "title": "Stochastic twinning in confined volumes of Mg: Insights from in-situ micromechanical testing and atomistic simulations"
-    },
-    "id:2608.13802": {
-      "sent_at": "2026-08-18T03:10:06+00:00",
-      "source": "arXiv",
-      "title": "Multiscale Correlation of Morphological, Chemical, and Optical Properties in p-Type Porous Silicon"
-    },
-    "id:2608.13813": {
-      "sent_at": "2026-08-18T03:10:06+00:00",
-      "source": "arXiv",
-      "title": "From Photothermal Transients to Effective Transport Operators: An Operator-Based Interpretation of TTG Dynamics"
-    },
-    "id:2608.13826": {
-      "sent_at": "2026-08-18T03:10:06+00:00",
-      "source": "arXiv",
-      "title": "SPEAR: Structure Property Explainability with Attention Regularization"
-    },
-    "id:2608.13830": {
-      "sent_at": "2026-08-18T03:10:06+00:00",
-      "source": "arXiv",
-      "title": "Realizing record-high transverse thermoelectric figure of merit at room temperature in artificially tilted multilayers based on high power factor NiFe alloy"
-    },
-    "id:2608.13838": {
-      "sent_at": "2026-08-18T03:10:06+00:00",
-      "source": "arXiv",
-      "title": "Autferroics-based true random number generators with enhanced performance"
-    },
-    "id:2608.14137": {
-      "sent_at": "2026-08-18T03:10:06+00:00",
-      "source": "arXiv",
-      "title": "Enhancement of axial magnetic field generation during relativistic self-channeling of laser radiation propagating along thin films"
-    },
-    "id:2608.14147": {
-      "sent_at": "2026-08-18T03:10:06+00:00",
-      "source": "arXiv",
-      "title": "Accurate and efficient calculation of atomic forces in solids with non-self-consistent hybrid functionals"
-    },
-    "id:2608.14151": {
-      "sent_at": "2026-08-18T03:10:06+00:00",
-      "source": "arXiv",
-      "title": "Physics of Circular Polarized Ion-Scale Waves in Hybrid Simulations of Alfvénic Fluctuations"
-    },
-    "id:2608.14153": {
-      "sent_at": "2026-08-18T03:10:06+00:00",
-      "source": "arXiv",
-      "title": "Electrostatic Phenomenology Benchmarks for Machine-Learned Interatomic Potentials in Electrochemistry: Beyond the Energy-Force Metric"
-    },
-    "id:2608.14189": {
-      "sent_at": "2026-08-18T03:10:06+00:00",
-      "source": "arXiv",
-      "title": "Probing intrinsic magnetic phases in low-dimensional nearly twin-free NiPS$_3$ single crystals"
-    },
-    "id:2608.14222": {
-      "sent_at": "2026-08-18T03:10:06+00:00",
-      "source": "arXiv",
-      "title": "Microscopic investigation of spin dynamics in the single-chain magnet Sr4Mn2CoO9"
-    },
-    "id:2608.14234": {
-      "sent_at": "2026-08-18T03:10:06+00:00",
-      "source": "arXiv",
-      "title": "Dispersive-phonon-driven room-temperature Ni1+-Ni2+ polaron hopping in spin-charge coupled rutile niobate"
-    },
-    "id:2608.14292": {
-      "sent_at": "2026-08-18T03:10:06+00:00",
-      "source": "arXiv",
-      "title": "Efficient simulation of second-order phase transitions in quantum anharmonic materials"
-    },
-    "id:2608.14302": {
-      "sent_at": "2026-08-18T03:10:06+00:00",
-      "source": "arXiv",
-      "title": "Pressure-driven structural phase transition unlocks multifunctionality in KMgX (X = P, As, Sb, and Bi) compounds: A first-principles study"
-    },
-    "id:2608.14353": {
-      "sent_at": "2026-08-18T03:10:06+00:00",
-      "source": "arXiv",
-      "title": "Orbital Hall Effect in Weyl Semimetals from quantum geometric band interference"
-    },
-    "id:2608.14368": {
-      "sent_at": "2026-08-18T03:10:06+00:00",
-      "source": "arXiv",
-      "title": "Unraveling the Roles of Shallow, Deep and Auger Trapping in Charge Carrier Recombination in Triple-Cation Perovskites"
-    },
-    "id:2608.14502": {
-      "sent_at": "2026-08-18T03:10:06+00:00",
-      "source": "arXiv",
-      "title": "Universal Thermodynamic Interatomic Potentials for Crystalline Materials"
     },
     "id:2608.14880": {
       "sent_at": "2026-08-19T03:03:44+00:00",
@@ -3774,6 +3609,21 @@
       "sent_at": "2026-11-11T09:10:16+00:00",
       "source": "arXiv",
       "title": "Nanostructuring Semiconductor Surfaces Using Self-Assembled Metal Nanoparticles for Optoelectronic Applications"
+    },
+    "id:2611.17601": {
+      "sent_at": "2026-11-16T05:47:08+00:00",
+      "source": "arXiv",
+      "title": "Horizontal component of the ion drag force in a plasma sheath"
+    },
+    "id:2611.17985": {
+      "sent_at": "2026-11-16T05:47:08+00:00",
+      "source": "arXiv",
+      "title": "Correlating orbital order and photovoltaic effect in Layered Ruddlesden-Popper Pr0.5Ca1.5MnO4 and PrCa2Mn2O7"
+    },
+    "id:2611.17986": {
+      "sent_at": "2026-11-16T05:47:08+00:00",
+      "source": "arXiv",
+      "title": "Epitaxial integration of GaN $μ$-platelets and thin films on metallic TiN using a hybrid approach"
     }
   },
   "version": 1
