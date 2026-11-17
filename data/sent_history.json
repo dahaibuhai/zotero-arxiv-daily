@@ -60,6 +60,11 @@
       "source": "Semantic Scholar",
       "title": "A Rapid and Uniform Magnetization Method for Fe3O4 Nanoparticles Assisted by Rotating Magnetic Fields for Microrobots."
     },
+    "doi:10.1002/solr.70531": {
+      "sent_at": "2026-11-17T09:03:44+00:00",
+      "source": "Semantic Scholar",
+      "title": "Synergistic Temperature Regulation and Interface Engineering of Magnetron‐Sputtered NiO\n \n x\n \n for Inverted Perovskite Solar Cells"
+    },
     "doi:10.1002/solr.70534": {
       "sent_at": "2026-11-10T09:27:07+00:00",
       "source": "Semantic Scholar",
@@ -460,6 +465,11 @@
       "source": "Semantic Scholar",
       "title": "Universal equation for argon gas cluster sputtering yields."
     },
+    "doi:10.1038/s42005-020-0351-1": {
+      "sent_at": "2026-11-17T09:03:44+00:00",
+      "source": "arXiv",
+      "title": "Sign changing pairing in single layer FeSe/SrTiO3 revealed by nonmagnetic impurity bound states"
+    },
     "doi:10.1038/s43246-026-01415-3": {
       "sent_at": "2026-11-05T01:59:15+00:00",
       "source": "Semantic Scholar",
@@ -810,10 +820,20 @@
       "source": "Semantic Scholar",
       "title": "Effect of nitrogen content on the mechanical and tribological properties of Ta–Si–C–N coatings deposited by HIPIMS"
     },
+    "doi:10.17586/0021-3454-2026-69-10-920-928": {
+      "sent_at": "2026-11-17T09:03:44+00:00",
+      "source": "Semantic Scholar",
+      "title": "Dynamic technique for two-wave monitoring of photocatalytic activity of titanium oxide films with the ability to determine the degree of mineralization"
+    },
     "doi:10.26599/jac.2026.9221397": {
       "sent_at": "2026-10-16T09:29:29+00:00",
       "source": "Semantic Scholar",
       "title": "Electrical insulation enhancement of the Al\n 2\n O\n 3\n composite films at high temperature by oxygen vacancy suppression"
+    },
+    "doi:10.26599/mas.2026.9580025": {
+      "sent_at": "2026-11-17T09:03:44+00:00",
+      "source": "Semantic Scholar",
+      "title": "Electrides for electronic devices: From demonstrated applications to emerging concepts"
     },
     "doi:10.29227/im-2026-02-02-049": {
       "sent_at": "2026-11-09T09:19:28+00:00",
@@ -910,6 +930,11 @@
       "source": "Semantic Scholar",
       "title": "Neutron Conversion Layers for Semiconductor Neutron Detectors: A Review of Materials, Thin-Film Deposition Technologies, and Performance Optimization"
     },
+    "doi:10.35596/1729-7648-2026-24-5-15-23": {
+      "sent_at": "2026-11-17T09:03:44+00:00",
+      "source": "Semantic Scholar",
+      "title": "Effect of Heat Treatment on the Resistive and Structural Properties of Vanadium Oxide Films"
+    },
     "doi:10.48175/ijarsct-38503": {
       "sent_at": "2026-10-10T01:43:00+00:00",
       "source": "Semantic Scholar",
@@ -949,106 +974,6 @@
       "sent_at": "2026-11-11T09:10:16+00:00",
       "source": "Semantic Scholar",
       "title": "Variations of milling parameters and their effect on the volumetric sputtering yield of Silicon with the use of a plasma focused ion beam"
-    },
-    "id:2608.14880": {
-      "sent_at": "2026-08-19T03:03:44+00:00",
-      "source": "arXiv",
-      "title": "Coherent Phonon Blocking in Superlattices"
-    },
-    "id:2608.14899": {
-      "sent_at": "2026-08-19T03:03:44+00:00",
-      "source": "arXiv",
-      "title": "Data-Efficient Construction of Material-Specific Machine-Learning Interatomic Potentials from Ab Initio Molecular Dynamics Trajectories"
-    },
-    "id:2608.15011": {
-      "sent_at": "2026-08-19T03:03:44+00:00",
-      "source": "arXiv",
-      "title": "Network Topology of Hafnia-Based Amorphous Optical Coatings by Grazing-Incidence X-ray Total Scattering and Atomic Modeling"
-    },
-    "id:2608.15331": {
-      "sent_at": "2026-08-19T03:03:44+00:00",
-      "source": "arXiv",
-      "title": "Barium Hexaferrite Thin Films as a Scalable Magnetic-Insulator Platform for Proximity-Engineered Spintronics"
-    },
-    "id:2608.15386": {
-      "sent_at": "2026-08-19T03:03:44+00:00",
-      "source": "arXiv",
-      "title": "Intrinsic Defects in Amorphous Optical Coatings of TiO$_2$-doped GeO$_2$ for Gravitational-wave Detectors"
-    },
-    "id:2608.15543": {
-      "sent_at": "2026-08-19T03:03:44+00:00",
-      "source": "arXiv",
-      "title": "Hydrogen (deuterium) dynamics and thermal stability in ion-irradiated platinum-hydride thin films synthesized at low temperature"
-    },
-    "id:2608.15566": {
-      "sent_at": "2026-08-19T03:03:44+00:00",
-      "source": "arXiv",
-      "title": "A Passive Daytime Colored Radiative Cooler with DBR-Engineered Color Selectivity"
-    },
-    "id:2608.15609": {
-      "sent_at": "2026-08-19T03:03:44+00:00",
-      "source": "arXiv",
-      "title": "Graph neural network prediction of temperature-dependent hydrogen diffusion and thermal conductivity tensors of tungsten containing helium bubbles and grain boundaries"
-    },
-    "id:2608.15675": {
-      "sent_at": "2026-08-19T03:03:44+00:00",
-      "source": "arXiv",
-      "title": "Uncovering the deformation mechanism of glasses during indentation through high-resolution X-ray scattering"
-    },
-    "id:2608.15821": {
-      "sent_at": "2026-08-19T03:03:44+00:00",
-      "source": "arXiv",
-      "title": "On-chip nanoplasma for adaptive electromagnetic protection"
-    },
-    "id:2608.15928": {
-      "sent_at": "2026-08-19T03:03:44+00:00",
-      "source": "arXiv",
-      "title": "Synthesizing like a chemist: an iterative, feedback-driven loop for materials discovery"
-    },
-    "id:2608.16124": {
-      "sent_at": "2026-08-19T03:03:44+00:00",
-      "source": "arXiv",
-      "title": "Spin-pump-induced spin transport demonstration in a photoconductive PTCDA molecular thin film with a transparent spin current detector"
-    },
-    "id:2608.16232": {
-      "sent_at": "2026-08-19T03:03:44+00:00",
-      "source": "arXiv",
-      "title": "Toward the Ultimate Limit: Elemental Metals in One Dimension"
-    },
-    "id:2608.16258": {
-      "sent_at": "2026-08-19T03:03:44+00:00",
-      "source": "arXiv",
-      "title": "Topological Skyrmion-type microparticle manipulation based on surface acoustic wave phase modulations"
-    },
-    "id:2608.16389": {
-      "sent_at": "2026-08-19T03:03:44+00:00",
-      "source": "arXiv",
-      "title": "Assessing the Projector Augmented-Wave Method for Stopping Power Calculations"
-    },
-    "id:2608.16413": {
-      "sent_at": "2026-08-19T03:03:44+00:00",
-      "source": "arXiv",
-      "title": "Tuning electronic properties and Schottky contact in graphene-based van der Waals heterostructures by electric gating and interlayer coupling"
-    },
-    "id:2608.16450": {
-      "sent_at": "2026-08-19T03:03:44+00:00",
-      "source": "arXiv",
-      "title": "Insights into the Structural and Orientational Ordering of 2D Metal Halide Perovskites"
-    },
-    "id:2608.16511": {
-      "sent_at": "2026-08-19T03:03:44+00:00",
-      "source": "arXiv",
-      "title": "Mechanical-microstructural correlation on SPS-fabricated NiTi alloy"
-    },
-    "id:2608.16629": {
-      "sent_at": "2026-08-19T03:03:44+00:00",
-      "source": "arXiv",
-      "title": "Strain control of mid-IR spectroscopic nonlinear photocurrents in PtSe$_2$"
-    },
-    "id:2608.16652": {
-      "sent_at": "2026-08-19T03:03:44+00:00",
-      "source": "arXiv",
-      "title": "A nuclear-quantum-corrected machine-learning potential reveals quantum-enhanced hydrogen segregation at general grain boundaries in alpha-iron"
     },
     "id:2608.16938": {
       "sent_at": "2026-08-20T03:12:53+00:00",
@@ -3610,6 +3535,21 @@
       "source": "arXiv",
       "title": "Nanostructuring Semiconductor Surfaces Using Self-Assembled Metal Nanoparticles for Optoelectronic Applications"
     },
+    "id:2611.14820": {
+      "sent_at": "2026-11-17T09:03:44+00:00",
+      "source": "Semantic Scholar",
+      "title": "Plasma simulations with adaptive mesh and algorithm refinement"
+    },
+    "id:2611.14968": {
+      "sent_at": "2026-11-17T09:03:44+00:00",
+      "source": "arXiv",
+      "title": "Nitride crystalline barrier epitaxial SIS Josephson junctions by MBE"
+    },
+    "id:2611.16595": {
+      "sent_at": "2026-11-17T09:03:44+00:00",
+      "source": "arXiv",
+      "title": "Gatemon qubits based on in-situ ternary InAsSb/Al nanowire Josephson junctions"
+    },
     "id:2611.17601": {
       "sent_at": "2026-11-16T05:47:08+00:00",
       "source": "arXiv",
@@ -3624,6 +3564,16 @@
       "sent_at": "2026-11-16T05:47:08+00:00",
       "source": "arXiv",
       "title": "Epitaxial integration of GaN $μ$-platelets and thin films on metallic TiN using a hybrid approach"
+    },
+    "id:2611.20041": {
+      "sent_at": "2026-11-17T09:03:44+00:00",
+      "source": "arXiv",
+      "title": "Dynamics and stability of volatile thin liquid films on a heated vertical cylinder"
+    },
+    "id:2611.20614": {
+      "sent_at": "2026-11-17T09:03:44+00:00",
+      "source": "arXiv",
+      "title": "Nitrogen Defect Coupling in Epitaxial LaFeO3 From Structural Reconstruction to Water Oxidation"
     }
   },
   "version": 1
