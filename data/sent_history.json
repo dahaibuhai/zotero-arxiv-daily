@@ -45,6 +45,11 @@
       "source": "Semantic Scholar",
       "title": "Optical Dispersion and Dielectric Analysis of Sputtered Cr\n 2\n O\n 3\n Thin Films for Optoelectronic Applications"
     },
+    "doi:10.1002/pssa.70596": {
+      "sent_at": "2026-11-18T06:45:11+00:00",
+      "source": "Semantic Scholar",
+      "title": "Sputtering‐Time‐Dependent Structural and Optical Properties of (002)‐Oriented ZnSe Nanofilms"
+    },
     "doi:10.1002/sia.2032": {
       "sent_at": "2026-09-28T07:45:31+00:00",
       "source": "Semantic Scholar",
@@ -375,6 +380,11 @@
       "source": "Semantic Scholar",
       "title": "Discharge characteristics and performance degradation of a LaB6 hollow cathode under long-term low-flow plume-mode operation"
     },
+    "doi:10.1016/j.vacuum.2026.115952": {
+      "sent_at": "2026-11-18T06:45:11+00:00",
+      "source": "Semantic Scholar",
+      "title": "Mechanical and tribological properties of TiSiN nanocomposite coatings deposited by a hybrid pipe-type cathodic arc ion plating and linear ion source system"
+    },
     "doi:10.1016/j.wear.2026.207039": {
       "sent_at": "2026-09-15T06:44:26+00:00",
       "source": "Semantic Scholar",
@@ -429,6 +439,11 @@
       "sent_at": "2026-10-24T02:08:41+00:00",
       "source": "Semantic Scholar",
       "title": "Invisible Patterned Silver-Based Transparent Electrodes via Control of Light Scattering and Absorption."
+    },
+    "doi:10.1021/acsami.6c15569": {
+      "sent_at": "2026-11-18T06:45:11+00:00",
+      "source": "Semantic Scholar",
+      "title": "Genesis of Nucleation Sites Dictates the Fate of 2D MoS2 Growth."
     },
     "doi:10.1021/acsanm.6c03874": {
       "sent_at": "2026-10-29T06:32:26+00:00",
@@ -549,6 +564,11 @@
       "sent_at": "2026-10-26T06:27:45+00:00",
       "source": "Semantic Scholar",
       "title": "Stress-controlled transfer of high-mobility organic semiconductor nanosheets for thin-film transistors"
+    },
+    "doi:10.1063/5.0345710": {
+      "sent_at": "2026-11-18T06:45:11+00:00",
+      "source": "Semantic Scholar",
+      "title": "Wake-up behavior and early-cycle polarization degradation in ferroelectric Al0.72Sc0.28N thin films"
     },
     "doi:10.1063/5.0347358": {
       "sent_at": "2026-10-20T00:59:10+00:00",
@@ -825,6 +845,11 @@
       "source": "Semantic Scholar",
       "title": "Dynamic technique for two-wave monitoring of photocatalytic activity of titanium oxide films with the ability to determine the degree of mineralization"
     },
+    "doi:10.20998/2078-5364.2026.3.08": {
+      "sent_at": "2026-11-18T06:45:11+00:00",
+      "source": "Semantic Scholar",
+      "title": "COMPARATIVE EVALUATION OF TECHNOLOGIES FOR FORMING ANTICORROSION COATINGS ON AUSTENITIC STAINLESS STEELS FOR ENERGY EQUIPMENT BASED ON OPERATIONAL AND ENVIRONMENTAL CRITERIA"
+    },
     "doi:10.26599/jac.2026.9221397": {
       "sent_at": "2026-10-16T09:29:29+00:00",
       "source": "Semantic Scholar",
@@ -849,11 +874,6 @@
       "sent_at": "2026-11-06T02:09:58+00:00",
       "source": "Semantic Scholar",
       "title": "Tailoring surface and structural properties of WO3 thin films via mixed-gas plasma deposition for optimized H2 gas sensing performance"
-    },
-    "doi:10.3390/app16168188": {
-      "sent_at": "2026-08-20T03:12:53+00:00",
-      "source": "Semantic Scholar",
-      "title": "Thin-Film Coating Technologies for Energy-Efficient Glazing: Materials, Deposition Systems, Methods of Analysis, and Functional Performance"
     },
     "doi:10.3390/app16168196": {
       "sent_at": "2026-08-24T02:52:56+00:00",
@@ -974,101 +994,6 @@
       "sent_at": "2026-11-11T09:10:16+00:00",
       "source": "Semantic Scholar",
       "title": "Variations of milling parameters and their effect on the volumetric sputtering yield of Silicon with the use of a plasma focused ion beam"
-    },
-    "id:2608.16938": {
-      "sent_at": "2026-08-20T03:12:53+00:00",
-      "source": "arXiv",
-      "title": "Data-Driven Generation of Compact Quasi-Isodynamic Stellarators"
-    },
-    "id:2608.17009": {
-      "sent_at": "2026-08-20T03:12:53+00:00",
-      "source": "arXiv",
-      "title": "PowderLine: a programmatic powder diffraction analysis application"
-    },
-    "id:2608.17089": {
-      "sent_at": "2026-08-20T03:12:53+00:00",
-      "source": "arXiv",
-      "title": "Over what length scale does an inorganic substrate perturb the structure of a glassy organic semiconductor?"
-    },
-    "id:2608.17149": {
-      "sent_at": "2026-08-20T03:12:53+00:00",
-      "source": "arXiv",
-      "title": "Temperature-Induced Reorganization of Supported Zn$_3$ Clusters on Cu(111): From Minimum-Energy Structures to Finite-Temperature Ensembles"
-    },
-    "id:2608.17408": {
-      "sent_at": "2026-08-20T03:12:53+00:00",
-      "source": "arXiv",
-      "title": "Giant Bandgap Pulsation Driven by Hotspot Breathing Phonons in a Flat-Band Solid"
-    },
-    "id:2608.17418": {
-      "sent_at": "2026-08-20T03:12:53+00:00",
-      "source": "arXiv",
-      "title": "Sub-Second Collisionless Gyrokinetic Eigenvalue Solutions via Orbit-Invariant Decomposition"
-    },
-    "id:2608.17513": {
-      "sent_at": "2026-08-20T03:12:53+00:00",
-      "source": "arXiv",
-      "title": "Growth of Altermagnetic α-MnTe Films: Substrate Variation and Surface Modification"
-    },
-    "id:2608.17555": {
-      "sent_at": "2026-08-20T03:12:53+00:00",
-      "source": "arXiv",
-      "title": "Bright dual-pulse betatron X-ray generation from a laser wakefield accelerator"
-    },
-    "id:2608.17608": {
-      "sent_at": "2026-08-20T03:12:53+00:00",
-      "source": "arXiv",
-      "title": "Chiral Spinterfaces as an Overlooked Component of the Chiral-Induced Spin Selectivity Effect"
-    },
-    "id:2608.17701": {
-      "sent_at": "2026-08-20T03:12:53+00:00",
-      "source": "arXiv",
-      "title": "Influence of the ectonic emission mechanism on the collisionless expansion of a multicomponent cathode plasma"
-    },
-    "id:2608.17716": {
-      "sent_at": "2026-08-20T03:12:53+00:00",
-      "source": "arXiv",
-      "title": "Atomistic Structure Generation and Neural-Network Screening of Hard Carbons to Identify High-Capacity Sodium Storage"
-    },
-    "id:2608.17720": {
-      "sent_at": "2026-08-20T03:12:53+00:00",
-      "source": "arXiv",
-      "title": "Vacancy-Driven Electronic Reconstruction in Monolayer PtSe$_2$: Formation Thermodynamics and Charge States"
-    },
-    "id:2608.17742": {
-      "sent_at": "2026-08-20T03:12:53+00:00",
-      "source": "arXiv",
-      "title": "Active learning molecular beam epitaxy of complex quantum materials"
-    },
-    "id:2608.17772": {
-      "sent_at": "2026-08-20T03:12:53+00:00",
-      "source": "arXiv",
-      "title": "Tunable high-charge relativistic electron beams via direct laser acceleration in hohlraum-preheated foam targets"
-    },
-    "id:2608.17786": {
-      "sent_at": "2026-08-20T03:12:53+00:00",
-      "source": "arXiv",
-      "title": "Polarization-Dependent Raman Selection Rules in Sb$_2$S$_3$ from First Principles and Experiment"
-    },
-    "id:2608.17814": {
-      "sent_at": "2026-08-20T03:12:53+00:00",
-      "source": "arXiv",
-      "title": "Electron transport in amorphous materials: from localization to predictive transport modeling"
-    },
-    "id:2608.17867": {
-      "sent_at": "2026-08-20T03:12:53+00:00",
-      "source": "arXiv",
-      "title": "Optical decoherence in Er$^{3+}$-doped CeO$_2$ spin qubit platforms"
-    },
-    "id:2608.18013": {
-      "sent_at": "2026-08-20T03:12:53+00:00",
-      "source": "arXiv",
-      "title": "Energy-efficient, Reconfigurable Optoelectronic Artificial Synapses Based on MoWS$_2$ Alloy for Pattern Recognition and Color Image Filtering Applications"
-    },
-    "id:2608.18059": {
-      "sent_at": "2026-08-20T03:12:53+00:00",
-      "source": "arXiv",
-      "title": "Achieving Long Retention in Area-Dependent Resistive Memory with Phase-Separated Amorphous Tantalum Oxide"
     },
     "id:2608.18161": {
       "sent_at": "2026-08-21T03:13:02+00:00",
