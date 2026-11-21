@@ -55,6 +55,11 @@
       "source": "Semantic Scholar",
       "title": "Sputtering‐Time‐Dependent Structural and Optical Properties of (002)‐Oriented ZnSe Nanofilms"
     },
+    "doi:10.1002/pssa.70608": {
+      "sent_at": "2026-11-21T06:59:19+00:00",
+      "source": "Semantic Scholar",
+      "title": "Effects of Target‐Selective HiPIMS on Microstructure and Thermoelectric Transport in Pd‐Doped Bi\n 2\n Te\n 3\n Thin Films on Al\n 2\n O\n 3\n Substrates"
+    },
     "doi:10.1002/sia.2032": {
       "sent_at": "2026-09-28T07:45:31+00:00",
       "source": "Semantic Scholar",
@@ -405,6 +410,11 @@
       "source": "Semantic Scholar",
       "title": "Electrical and optical properties of Cu2ZnSnS4 thin films prepared by rf magnetron sputtering process"
     },
+    "doi:10.1021/acs.jpcc.6c07249": {
+      "sent_at": "2026-11-21T06:59:19+00:00",
+      "source": "Semantic Scholar",
+      "title": "Ion-Induced Atomic\nand Cluster Sputtering from Amorphous\nWollastonite: A Comparison of Empirical and Machine-Learning Interatomic\nPotentials with BCA Models and Experiments"
+    },
     "doi:10.1021/acs.jpclett.6c02486": {
       "sent_at": "2026-11-16T05:47:08+00:00",
       "source": "arXiv",
@@ -434,6 +444,11 @@
       "sent_at": "2026-11-20T01:56:53+00:00",
       "source": "Semantic Scholar",
       "title": "Al-Reflector-Assisted NbTaTiV–N High-Entropy Nitride Solar-Selective Absorber for Rigid and Porous Substrates"
+    },
+    "doi:10.1021/acsami.6c08463": {
+      "sent_at": "2026-11-21T06:59:19+00:00",
+      "source": "Semantic Scholar",
+      "title": "Optical Thin-Film Deposition on Bio-interfaces: Damage Mechanisms and Mitigation Strategies in PVD Environments."
     },
     "doi:10.1021/acsami.6c09340": {
       "sent_at": "2026-10-24T02:08:41+00:00",
@@ -684,6 +699,11 @@
       "sent_at": "2026-10-30T09:43:26+00:00",
       "source": "Semantic Scholar",
       "title": "Electric-field coupling effect in a double-layer coaxial dielectric barrier discharge for CO₂ decomposition"
+    },
+    "doi:10.1103/s243-k2dm": {
+      "sent_at": "2026-11-21T06:59:19+00:00",
+      "source": "arXiv",
+      "title": "Ab-initio study of magnetic interaction in RNiO2: role of rare-earth size and epitaxial strain"
     },
     "doi:10.1109/jsen.2026.3729615": {
       "sent_at": "2026-10-20T00:59:10+00:00",
@@ -955,6 +975,11 @@
       "source": "Semantic Scholar",
       "title": "A Comparative Study of Parylene, PSPI and ALD TiO2/TiN/Ru/Cu Multilayer as Adhesion Layers on Glass Surface for Glass-Cu Adhesion Enhancement"
     },
+    "doi:10.3390/nano16221496": {
+      "sent_at": "2026-11-21T06:59:19+00:00",
+      "source": "Semantic Scholar",
+      "title": "Heavy-Ion Irradiation of Porous Silicon with Functional Nanocoatings"
+    },
     "doi:10.3390/plasma9040040": {
       "sent_at": "2026-10-22T06:30:56+00:00",
       "source": "Semantic Scholar",
@@ -979,6 +1004,11 @@
       "sent_at": "2026-10-10T01:43:00+00:00",
       "source": "Semantic Scholar",
       "title": "Nanostructured Thermoelectric Thin Films for Low-Grade Waste Heat Recovery"
+    },
+    "doi:10.54254/2755-2721/2027.ad38664": {
+      "sent_at": "2026-11-21T06:59:19+00:00",
+      "source": "Semantic Scholar",
+      "title": "Controlled Deposition Preparation of Low-Dimensional Nanomaterials and Their Applications in Optoelectronic Devices"
     },
     "doi:10.54708/26587572_2026_832657": {
       "sent_at": "2026-10-13T05:25:07+00:00",
@@ -3449,6 +3479,16 @@
       "sent_at": "2026-11-20T01:56:53+00:00",
       "source": "arXiv",
       "title": "Interface Weyl electrons in the kagome-bilayers"
+    },
+    "id:2611.25746": {
+      "sent_at": "2026-11-21T06:59:19+00:00",
+      "source": "arXiv",
+      "title": "Probing thin films and their interfaces via angle-resolved second-harmonic generation"
+    },
+    "id:2611.26181": {
+      "sent_at": "2026-11-21T06:59:19+00:00",
+      "source": "arXiv",
+      "title": "DUV (257 nm) LIDT of Anti-Reflective Coatings"
     }
   },
   "version": 1
