@@ -135,11 +135,6 @@
       "source": "arXiv",
       "title": "Radiation Hardness Assurance of Optical Coatings for the COMPASSO Iodine Reference"
     },
-    "doi:10.1016/j.apsadv.2026.101022": {
-      "sent_at": "2026-08-24T02:52:56+00:00",
-      "source": "Semantic Scholar",
-      "title": "Reactive sputter-driven gas-phase synthesis of multiporous Cu₃N nanoparticles toward sustainable CO₂ electroreduction"
-    },
     "doi:10.1016/j.apsadv.2026.101093": {
       "sent_at": "2026-11-11T09:10:16+00:00",
       "source": "Semantic Scholar",
@@ -170,20 +165,10 @@
       "source": "Semantic Scholar",
       "title": "Amorphous carbon coatings fabricated by hollow cathode-assisted active screen plasma deposition: Microstructural evolution and tribological performance"
     },
-    "doi:10.1016/j.est.2026.123973": {
-      "sent_at": "2026-08-24T02:52:56+00:00",
-      "source": "Semantic Scholar",
-      "title": "Reactive-sputtered W–W2N thin films delivering superior cycle stability for energy storage applications"
-    },
     "doi:10.1016/j.heliyon.2026.e45645": {
       "sent_at": "2026-11-10T09:27:07+00:00",
       "source": "Semantic Scholar",
       "title": "Structural, phase, mechanical, tribological and corrosion performance of Ti/TiN/TiO2 and Ti/TiN/SiO2 multilayer coatings obtained by reactive magnetron sputtering with potential biomedical applications"
-    },
-    "doi:10.1016/j.intermet.2026.109446": {
-      "sent_at": "2026-08-24T02:52:56+00:00",
-      "source": "Semantic Scholar",
-      "title": "Microstructural evolution and property correlations in (TiZrHfNbTa)Nx high-entropy nitride films prepared by magnetron sputtering"
     },
     "doi:10.1016/j.jallcom.2017.06.149": {
       "sent_at": "2026-09-30T07:23:24+00:00",
@@ -285,11 +270,6 @@
       "source": "Semantic Scholar",
       "title": "Chromium coatings deposited by cooled and hot target magnetron sputtering for accident tolerant nuclear fuel claddings"
     },
-    "doi:10.1016/j.surfcoat.2026.133732": {
-      "sent_at": "2026-08-24T02:52:56+00:00",
-      "source": "Semantic Scholar",
-      "title": "Elucidating the influence of Nb2O5-based coatings on WE43 magnesium alloys deposited via reactive sputtering: Degradation behaviour and biological performance"
-    },
     "doi:10.1016/j.surfcoat.2026.134098": {
       "sent_at": "2026-11-05T01:59:15+00:00",
       "source": "Semantic Scholar",
@@ -359,21 +339,6 @@
       "sent_at": "2026-10-07T07:52:05+00:00",
       "source": "Semantic Scholar",
       "title": "Hot target magnetron sputtering process: Effect of infrared radiation on the deposition of titanium and titanium oxide thin films"
-    },
-    "doi:10.1016/j.vacuum.2026.115626": {
-      "sent_at": "2026-08-24T02:52:56+00:00",
-      "source": "Semantic Scholar",
-      "title": "Interplay between microstructure, micromechanical properties, and corrosion behavior in direct current magnetron sputtered CrN and CrAlNiN coatings"
-    },
-    "doi:10.1016/j.vacuum.2026.115720": {
-      "sent_at": "2026-08-24T02:52:56+00:00",
-      "source": "Semantic Scholar",
-      "title": "The microstructure, mechanical properties, and tribological properties of NbN/NbN-MoS2 nanomultilayer films prepared by magnetron sputtering"
-    },
-    "doi:10.1016/j.vacuum.2026.115746": {
-      "sent_at": "2026-08-24T02:52:56+00:00",
-      "source": "Semantic Scholar",
-      "title": "Substrate-engineered microstructural evolution and nitric oxide sensing performance of ZnO nanofilms deposited by RF magnetron sputtering"
     },
     "doi:10.1016/j.vacuum.2026.115893": {
       "sent_at": "2026-10-26T06:27:45+00:00",
@@ -645,6 +610,11 @@
       "source": "Semantic Scholar",
       "title": "Anode-assisted magnetron sputtering: Fundamentals and recent developments"
     },
+    "doi:10.1088/1361-6463/aec45d": {
+      "sent_at": "2026-11-22T07:58:07+00:00",
+      "source": "Semantic Scholar",
+      "title": "Characterisation, Simulation and Optimisation of a Gridless LaB 6 Hollow Cathode DC Plasma Source for Plasma Ion Assisted Electron Beam Deposition of Optical Coatings"
+    },
     "doi:10.1088/1361-6528/aeac61": {
       "sent_at": "2026-10-28T01:25:56+00:00",
       "source": "Semantic Scholar",
@@ -770,10 +740,20 @@
       "source": "Semantic Scholar",
       "title": "Microstructure and corrosion properties of N–Cr co-doped amorphous carbon coatings for proton exchange membrane fuel cell bipolar plates"
     },
+    "doi:10.1116/6.0005815": {
+      "sent_at": "2026-11-22T07:58:07+00:00",
+      "source": "Semantic Scholar",
+      "title": "Understanding the influence of plasma conditions on morphological evolution during plasma-enhanced atomic layer deposition of InN using\n in situ\n synchrotron x-ray scattering"
+    },
     "doi:10.1116/6.0005869": {
       "sent_at": "2026-11-16T05:47:08+00:00",
       "source": "Semantic Scholar",
       "title": "Magnetic circuit design and magnetic field uniformity optimization of a magnetron sputtering system for large-size inclined substrates"
+    },
+    "doi:10.1116/6.0005954": {
+      "sent_at": "2026-11-22T07:58:07+00:00",
+      "source": "Semantic Scholar",
+      "title": "Quantitative analysis of current waveform hysteresis during reactive high power impulse magnetron sputtering deposition of vanadium oxides using an interpolation-differentiation approach"
     },
     "doi:10.1117/1.oe.65.10.105103": {
       "sent_at": "2026-10-27T01:17:24+00:00",
@@ -850,6 +830,11 @@
       "source": "Semantic Scholar",
       "title": "Deposition rate– dependent transition of growth mechanisms in Zr\n 60\n Ni\n 30\n Al\n 10\n metallic glass thin films"
     },
+    "doi:10.1177/14644207261508394": {
+      "sent_at": "2026-11-22T07:58:07+00:00",
+      "source": "Semantic Scholar",
+      "title": "pH as a critical parameter governing the deposition kinetics, microstructure, phase evolution, and corrosion resistance of Zn–Mo thin films"
+    },
     "doi:10.1364/ao.51.006789": {
       "sent_at": "2026-09-18T06:49:50+00:00",
       "source": "Semantic Scholar",
@@ -909,16 +894,6 @@
       "sent_at": "2026-11-06T02:09:58+00:00",
       "source": "Semantic Scholar",
       "title": "Tailoring surface and structural properties of WO3 thin films via mixed-gas plasma deposition for optimized H2 gas sensing performance"
-    },
-    "doi:10.3390/app16168196": {
-      "sent_at": "2026-08-24T02:52:56+00:00",
-      "source": "Semantic Scholar",
-      "title": "Review of the Sputtering Process for Obtaining Thin Films and Their Application to the III-Nitride Compounds"
-    },
-    "doi:10.3390/coatings16080984": {
-      "sent_at": "2026-08-24T02:52:56+00:00",
-      "source": "Semantic Scholar",
-      "title": "Combinatorial Sampling and Wear Behavior of Cr-Al-C-N Coatings Deposited by HiPIMS"
     },
     "doi:10.3390/coatings16101249": {
       "sent_at": "2026-10-26T06:27:45+00:00",
@@ -999,6 +974,11 @@
       "sent_at": "2026-11-17T09:03:44+00:00",
       "source": "Semantic Scholar",
       "title": "Effect of Heat Treatment on the Resistive and Structural Properties of Vanadium Oxide Films"
+    },
+    "doi:10.4028/p-kw1mf7": {
+      "sent_at": "2026-11-22T07:58:07+00:00",
+      "source": "Semantic Scholar",
+      "title": "Ti Coating Regulation of MEMS Device Overload Resistance: Preparation, Characterization, and Application"
     },
     "doi:10.48175/ijarsct-38503": {
       "sent_at": "2026-10-10T01:43:00+00:00",
