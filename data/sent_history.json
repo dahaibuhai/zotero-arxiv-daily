@@ -140,6 +140,11 @@
       "source": "arXiv",
       "title": "Radiation Hardness Assurance of Optical Coatings for the COMPASSO Iodine Reference"
     },
+    "doi:10.1016/j.actaastro.2026.11.026": {
+      "sent_at": "2026-11-24T02:10:45+00:00",
+      "source": "Semantic Scholar",
+      "title": "Effects of magnetic field strength on a miniature ion thruster employing a glow discharge hollow cathode"
+    },
     "doi:10.1016/j.apsadv.2026.101093": {
       "sent_at": "2026-11-11T09:10:16+00:00",
       "source": "Semantic Scholar",
@@ -465,6 +470,11 @@
       "source": "Semantic Scholar",
       "title": "Low-Temperature Growth of Nanostructured Ti-Si-C MAX Phase Coatings Enabled by Highly Ionized Reactive Physical Vapor Deposition."
     },
+    "doi:10.1021/acsomega.6c05855": {
+      "sent_at": "2026-11-24T02:10:45+00:00",
+      "source": "Semantic Scholar",
+      "title": "Reusable Fully\nSputtered Architecture for Semitransparent\nPerovskite Solar Cells Integrating CsPbI3"
+    },
     "doi:10.1021/acsomega.6c06081": {
       "sent_at": "2026-10-24T02:08:41+00:00",
       "source": "Semantic Scholar",
@@ -640,6 +650,11 @@
       "source": "Semantic Scholar",
       "title": "Characterisation, Simulation and Optimisation of a Gridless LaB 6 Hollow Cathode DC Plasma Source for Plasma Ion Assisted Electron Beam Deposition of Optical Coatings"
     },
+    "doi:10.1088/1361-648x/aebfdd": {
+      "sent_at": "2026-11-24T02:10:45+00:00",
+      "source": "arXiv",
+      "title": "Kinetic Arrest of a Disordered First-Order Phase Transition in Strained V2O3 Thin Films"
+    },
     "doi:10.1088/1361-6528/aeac61": {
       "sent_at": "2026-10-28T01:25:56+00:00",
       "source": "Semantic Scholar",
@@ -659,6 +674,11 @@
       "sent_at": "2026-10-10T01:43:00+00:00",
       "source": "Semantic Scholar",
       "title": "Effect of magnetic field configuration on ionised carbon flux fraction in HiPIMS"
+    },
+    "doi:10.1088/1361-6641/aec320": {
+      "sent_at": "2026-11-24T02:10:45+00:00",
+      "source": "Semantic Scholar",
+      "title": "Metal-semiconductor field effect transistors based on zinc nitride/zinc oxide interface deposited at room temperature"
     },
     "doi:10.1088/1361-6668/aebe73": {
       "sent_at": "2026-11-11T09:10:16+00:00",
@@ -694,6 +714,11 @@
       "sent_at": "2026-10-30T09:43:26+00:00",
       "source": "Semantic Scholar",
       "title": "Electric-field coupling effect in a double-layer coaxial dielectric barrier discharge for CO₂ decomposition"
+    },
+    "doi:10.1088/2058-6272/aec41e": {
+      "sent_at": "2026-11-24T02:10:45+00:00",
+      "source": "Semantic Scholar",
+      "title": "Study on the influence of cathode position on the performance of a low-power magnetically enhanced hollow cathode thruster"
     },
     "doi:10.1103/s243-k2dm": {
       "sent_at": "2026-11-21T06:59:19+00:00",
@@ -814,6 +839,11 @@
       "sent_at": "2026-10-22T06:30:56+00:00",
       "source": "Semantic Scholar",
       "title": "Effects of annealing temperature on the properties of potassium sodium niobate films grown by RF magnetron sputtering"
+    },
+    "doi:10.1117/12.3133549": {
+      "sent_at": "2026-11-24T02:10:45+00:00",
+      "source": "Semantic Scholar",
+      "title": "Magnetron-sputtered C/NiO nanolayers as high-performance thin-film electrodes for supercapacitors"
     },
     "doi:10.1134/s108765961604009x": {
       "sent_at": "2026-10-08T08:02:10+00:00",
@@ -1049,106 +1079,6 @@
       "sent_at": "2026-11-11T09:10:16+00:00",
       "source": "Semantic Scholar",
       "title": "Variations of milling parameters and their effect on the volumetric sputtering yield of Silicon with the use of a plasma focused ion beam"
-    },
-    "id:2608.20386": {
-      "sent_at": "2026-08-25T03:06:23+00:00",
-      "source": "arXiv",
-      "title": "Non-reciprocal heat transfer advances flexible thermoelectric devices"
-    },
-    "id:2608.20491": {
-      "sent_at": "2026-08-25T03:06:23+00:00",
-      "source": "arXiv",
-      "title": "Carrier Capture at Defects from Finite-Temperature Lattice Dynamics"
-    },
-    "id:2608.20506": {
-      "sent_at": "2026-08-25T03:06:23+00:00",
-      "source": "arXiv",
-      "title": "Electrostatic Influence of Diamond Heat-Spreaders on GaN FET Performance"
-    },
-    "id:2608.20514": {
-      "sent_at": "2026-08-25T03:06:23+00:00",
-      "source": "arXiv",
-      "title": "Revealing the Role of Confined Molecular H$_2$ in the Passivation of Defective Silicon Using First-Principles Simulations"
-    },
-    "id:2608.20571": {
-      "sent_at": "2026-08-25T03:06:23+00:00",
-      "source": "arXiv",
-      "title": "AutoMOOSE: Use Case and Logical Views of Agentic Phase-Field Simulation Software"
-    },
-    "id:2608.20596": {
-      "sent_at": "2026-08-25T03:06:23+00:00",
-      "source": "arXiv",
-      "title": "Machine Learning Guided Discovery of Corundum High Entropy Oxides"
-    },
-    "id:2608.20652": {
-      "sent_at": "2026-08-25T03:06:23+00:00",
-      "source": "arXiv",
-      "title": "Zero-dimensional multi-physics-constrained parameter design and optimization for advanced quasi-isodynamic stellarators"
-    },
-    "id:2608.20695": {
-      "sent_at": "2026-08-25T03:06:23+00:00",
-      "source": "arXiv",
-      "title": "Orbital-Selective Spin Splitting in the Altermagnetic Ti$_2$XX' Monolayers"
-    },
-    "id:2608.20902": {
-      "sent_at": "2026-08-25T03:06:23+00:00",
-      "source": "arXiv",
-      "title": "Systematic and accurate anharmonic formation free energies of metastable defects via a constrained Bayesian Adaptive Biasing Force framework"
-    },
-    "id:2608.20973": {
-      "sent_at": "2026-08-25T03:06:23+00:00",
-      "source": "arXiv",
-      "title": "Scalable Cyclic Olefin Copolymer Encapsulation for High Optical Quality of TMD Monolayers"
-    },
-    "id:2608.20978": {
-      "sent_at": "2026-08-25T03:06:23+00:00",
-      "source": "arXiv",
-      "title": "Quasi-one-dimensional topological band structure and van Hove singularities in monolayer TaIrTe$_4$ from laser $μ$-ARPES"
-    },
-    "id:2608.20994": {
-      "sent_at": "2026-08-25T03:06:23+00:00",
-      "source": "arXiv",
-      "title": "Scalable photoexcitation-induced molecular dynamics with machine-learned Hamiltonians"
-    },
-    "id:2608.21007": {
-      "sent_at": "2026-08-25T03:06:23+00:00",
-      "source": "arXiv",
-      "title": "On Transmission Function Amplitude and Phase Recovery in Multislice Electron Ptychography"
-    },
-    "id:2608.21025": {
-      "sent_at": "2026-08-25T03:06:23+00:00",
-      "source": "arXiv",
-      "title": "Soft and chiral phonons in chiral phase of K3NiO2"
-    },
-    "id:2608.21037": {
-      "sent_at": "2026-08-25T03:06:23+00:00",
-      "source": "arXiv",
-      "title": "Sulfur-rich Spirofluorene-Bridged N Heterotriangulene Redox-Active Polymers"
-    },
-    "id:2608.21149": {
-      "sent_at": "2026-08-25T03:06:23+00:00",
-      "source": "arXiv",
-      "title": "Symmetry-engineering ferroelectricity in silicon dioxides"
-    },
-    "id:2608.21179": {
-      "sent_at": "2026-08-25T03:06:23+00:00",
-      "source": "arXiv",
-      "title": "First step toward multi machine ELM energy scalings and extrapolations to SPARC and ITER"
-    },
-    "id:2608.21190": {
-      "sent_at": "2026-08-25T03:06:23+00:00",
-      "source": "arXiv",
-      "title": "Shaping liquids into space structures - microgravity-assisted design and manufacturing of minimal surfaces"
-    },
-    "id:2608.21295": {
-      "sent_at": "2026-08-25T03:06:23+00:00",
-      "source": "arXiv",
-      "title": "Chemical Control of Electronic Structure and Topology in Tellurium-Encapsulated Silicene"
-    },
-    "id:2608.21333": {
-      "sent_at": "2026-08-25T03:06:23+00:00",
-      "source": "arXiv",
-      "title": "Dirac Surface States and Nonlocal Quantum Tunneling in Topological Semiconductor Mo$_2$SeTe$_3$ for High-Performance Tunnel FETs"
     },
     "id:2608.21604": {
       "sent_at": "2026-08-26T03:18:22+00:00",
@@ -3494,6 +3424,26 @@
       "sent_at": "2026-11-21T06:59:19+00:00",
       "source": "arXiv",
       "title": "DUV (257 nm) LIDT of Anti-Reflective Coatings"
+    },
+    "id:2611.27333": {
+      "sent_at": "2026-11-24T02:10:45+00:00",
+      "source": "arXiv",
+      "title": "Monolithic ultraviolet-to- near infrared photodetection enabled by an aluminium oxide photonic platform"
+    },
+    "id:2611.27833": {
+      "sent_at": "2026-11-24T02:10:45+00:00",
+      "source": "arXiv",
+      "title": "Heat cleaning kinetics and thermal degradation of MOCVD-grown GaAs photocathodes"
+    },
+    "id:2611.27842": {
+      "sent_at": "2026-11-24T02:10:45+00:00",
+      "source": "arXiv",
+      "title": "Prediction and characterisation of cation topology of pentanary high-entropy alloy (MoWNbTaV)S$_2$"
+    },
+    "id:2611.27938": {
+      "sent_at": "2026-11-24T02:10:45+00:00",
+      "source": "arXiv",
+      "title": "Group-III doping of the p-type oxide SnO"
     }
   },
   "version": 1
