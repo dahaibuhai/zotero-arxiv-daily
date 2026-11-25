@@ -100,6 +100,11 @@
       "source": "Semantic Scholar",
       "title": "Structure and wear resistance of thin coatings of the Cu-Mo system obtained by magnetron sputtering of pressed targets"
     },
+    "doi:10.1007/s11664-026-13319-6": {
+      "sent_at": "2026-11-25T07:50:31+00:00",
+      "source": "Semantic Scholar",
+      "title": "Effects of ITO Tubular-Target Composition and Magnetron-Sputtering Parameters on the Optoelectronic and Microstructural Properties of ITO Thin Films"
+    },
     "doi:10.1007/s11665-026-15367-9": {
       "sent_at": "2026-10-29T06:32:26+00:00",
       "source": "Semantic Scholar",
@@ -150,6 +155,11 @@
       "source": "Semantic Scholar",
       "title": "Photocatalytic properties of bismuth oxyfluoride thin films deposited by reactive magnetron sputtering in Ar/O2/CF4 atmosphere"
     },
+    "doi:10.1016/j.apsadv.2026.101096": {
+      "sent_at": "2026-11-25T07:50:31+00:00",
+      "source": "Semantic Scholar",
+      "title": "Machine learning-assisted reconstruction of process-dependent metastable phase diagrams in magnetron-sputtered nitride thin films"
+    },
     "doi:10.1016/j.apsusc.2011.06.101": {
       "sent_at": "2026-10-02T07:36:57+00:00",
       "source": "Semantic Scholar",
@@ -180,6 +190,11 @@
       "source": "Semantic Scholar",
       "title": "Interfacial Ti/TiN composite layer constructed by magnetron sputtering for robust interfacial integration and stable Zn anodes"
     },
+    "doi:10.1016/j.fusengdes.2026.116153": {
+      "sent_at": "2026-11-25T07:50:31+00:00",
+      "source": "Semantic Scholar",
+      "title": "Development of magnetron sputtered tungsten coating for the front-facing boron carbide tile in SPARC"
+    },
     "doi:10.1016/j.heliyon.2026.e45645": {
       "sent_at": "2026-11-10T09:27:07+00:00",
       "source": "Semantic Scholar",
@@ -194,6 +209,11 @@
       "sent_at": "2026-11-06T02:09:58+00:00",
       "source": "Semantic Scholar",
       "title": "High-throughput magnetron sputtering for compositional screening of Ti-Al-Mo-V alloys under non-equilibrium conditions"
+    },
+    "doi:10.1016/j.jallcom.2026.192435": {
+      "sent_at": "2026-11-25T07:50:31+00:00",
+      "source": "Semantic Scholar",
+      "title": "Density engineered giant grain growth in indium gallium oxide for high-performance thin film transistors: Atomic layer deposition versus sputtering"
     },
     "doi:10.1016/j.jallcom.2026.192522": {
       "sent_at": "2026-11-23T01:22:40+00:00",
@@ -219,6 +239,11 @@
       "sent_at": "2026-09-15T06:44:26+00:00",
       "source": "Semantic Scholar",
       "title": "Effects of gamma irradiation on the structural and electrical properties of SiC thin-films deposited by DC/RF magnetron sputtering"
+    },
+    "doi:10.1016/j.mssp.2026.111248": {
+      "sent_at": "2026-11-25T07:50:31+00:00",
+      "source": "Semantic Scholar",
+      "title": "Oxygen pressure tunes thermoelectric properties of WO3−x thin films grown by pulsed laser deposition"
     },
     "doi:10.1016/j.nimb.2004.12.129": {
       "sent_at": "2026-10-05T07:42:23+00:00",
@@ -1079,106 +1104,6 @@
       "sent_at": "2026-11-11T09:10:16+00:00",
       "source": "Semantic Scholar",
       "title": "Variations of milling parameters and their effect on the volumetric sputtering yield of Silicon with the use of a plasma focused ion beam"
-    },
-    "id:2608.21604": {
-      "sent_at": "2026-08-26T03:18:22+00:00",
-      "source": "arXiv",
-      "title": "Investigating Sulfur Vacancy Passivation in Monolayer MoS2 FETs via Optically Coupled Low-Frequency Electrical Noise Spectroscopy"
-    },
-    "id:2608.21611": {
-      "sent_at": "2026-08-26T03:18:22+00:00",
-      "source": "arXiv",
-      "title": "AXUV synthetic diagnostic for ASDEX Upgrade and its application for SPI simulations"
-    },
-    "id:2608.21695": {
-      "sent_at": "2026-08-26T03:18:22+00:00",
-      "source": "arXiv",
-      "title": "Comparative Assessment of Thermal Transport Theories: Dual-Channel Mechanism Dictates Heat Transport in Ultralow-$κ$ Materials"
-    },
-    "id:2608.21742": {
-      "sent_at": "2026-08-26T03:18:22+00:00",
-      "source": "arXiv",
-      "title": "Thermodynamic and Kinetic Tests for Low-Pressure Metal-Flux Growth of Diamond, with an Extension to Cubic Boron Nitride"
-    },
-    "id:2608.22009": {
-      "sent_at": "2026-08-26T03:18:22+00:00",
-      "source": "arXiv",
-      "title": "Impact of interstitial carbon on local lattice distortions in CoCrFeMnNi high-entropy alloys"
-    },
-    "id:2608.22074": {
-      "sent_at": "2026-08-26T03:18:22+00:00",
-      "source": "arXiv",
-      "title": "Cross-Temperature Defect Identification in Atomistic Simulations via Multi-Level Domain Alignment"
-    },
-    "id:2608.22091": {
-      "sent_at": "2026-08-26T03:18:22+00:00",
-      "source": "arXiv",
-      "title": "Insight into the molecular dynamics of barocaloric molecular crystals using quasi-elastic neutron scattering"
-    },
-    "id:2608.22239": {
-      "sent_at": "2026-08-26T03:18:22+00:00",
-      "source": "arXiv",
-      "title": "Oxygen stoichiometry directs rutile-anatase phase selection through kinetic control of nucleation"
-    },
-    "id:2608.22282": {
-      "sent_at": "2026-08-26T03:18:22+00:00",
-      "source": "arXiv",
-      "title": "Machine-learning-guided molecular dynamics simulations of point defect evolution in beta-Ga2O3 during ion implantation and annealing"
-    },
-    "id:2608.22400": {
-      "sent_at": "2026-08-26T03:18:22+00:00",
-      "source": "arXiv",
-      "title": "Diagnosing and narrowing the simulation-to-real gap in powder X-ray diffraction with a wet-dry agentic loop"
-    },
-    "id:2608.22441": {
-      "sent_at": "2026-08-26T03:18:22+00:00",
-      "source": "arXiv",
-      "title": "Flexo-Strain Engineering of Phonons and Ferrons in Thin Films of Van der Waals Ferrielectrics"
-    },
-    "id:2608.22720": {
-      "sent_at": "2026-08-26T03:18:22+00:00",
-      "source": "arXiv",
-      "title": "Areal-time disruption prediction and mitigation system for the EXL-50U spherical torus"
-    },
-    "id:2608.22792": {
-      "sent_at": "2026-08-26T03:18:22+00:00",
-      "source": "arXiv",
-      "title": "Extreme mixing enables broadband high-temperature electromagnetic absorption in high-entropy perovskites"
-    },
-    "id:2608.22931": {
-      "sent_at": "2026-08-26T03:18:22+00:00",
-      "source": "arXiv",
-      "title": "Composition- and Ordering-Dependent Evolution of Simulated Kikuchi Patterns of Au-Ni Alloys"
-    },
-    "id:2608.22989": {
-      "sent_at": "2026-08-26T03:18:22+00:00",
-      "source": "arXiv",
-      "title": "Discovery of New Zintl Films and Nanowires Grown by Topotaxy Conversion of III-V Semiconductors"
-    },
-    "id:2608.23112": {
-      "sent_at": "2026-08-26T03:18:22+00:00",
-      "source": "arXiv",
-      "title": "Z1 oscillations and charge state in electronic stopping power from first principles"
-    },
-    "id:2608.23116": {
-      "sent_at": "2026-08-26T03:18:22+00:00",
-      "source": "arXiv",
-      "title": "Probing the transport properties of Cantor-Wu alloys by means of femtosecond and nanosecond laser ablation"
-    },
-    "id:2608.23151": {
-      "sent_at": "2026-08-26T03:18:22+00:00",
-      "source": "arXiv",
-      "title": "Impact of Carbon Contamination on the Low-Temperature Electric Conduction of the Spark-Plasma Sintered Barium Titanate Ceramics"
-    },
-    "id:2608.23212": {
-      "sent_at": "2026-08-26T03:18:22+00:00",
-      "source": "arXiv",
-      "title": "Predicted High $n$-Type $zT$ and Ultralow Lattice Thermal Conductivity in A$_2$AgIrCl$_6$ (A = Cs, Rb)"
-    },
-    "id:2608.23305": {
-      "sent_at": "2026-08-26T03:18:22+00:00",
-      "source": "arXiv",
-      "title": "Absence of lateral domain wall mobility in Zn1-xMgxO thin films"
     },
     "id:2608.24925": {
       "sent_at": "2026-08-27T12:25:09+00:00",
@@ -3444,6 +3369,11 @@
       "sent_at": "2026-11-24T02:10:45+00:00",
       "source": "arXiv",
       "title": "Group-III doping of the p-type oxide SnO"
+    },
+    "id:2611.31646": {
+      "sent_at": "2026-11-25T07:50:31+00:00",
+      "source": "arXiv",
+      "title": "N-Polar AlGaN/GaN Heterojunction Bipolar Transistor"
     }
   },
   "version": 1
