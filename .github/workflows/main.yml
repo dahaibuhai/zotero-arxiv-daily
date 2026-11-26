@@ -7,7 +7,7 @@ on:
         type: boolean
         default: false
   schedule:
-    - cron: '0 2 * * 1-5' # Weekdays at 10:00 Asia/Shanghai (UTC+8)
+    - cron: '0 0 * * 1-5' # Weekdays at 08:00 Asia/Shanghai (UTC+8)
 
 permissions:
   contents: write
