@@ -265,6 +265,11 @@
       "source": "Semantic Scholar",
       "title": "High-performance ultraviolet photodetector based on CuO/ZnO composite nanowire forest heterojunction fabricated by combined glancing angle deposition and magnetron sputtering"
     },
+    "doi:10.1016/j.optmat.2026.118694": {
+      "sent_at": "2026-11-27T05:56:37+00:00",
+      "source": "Semantic Scholar",
+      "title": "Investigation of epitaxial growth of InGaN on ScAlMgO4 substrates by radio frequency plasma-assisted molecular beam epitaxy"
+    },
     "doi:10.1016/j.physleta.2016.11.028": {
       "sent_at": "2026-10-07T07:52:05+00:00",
       "source": "Semantic Scholar",
@@ -495,6 +500,11 @@
       "source": "Semantic Scholar",
       "title": "Low-Temperature Growth of Nanostructured Ti-Si-C MAX Phase Coatings Enabled by Highly Ionized Reactive Physical Vapor Deposition."
     },
+    "doi:10.1021/acsomega.6c03886": {
+      "sent_at": "2026-11-27T05:56:37+00:00",
+      "source": "Semantic Scholar",
+      "title": "Energy–Dose\nOptimization and Substrate Effects\nin Ion-Induced Graphene Nanopore Creation"
+    },
     "doi:10.1021/acsomega.6c05855": {
       "sent_at": "2026-11-24T02:10:45+00:00",
       "source": "Semantic Scholar",
@@ -549,6 +559,11 @@
       "sent_at": "2026-09-07T06:59:27+00:00",
       "source": "Semantic Scholar",
       "title": "Scale-bridging characterization of iron oxide thin films obtained by reactive magnetron sputtering."
+    },
+    "doi:10.1039/d6ra06073k": {
+      "sent_at": "2026-11-27T05:56:37+00:00",
+      "source": "Semantic Scholar",
+      "title": "Ultrasensitive MoS2/In2O3 heterojunction transistor biosensors for glucose detection"
     },
     "doi:10.1039/d6ra07982b": {
       "sent_at": "2026-11-09T09:19:28+00:00",
@@ -699,6 +714,11 @@
       "sent_at": "2026-10-10T01:43:00+00:00",
       "source": "Semantic Scholar",
       "title": "Effect of magnetic field configuration on ionised carbon flux fraction in HiPIMS"
+    },
+    "doi:10.1088/1361-6595/aec58c": {
+      "sent_at": "2026-11-27T05:56:37+00:00",
+      "source": "Semantic Scholar",
+      "title": "Ignition mechanism of plasma potential drop and double layer formation in BP-HiPIMS discharge"
     },
     "doi:10.1088/1361-6641/aec320": {
       "sent_at": "2026-11-24T02:10:45+00:00",
@@ -1104,206 +1124,6 @@
       "sent_at": "2026-11-11T09:10:16+00:00",
       "source": "Semantic Scholar",
       "title": "Variations of milling parameters and their effect on the volumetric sputtering yield of Silicon with the use of a plasma focused ion beam"
-    },
-    "id:2608.24925": {
-      "sent_at": "2026-08-27T12:25:09+00:00",
-      "source": "arXiv",
-      "title": "Self-assembly and Electronic Properties of Graphyne and Graphdiyne Molecular Wires on Metallic Surfaces"
-    },
-    "id:2608.25090": {
-      "sent_at": "2026-08-27T12:25:09+00:00",
-      "source": "arXiv",
-      "title": "Intercalation of Alkali Metal into WTe2, the Crystal Structure of A0.5WTe2 and Observation of a Metal-to-Semiconductor Transition"
-    },
-    "id:2608.25156": {
-      "sent_at": "2026-08-27T12:25:09+00:00",
-      "source": "arXiv",
-      "title": "Tuning Dirac-Rashba and Double Dirac Cone Surface States of Topological Crystalline Insulator Pb$_{1-x}$Sn$_{x}$Se by Transition Metal Adsorbate"
-    },
-    "id:2608.25270": {
-      "sent_at": "2026-08-27T12:25:09+00:00",
-      "source": "arXiv",
-      "title": "High-throughput Discovery of Magnetic Rare Earth Transition Metal Alloys"
-    },
-    "id:2608.25392": {
-      "sent_at": "2026-08-27T12:25:09+00:00",
-      "source": "arXiv",
-      "title": "Interpretable physics-informed retrieval-augmented generation language model for end-to-end inorganic crystal synthesis planning"
-    },
-    "id:2608.25482": {
-      "sent_at": "2026-08-27T12:25:09+00:00",
-      "source": "arXiv",
-      "title": "Parity-controlled electron-hole interference in exciton-phonon coupling"
-    },
-    "id:2608.25525": {
-      "sent_at": "2026-08-27T12:25:09+00:00",
-      "source": "arXiv",
-      "title": "Direct current thermo-mechanical testing: Principles, uncertainty hierarchy, and its role in advanced materials characterisation"
-    },
-    "id:2608.25526": {
-      "sent_at": "2026-08-27T12:25:09+00:00",
-      "source": "arXiv",
-      "title": "Ion-acoustic eigenmodes in a helical magnetic mirror"
-    },
-    "id:2608.25592": {
-      "sent_at": "2026-08-27T12:25:09+00:00",
-      "source": "arXiv",
-      "title": "A Hierarchical Synergistic Deep Learning Framework Integrating Composition, Structure, and Ionic Transport for Solid-State Electrolyte Discovery"
-    },
-    "id:2608.25599": {
-      "sent_at": "2026-08-27T12:25:09+00:00",
-      "source": "arXiv",
-      "title": "Optical and magneto-optical interactions in Co-doped CeO$_2$ thin films prepared by pulsed laser deposition"
-    },
-    "id:2608.25615": {
-      "sent_at": "2026-08-27T12:25:09+00:00",
-      "source": "arXiv",
-      "title": "Substitution effects in RuO$_2$ single crystals"
-    },
-    "id:2608.25640": {
-      "sent_at": "2026-08-27T12:25:09+00:00",
-      "source": "arXiv",
-      "title": "Nuclearity of Copper Clusters on hBN/SiC Heterostructure Modulates Molecular Adsorption"
-    },
-    "id:2608.25702": {
-      "sent_at": "2026-08-27T12:25:09+00:00",
-      "source": "arXiv",
-      "title": "Muonium dynamics as a probe for depth-resolved properties of 4H-SiC"
-    },
-    "id:2608.25726": {
-      "sent_at": "2026-08-27T12:25:09+00:00",
-      "source": "arXiv",
-      "title": "Observation of thermal Hall effect in diamond"
-    },
-    "id:2608.25945": {
-      "sent_at": "2026-08-27T12:25:09+00:00",
-      "source": "arXiv",
-      "title": "Machine learning methods for modelling local, linear gyrokinetic simulations of MAST-U pedestal turbulence"
-    },
-    "id:2608.25980": {
-      "sent_at": "2026-08-27T12:25:09+00:00",
-      "source": "arXiv",
-      "title": "Watching a GaN Transistor Switch: Real-Time Nanoscale Strain and Heat Dynamics"
-    },
-    "id:2608.26024": {
-      "sent_at": "2026-08-27T12:25:09+00:00",
-      "source": "arXiv",
-      "title": "First Plasma Commissioning and Operational Highlights from India's First Spherical Tokamak at IPR"
-    },
-    "id:2608.26025": {
-      "sent_at": "2026-08-27T12:25:09+00:00",
-      "source": "arXiv",
-      "title": "Oxidation-resilient structural modifications in Nickel-functionalized 3D-graphene for hydrogen storage applications"
-    },
-    "id:2608.26026": {
-      "sent_at": "2026-08-27T12:25:09+00:00",
-      "source": "arXiv",
-      "title": "Electron spin resonance driven photogalvanic effect in graphene-based structures"
-    },
-    "id:2608.26048": {
-      "sent_at": "2026-08-27T12:25:09+00:00",
-      "source": "arXiv",
-      "title": "Experimental Characterization of Additively Manufactured Metallic Alloys for Electric Propulsion Applications"
-    },
-    "id:2608.26231": {
-      "sent_at": "2026-08-28T13:45:39+00:00",
-      "source": "arXiv",
-      "title": "When chemical potential continuity fails: kinetic interface models for hydrogen isotope transport"
-    },
-    "id:2608.26312": {
-      "sent_at": "2026-08-28T13:45:39+00:00",
-      "source": "arXiv",
-      "title": "Milled to order: toward predictive mechanochemistry of halide perovskites"
-    },
-    "id:2608.26356": {
-      "sent_at": "2026-08-28T13:45:39+00:00",
-      "source": "arXiv",
-      "title": "Apokamp-type Gas Discharge Phenomenon: Experimental and Theoretical Backgrounds"
-    },
-    "id:2608.26494": {
-      "sent_at": "2026-08-28T13:45:39+00:00",
-      "source": "arXiv",
-      "title": "Beyond Allen-Heine-Cardona: non-perturbative electron-phonon interactions in the linewidths and lineshifts of diamond"
-    },
-    "id:2608.26577": {
-      "sent_at": "2026-08-28T13:45:39+00:00",
-      "source": "arXiv",
-      "title": "Atomic investigations on the mechanical properties of CoCrNi medium-entropy alloy nanowires"
-    },
-    "id:2608.26678": {
-      "sent_at": "2026-08-28T13:45:39+00:00",
-      "source": "arXiv",
-      "title": "A solid-solution approach for room-temperature bulk plasticity in KTa1-xNbxO3"
-    },
-    "id:2608.26811": {
-      "sent_at": "2026-08-28T13:45:39+00:00",
-      "source": "arXiv",
-      "title": "A review of simulation, measurement techniques, and development in chip thermal design"
-    },
-    "id:2608.26815": {
-      "sent_at": "2026-08-28T13:45:39+00:00",
-      "source": "arXiv",
-      "title": "Split Coaxial Cable Medium for Tunable Artificial Dielectrics and Plasmas"
-    },
-    "id:2608.26892": {
-      "sent_at": "2026-08-28T13:45:39+00:00",
-      "source": "arXiv",
-      "title": "Repeated Growth and Hot Delamination of Single-Crystal Graphene: A Two-Kilometer Process-Design Assessment with hBN as a Separate Case"
-    },
-    "id:2608.26898": {
-      "sent_at": "2026-08-28T13:45:39+00:00",
-      "source": "arXiv",
-      "title": "The Effect of Geometry on Thermodynamic Response"
-    },
-    "id:2608.26968": {
-      "sent_at": "2026-08-28T13:45:39+00:00",
-      "source": "arXiv",
-      "title": "Scalable conformal electronics based on roll-to-roll exfoliated van der Waals semiconductors"
-    },
-    "id:2608.27013": {
-      "sent_at": "2026-08-28T13:45:39+00:00",
-      "source": "arXiv",
-      "title": "Atomic-scale composition of the ternary III-V semiconductor (Al,Ga)Sb visualized by cross-sectional scanning tunneling microscopy"
-    },
-    "id:2608.27025": {
-      "sent_at": "2026-08-28T13:45:39+00:00",
-      "source": "arXiv",
-      "title": "Intrinsic anomalous Hall response in the bilayer kagome ferromagnet Co$_3$Sn"
-    },
-    "id:2608.27160": {
-      "sent_at": "2026-08-28T13:45:39+00:00",
-      "source": "arXiv",
-      "title": "Diamond quantum-sensing platform with integrated boron-doped diamond microwave antenna and thermometer"
-    },
-    "id:2608.27162": {
-      "sent_at": "2026-08-28T13:45:39+00:00",
-      "source": "arXiv",
-      "title": "Data-efficient crack quantification in lithium-ion cathodes using foundation model transfer"
-    },
-    "id:2608.27273": {
-      "sent_at": "2026-08-28T13:45:39+00:00",
-      "source": "arXiv",
-      "title": "Grain-Boundary Premelting in High-Entropy Transition Metal Carbides"
-    },
-    "id:2608.27277": {
-      "sent_at": "2026-08-28T13:45:39+00:00",
-      "source": "arXiv",
-      "title": "Benchmarking of Fast and Interpretable UF Machine Learning Potentials"
-    },
-    "id:2608.27304": {
-      "sent_at": "2026-08-28T13:45:39+00:00",
-      "source": "arXiv",
-      "title": "3D Cloud Component Analysis of Atomic Structures"
-    },
-    "id:2608.27314": {
-      "sent_at": "2026-08-28T13:45:39+00:00",
-      "source": "arXiv",
-      "title": "Grain Boundary Phase Transitions Enable Diffusionless Climb of Disconnections"
-    },
-    "id:2608.27361": {
-      "sent_at": "2026-08-28T13:45:39+00:00",
-      "source": "arXiv",
-      "title": "Temperature dependence of the charge density from first principles: application to the (222) forbidden reflection in silicon"
     },
     "id:2608.27490": {
       "sent_at": "2026-08-31T07:56:25+00:00",
@@ -3325,6 +3145,11 @@
       "source": "arXiv",
       "title": "High-resolution top-down nanopatterning of NbN thin films for superconducting metamaterials"
     },
+    "id:2611.22165": {
+      "sent_at": "2026-11-27T05:56:37+00:00",
+      "source": "Semantic Scholar",
+      "title": "Learning Similarity-Reduced Ion Kinetics across Scales and Regimes in Capacitively Coupled Plasmas"
+    },
     "id:2611.22529": {
       "sent_at": "2026-11-20T01:56:53+00:00",
       "source": "arXiv",
@@ -3370,10 +3195,35 @@
       "source": "arXiv",
       "title": "Group-III doping of the p-type oxide SnO"
     },
+    "id:2611.28862": {
+      "sent_at": "2026-11-27T05:56:37+00:00",
+      "source": "arXiv",
+      "title": "Thickness-Dependent Morphology and Electrical Transport in Ultrathin Amorphous MoSi Films"
+    },
+    "id:2611.28927": {
+      "sent_at": "2026-11-27T05:56:37+00:00",
+      "source": "arXiv",
+      "title": "Tuning of superconducting and physical properties of Mo$_{1-x}$Si$_x$ thin films for Superconducting Nanowire Single-Photon Detector Applications"
+    },
+    "id:2611.30501": {
+      "sent_at": "2026-11-27T05:56:37+00:00",
+      "source": "arXiv",
+      "title": "1.2 dB Insertion Loss in a Monolithically Integrated Silicon Mach-Zehnder Optical Isolator Using Stoichiometric Ce:YIG"
+    },
+    "id:2611.30575": {
+      "sent_at": "2026-11-27T05:56:37+00:00",
+      "source": "arXiv",
+      "title": "Quantum Imaging of Nonlinear Magnetization Reversal and Dissipative Domain Dynamics"
+    },
     "id:2611.31646": {
       "sent_at": "2026-11-25T07:50:31+00:00",
       "source": "arXiv",
       "title": "N-Polar AlGaN/GaN Heterojunction Bipolar Transistor"
+    },
+    "id:2611.31816": {
+      "sent_at": "2026-11-27T05:56:37+00:00",
+      "source": "arXiv",
+      "title": "Interface and film engineering for improved spin-charge interconversion in sputtered GeTe nanodevices"
     }
   },
   "version": 1
